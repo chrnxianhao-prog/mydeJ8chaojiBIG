@@ -1,0 +1,2367 @@
+{
+  "level": "A2",
+  "streak": 43,
+  "total_completed_days": 43,
+  "total_missed_days": 0,
+  "difficulty_modifier": 28,
+  "last_task_date": "2026-08-18",
+  "last_check_date": null,
+  "consecutive_missed": 0,
+  "consecutive_completed": 35,
+  "vocabulary_learned": [
+    "China",
+    "México",
+    "abrir",
+    "aburrido/a",
+    "adiós",
+    "ahora",
+    "almorzar",
+    "alto/a",
+    "aprender",
+    "bajo/a",
+    "beber",
+    "bien",
+    "buenas noches",
+    "buenas tardes",
+    "buenos días",
+    "caminar",
+    "cansado/a",
+    "cenar",
+    "cinco",
+    "cocinar",
+    "comer",
+    "comprar",
+    "contento/a",
+    "correr",
+    "cuatro",
+    "delicioso/a",
+    "desayunar",
+    "descansar",
+    "diez",
+    "divertido/a",
+    "dormir",
+    "dos",
+    "dulce",
+    "el agua",
+    "el almuerzo",
+    "el amigo",
+    "el arroz",
+    "el café",
+    "el desayuno",
+    "el esposo",
+    "el hermano",
+    "el hijo",
+    "el huevo",
+    "el jugo",
+    "el padre",
+    "el pan",
+    "el pescado",
+    "el pollo",
+    "el queso",
+    "encantado/a",
+    "enfermo/a",
+    "enojado/a",
+    "escribir",
+    "escuchar",
+    "estudiar",
+    "gracias",
+    "grande",
+    "hablar",
+    "hola",
+    "hoy",
+    "inteligente",
+    "joven",
+    "la amiga",
+    "la carne",
+    "la cena",
+    "la cerveza",
+    "la ensalada",
+    "la esposa",
+    "la familia",
+    "la fruta",
+    "la hermana",
+    "la hija",
+    "la leche",
+    "la madre",
+    "la sopa",
+    "leer",
+    "mal",
+    "me llamo",
+    "mi",
+    "mucho gusto",
+    "muy",
+    "música",
+    "necesitar",
+    "nuestro/a",
+    "nueve",
+    "nunca",
+    "ocho",
+    "pequeño/a",
+    "pero",
+    "picante",
+    "por favor",
+    "porque",
+    "recibir",
+    "rico/a",
+    "salado/a",
+    "seis",
+    "siempre",
+    "siete",
+    "soy de",
+    "su",
+    "también",
+    "tener hambre",
+    "tener sed",
+    "trabajar",
+    "tres",
+    "triste",
+    "tu",
+    "un poco",
+    "uno",
+    "vivir",
+    "y",
+    "¿Qué hora es?",
+    "¿cómo estás?",
+    "¿cómo te llamas?",
+    "¿por qué?",
+    "ir",
+    "la calle",
+    "la ciudad",
+    "el metro",
+    "el autobús",
+    "el coche",
+    "la plaza",
+    "el parque",
+    "cerca",
+    "lejos",
+    "la estación",
+    "el tren",
+    "la bicicleta",
+    "el aeropuerto",
+    "a pie",
+    "a la izquierda",
+    "a la derecha",
+    "todo recto",
+    "la avenida",
+    "la esquina",
+    "el semáforo",
+    "cruzar",
+    "hace calor",
+    "hace frío",
+    "hace sol",
+    "llueve",
+    "el clima",
+    "la primavera",
+    "el verano",
+    "el otoño",
+    "el invierno",
+    "a veces",
+    "la tienda",
+    "el supermercado",
+    "el dinero",
+    "caro/a",
+    "barato/a",
+    "pagar",
+    "¿Cuánto cuesta?",
+    "la ropa",
+    "los zapatos",
+    "el precio",
+    "más",
+    "menos",
+    "que",
+    "mejor",
+    "peor",
+    "el centro comercial",
+    "probar",
+    "la talla",
+    "el color",
+    "rojo/a",
+    "negro/a",
+    "blanco/a",
+    "el cuerpo",
+    "la cabeza",
+    "el brazo",
+    "la pierna",
+    "la mano",
+    "el pie",
+    "el ojo",
+    "la boca",
+    "la nariz",
+    "la oreja",
+    "el estómago",
+    "la espalda",
+    "doler",
+    "el médico",
+    "el probador",
+    "mediano/a",
+    "corto/a",
+    "largo/a",
+    "azul",
+    "verde",
+    "gris",
+    "cambiar",
+    "la caja",
+    "los pantalones",
+    "la chaqueta",
+    "la camiseta",
+    "el sombrero",
+    "bonito/a",
+    "feo/a",
+    "nuevo/a",
+    "viejo/a",
+    "tan",
+    "como",
+    "la farmacia",
+    "sano/a",
+    "duele",
+    "duelen",
+    "el dedo",
+    "la garganta",
+    "tener fiebre",
+    "tener tos",
+    "la medicina",
+    "la consulta",
+    "tomar",
+    "la pastilla",
+    "el jarabe",
+    "la receta",
+    "el dolor",
+    "grave",
+    "mejorar",
+    "la fiebre",
+    "el síntoma",
+    "el tiempo libre",
+    "nadar",
+    "bailar",
+    "cantar",
+    "viajar",
+    "el cine",
+    "la película",
+    "jugar",
+    "el fútbol",
+    "la música",
+    "escuchar música",
+    "el fin de semana",
+    "esperar",
+    "entender",
+    "vender",
+    "ayudar",
+    "llamar",
+    "buscar",
+    "encontrar",
+    "llevar",
+    "el teléfono",
+    "la carta",
+    "la maleta",
+    "el regalo",
+    "con",
+    "sin",
+    "la llave",
+    "el bolso",
+    "las gafas",
+    "el móvil",
+    "el ordenador",
+    "la ventana",
+    "la luz",
+    "levantarse",
+    "ducharse",
+    "vestirse",
+    "preparar",
+    "temprano",
+    "tarde",
+    "primero",
+    "luego",
+    "después",
+    "antes de",
+    "normalmente",
+    "cada día",
+    "la rutina",
+    "acostarse",
+    "la cama",
+    "el baño",
+    "la toalla",
+    "el jabón",
+    "el espejo",
+    "feliz",
+    "preocupado/a",
+    "tranquilo/a",
+    "nervioso/a",
+    "seguro/a",
+    "ocupado/a",
+    "listo/a",
+    "importante",
+    "interesante",
+    "fácil",
+    "difícil",
+    "tampoco",
+    "el plan",
+    "mañana",
+    "pasado mañana",
+    "la próxima semana",
+    "ir a + infinitivo",
+    "visitar",
+    "conocer",
+    "quedar (con)",
+    "la cita",
+    "el concierto",
+    "el museo",
+    "el restaurante",
+    "la playa",
+    "la montaña",
+    "hacer una excursión",
+    "libre",
+    "tener planes",
+    "invitar",
+    "aceptar",
+    "la reunión",
+    "saber",
+    "sacar fotos",
+    "disfrutar",
+    "la entrada",
+    "la exposición",
+    "la guía",
+    "el mapa",
+    "la cola",
+    "gratuito/a",
+    "abierto/a",
+    "cerrado/a",
+    "moderno/a",
+    "creer",
+    "pensar",
+    "la opinión",
+    "de acuerdo",
+    "para mí",
+    "me parece que",
+    "tener razón",
+    "equivocado/a",
+    "claro",
+    "la idea",
+    "ayer",
+    "anoche",
+    "la semana pasada",
+    "terminar",
+    "empezar",
+    "llegar",
+    "pasar",
+    "mandar",
+    "preguntar",
+    "contestar",
+    "usar",
+    "mirar",
+    "dejar",
+    "regresar",
+    "explicar",
+    "anteayer",
+    "hace dos días",
+    "lavar",
+    "limpiar",
+    "planchar",
+    "gastar",
+    "alquilar",
+    "reservar",
+    "quedar",
+    "celebrar",
+    "firmar",
+    "olvidar",
+    "salir",
+    "volver",
+    "decidir",
+    "asistir",
+    "perder",
+    "subir",
+    "responder",
+    "prometer",
+    "la fiesta",
+    "el mensaje",
+    "el trabajo",
+    "la oficina",
+    "el banco",
+    "el mercado",
+    "todo el día",
+    "por la mañana",
+    "por la tarde",
+    "genial",
+    "horrible",
+    "otra vez",
+    "rápido/rápida",
+    "despacio",
+    "gratis",
+    "nadie",
+    "el jefe/la jefa",
+    "tener (pret: tuve)",
+    "estar (pret: estuve)",
+    "hacer (pret: hice)",
+    "poder (pret: pude)",
+    "poner (pret: puse)",
+    "venir (pret: vine)",
+    "decir (pret: dije)",
+    "querer (pret: quise)",
+    "de repente",
+    "por fin",
+    "enseguida",
+    "hace un momento",
+    "todavía",
+    "ya",
+    "la noticia",
+    "sorprendido/a",
+    "emocionado/a",
+    "asustado/a",
+    "el periódico",
+    "la radio",
+    "pedir",
+    "repetir",
+    "el año pasado",
+    "el mes pasado",
+    "esta mañana",
+    "alguien",
+    "algo",
+    "nada",
+    "todavía no",
+    "recordar",
+    "casi",
+    "de niño/a",
+    "el hotel",
+    "el avión",
+    "el viaje",
+    "el país",
+    "el extranjero",
+    "alguna vez",
+    "el pasaporte",
+    "el equipaje",
+    "la habitación",
+    "el billete",
+    "el turista",
+    "el recuerdo",
+    "la aventura",
+    "increíble",
+    "la isla",
+    "el vuelo",
+    "la salida",
+    "la llegada",
+    "la aduana",
+    "el castillo",
+    "la catedral",
+    "el templo",
+    "el palacio",
+    "el río",
+    "el lago",
+    "el bosque",
+    "el paisaje",
+    "dar",
+    "prestar",
+    "enseñar",
+    "traer",
+    "enviar",
+    "ofrecer",
+    "recomendar",
+    "devolver",
+    "mostrar",
+    "contar",
+    "la sorpresa",
+    "suficiente",
+    "la cocina",
+    "el plato",
+    "la olla",
+    "cerrar",
+    "encender",
+    "apagar",
+    "sacar",
+    "guardar",
+    "tirar",
+    "cortar",
+    "mezclar",
+    "añadir",
+    "ahora mismo",
+    "en este momento",
+    "mientras",
+    "la revista",
+    "dibujar",
+    "pasear",
+    "charlar",
+    "el diccionario",
+    "la lección",
+    "la página",
+    "construir",
+    "afuera",
+    "la abuela",
+    "el abuelo",
+    "el juguete",
+    "el colegio",
+    "el cuento",
+    "contar cuentos",
+    "de pequeño/a",
+    "cada verano",
+    "el pueblo",
+    "crecer",
+    "la guardería",
+    "montar en bicicleta",
+    "el vecino",
+    "divertirse",
+    "el recreo",
+    "el patio",
+    "el árbol",
+    "el gato",
+    "el perro",
+    "saltar",
+    "esconderse",
+    "trepar",
+    "compartir",
+    "soñar",
+    "la merienda",
+    "el helado",
+    "la televisión",
+    "los dibujos animados",
+    "pelear",
+    "cuando",
+    "después de",
+    "al principio",
+    "al final",
+    "de vez en cuando",
+    "en aquel momento",
+    "poco a poco",
+    "el ingeniero",
+    "el profesor",
+    "el cliente",
+    "la empresa",
+    "el sueldo",
+    "la entrevista",
+    "contratar",
+    "la carrera",
+    "la experiencia",
+    "el horario",
+    "el negocio",
+    "el compañero",
+    "el éxito",
+    "el objetivo",
+    "el currículum",
+    "me gustaría",
+    "¿Te gustaría...?",
+    "podría",
+    "debería",
+    "el sueño",
+    "viajaría",
+    "compraría",
+    "viviría",
+    "haría",
+    "diría",
+    "tendría",
+    "la oportunidad",
+    "si pudiera",
+    "tal vez",
+    "probablemente",
+    "el deseo",
+    "el piso",
+    "el alquiler",
+    "el casero",
+    "el inquilino",
+    "mudarse",
+    "la dirección",
+    "el ascensor",
+    "amueblado/a",
+    "el contrato",
+    "el edificio",
+    "la casera",
+    "la fianza",
+    "la calefacción"
+  ],
+  "vocabulary_review_queue": [
+    "esperar",
+    "entender",
+    "vender",
+    "ayudar",
+    "llamar",
+    "buscar",
+    "encontrar",
+    "llevar",
+    "el teléfono",
+    "la carta",
+    "la maleta",
+    "el regalo",
+    "con",
+    "sin",
+    "la llave",
+    "el bolso",
+    "las gafas",
+    "el móvil",
+    "el ordenador",
+    "la ventana",
+    "la luz",
+    "levantarse",
+    "ducharse",
+    "vestirse",
+    "preparar",
+    "temprano",
+    "tarde",
+    "primero",
+    "luego",
+    "después",
+    "antes de",
+    "normalmente",
+    "cada día",
+    "la rutina",
+    "acostarse",
+    "la cama",
+    "el baño",
+    "la toalla",
+    "el jabón",
+    "el espejo",
+    "feliz",
+    "preocupado/a",
+    "tranquilo/a",
+    "nervioso/a",
+    "seguro/a",
+    "ocupado/a",
+    "listo/a",
+    "importante",
+    "interesante",
+    "fácil",
+    "difícil",
+    "tampoco",
+    "el plan",
+    "mañana",
+    "pasado mañana",
+    "la próxima semana",
+    "ir a + infinitivo",
+    "visitar",
+    "conocer",
+    "quedar (con)",
+    "la cita",
+    "el concierto",
+    "el museo",
+    "el restaurante",
+    "la playa",
+    "la montaña",
+    "hacer una excursión",
+    "libre",
+    "tener planes",
+    "invitar",
+    "aceptar",
+    "la reunión",
+    "saber",
+    "sacar fotos",
+    "disfrutar",
+    "la entrada",
+    "la exposición",
+    "la guía",
+    "el mapa",
+    "la cola",
+    "gratuito/a",
+    "abierto/a",
+    "cerrado/a",
+    "moderno/a",
+    "creer",
+    "pensar",
+    "la opinión",
+    "de acuerdo",
+    "para mí",
+    "me parece que",
+    "tener razón",
+    "equivocado/a",
+    "claro",
+    "la idea",
+    "ayer",
+    "anoche",
+    "la semana pasada",
+    "terminar",
+    "empezar",
+    "llegar",
+    "pasar",
+    "mandar",
+    "preguntar",
+    "contestar",
+    "usar",
+    "mirar",
+    "dejar",
+    "regresar",
+    "explicar",
+    "anteayer",
+    "hace dos días",
+    "lavar",
+    "limpiar",
+    "planchar",
+    "gastar",
+    "alquilar",
+    "reservar",
+    "quedar",
+    "celebrar",
+    "firmar",
+    "olvidar",
+    "salir",
+    "volver",
+    "decidir",
+    "asistir",
+    "perder",
+    "subir",
+    "responder",
+    "prometer",
+    "la fiesta",
+    "el mensaje",
+    "el trabajo",
+    "la oficina",
+    "el banco",
+    "el mercado",
+    "todo el día",
+    "por la mañana",
+    "por la tarde",
+    "genial",
+    "horrible",
+    "otra vez",
+    "rápido/rápida",
+    "despacio",
+    "gratis",
+    "nadie",
+    "el jefe/la jefa",
+    "de repente",
+    "por fin",
+    "enseguida",
+    "hace un momento",
+    "todavía",
+    "ya",
+    "la noticia",
+    "sorprendido/a",
+    "emocionado/a",
+    "asustado/a",
+    "el periódico",
+    "la radio",
+    "el hotel",
+    "el avión",
+    "el viaje",
+    "el país",
+    "el extranjero",
+    "alguna vez",
+    "el pasaporte",
+    "el equipaje",
+    "la habitación",
+    "el billete",
+    "el turista",
+    "el recuerdo",
+    "la aventura",
+    "increíble",
+    "la isla",
+    "el vuelo",
+    "la salida",
+    "la llegada",
+    "la aduana",
+    "el castillo",
+    "la catedral",
+    "el templo",
+    "el palacio",
+    "el río",
+    "el lago",
+    "el bosque",
+    "el paisaje",
+    "dar",
+    "prestar",
+    "enseñar",
+    "traer",
+    "enviar",
+    "ofrecer",
+    "recomendar",
+    "devolver",
+    "mostrar",
+    "contar",
+    "la sorpresa",
+    "suficiente",
+    "la cocina",
+    "el plato",
+    "la olla",
+    "cerrar",
+    "encender",
+    "apagar",
+    "sacar",
+    "guardar",
+    "tirar",
+    "cortar",
+    "mezclar",
+    "añadir",
+    "ahora mismo",
+    "en este momento",
+    "mientras",
+    "la revista",
+    "dibujar",
+    "pasear",
+    "charlar",
+    "el diccionario",
+    "la lección",
+    "la página",
+    "construir",
+    "afuera",
+    "la abuela",
+    "el abuelo",
+    "el juguete",
+    "el colegio",
+    "el cuento",
+    "contar cuentos",
+    "de pequeño/a",
+    "cada verano",
+    "el pueblo",
+    "crecer",
+    "la guardería",
+    "montar en bicicleta",
+    "el vecino",
+    "divertirse",
+    "el recreo",
+    "el patio",
+    "el árbol",
+    "el gato",
+    "el perro",
+    "saltar",
+    "esconderse",
+    "trepar",
+    "compartir",
+    "soñar",
+    "la merienda",
+    "el helado",
+    "la televisión",
+    "los dibujos animados",
+    "pelear",
+    "cuento",
+    "recreo",
+    "maleta",
+    "pasaporte",
+    "paisaje",
+    "castillo",
+    "cuando",
+    "después de",
+    "al principio",
+    "al final",
+    "de vez en cuando",
+    "en aquel momento",
+    "poco a poco",
+    "el ingeniero",
+    "el profesor",
+    "el cliente",
+    "la empresa",
+    "el sueldo",
+    "la entrevista",
+    "contratar",
+    "la carrera",
+    "la experiencia",
+    "el horario",
+    "el negocio",
+    "el compañero",
+    "el éxito",
+    "el objetivo",
+    "el currículum",
+    "me gustaría",
+    "¿Te gustaría...?",
+    "podría",
+    "debería",
+    "el sueño",
+    "viajaría",
+    "compraría",
+    "viviría",
+    "haría",
+    "diría",
+    "tendría",
+    "la oportunidad",
+    "si pudiera",
+    "tal vez",
+    "probablemente",
+    "el deseo",
+    "el piso",
+    "el alquiler",
+    "el casero",
+    "el inquilino",
+    "mudarse",
+    "la dirección",
+    "el ascensor",
+    "amueblado/a",
+    "el contrato",
+    "el edificio",
+    "la casera",
+    "la fianza",
+    "la calefacción"
+  ],
+  "recent_topics": [
+    "日常活动·正在做什么(estar+gerundio)",
+    "愿望与假设·条件式入门",
+    "租房住房·过去时态对比",
+    "租房住房·si条件句",
+    "A1-B1综合摸底测试"
+  ],
+  "grammar_points_covered": [
+    "ser",
+    "llamarse",
+    "estar",
+    "ser vs estar",
+    "冠词 el/la",
+    "-ar 动词变位",
+    "hay",
+    "-er/-ir 动词变位",
+    "所有格形容词",
+    "tener",
+    "gustar",
+    "gustar(巩固)",
+    "gustar(巩固)",
+    "ir",
+    "¿Dónde está? 问路",
+    "频率副词",
+    "tener que / hay que",
+    "比较级",
+    "doler",
+    "比较级巩固",
+    "tan...como",
+    "doler",
+    "doler场景对话",
+    "直接宾语代词",
+    "介词con/sin",
+    "反身动词",
+    "反身动词巩固",
+    "阴阳性巩固",
+    "A1综合实战",
+    "ir a + infinitivo",
+    "saber vs conocer",
+    "creer que / pensar que",
+    "简单过去时-ar动词",
+    "简单过去时-er/-ir动词",
+    "简单过去时·ser/ir不规则变位",
+    "简单过去时不规则动词综合巩固",
+    "过去式词干变化(e→i,o→u)",
+    "现在完成时(Pretérito Perfecto)",
+    "现在完成时巩固(ya/todavía no/alguna vez)",
+    "间接宾语代词(me/te/le/nos/os/les)",
+    "肯定命令式(tú)",
+    "estar + gerundio（副动词）",
+    "过去未完成时(Pretérito Imperfecto)-规则变位",
+    "Imperfecto巩固·过去习惯表达",
+    "时间连词·cuando/mientras/antes de/después de",
+    "se puede / se necesita",
+    "条件式 Condicional Simple",
+    "si条件句(真实条件)"
+  ],
+  "common_errors": [
+    {
+      "error": "gustar结构（缺A：ella gusta→A ella le gusta）",
+      "count": 0,
+      "relearn": false
+    },
+    {
+      "error": "tener后面加a",
+      "count": 3,
+      "relearn": false
+    },
+    {
+      "error": "español缺ñ",
+      "count": 0,
+      "relearn": false
+    },
+    {
+      "error": "主语动词人称不一致",
+      "count": 2,
+      "relearn": false
+    },
+    {
+      "error": "él vs el 重音混淆",
+      "count": 1,
+      "relearn": false
+    },
+    {
+      "error": "gustar后动词未用原形",
+      "count": 0,
+      "relearn": false
+    },
+    {
+      "error": "a+el→al 合并",
+      "count": 0,
+      "relearn": false
+    },
+    {
+      "error": "天气用hace不用ser",
+      "count": 1,
+      "relearn": false
+    },
+    {
+      "error": "carta拼成carte",
+      "count": 1,
+      "relearn": false
+    },
+    {
+      "error": "el vs lo混淆",
+      "count": 1,
+      "relearn": false
+    },
+    {
+      "error": "反身动词缺me/te/se",
+      "count": 2,
+      "relearn": false,
+      "date": "2026-08-19"
+    },
+    {
+      "error": "阴阳性不一致(esta camisa, la cabeza)",
+      "count": 0,
+      "relearn": false
+    },
+    {
+      "error": "saber变位sé(非sabo)",
+      "count": 1,
+      "relearn": false
+    },
+    {
+      "error": "conocer拼写cono-非coni-",
+      "count": 1,
+      "relearn": false
+    },
+    {
+      "error": "saber+que接从句",
+      "count": 1,
+      "relearn": false
+    },
+    {
+      "error": "yo -é vs él -ó confusion",
+      "count": 1
+    },
+    {
+      "error": "venir/vender混淆",
+      "count": 1
+    },
+    {
+      "error": "单词拼写弱项：cuento/castillo/maleta/pasaporte/paisaje/increíble/compartir",
+      "count": 2,
+      "relearn": false
+    },
+    {
+      "error": "ingeniero 拼写",
+      "count": 1
+    },
+    {
+      "error": "entrevista 拼写",
+      "count": 1
+    },
+    {
+      "error": "quiero 写成了 quero",
+      "count": 1
+    },
+    {
+      "error": "se necesita vs necesitas 混淆",
+      "count": 1
+    },
+    {
+      "error": "si后面用条件式tendría→应是tuviera",
+      "count": 1
+    },
+    {
+      "error": "cocinó/cocino 时态",
+      "note": "用 ayer 时动词要用过去式 cociné，不是现在式 cocino",
+      "date": "2026-08-13"
+    },
+    {
+      "error": "uno vs un：数词接名词用 un（un piso，不是 uno piso）",
+      "count": 1,
+      "date": "2026-08-13"
+    },
+    {
+      "error": "带家具用 estar amueblado，不是 tener amueblado",
+      "count": 2,
+      "date": "2026-08-19"
+    },
+    {
+      "error": "住在某地用 en + 地点（vivir en el centro）",
+      "count": 2,
+      "date": "2026-08-19"
+    },
+    {
+      "error": "vestir yo变位混淆 visito(参观)/visto(穿)",
+      "date": "2026-08-14"
+    },
+    {
+      "error": "vestir tú变位: vistes 不是 vistas(vistas=虚拟式)",
+      "date": "2026-08-14"
+    },
+    {
+      "error": "vestir él变位: se viste, 反身代词用 se 不是 lo",
+      "date": "2026-08-14"
+    },
+    {
+      "error": "visitar 非反身: visito 不加 me",
+      "date": "2026-08-14"
+    },
+    {
+      "error": "vestir nosotros变位: nos vestimos 不是 visitemos",
+      "date": "2026-08-14"
+    },
+    {
+      "error": "vestir ellos变位: se visten, 反身代词用 se 不是 los",
+      "date": "2026-08-14"
+    },
+    {
+      "error": "vestimos 拼写: vistimos 少了 e",
+      "date": "2026-08-14"
+    },
+    {
+      "error": "visitar 误加反身: nos visitamos/se visitan 应去掉反身",
+      "date": "2026-08-14"
+    },
+    {
+      "error": "vosotros 反身变位: os vestís 不是 se viste",
+      "date": "2026-08-14"
+    },
+    {
+      "error": "vestimos 拼写 vistimos(词根 vest 记成 vist), os vestís 写成 se viste",
+      "date": "2026-08-14"
+    },
+    {
+      "error": "visitar vosotros变位: visitáis 不是 visita",
+      "date": "2026-08-14"
+    },
+    {
+      "error": "estar + gerundio 未掌握（aprendaba/descandoba 代替 estoy aprendiendo/descansando）",
+      "count": 1
+    },
+    {
+      "error": "现在完成时 he+过去分词 未掌握（'已经预订'写成 nose）",
+      "count": 1
+    },
+    {
+      "error": "gustar 缺 Me（Gustaría → Me gustaría）",
+      "count": 1
+    },
+    {
+      "error": "normalmente + 现在习惯用现在时，非 imperfecto（cocinaba→cocino）",
+      "count": 1
+    },
+    {
+      "error": "翻译时漏系动词 es/está",
+      "count": 2,
+      "relearn": false,
+      "date": "2026-08-19"
+    },
+    {
+      "error": "否定词位置：no 放代词前(no lo alquilo)",
+      "count": 1,
+      "relearn": false
+    },
+    {
+      "error": "inquilino(租客)/alquiler(租金)/alquilar(租) 词族混淆",
+      "count": 1,
+      "date": "2026-08-19"
+    },
+    {
+      "error": "puedo(现在) vs pudo(过去) 时态混淆",
+      "count": 1,
+      "date": "2026-08-19"
+    },
+    {
+      "error": "dice(他说) vs dije(我说) 人称/时态混淆",
+      "count": 1,
+      "date": "2026-08-19"
+    },
+    {
+      "error": "mucho+形容词→muy（mucho caro→muy caro）",
+      "count": 1,
+      "date": "2026-08-19"
+    },
+    {
+      "error": "pedir(点餐) vs recibir(收到) 混淆",
+      "count": 1,
+      "date": "2026-08-19"
+    },
+    {
+      "error": "🔴三时态混淆：pretérito/imperfecto/condicional（学生要求重点标记）",
+      "count": 3,
+      "relearn": true,
+      "date": "2026-08-27"
+    },
+    {
+      "error": "imperfecto词尾-ía vs 条件式-ría 混淆（viví↔vivía, viajaba↔viajaría）",
+      "count": 2,
+      "relearn": true,
+      "date": "2026-08-27"
+    },
+    {
+      "error": "doler结构主语搞反（duelo la cabeza→Me duele la cabeza）",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-27"
+    },
+    {
+      "error": "间接宾语代词le该用不用（dame foto para él→Le mostré la foto）",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-27"
+    },
+    {
+      "error": "estar+gerundio副动词形式（Estamos desayunar→desayunando）",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-27"
+    },
+    {
+      "error": "现在完成时漏助动词he（resvece→he reservado）",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-27"
+    },
+    {
+      "error": "a+el→al漏合并（fui el banco→fui al banco）",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-27"
+    },
+    {
+      "error": "deberías人称错（debería=我/他，应为deberías=你）",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-27"
+    },
+    {
+      "error": "年龄用tener X años，不是a las X（a las ocho=八点钟）",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-27"
+    },
+    {
+      "error": "venir现在式yo=vengo（-go类不规则，非veno）",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-27"
+    }
+  ],
+  "week_stats": {
+    "start_date": "2026-07-23",
+    "completed_days": 3,
+    "new_words_this_week": 93,
+    "test_score": null,
+    "test_errors": []
+  },
+  "current_focus_areas": [
+    "三时态对比(pret/imperf/cond)",
+    "doler与gustar结构",
+    "间接宾语代词le/me/te",
+    "老错题词回炉(inquilino/oportunidad/entrevista/infancia)"
+  ],
+  "error_threshold": 4,
+  "relearn_queue": [
+    "三时态对比：pretérito vs imperfecto vs condicional"
+  ],
+  "weekly_test_due": false,
+  "last_test_day": "2026-08-27",
+  "tests_completed": 4,
+  "wrong_answer_bank": [
+    {
+      "word": "ingeniero",
+      "module": "工作职业",
+      "date_wrong": "2026-08-06",
+      "correct_count": 1
+    },
+    {
+      "word": "entrevista",
+      "module": "工作职业",
+      "date_wrong": "2026-08-27",
+      "correct_count": 0
+    },
+    {
+      "word": "quiero",
+      "module": "高频动词",
+      "date_wrong": "2026-08-06",
+      "correct_count": 1
+    },
+    {
+      "word": "debería",
+      "module": "高频动词",
+      "date_wrong": "2026-08-18",
+      "correct_count": 1
+    },
+    {
+      "word": "gustaría",
+      "module": "高频动词",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "hacer una excursión",
+      "module": "旅行",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "asustado/a",
+      "module": "形容词",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "el paisaje",
+      "module": "旅行",
+      "date_wrong": "2026-08-07",
+      "correct_count": 1
+    },
+    {
+      "word": "gratis",
+      "module": "形容词",
+      "date_wrong": "2026-08-07",
+      "correct_count": 1
+    },
+    {
+      "word": "reservar",
+      "module": "旅行",
+      "date_wrong": "2026-08-19",
+      "correct_count": 1
+    },
+    {
+      "word": "mostrar",
+      "module": "高频动词",
+      "date_wrong": "2026-08-19",
+      "correct_count": 1
+    },
+    {
+      "word": "el centro comercial",
+      "module": "购物",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "la bicicleta",
+      "module": "城市交通",
+      "date_wrong": "2026-08-07",
+      "correct_count": 1
+    },
+    {
+      "word": "llueve",
+      "module": "天气",
+      "date_wrong": "2026-08-07",
+      "correct_count": 1
+    },
+    {
+      "word": "uno",
+      "module": "数字时间",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "encontrar",
+      "module": "高频动词",
+      "date_wrong": "2026-08-19",
+      "correct_count": 1
+    },
+    {
+      "word": "aprender",
+      "module": "高频动词",
+      "date_wrong": "2026-08-07",
+      "correct_count": 1
+    },
+    {
+      "word": "hace calor",
+      "module": "天气",
+      "date_wrong": "2026-08-07",
+      "correct_count": 1
+    },
+    {
+      "word": "recibir",
+      "module": "高频动词",
+      "date_wrong": "2026-08-19",
+      "correct_count": 1
+    },
+    {
+      "word": "el sombrero",
+      "module": "购物",
+      "date_wrong": "2026-08-19",
+      "correct_count": 0
+    },
+    {
+      "word": "la guardería",
+      "module": "童年回忆",
+      "date_wrong": "2026-08-10",
+      "correct_count": 0
+    },
+    {
+      "word": "la carrera",
+      "module": "工作职业",
+      "date_wrong": "2026-08-10",
+      "correct_count": 0
+    },
+    {
+      "word": "el viaje",
+      "module": "旅行",
+      "date_wrong": "2026-08-07",
+      "correct_count": 1
+    },
+    {
+      "word": "diría",
+      "module": "高频动词",
+      "date_wrong": "2026-08-10",
+      "correct_count": 0
+    },
+    {
+      "word": "el pueblo",
+      "module": "旅行",
+      "date_wrong": "2026-08-10",
+      "correct_count": 0
+    },
+    {
+      "word": "divertido/a",
+      "module": "形容词",
+      "date_wrong": "2026-08-10",
+      "correct_count": 0
+    },
+    {
+      "word": "el ordenador",
+      "module": "日常活动",
+      "date_wrong": "2026-08-07",
+      "correct_count": 1
+    },
+    {
+      "word": "mañana",
+      "module": "时间",
+      "date_wrong": "2026-08-07",
+      "correct_count": 1
+    },
+    {
+      "word": "celebrar",
+      "module": "高频动词",
+      "date_wrong": "2026-08-10",
+      "correct_count": 0
+    },
+    {
+      "word": "quedar",
+      "module": "高频动词",
+      "date_wrong": "2026-08-10",
+      "correct_count": 0
+    },
+    {
+      "word": "soñar",
+      "module": "童年回忆",
+      "date_wrong": "2026-08-19",
+      "correct_count": 0
+    },
+    {
+      "word": "la aduana",
+      "module": "旅行",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "me parece que",
+      "module": "表达意见",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "alguien",
+      "module": "高频动词",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "la cola",
+      "module": "旅行",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "descansar",
+      "module": "高频动词",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "esconderse",
+      "module": "童年回忆",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "viviría",
+      "module": "高频动词",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "disfrutar",
+      "module": "旅行",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "tener planes",
+      "module": "旅行",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "subir",
+      "module": "高频动词",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "el jarabe",
+      "module": "身体与健康",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "la primavera",
+      "module": "天气",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "pedir",
+      "module": "高频动词",
+      "date_wrong": "2026-08-19",
+      "correct_count": 0
+    },
+    {
+      "word": "y",
+      "module": "基础",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "el fútbol",
+      "module": "兴趣爱好",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "la carta",
+      "module": "旅行",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "preguntar",
+      "module": "高频动词",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "trepar",
+      "module": "童年回忆",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "pasado mañana",
+      "module": "时间",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "dejar",
+      "module": "高频动词",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "temprano",
+      "module": "日常活动",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "peor",
+      "module": "形容词",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "seis",
+      "module": "数字时间",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "cerrar",
+      "module": "厨房家务",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "luego",
+      "module": "日常活动",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "el semáforo",
+      "module": "城市交通",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "el almuerzo",
+      "module": "食物饮料",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "el clima",
+      "module": "天气",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "dibujar",
+      "module": "兴趣爱好",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "divertirse",
+      "module": "童年回忆",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "la oportunidad",
+      "module": "工作职业",
+      "date_wrong": "2026-08-27",
+      "correct_count": 0
+    },
+    {
+      "word": "la guía",
+      "module": "旅行",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "responder",
+      "module": "高频动词",
+      "date_wrong": "2026-08-07",
+      "correct_count": 0
+    },
+    {
+      "word": "garganta",
+      "module": "身体与健康",
+      "date_wrong": "2026-08-13",
+      "correct_count": 1
+    },
+    {
+      "word": "todo recto",
+      "module": "城市交通",
+      "date_wrong": "2026-08-11",
+      "correct_count": 1
+    },
+    {
+      "word": "el equipaje",
+      "module": "旅行",
+      "date_wrong": "2026-08-19",
+      "correct_count": 0
+    },
+    {
+      "word": "la entrevista",
+      "module": "工作职业",
+      "date_wrong": "2026-08-13",
+      "correct_count": 0
+    },
+    {
+      "word": "la empresa",
+      "module": "工作职业",
+      "date_wrong": "2026-08-21",
+      "correct_count": 0
+    },
+    {
+      "word": "el éxito",
+      "module": "工作职业",
+      "date_wrong": "2026-08-13",
+      "correct_count": 0
+    },
+    {
+      "word": "camarero",
+      "module": "餐厅",
+      "date_wrong": "2026-08-11",
+      "correct_count": 1
+    },
+    {
+      "word": "probar",
+      "module": "购物",
+      "date_wrong": "2026-08-13",
+      "correct_count": 2
+    },
+    {
+      "word": "vestirse",
+      "module": "日常活动",
+      "date_wrong": "2026-08-11",
+      "correct_count": 1
+    },
+    {
+      "word": "encender",
+      "module": "厨房家务",
+      "date_wrong": "2026-08-11",
+      "correct_count": 1
+    },
+    {
+      "word": "cuchara",
+      "module": "餐厅",
+      "date_wrong": "2026-08-13",
+      "correct_count": 0
+    },
+    {
+      "word": "el dedo",
+      "module": "身体与健康",
+      "date_wrong": "2026-08-13",
+      "correct_count": 1
+    },
+    {
+      "word": "querer",
+      "module": "高频动词",
+      "date_wrong": "2026-08-13",
+      "correct_count": 1
+    },
+    {
+      "word": "cortar",
+      "module": "厨房家务",
+      "date_wrong": "2026-08-13",
+      "correct_count": 1
+    },
+    {
+      "word": "la oficina",
+      "module": "工作职业",
+      "date_wrong": "2026-08-13",
+      "correct_count": 1
+    },
+    {
+      "word": "decir",
+      "module": "不规则过去式",
+      "date_wrong": "2026-08-13",
+      "correct_count": 1
+    },
+    {
+      "word": "el diccionario",
+      "module": "兴趣爱好",
+      "date_wrong": "2026-08-13",
+      "correct_count": 1
+    },
+    {
+      "word": "tener hambre",
+      "module": "食物饮料",
+      "date_wrong": "2026-08-13",
+      "correct_count": 1
+    },
+    {
+      "word": "el alquiler",
+      "module": "租房住房",
+      "date_wrong": "2026-08-19",
+      "correct_count": 2
+    },
+    {
+      "word": "mudarse",
+      "module": "租房住房",
+      "date_wrong": "2026-08-13",
+      "correct_count": 1
+    },
+    {
+      "word": "el ascensor",
+      "module": "租房住房",
+      "date_wrong": "2026-08-13",
+      "correct_count": 0
+    },
+    {
+      "word": "el postre",
+      "module": "餐厅",
+      "date_wrong": "2026-08-13",
+      "correct_count": 1
+    },
+    {
+      "word": "la cuenta",
+      "module": "餐厅",
+      "date_wrong": "2026-08-13",
+      "correct_count": 1
+    },
+    {
+      "word": "planchar",
+      "module": "日常活动",
+      "date_wrong": "2026-08-16",
+      "correct_count": 1
+    },
+    {
+      "word": "la maleta",
+      "module": "旅行",
+      "date_wrong": "2026-08-19",
+      "correct_count": 1
+    },
+    {
+      "word": "el casero",
+      "module": "租房住房",
+      "date_wrong": "2026-08-19",
+      "correct_count": 1
+    },
+    {
+      "word": "el contrato",
+      "module": "租房住房",
+      "date_wrong": "2026-08-19",
+      "correct_count": 0
+    },
+    {
+      "word": "el inquilino",
+      "module": "租房住房",
+      "date_wrong": "2026-08-27",
+      "correct_count": 0
+    },
+    {
+      "word": "salado",
+      "module": "食物饮料",
+      "date_wrong": "2026-08-21",
+      "correct_count": 0
+    },
+    {
+      "word": "cuchillo",
+      "module": "餐厅",
+      "date_wrong": "2026-08-21",
+      "correct_count": 0
+    },
+    {
+      "word": "la espalda",
+      "module": "身体与健康",
+      "date_wrong": "2026-08-21",
+      "correct_count": 0
+    },
+    {
+      "word": "garganta",
+      "module": "身体与健康",
+      "date_wrong": "2026-08-21",
+      "correct_count": 0
+    },
+    {
+      "word": "bicicleta",
+      "module": "城市交通",
+      "date_wrong": "2026-08-21",
+      "correct_count": 0
+    },
+    {
+      "word": "probador",
+      "module": "购物",
+      "date_wrong": "2026-08-21",
+      "correct_count": 0
+    },
+    {
+      "word": "la habitación",
+      "module": "旅行",
+      "date_wrong": "2026-08-21",
+      "correct_count": 0
+    },
+    {
+      "word": "empezar",
+      "module": "高频动词",
+      "date_wrong": "2026-08-21",
+      "correct_count": 0
+    },
+    {
+      "word": "la guardería",
+      "module": "童年回忆",
+      "date_wrong": "2026-08-21",
+      "correct_count": 0
+    },
+    {
+      "word": "el tiempo libre",
+      "module": "兴趣爱好",
+      "date_wrong": "2026-08-21",
+      "correct_count": 0
+    },
+    {
+      "word": "dibujar",
+      "module": "兴趣爱好",
+      "date_wrong": "2026-08-21",
+      "correct_count": 0
+    },
+    {
+      "word": "médico",
+      "module": "身体与健康",
+      "date_wrong": "2026-08-27",
+      "correct_count": 0
+    },
+    {
+      "word": "sorprendido/a",
+      "module": "形容词",
+      "date_wrong": "2026-08-27",
+      "correct_count": 0
+    },
+    {
+      "word": "tal vez",
+      "module": "表达意见",
+      "date_wrong": "2026-08-27",
+      "correct_count": 0
+    },
+    {
+      "word": "la infancia",
+      "module": "童年回忆",
+      "date_wrong": "2026-08-27",
+      "correct_count": 0
+    },
+    {
+      "word": "recomendar",
+      "module": "高频动词",
+      "date_wrong": "2026-08-27",
+      "correct_count": 0
+    },
+    {
+      "word": "casado/a",
+      "module": "形容词",
+      "date_wrong": "2026-08-27",
+      "correct_count": 0
+    }
+  ],
+  "module_wrong_banks": {
+    "食物饮料": [
+      {
+        "word": "salado",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-21"
+      }
+    ],
+    "餐厅": [
+      {
+        "word": "camarero",
+        "wrong_count": 2,
+        "correct_count": 2,
+        "date_wrong": "2026-08-11"
+      },
+      {
+        "word": "cuchillo",
+        "wrong_count": 3,
+        "correct_count": 0,
+        "date_wrong": "2026-08-21"
+      },
+      {
+        "word": "postre",
+        "wrong_count": 4,
+        "correct_count": 1,
+        "date_wrong": "2026-08-14"
+      },
+      {
+        "word": "pedir",
+        "wrong_count": 2,
+        "correct_count": 0,
+        "date_wrong": "2026-08-19"
+      },
+      {
+        "word": "cuchara",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-13"
+      },
+      {
+        "word": "la cuenta",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-13"
+      },
+      {
+        "word": "tenedor",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-14"
+      }
+    ],
+    "家庭称呼": [],
+    "身体与健康": [
+      {
+        "word": "la mano",
+        "wrong_count": 1,
+        "correct_count": 1,
+        "date_wrong": "2026-08-06"
+      },
+      {
+        "word": "estómago",
+        "wrong_count": 1,
+        "correct_count": 1,
+        "date_wrong": "2026-08-11"
+      },
+      {
+        "word": "doler",
+        "wrong_count": 1,
+        "correct_count": 1,
+        "date_wrong": "2026-08-11"
+      },
+      {
+        "word": "el dedo",
+        "wrong_count": 3,
+        "correct_count": 1,
+        "date_wrong": "2026-08-20"
+      },
+      {
+        "word": "nariz",
+        "wrong_count": 2,
+        "correct_count": 1,
+        "date_wrong": "2026-08-20"
+      },
+      {
+        "word": "la pierna",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-20"
+      },
+      {
+        "word": "la espalda",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-21"
+      },
+      {
+        "word": "garganta",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-21"
+      },
+      {
+        "word": "médico",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-27"
+      }
+    ],
+    "城市交通": [
+      {
+        "word": "cruzar",
+        "wrong_count": 2,
+        "correct_count": 0,
+        "date_wrong": "2026-08-21"
+      },
+      {
+        "word": "semáforo",
+        "wrong_count": 1,
+        "correct_count": 1,
+        "date_wrong": "2026-08-14"
+      },
+      {
+        "word": "bicicleta",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-21"
+      }
+    ],
+    "购物": [
+      {
+        "word": "probar",
+        "wrong_count": 8,
+        "correct_count": 1,
+        "date_wrong": "2026-08-14"
+      },
+      {
+        "word": "probador",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-21"
+      }
+    ],
+    "日常活动": [
+      {
+        "word": "levantarse",
+        "wrong_count": 1,
+        "correct_count": 2,
+        "date_wrong": "2026-08-06"
+      },
+      {
+        "word": "ducharse",
+        "wrong_count": 1,
+        "correct_count": 2,
+        "date_wrong": "2026-08-06"
+      },
+      {
+        "word": "primero",
+        "wrong_count": 1,
+        "correct_count": 1,
+        "date_wrong": "2026-08-06"
+      },
+      {
+        "word": "vestirse",
+        "wrong_count": 3,
+        "correct_count": 2,
+        "date_wrong": "2026-08-14"
+      },
+      {
+        "word": "planchar",
+        "wrong_count": 2,
+        "correct_count": 1,
+        "date_wrong": "2026-08-16"
+      },
+      {
+        "word": "la toalla",
+        "wrong_count": 1,
+        "correct_count": 1,
+        "date_wrong": "2026-08-14"
+      }
+    ],
+    "旅行": [
+      {
+        "word": "la maleta",
+        "wrong_count": 3,
+        "correct_count": 2,
+        "date_wrong": "2026-08-19"
+      },
+      {
+        "word": "el billete",
+        "wrong_count": 1,
+        "correct_count": 1,
+        "date_wrong": "2026-08-11"
+      },
+      {
+        "word": "el equipaje",
+        "wrong_count": 2,
+        "correct_count": 0,
+        "date_wrong": "2026-08-19"
+      },
+      {
+        "word": "reservar",
+        "wrong_count": 3,
+        "correct_count": 1,
+        "date_wrong": "2026-08-19"
+      },
+      {
+        "word": "el viaje",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-20"
+      },
+      {
+        "word": "la habitación",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-21"
+      }
+    ],
+    "形容词": [
+      {
+        "word": "preocupado",
+        "wrong_count": 1,
+        "correct_count": 1,
+        "date_wrong": "2026-08-14"
+      },
+      {
+        "word": "interesante",
+        "wrong_count": 1,
+        "correct_count": 1,
+        "date_wrong": "2026-08-14"
+      },
+      {
+        "word": "inteligente",
+        "wrong_count": 1,
+        "correct_count": 1,
+        "date_wrong": "2026-08-14"
+      },
+      {
+        "word": "sorprendido/a",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-27"
+      },
+      {
+        "word": "casado/a",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-27"
+      }
+    ],
+    "高频动词": [
+      {
+        "word": "quiero",
+        "wrong_count": 3,
+        "correct_count": 2,
+        "date_wrong": "2026-08-06"
+      },
+      {
+        "word": "entender",
+        "wrong_count": 3,
+        "correct_count": 0,
+        "date_wrong": "2026-08-21"
+      },
+      {
+        "word": "encontrar",
+        "wrong_count": 3,
+        "correct_count": 2,
+        "date_wrong": "2026-08-19"
+      },
+      {
+        "word": "devolver",
+        "wrong_count": 1,
+        "correct_count": 2,
+        "date_wrong": "2026-08-11"
+      },
+      {
+        "word": "empezar",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-21"
+      },
+      {
+        "word": "recomendar",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-27"
+      }
+    ],
+    "厨房家务": [
+      {
+        "word": "encender",
+        "wrong_count": 1,
+        "correct_count": 1,
+        "date_wrong": "2026-08-11"
+      }
+    ],
+    "童年回忆": [
+      {
+        "word": "la infancia",
+        "wrong_count": 4,
+        "correct_count": 0,
+        "date_wrong": "2026-08-27"
+      },
+      {
+        "word": "el miedo",
+        "wrong_count": 1,
+        "correct_count": 1,
+        "date_wrong": "2026-08-13"
+      },
+      {
+        "word": "el barrio",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-14"
+      },
+      {
+        "word": "crecer",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-20"
+      },
+      {
+        "word": "la guardería",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-21"
+      }
+    ],
+    "不规则过去式": [
+      {
+        "word": "venir→vine",
+        "wrong_count": 2,
+        "correct_count": 1,
+        "date_wrong": "2026-08-20"
+      },
+      {
+        "word": "decir→dije",
+        "wrong_count": 2,
+        "correct_count": 2,
+        "date_wrong": "2026-08-14"
+      }
+    ],
+    "工作职业": [
+      {
+        "word": "ingeniero",
+        "wrong_count": 1,
+        "correct_count": 1,
+        "date_wrong": "2026-08-06"
+      },
+      {
+        "word": "entrevista",
+        "wrong_count": 2,
+        "correct_count": 0,
+        "date_wrong": "2026-08-27"
+      },
+      {
+        "word": "el trabajo",
+        "wrong_count": 2,
+        "correct_count": 2,
+        "date_wrong": "2026-08-11"
+      },
+      {
+        "word": "la entrevista",
+        "wrong_count": 1,
+        "correct_count": 1,
+        "date_wrong": "2026-08-11"
+      },
+      {
+        "word": "la empresa",
+        "wrong_count": 2,
+        "correct_count": 0,
+        "date_wrong": "2026-08-21"
+      },
+      {
+        "word": "el éxito",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-11"
+      },
+      {
+        "word": "la oportunidad",
+        "wrong_count": 2,
+        "correct_count": 0,
+        "date_wrong": "2026-08-27"
+      },
+      {
+        "word": "la oficina",
+        "wrong_count": 1,
+        "correct_count": 1,
+        "date_wrong": "2026-08-13"
+      }
+    ],
+    "租房住房": [
+      {
+        "word": "el alquiler",
+        "wrong_count": 2,
+        "correct_count": 2,
+        "date_wrong": "2026-08-19"
+      },
+      {
+        "word": "mudarse",
+        "wrong_count": 2,
+        "correct_count": 1,
+        "date_wrong": "2026-08-14"
+      },
+      {
+        "word": "el ascensor",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-13"
+      },
+      {
+        "word": "el inquilino",
+        "wrong_count": 4,
+        "correct_count": 0,
+        "date_wrong": "2026-08-27"
+      },
+      {
+        "word": "el casero",
+        "wrong_count": 1,
+        "correct_count": 1,
+        "date_wrong": "2026-08-19"
+      },
+      {
+        "word": "el contrato",
+        "wrong_count": 2,
+        "correct_count": 0,
+        "date_wrong": "2026-08-19"
+      }
+    ],
+    "兴趣爱好": [
+      {
+        "word": "el diccionario",
+        "wrong_count": 1,
+        "correct_count": 1,
+        "date_wrong": "2026-08-13"
+      },
+      {
+        "word": "el fin de semana",
+        "wrong_count": 2,
+        "correct_count": 0,
+        "date_wrong": "2026-08-21"
+      },
+      {
+        "word": "el tiempo libre",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-21"
+      },
+      {
+        "word": "dibujar",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-21"
+      }
+    ],
+    "表达意见": [
+      {
+        "word": "tal vez",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-27"
+      }
+    ]
+  },
+  "target_level": "B2",
+  "target_deadline": "2027-08",
+  "level_note": "2026-08-27摸底测试定位：A2稳定期，语法认知达B1但精细产出滞后",
+  "last_assessment_date": "2026-08-27"
+}
