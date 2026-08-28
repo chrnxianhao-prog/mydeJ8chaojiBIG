@@ -562,7 +562,12 @@
     "el edificio",
     "la casera",
     "la fianza",
-    "la calefacción"
+    "la calefacción",
+    "colgar",
+    "marcar",
+    "la llamada",
+    "sonar",
+    "devolver la llamada"
   ],
   "vocabulary_review_queue": [
     "esperar",
@@ -871,14 +876,19 @@
     "el edificio",
     "la casera",
     "la fianza",
-    "la calefacción"
+    "la calefacción",
+    "colgar",
+    "marcar",
+    "la llamada",
+    "sonar",
+    "devolver la llamada"
   ],
   "recent_topics": [
-    "租房住房·过去时态对比",
     "租房住房·si条件句",
     "A1-B1综合摸底测试",
     "doler/gustar强化",
-    "间接宾语代词强化"
+    "间接宾语代词强化",
+    "电话沟通新词+间接宾语代词me/le方向辨析"
   ],
   "grammar_points_covered": [
     "ser",
@@ -928,7 +938,8 @@
     "时间连词·cuando/mientras/antes de/después de",
     "se puede / se necesita",
     "条件式 Condicional Simple",
-    "si条件句(真实条件)"
+    "si条件句(真实条件)",
+    "电话沟通场景词汇+过去式综合运用"
   ],
   "common_errors": [
     {
@@ -1263,6 +1274,12 @@
       "count": 1,
       "relearn": false,
       "date": "2026-08-28"
+    },
+    {
+      "error": "me/le方向搞反(动作指向谁就用对应代词，第1、3题正反着写)",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-28"
     }
   ],
   "week_stats": {
@@ -1274,9 +1291,9 @@
   },
   "current_focus_areas": [
     "三时态对比(pret/imperf/cond)",
+    "me/le方向辨析(动作指向谁)",
     "间接宾语代词句后动词场景选择(dar/mostrar/enviar/prestar)",
-    "阴阳性一致(este/esta等)",
-    "老错题词回炉(gastar/firmar/enseñar/contestar/la espalda)"
+    "老错题词回炉(gastar/firmar/enseñar/contestar/la espalda/entrevista/oportunidad)"
   ],
   "error_threshold": 4,
   "relearn_queue": [
