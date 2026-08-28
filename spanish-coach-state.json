@@ -1215,6 +1215,12 @@
       "count": 1,
       "relearn": false,
       "date": "2026-08-27"
+    },
+    {
+      "error": "entrevista/oportunidad 反复拼写错误(8月起长期未吃透)",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-08-27"
     }
   ],
   "week_stats": {
@@ -1232,7 +1238,8 @@
   ],
   "error_threshold": 4,
   "relearn_queue": [
-    "三时态对比：pretérito vs imperfecto vs condicional"
+    "三时态对比：pretérito vs imperfecto vs condicional",
+    "entrevista/oportunidad 拼写(联想记忆法)"
   ],
   "weekly_test_due": false,
   "last_test_day": "2026-08-27",
@@ -1643,7 +1650,7 @@
     {
       "word": "la entrevista",
       "module": "工作职业",
-      "date_wrong": "2026-08-13",
+      "date_wrong": "2026-08-27",
       "correct_count": 0
     },
     {
@@ -2246,9 +2253,9 @@
       },
       {
         "word": "la entrevista",
-        "wrong_count": 1,
-        "correct_count": 1,
-        "date_wrong": "2026-08-11"
+        "wrong_count": 2,
+        "correct_count": 0,
+        "date_wrong": "2026-08-27"
       },
       {
         "word": "la empresa",
@@ -2264,7 +2271,7 @@
       },
       {
         "word": "la oportunidad",
-        "wrong_count": 2,
+        "wrong_count": 3,
         "correct_count": 0,
         "date_wrong": "2026-08-27"
       },
