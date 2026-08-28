@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 43,
-  "total_completed_days": 43,
-  "total_missed_days": 0,
+  "streak": 2,
+  "total_completed_days": 45,
+  "total_missed_days": 8,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-08-18",
-  "last_check_date": null,
+  "last_task_date": "2026-08-28",
+  "last_check_date": "2026-08-28",
   "consecutive_missed": 0,
-  "consecutive_completed": 35,
+  "consecutive_completed": 2,
   "vocabulary_learned": [
     "China",
     "México",
@@ -874,11 +874,11 @@
     "la calefacción"
   ],
   "recent_topics": [
-    "日常活动·正在做什么(estar+gerundio)",
-    "愿望与假设·条件式入门",
     "租房住房·过去时态对比",
     "租房住房·si条件句",
-    "A1-B1综合摸底测试"
+    "A1-B1综合摸底测试",
+    "doler/gustar强化",
+    "间接宾语代词强化"
   ],
   "grammar_points_covered": [
     "ser",
@@ -1233,6 +1233,36 @@
       "count": 1,
       "relearn": false,
       "date": "2026-08-27"
+    },
+    {
+      "error": "gastar/ganar 反义混淆(花钱写成赚钱)",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-28"
+    },
+    {
+      "error": "间接宾语代词句型：动词全套用mostrar，未按语境换dar/enviar/prestar",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-08-28"
+    },
+    {
+      "error": "mostrar人称时态错(mostras应为mostró，第三人称过去式)",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-28"
+    },
+    {
+      "error": "阴阳性一致：este película应为esta película",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-28"
+    },
+    {
+      "error": "doler单复数：les duelen(复数)误用于单数主语la espalda，应为duele",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-28"
     }
   ],
   "week_stats": {
@@ -1244,9 +1274,9 @@
   },
   "current_focus_areas": [
     "三时态对比(pret/imperf/cond)",
-    "doler与gustar结构",
-    "间接宾语代词le/me/te",
-    "老错题词回炉(inquilino/oportunidad/entrevista/infancia)"
+    "间接宾语代词句后动词场景选择(dar/mostrar/enviar/prestar)",
+    "阴阳性一致(este/esta等)",
+    "老错题词回炉(gastar/firmar/enseñar/contestar/la espalda)"
   ],
   "error_threshold": 4,
   "relearn_queue": [
@@ -1812,7 +1842,7 @@
     {
       "word": "la espalda",
       "module": "身体与健康",
-      "date_wrong": "2026-08-21",
+      "date_wrong": "2026-08-28",
       "correct_count": 0
     },
     {
@@ -1903,6 +1933,30 @@
       "word": "la noticia",
       "module": "基础",
       "date_wrong": "2026-08-27",
+      "correct_count": 0
+    },
+    {
+      "word": "gastar",
+      "module": "高频动词",
+      "date_wrong": "2026-08-28",
+      "correct_count": 0
+    },
+    {
+      "word": "firmar",
+      "module": "高频动词",
+      "date_wrong": "2026-08-28",
+      "correct_count": 0
+    },
+    {
+      "word": "enseñar",
+      "module": "高频动词",
+      "date_wrong": "2026-08-28",
+      "correct_count": 0
+    },
+    {
+      "word": "contestar",
+      "module": "高频动词",
+      "date_wrong": "2026-08-28",
       "correct_count": 0
     }
   ],
@@ -2005,9 +2059,9 @@
       },
       {
         "word": "la espalda",
-        "wrong_count": 1,
+        "wrong_count": 2,
         "correct_count": 0,
-        "date_wrong": "2026-08-21"
+        "date_wrong": "2026-08-28"
       },
       {
         "word": "garganta",
@@ -2200,6 +2254,30 @@
         "wrong_count": 2,
         "correct_count": 0,
         "date_wrong": "2026-08-27"
+      },
+      {
+        "word": "gastar",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-28"
+      },
+      {
+        "word": "firmar",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-28"
+      },
+      {
+        "word": "enseñar",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-28"
+      },
+      {
+        "word": "contestar",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-28"
       }
     ],
     "厨房家务": [
