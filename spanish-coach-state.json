@@ -1665,12 +1665,6 @@
       "correct_count": 1
     },
     {
-      "word": "probar",
-      "module": "购物",
-      "date_wrong": "2026-08-13",
-      "correct_count": 2
-    },
-    {
       "word": "vestirse",
       "module": "日常活动",
       "date_wrong": "2026-08-11",
@@ -1731,12 +1725,6 @@
       "correct_count": 1
     },
     {
-      "word": "el alquiler",
-      "module": "租房住房",
-      "date_wrong": "2026-08-19",
-      "correct_count": 2
-    },
-    {
       "word": "mudarse",
       "module": "租房住房",
       "date_wrong": "2026-08-13",
@@ -1788,7 +1776,7 @@
       "word": "el inquilino",
       "module": "租房住房",
       "date_wrong": "2026-08-27",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "salado",
@@ -1860,19 +1848,19 @@
       "word": "médico",
       "module": "身体与健康",
       "date_wrong": "2026-08-27",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "sorprendido/a",
       "module": "形容词",
       "date_wrong": "2026-08-27",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "tal vez",
       "module": "表达意见",
       "date_wrong": "2026-08-27",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "la infancia",
@@ -1999,7 +1987,7 @@
       {
         "word": "médico",
         "wrong_count": 1,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-27"
       }
     ],
@@ -2135,7 +2123,7 @@
       {
         "word": "sorprendido/a",
         "wrong_count": 1,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-27"
       },
       {
@@ -2178,7 +2166,7 @@
       },
       {
         "word": "recomendar",
-        "wrong_count": 1,
+        "wrong_count": 2,
         "correct_count": 0,
         "date_wrong": "2026-08-27"
       }
@@ -2194,7 +2182,7 @@
     "童年回忆": [
       {
         "word": "la infancia",
-        "wrong_count": 4,
+        "wrong_count": 5,
         "correct_count": 0,
         "date_wrong": "2026-08-27"
       },
@@ -2309,7 +2297,7 @@
       {
         "word": "el inquilino",
         "wrong_count": 4,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-27"
       },
       {
@@ -2355,7 +2343,7 @@
       {
         "word": "tal vez",
         "wrong_count": 1,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-27"
       }
     ]
