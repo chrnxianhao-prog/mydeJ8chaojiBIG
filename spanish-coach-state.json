@@ -1221,6 +1221,18 @@
       "count": 1,
       "relearn": true,
       "date": "2026-08-27"
+    },
+    {
+      "error": "casado(已婚)/cansado(累)混淆(错成cansada)",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-27"
+    },
+    {
+      "error": "postre(甜品)/poster(海报)混淆",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-27"
     }
   ],
   "week_stats": {
@@ -1615,7 +1627,7 @@
       "word": "la oportunidad",
       "module": "工作职业",
       "date_wrong": "2026-08-27",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "la guía",
@@ -1651,7 +1663,7 @@
       "word": "la entrevista",
       "module": "工作职业",
       "date_wrong": "2026-08-27",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "la empresa",
@@ -1746,8 +1758,8 @@
     {
       "word": "el postre",
       "module": "餐厅",
-      "date_wrong": "2026-08-13",
-      "correct_count": 1
+      "date_wrong": "2026-08-27",
+      "correct_count": 0
     },
     {
       "word": "la cuenta",
@@ -1886,6 +1898,12 @@
       "module": "形容词",
       "date_wrong": "2026-08-27",
       "correct_count": 0
+    },
+    {
+      "word": "la noticia",
+      "module": "基础",
+      "date_wrong": "2026-08-27",
+      "correct_count": 0
     }
   ],
   "module_wrong_banks": {
@@ -1939,6 +1957,12 @@
         "wrong_count": 1,
         "correct_count": 0,
         "date_wrong": "2026-08-14"
+      },
+      {
+        "word": "el postre",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-27"
       }
     ],
     "家庭称呼": [],
@@ -2022,7 +2046,7 @@
       {
         "word": "probar",
         "wrong_count": 8,
-        "correct_count": 1,
+        "correct_count": 2,
         "date_wrong": "2026-08-14"
       },
       {
@@ -2254,7 +2278,7 @@
       {
         "word": "la entrevista",
         "wrong_count": 2,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-27"
       },
       {
@@ -2272,7 +2296,7 @@
       {
         "word": "la oportunidad",
         "wrong_count": 3,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-27"
       },
       {
@@ -2351,6 +2375,14 @@
         "word": "tal vez",
         "wrong_count": 1,
         "correct_count": 1,
+        "date_wrong": "2026-08-27"
+      }
+    ],
+    "基础": [
+      {
+        "word": "la noticia",
+        "wrong_count": 1,
+        "correct_count": 0,
         "date_wrong": "2026-08-27"
       }
     ]
