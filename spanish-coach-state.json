@@ -1169,9 +1169,10 @@
     },
     {
       "error": "🔴三时态混淆：pretérito/imperfecto/condicional（学生要求重点标记）",
-      "count": 3,
+      "count": 8,
       "relearn": true,
-      "date": "2026-08-27"
+      "date": "2026-08-28",
+      "note": "2026-08-28全天出现5次以上，仍是头号问题，需要更多轮次专项强化"
     },
     {
       "error": "imperfecto词尾-ía vs 条件式-ría 混淆（viví↔vivía, viajaba↔viajaría）",
@@ -1280,6 +1281,24 @@
       "count": 1,
       "relearn": false,
       "date": "2026-08-28"
+    },
+    {
+      "error": "hacer yo现在式=hago，不规则-go类，忘记",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-28"
+    },
+    {
+      "error": "me gustaría+原形链：后续动词跳出原形变成变位(hablo/aprendo应为hablar/aprender)",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-28"
+    },
+    {
+      "error": "输入法无重音键(用户环境限制，非知识错误，此后重音不计分)",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-28"
     }
   ],
   "week_stats": {
@@ -1301,8 +1320,8 @@
     "entrevista/oportunidad 拼写(联想记忆法)"
   ],
   "weekly_test_due": false,
-  "last_test_day": "2026-08-27",
-  "tests_completed": 4,
+  "last_test_day": "2026-08-28",
+  "tests_completed": 5,
   "wrong_answer_bank": [
     {
       "word": "ingeniero",
@@ -1673,8 +1692,8 @@
     {
       "word": "la oportunidad",
       "module": "工作职业",
-      "date_wrong": "2026-08-27",
-      "correct_count": 1
+      "date_wrong": "2026-08-28",
+      "correct_count": 0
     },
     {
       "word": "la guía",
@@ -2390,9 +2409,9 @@
       },
       {
         "word": "la oportunidad",
-        "wrong_count": 3,
-        "correct_count": 1,
-        "date_wrong": "2026-08-27"
+        "wrong_count": 4,
+        "correct_count": 0,
+        "date_wrong": "2026-08-28"
       },
       {
         "word": "la oficina",
