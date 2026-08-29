@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 2,
-  "total_completed_days": 45,
+  "streak": 3,
+  "total_completed_days": 46,
   "total_missed_days": 8,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-08-28",
-  "last_check_date": "2026-08-28",
+  "last_task_date": "2026-08-29",
+  "last_check_date": "2026-08-29",
   "consecutive_missed": 0,
-  "consecutive_completed": 2,
+  "consecutive_completed": 3,
   "vocabulary_learned": [
     "China",
     "México",
@@ -884,11 +884,11 @@
     "devolver la llamada"
   ],
   "recent_topics": [
-    "租房住房·si条件句",
     "A1-B1综合摸底测试",
     "doler/gustar强化",
     "间接宾语代词强化",
-    "电话沟通新词+间接宾语代词me/le方向辨析"
+    "电话沟通新词+间接宾语代词me/le方向辨析",
+    "三时态两步法强化(5/5达标)"
   ],
   "grammar_points_covered": [
     "ser",
@@ -1169,10 +1169,10 @@
     },
     {
       "error": "🔴三时态混淆：pretérito/imperfecto/condicional（学生要求重点标记）",
-      "count": 9,
-      "relearn": true,
+      "count": 0,
+      "relearn": false,
       "date": "2026-08-29",
-      "note": "8-29专项课第一轮练习3/5，仍错在：si条件句用imperfecto代替condicional(viajaría写成viajaba)、习惯性过去用pretérito代替imperfecto(vivíamos写成vivimos)"
+      "note": "8-29用两步法(先判时态再填词)后连续5/5全对，明显突破。计数清零，但只是一轮，接下来几天旧词复习/每日任务中继续夹带三时态题验证是否真正稳定"
     },
     {
       "error": "imperfecto词尾-ía vs 条件式-ría 混淆（viví↔vivía, viajaba↔viajaría）",
@@ -1316,7 +1316,6 @@
   ],
   "error_threshold": 4,
   "relearn_queue": [
-    "三时态对比：pretérito vs imperfecto vs condicional",
     "entrevista/oportunidad 拼写(联想记忆法)"
   ],
   "weekly_test_due": false,
