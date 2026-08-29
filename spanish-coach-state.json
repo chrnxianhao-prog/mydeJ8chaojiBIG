@@ -1511,7 +1511,7 @@
     {
       "word": "la aduana",
       "module": "旅行",
-      "date_wrong": "2026-08-07",
+      "date_wrong": "2026-08-29",
       "correct_count": 0
     },
     {
@@ -1523,13 +1523,13 @@
     {
       "word": "alguien",
       "module": "高频动词",
-      "date_wrong": "2026-08-07",
+      "date_wrong": "2026-08-29",
       "correct_count": 0
     },
     {
       "word": "la cola",
       "module": "旅行",
-      "date_wrong": "2026-08-07",
+      "date_wrong": "2026-08-29",
       "correct_count": 0
     },
     {
@@ -1566,25 +1566,25 @@
       "word": "subir",
       "module": "高频动词",
       "date_wrong": "2026-08-07",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "el jarabe",
       "module": "身体与健康",
-      "date_wrong": "2026-08-07",
+      "date_wrong": "2026-08-29",
       "correct_count": 0
     },
     {
       "word": "la primavera",
       "module": "天气",
-      "date_wrong": "2026-08-07",
+      "date_wrong": "2026-08-29",
       "correct_count": 0
     },
     {
       "word": "pedir",
       "module": "高频动词",
       "date_wrong": "2026-08-19",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "y",
@@ -1625,19 +1625,19 @@
     {
       "word": "dejar",
       "module": "高频动词",
-      "date_wrong": "2026-08-07",
+      "date_wrong": "2026-08-29",
       "correct_count": 0
     },
     {
       "word": "temprano",
       "module": "日常活动",
       "date_wrong": "2026-08-07",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "peor",
       "module": "形容词",
-      "date_wrong": "2026-08-07",
+      "date_wrong": "2026-08-29",
       "correct_count": 0
     },
     {
@@ -2026,7 +2026,7 @@
       {
         "word": "pedir",
         "wrong_count": 2,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-19"
       },
       {
