@@ -1824,7 +1824,7 @@
       "word": "el postre",
       "module": "餐厅",
       "date_wrong": "2026-08-27",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "la cuenta",
@@ -1902,7 +1902,7 @@
       "word": "la habitación",
       "module": "旅行",
       "date_wrong": "2026-08-21",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "empezar",
@@ -1967,7 +1967,7 @@
     {
       "word": "la noticia",
       "module": "基础",
-      "date_wrong": "2026-08-27",
+      "date_wrong": "2026-08-29",
       "correct_count": 0
     },
     {
@@ -2020,7 +2020,7 @@
       {
         "word": "postre",
         "wrong_count": 4,
-        "correct_count": 1,
+        "correct_count": 2,
         "date_wrong": "2026-08-14"
       },
       {
@@ -2050,7 +2050,7 @@
       {
         "word": "el postre",
         "wrong_count": 1,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-27"
       }
     ],
@@ -2115,7 +2115,7 @@
       {
         "word": "cruzar",
         "wrong_count": 2,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-21"
       },
       {
@@ -2132,12 +2132,6 @@
       }
     ],
     "购物": [
-      {
-        "word": "probar",
-        "wrong_count": 8,
-        "correct_count": 2,
-        "date_wrong": "2026-08-14"
-      },
       {
         "word": "probador",
         "wrong_count": 1,
@@ -2249,7 +2243,7 @@
       {
         "word": "casado/a",
         "wrong_count": 1,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-27"
       }
     ],
@@ -2263,7 +2257,7 @@
       {
         "word": "entender",
         "wrong_count": 3,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-21"
       },
       {
@@ -2281,7 +2275,7 @@
       {
         "word": "empezar",
         "wrong_count": 1,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-21"
       },
       {
@@ -2467,7 +2461,7 @@
       {
         "word": "el fin de semana",
         "wrong_count": 2,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-21"
       },
       {
@@ -2487,16 +2481,16 @@
       {
         "word": "tal vez",
         "wrong_count": 1,
-        "correct_count": 1,
+        "correct_count": 2,
         "date_wrong": "2026-08-27"
       }
     ],
     "基础": [
       {
         "word": "la noticia",
-        "wrong_count": 1,
+        "wrong_count": 2,
         "correct_count": 0,
-        "date_wrong": "2026-08-27"
+        "date_wrong": "2026-08-29"
       }
     ]
   },
