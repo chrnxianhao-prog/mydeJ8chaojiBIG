@@ -1299,6 +1299,16 @@
       "count": 1,
       "relearn": false,
       "date": "2026-08-28"
+    },
+    {
+      "error": "enviar/recibir 反义混淆(发送当成收到)",
+      "count": 1,
+      "date": "2026-08-29"
+    },
+    {
+      "error": "encender/encontrar 混淆(点灯当成找到)",
+      "count": 1,
+      "date": "2026-08-29"
     }
   ],
   "week_stats": {
@@ -1415,8 +1425,8 @@
     {
       "word": "encontrar",
       "module": "高频动词",
-      "date_wrong": "2026-08-19",
-      "correct_count": 1
+      "date_wrong": "2026-08-29",
+      "correct_count": 0
     },
     {
       "word": "aprender",
@@ -1433,8 +1443,8 @@
     {
       "word": "recibir",
       "module": "高频动词",
-      "date_wrong": "2026-08-19",
-      "correct_count": 1
+      "date_wrong": "2026-08-29",
+      "correct_count": 0
     },
     {
       "word": "el sombrero",
@@ -1445,7 +1455,7 @@
     {
       "word": "la guardería",
       "module": "童年回忆",
-      "date_wrong": "2026-08-10",
+      "date_wrong": "2026-08-29",
       "correct_count": 0
     },
     {
@@ -1913,7 +1923,7 @@
     {
       "word": "la guardería",
       "module": "童年回忆",
-      "date_wrong": "2026-08-21",
+      "date_wrong": "2026-08-29",
       "correct_count": 0
     },
     {
@@ -1950,7 +1960,7 @@
       "word": "la infancia",
       "module": "童年回忆",
       "date_wrong": "2026-08-27",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "recomendar",
@@ -1985,13 +1995,25 @@
     {
       "word": "enseñar",
       "module": "高频动词",
-      "date_wrong": "2026-08-28",
+      "date_wrong": "2026-08-29",
       "correct_count": 0
     },
     {
       "word": "contestar",
       "module": "高频动词",
       "date_wrong": "2026-08-28",
+      "correct_count": 0
+    },
+    {
+      "word": "prestar",
+      "module": "高频动词",
+      "date_wrong": "2026-08-29",
+      "correct_count": 0
+    },
+    {
+      "word": "ofrecer",
+      "module": "高频动词",
+      "date_wrong": "2026-08-29",
       "correct_count": 0
     }
   ],
@@ -2262,9 +2284,9 @@
       },
       {
         "word": "encontrar",
-        "wrong_count": 3,
-        "correct_count": 2,
-        "date_wrong": "2026-08-19"
+        "wrong_count": 4,
+        "correct_count": 0,
+        "date_wrong": "2026-08-29"
       },
       {
         "word": "devolver",
@@ -2298,9 +2320,9 @@
       },
       {
         "word": "enseñar",
-        "wrong_count": 1,
+        "wrong_count": 2,
         "correct_count": 0,
-        "date_wrong": "2026-08-28"
+        "date_wrong": "2026-08-29"
       },
       {
         "word": "contestar",
@@ -2344,9 +2366,9 @@
       },
       {
         "word": "la guardería",
-        "wrong_count": 1,
+        "wrong_count": 2,
         "correct_count": 0,
-        "date_wrong": "2026-08-21"
+        "date_wrong": "2026-08-29"
       }
     ],
     "不规则过去式": [
