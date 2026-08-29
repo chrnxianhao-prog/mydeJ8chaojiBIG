@@ -1332,7 +1332,7 @@
       "word": "entrevista",
       "module": "工作职业",
       "date_wrong": "2026-08-27",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "quiero",
@@ -1692,7 +1692,7 @@
       "word": "la oportunidad",
       "module": "工作职业",
       "date_wrong": "2026-08-28",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "la guía",
@@ -1721,7 +1721,7 @@
     {
       "word": "el equipaje",
       "module": "旅行",
-      "date_wrong": "2026-08-19",
+      "date_wrong": "2026-08-29",
       "correct_count": 0
     },
     {
@@ -1818,7 +1818,7 @@
       "word": "el ascensor",
       "module": "租房住房",
       "date_wrong": "2026-08-13",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "el postre",
@@ -1877,7 +1877,7 @@
     {
       "word": "la espalda",
       "module": "身体与健康",
-      "date_wrong": "2026-08-28",
+      "date_wrong": "2026-08-29",
       "correct_count": 0
     },
     {
@@ -1956,7 +1956,7 @@
       "word": "recomendar",
       "module": "高频动词",
       "date_wrong": "2026-08-27",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "casado/a",
@@ -1974,13 +1974,13 @@
       "word": "gastar",
       "module": "高频动词",
       "date_wrong": "2026-08-28",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "firmar",
       "module": "高频动词",
       "date_wrong": "2026-08-28",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "enseñar",
@@ -2094,9 +2094,9 @@
       },
       {
         "word": "la espalda",
-        "wrong_count": 2,
+        "wrong_count": 3,
         "correct_count": 0,
-        "date_wrong": "2026-08-28"
+        "date_wrong": "2026-08-29"
       },
       {
         "word": "garganta",
@@ -2198,9 +2198,9 @@
       },
       {
         "word": "el equipaje",
-        "wrong_count": 2,
+        "wrong_count": 3,
         "correct_count": 0,
-        "date_wrong": "2026-08-19"
+        "date_wrong": "2026-08-29"
       },
       {
         "word": "reservar",
@@ -2287,19 +2287,19 @@
       {
         "word": "recomendar",
         "wrong_count": 2,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-27"
       },
       {
         "word": "gastar",
         "wrong_count": 1,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-28"
       },
       {
         "word": "firmar",
         "wrong_count": 1,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-28"
       },
       {
@@ -2379,7 +2379,7 @@
       {
         "word": "entrevista",
         "wrong_count": 2,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-27"
       },
       {
@@ -2409,7 +2409,7 @@
       {
         "word": "la oportunidad",
         "wrong_count": 4,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-28"
       },
       {
@@ -2428,14 +2428,14 @@
       },
       {
         "word": "mudarse",
-        "wrong_count": 2,
-        "correct_count": 1,
-        "date_wrong": "2026-08-14"
+        "wrong_count": 3,
+        "correct_count": 0,
+        "date_wrong": "2026-08-29"
       },
       {
         "word": "el ascensor",
         "wrong_count": 1,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-13"
       },
       {
@@ -2461,7 +2461,7 @@
       {
         "word": "el diccionario",
         "wrong_count": 1,
-        "correct_count": 1,
+        "correct_count": 2,
         "date_wrong": "2026-08-13"
       },
       {
