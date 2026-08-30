@@ -884,11 +884,11 @@
     "devolver la llamada"
   ],
   "recent_topics": [
-    "A1-B1综合摸底测试",
     "doler/gustar强化",
     "间接宾语代词强化",
     "电话沟通新词+间接宾语代词me/le方向辨析",
-    "三时态两步法强化(5/5达标)"
+    "三时态两步法强化(5/5达标)",
+    "周测验(词汇12+句子5)"
   ],
   "grammar_points_covered": [
     "ser",
@@ -1169,10 +1169,10 @@
     },
     {
       "error": "🔴三时态混淆：pretérito/imperfecto/condicional（学生要求重点标记）",
-      "count": 3,
+      "count": 4,
       "relearn": false,
-      "date": "2026-08-28",
-      "note": "2026-08-28测试暴露：稳定错误方向是\"该用imperfecto的地方写成condicional\"(dolería/jugaría应为dolía/jugaba)，建议明天单独只练imperfecto，不与condicional混合"
+      "date": "2026-08-30",
+      "note": "2026-08-30周测验：昨天两步法5/5达标后，今天自然出题场景中(nadaría应为nadaba)同一错误再现。说明有提示场景的成功未迁移到无提示production，需在混合/无提示场景持续验证才能算掌握"
     },
     {
       "error": "imperfecto词尾-ía vs 条件式-ría 混淆（viví↔vivía, viajaba↔viajaría）",
@@ -1327,14 +1327,30 @@
       "count": 1,
       "relearn": false,
       "date": "2026-08-28"
+    },
+    {
+      "error": "alguien(有人)/ninguna(没有人)反义混淆",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-30"
+    },
+    {
+      "error": "间接宾语代词遗漏：para ti代替le，缺宾语代词lo",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-30"
     }
   ],
   "week_stats": {
     "start_date": "2026-07-23",
     "completed_days": 3,
     "new_words_this_week": 93,
-    "test_score": null,
-    "test_errors": []
+    "test_score": "词汇6/12，句子约1.5/5",
+    "test_errors": [
+      "imperfecto/condicional(未迁移)",
+      "alguien/ninguna反义",
+      "间接宾语代词遗漏"
+    ]
   },
   "current_focus_areas": [
     "三时态对比(pret/imperf/cond)",
@@ -1445,7 +1461,7 @@
       "word": "encontrar",
       "module": "高频动词",
       "date_wrong": "2026-08-29",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "aprender",
@@ -1463,7 +1479,7 @@
       "word": "recibir",
       "module": "高频动词",
       "date_wrong": "2026-08-29",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "el sombrero",
@@ -1474,7 +1490,7 @@
     {
       "word": "la guardería",
       "module": "童年回忆",
-      "date_wrong": "2026-08-29",
+      "date_wrong": "2026-08-30",
       "correct_count": 0
     },
     {
@@ -1541,7 +1557,7 @@
       "word": "la aduana",
       "module": "旅行",
       "date_wrong": "2026-08-29",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "me parece que",
@@ -1552,14 +1568,14 @@
     {
       "word": "alguien",
       "module": "高频动词",
-      "date_wrong": "2026-08-29",
+      "date_wrong": "2026-08-30",
       "correct_count": 0
     },
     {
       "word": "la cola",
       "module": "旅行",
       "date_wrong": "2026-08-29",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "descansar",
@@ -1600,13 +1616,13 @@
     {
       "word": "el jarabe",
       "module": "身体与健康",
-      "date_wrong": "2026-08-29",
+      "date_wrong": "2026-08-30",
       "correct_count": 0
     },
     {
       "word": "la primavera",
       "module": "天气",
-      "date_wrong": "2026-08-29",
+      "date_wrong": "2026-08-30",
       "correct_count": 0
     },
     {
@@ -1654,7 +1670,7 @@
     {
       "word": "dejar",
       "module": "高频动词",
-      "date_wrong": "2026-08-29",
+      "date_wrong": "2026-08-30",
       "correct_count": 0
     },
     {
@@ -1667,7 +1683,7 @@
       "word": "peor",
       "module": "形容词",
       "date_wrong": "2026-08-29",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "seis",
@@ -1751,7 +1767,7 @@
       "word": "el equipaje",
       "module": "旅行",
       "date_wrong": "2026-08-29",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "la entrevista",
@@ -1786,8 +1802,8 @@
     {
       "word": "encender",
       "module": "厨房家务",
-      "date_wrong": "2026-08-11",
-      "correct_count": 1
+      "date_wrong": "2026-08-30",
+      "correct_count": 0
     },
     {
       "word": "cuchara",
@@ -1900,7 +1916,7 @@
     {
       "word": "la espalda",
       "module": "身体与健康",
-      "date_wrong": "2026-08-29",
+      "date_wrong": "2026-08-30",
       "correct_count": 0
     },
     {
@@ -2147,9 +2163,9 @@
       },
       {
         "word": "la espalda",
-        "wrong_count": 3,
+        "wrong_count": 4,
         "correct_count": 0,
-        "date_wrong": "2026-08-29"
+        "date_wrong": "2026-08-30"
       },
       {
         "word": "garganta",
@@ -2162,6 +2178,12 @@
         "wrong_count": 1,
         "correct_count": 1,
         "date_wrong": "2026-08-27"
+      },
+      {
+        "word": "el jarabe",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-30"
       }
     ],
     "城市交通": [
@@ -2246,7 +2268,7 @@
       {
         "word": "el equipaje",
         "wrong_count": 3,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-29"
       },
       {
@@ -2316,7 +2338,7 @@
       {
         "word": "encontrar",
         "wrong_count": 4,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-29"
       },
       {
@@ -2378,14 +2400,26 @@
         "wrong_count": 1,
         "correct_count": 0,
         "date_wrong": "2026-08-28"
+      },
+      {
+        "word": "alguien",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-30"
+      },
+      {
+        "word": "dejar",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-30"
       }
     ],
     "厨房家务": [
       {
         "word": "encender",
-        "wrong_count": 1,
-        "correct_count": 1,
-        "date_wrong": "2026-08-11"
+        "wrong_count": 2,
+        "correct_count": 0,
+        "date_wrong": "2026-08-30"
       }
     ],
     "童年回忆": [
@@ -2415,9 +2449,9 @@
       },
       {
         "word": "la guardería",
-        "wrong_count": 2,
+        "wrong_count": 3,
         "correct_count": 0,
-        "date_wrong": "2026-08-29"
+        "date_wrong": "2026-08-30"
       }
     ],
     "不规则过去式": [
@@ -2562,6 +2596,14 @@
         "wrong_count": 2,
         "correct_count": 0,
         "date_wrong": "2026-08-29"
+      }
+    ],
+    "天气": [
+      {
+        "word": "la primavera",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-30"
       }
     ]
   },
