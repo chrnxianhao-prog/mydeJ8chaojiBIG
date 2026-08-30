@@ -1339,6 +1339,18 @@
       "count": 1,
       "relearn": false,
       "date": "2026-08-30"
+    },
+    {
+      "error": "人称跟随主语切换失败(同一动词换了主语，第一人称习惯延续到第三人称：gané应为ganó)",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-30"
+    },
+    {
+      "error": "问答方向一致性：enviar/recibir在对话中前后矛盾(enviaste问句配recibí回答)",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-30"
     }
   ],
   "week_stats": {
@@ -1569,7 +1581,7 @@
       "word": "alguien",
       "module": "高频动词",
       "date_wrong": "2026-08-30",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "la cola",
