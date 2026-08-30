@@ -1169,10 +1169,10 @@
     },
     {
       "error": "🔴三时态混淆：pretérito/imperfecto/condicional（学生要求重点标记）",
-      "count": 0,
+      "count": 3,
       "relearn": false,
-      "date": "2026-08-29",
-      "note": "8-29用两步法(先判时态再填词)后连续5/5全对，明显突破。计数清零，但只是一轮，接下来几天旧词复习/每日任务中继续夹带三时态题验证是否真正稳定"
+      "date": "2026-08-28",
+      "note": "2026-08-28测试暴露：稳定错误方向是\"该用imperfecto的地方写成condicional\"(dolería/jugaría应为dolía/jugaba)，建议明天单独只练imperfecto，不与condicional混合"
     },
     {
       "error": "imperfecto词尾-ía vs 条件式-ría 混淆（viví↔vivía, viajaba↔viajaría）",
@@ -1309,6 +1309,24 @@
       "error": "encender/encontrar 混淆(点灯当成找到)",
       "count": 1,
       "date": "2026-08-29"
+    },
+    {
+      "error": "sonar(响)/sanar(治愈)混淆",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-28"
+    },
+    {
+      "error": "主谓宾方向反了(te llamó应为lo llamé，\"我打给他\"写成\"他打给你\")",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-08-28"
+    },
+    {
+      "error": "tuviera误写成tubería(水管)，pedir(要/点)代替prestar(借给)",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-28"
     }
   ],
   "week_stats": {
@@ -1326,11 +1344,12 @@
   ],
   "error_threshold": 4,
   "relearn_queue": [
-    "entrevista/oportunidad 拼写(联想记忆法)"
+    "entrevista/oportunidad 拼写(联想记忆法)",
+    "imperfecto单独强化(不与condicional混合)"
   ],
   "weekly_test_due": false,
   "last_test_day": "2026-08-28",
-  "tests_completed": 5,
+  "tests_completed": 6,
   "wrong_answer_bank": [
     {
       "word": "ingeniero",
@@ -1831,12 +1850,6 @@
       "correct_count": 1
     },
     {
-      "word": "el postre",
-      "module": "餐厅",
-      "date_wrong": "2026-08-27",
-      "correct_count": 1
-    },
-    {
       "word": "la cuenta",
       "module": "餐厅",
       "date_wrong": "2026-08-13",
@@ -1972,7 +1985,7 @@
       "word": "casado/a",
       "module": "形容词",
       "date_wrong": "2026-08-27",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "la noticia",
@@ -2014,6 +2027,24 @@
       "word": "ofrecer",
       "module": "高频动词",
       "date_wrong": "2026-08-29",
+      "correct_count": 0
+    },
+    {
+      "word": "colgar",
+      "module": "高频动词",
+      "date_wrong": "2026-08-28",
+      "correct_count": 0
+    },
+    {
+      "word": "devolver la llamada",
+      "module": "高频动词",
+      "date_wrong": "2026-08-28",
+      "correct_count": 0
+    },
+    {
+      "word": "sonar",
+      "module": "高频动词",
+      "date_wrong": "2026-08-28",
       "correct_count": 0
     }
   ],
@@ -2072,7 +2103,7 @@
       {
         "word": "el postre",
         "wrong_count": 1,
-        "correct_count": 1,
+        "correct_count": 2,
         "date_wrong": "2026-08-27"
       }
     ],
@@ -2265,7 +2296,7 @@
       {
         "word": "casado/a",
         "wrong_count": 1,
-        "correct_count": 1,
+        "correct_count": 2,
         "date_wrong": "2026-08-27"
       }
     ],
@@ -2326,6 +2357,24 @@
       },
       {
         "word": "contestar",
+        "wrong_count": 2,
+        "correct_count": 0,
+        "date_wrong": "2026-08-28"
+      },
+      {
+        "word": "colgar",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-28"
+      },
+      {
+        "word": "devolver la llamada",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-08-28"
+      },
+      {
+        "word": "sonar",
         "wrong_count": 1,
         "correct_count": 0,
         "date_wrong": "2026-08-28"
