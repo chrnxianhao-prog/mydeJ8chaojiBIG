@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 4,
-  "total_completed_days": 47,
+  "streak": 5,
+  "total_completed_days": 48,
   "total_missed_days": 8,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-08-30",
-  "last_check_date": "2026-08-30",
+  "last_task_date": "2026-08-31",
+  "last_check_date": "2026-08-31",
   "consecutive_missed": 0,
-  "consecutive_completed": 4,
+  "consecutive_completed": 5,
   "vocabulary_learned": [
     "China",
     "México",
@@ -567,7 +567,11 @@
     "marcar",
     "la llamada",
     "sonar",
-    "devolver la llamada"
+    "devolver la llamada",
+    "el consultorio",
+    "recetar",
+    "el análisis",
+    "la cirugía"
   ],
   "vocabulary_review_queue": [
     "esperar",
@@ -881,14 +885,18 @@
     "marcar",
     "la llamada",
     "sonar",
-    "devolver la llamada"
+    "devolver la llamada",
+    "el consultorio",
+    "recetar",
+    "el análisis",
+    "la cirugía"
   ],
   "recent_topics": [
-    "doler/gustar强化",
-    "间接宾语代词强化",
     "电话沟通新词+间接宾语代词me/le方向辨析",
     "三时态两步法强化(5/5达标)",
-    "周测验(词汇12+句子5)"
+    "周测验(词汇12+句子5)",
+    "健康就医新词+间接宾语代词场景练习",
+    "\"了\"信号词专项验证(去干扰后100%)"
   ],
   "grammar_points_covered": [
     "ser",
@@ -939,7 +947,8 @@
     "se puede / se necesita",
     "条件式 Condicional Simple",
     "si条件句(真实条件)",
-    "电话沟通场景词汇+过去式综合运用"
+    "电话沟通场景词汇+过去式综合运用",
+    "健康就医场景词汇+间接宾语代词动词场景(dar/mostrar/enviar/prestar/recetar)"
   ],
   "common_errors": [
     {
@@ -1351,6 +1360,36 @@
       "count": 1,
       "relearn": false,
       "date": "2026-08-30"
+    },
+    {
+      "error": "buscar过去式c→qu拼写规则(busce应为busqué)",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-31"
+    },
+    {
+      "error": "\"了\"信号词识别：多任务(代词+时态)负荷下动词退回现在式，但去掉代词干扰后pretérito识别100%正确",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-31"
+    },
+    {
+      "error": "estar被tener/tuviera替代表达\"生病了\"(应为estuve/estaba enferma)",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-31"
+    },
+    {
+      "error": "por eso(所以)写成pero eso(但是那个)",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-31"
+    },
+    {
+      "error": "a+el→al漏合并(voy a ver médico应为voy a ver al médico)，早期规则偶尔复发",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-08-31"
     }
   ],
   "week_stats": {
@@ -1578,18 +1617,6 @@
       "correct_count": 0
     },
     {
-      "word": "alguien",
-      "module": "高频动词",
-      "date_wrong": "2026-08-30",
-      "correct_count": 1
-    },
-    {
-      "word": "la cola",
-      "module": "旅行",
-      "date_wrong": "2026-08-29",
-      "correct_count": 1
-    },
-    {
       "word": "descansar",
       "module": "高频动词",
       "date_wrong": "2026-08-07",
@@ -1635,7 +1662,7 @@
       "word": "la primavera",
       "module": "天气",
       "date_wrong": "2026-08-30",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "pedir",
@@ -1682,7 +1709,7 @@
     {
       "word": "dejar",
       "module": "高频动词",
-      "date_wrong": "2026-08-30",
+      "date_wrong": "2026-08-31",
       "correct_count": 0
     },
     {
@@ -1744,12 +1771,6 @@
       "module": "童年回忆",
       "date_wrong": "2026-08-07",
       "correct_count": 0
-    },
-    {
-      "word": "la oportunidad",
-      "module": "工作职业",
-      "date_wrong": "2026-08-28",
-      "correct_count": 1
     },
     {
       "word": "la guía",
@@ -2042,7 +2063,7 @@
     {
       "word": "contestar",
       "module": "高频动词",
-      "date_wrong": "2026-08-28",
+      "date_wrong": "2026-08-31",
       "correct_count": 0
     },
     {
@@ -2060,7 +2081,7 @@
     {
       "word": "colgar",
       "module": "高频动词",
-      "date_wrong": "2026-08-28",
+      "date_wrong": "2026-08-31",
       "correct_count": 0
     },
     {
@@ -2127,12 +2148,6 @@
         "wrong_count": 1,
         "correct_count": 0,
         "date_wrong": "2026-08-14"
-      },
-      {
-        "word": "el postre",
-        "wrong_count": 1,
-        "correct_count": 2,
-        "date_wrong": "2026-08-27"
       }
     ],
     "家庭称呼": [],
@@ -2391,15 +2406,15 @@
       },
       {
         "word": "contestar",
-        "wrong_count": 2,
+        "wrong_count": 3,
         "correct_count": 0,
-        "date_wrong": "2026-08-28"
+        "date_wrong": "2026-08-31"
       },
       {
         "word": "colgar",
-        "wrong_count": 1,
+        "wrong_count": 2,
         "correct_count": 0,
-        "date_wrong": "2026-08-28"
+        "date_wrong": "2026-08-31"
       },
       {
         "word": "devolver la llamada",
@@ -2416,14 +2431,14 @@
       {
         "word": "alguien",
         "wrong_count": 1,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-30"
       },
       {
         "word": "dejar",
-        "wrong_count": 1,
+        "wrong_count": 2,
         "correct_count": 0,
-        "date_wrong": "2026-08-30"
+        "date_wrong": "2026-08-31"
       }
     ],
     "厨房家务": [
@@ -2520,7 +2535,7 @@
       {
         "word": "la oportunidad",
         "wrong_count": 4,
-        "correct_count": 1,
+        "correct_count": 2,
         "date_wrong": "2026-08-28"
       },
       {
@@ -2614,7 +2629,7 @@
       {
         "word": "la primavera",
         "wrong_count": 1,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-30"
       }
     ]
