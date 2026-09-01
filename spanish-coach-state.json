@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 5,
-  "total_completed_days": 48,
+  "streak": 6,
+  "total_completed_days": 49,
   "total_missed_days": 8,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-08-31",
-  "last_check_date": "2026-08-31",
+  "last_task_date": "2026-09-01",
+  "last_check_date": "2026-09-01",
   "consecutive_missed": 0,
-  "consecutive_completed": 5,
+  "consecutive_completed": 6,
   "vocabulary_learned": [
     "China",
     "México",
@@ -571,7 +571,12 @@
     "el consultorio",
     "recetar",
     "el análisis",
-    "la cirugía"
+    "la cirugía",
+    "el yeso",
+    "la venda",
+    "la herida",
+    "la urgencia",
+    "el análisis de sangre"
   ],
   "vocabulary_review_queue": [
     "esperar",
@@ -892,11 +897,11 @@
     "la cirugía"
   ],
   "recent_topics": [
-    "电话沟通新词+间接宾语代词me/le方向辨析",
-    "三时态两步法强化(5/5达标)",
     "周测验(词汇12+句子5)",
     "健康就医新词+间接宾语代词场景练习",
-    "\"了\"信号词专项验证(去干扰后100%)"
+    "\"了\"信号词专项验证(去干扰后100%)",
+    "dar过去式专项",
+    "人称切换问题确认为系统性(多日重复)"
   ],
   "grammar_points_covered": [
     "ser",
@@ -948,7 +953,8 @@
     "条件式 Condicional Simple",
     "si条件句(真实条件)",
     "电话沟通场景词汇+过去式综合运用",
-    "健康就医场景词汇+间接宾语代词动词场景(dar/mostrar/enviar/prestar/recetar)"
+    "健康就医场景词汇+间接宾语代词动词场景(dar/mostrar/enviar/prestar/recetar)",
+    "间接宾语代词+医疗场景动词(poner/dar/hacer)"
   ],
   "common_errors": [
     {
@@ -1390,6 +1396,18 @@
       "count": 1,
       "relearn": false,
       "date": "2026-08-31"
+    },
+    {
+      "error": "dar简单过去式未掌握(daje是杜撰形式，正确是di/diste/dio/dimos/disteis/dieron)",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-01"
+    },
+    {
+      "error": "人称跟随主语切换持续失败(gané/ganó、puse/puso，同一模式已连续多天出现)",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-01"
     }
   ],
   "week_stats": {
@@ -1412,7 +1430,9 @@
   "error_threshold": 4,
   "relearn_queue": [
     "entrevista/oportunidad 拼写(联想记忆法)",
-    "imperfecto单独强化(不与condicional混合)"
+    "imperfecto单独强化(不与condicional混合)",
+    "dar过去式专项(di/diste/dio对比ver的vi/viste/vio)",
+    "人称跟随主语切换强化(不管代词方向对不对，动词都要看主语选人称)"
   ],
   "weekly_test_due": false,
   "last_test_day": "2026-08-28",
@@ -1541,7 +1561,7 @@
     {
       "word": "la guardería",
       "module": "童年回忆",
-      "date_wrong": "2026-08-30",
+      "date_wrong": "2026-09-01",
       "correct_count": 0
     },
     {
@@ -1710,7 +1730,7 @@
       "word": "dejar",
       "module": "高频动词",
       "date_wrong": "2026-08-31",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "temprano",
@@ -1926,7 +1946,7 @@
       "word": "el contrato",
       "module": "租房住房",
       "date_wrong": "2026-08-19",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "el inquilino",
@@ -1949,7 +1969,7 @@
     {
       "word": "la espalda",
       "module": "身体与健康",
-      "date_wrong": "2026-08-30",
+      "date_wrong": "2026-09-01",
       "correct_count": 0
     },
     {
@@ -2043,22 +2063,10 @@
       "correct_count": 0
     },
     {
-      "word": "gastar",
-      "module": "高频动词",
-      "date_wrong": "2026-08-28",
-      "correct_count": 1
-    },
-    {
-      "word": "firmar",
-      "module": "高频动词",
-      "date_wrong": "2026-08-28",
-      "correct_count": 1
-    },
-    {
       "word": "enseñar",
       "module": "高频动词",
       "date_wrong": "2026-08-29",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "contestar",
@@ -2094,7 +2102,7 @@
       "word": "sonar",
       "module": "高频动词",
       "date_wrong": "2026-08-28",
-      "correct_count": 0
+      "correct_count": 1
     }
   ],
   "module_wrong_banks": {
@@ -2190,9 +2198,9 @@
       },
       {
         "word": "la espalda",
-        "wrong_count": 4,
+        "wrong_count": 5,
         "correct_count": 0,
-        "date_wrong": "2026-08-30"
+        "date_wrong": "2026-09-01"
       },
       {
         "word": "garganta",
@@ -2389,19 +2397,19 @@
       {
         "word": "gastar",
         "wrong_count": 1,
-        "correct_count": 1,
+        "correct_count": 2,
         "date_wrong": "2026-08-28"
       },
       {
         "word": "firmar",
         "wrong_count": 1,
-        "correct_count": 1,
+        "correct_count": 2,
         "date_wrong": "2026-08-28"
       },
       {
         "word": "enseñar",
         "wrong_count": 2,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-29"
       },
       {
@@ -2425,7 +2433,7 @@
       {
         "word": "sonar",
         "wrong_count": 1,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-28"
       },
       {
@@ -2437,7 +2445,7 @@
       {
         "word": "dejar",
         "wrong_count": 2,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-31"
       }
     ],
@@ -2476,9 +2484,9 @@
       },
       {
         "word": "la guardería",
-        "wrong_count": 3,
+        "wrong_count": 4,
         "correct_count": 0,
-        "date_wrong": "2026-08-30"
+        "date_wrong": "2026-09-01"
       }
     ],
     "不规则过去式": [
@@ -2579,7 +2587,7 @@
       {
         "word": "el contrato",
         "wrong_count": 2,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-19"
       }
     ],

@@ -63,6 +63,24 @@ poner → puse, pusiste, puso, pusimos, pusisteis, pusieron
 
 ser / ir → fui, fuiste, fue, fuimos, fuisteis, fueron
 ver → vi, viste, vio, vimos, visteis, vieron
+dar → di, diste, dio, dimos, disteis, dieron
+
+⚠️ 注意：dar 的过去式跟 ver 长得很像（di/vi, dio/vio），放一起对比记
+
+---
+
+## dar 完整变位表（现在式/过去式/进行时/将来式）
+
+| 人称 | 现在式 | 简单过去式 | 现在进行时 | 将来式 |
+|------|--------|-----------|-----------|--------|
+| yo | doy | di | estoy dando | daré |
+| tú | das | diste | estás dando | darás |
+| él/ella | da | dio | está dando | dará |
+| nosotros | damos | dimos | estamos dando | daremos |
+| vosotros | dais | disteis | estáis dando | daréis |
+| ellos | dan | dieron | están dando | darán |
+
+现在式只有 doy(yo)不规则，其余按 -ar 规则；过去式整个不规则；副动词 dando 规则；将来式规则（原形+词尾）。
 
 ---
 
