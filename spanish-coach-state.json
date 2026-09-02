@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 6,
-  "total_completed_days": 49,
+  "streak": 7,
+  "total_completed_days": 50,
   "total_missed_days": 8,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-09-01",
-  "last_check_date": "2026-09-01",
+  "last_task_date": "2026-09-02",
+  "last_check_date": "2026-09-02",
   "consecutive_missed": 0,
-  "consecutive_completed": 6,
+  "consecutive_completed": 7,
   "vocabulary_learned": [
     "China",
     "México",
@@ -576,7 +576,12 @@
     "la venda",
     "la herida",
     "la urgencia",
-    "el análisis de sangre"
+    "el análisis de sangre",
+    "estar de acuerdo",
+    "discutir",
+    "la razón",
+    "por un lado...por otro lado",
+    "sin embargo"
   ],
   "vocabulary_review_queue": [
     "esperar",
@@ -897,11 +902,11 @@
     "la cirugía"
   ],
   "recent_topics": [
-    "健康就医新词+间接宾语代词场景练习",
-    "\"了\"信号词专项验证(去干扰后100%)",
     "dar过去式专项",
     "人称切换问题确认为系统性(多日重复)",
-    "dar动词表教学法验证成功(人称问题当场解决)"
+    "dar动词表教学法验证成功(人称问题当场解决)",
+    "表达意见新词+转折连接词",
+    "人称一致性(复数主语)当场纠正见效"
   ],
   "grammar_points_covered": [
     "ser",
@@ -954,7 +959,9 @@
     "si条件句(真实条件)",
     "电话沟通场景词汇+过去式综合运用",
     "健康就医场景词汇+间接宾语代词动词场景(dar/mostrar/enviar/prestar/recetar)",
-    "间接宾语代词+医疗场景动词(poner/dar/hacer)"
+    "间接宾语代词+医疗场景动词(poner/dar/hacer)",
+    "表达意见/转折连接词(sin embargo/por un lado/estar de acuerdo)",
+    "bueno→buen阳性单数变短规则"
   ],
   "common_errors": [
     {
@@ -1410,6 +1417,30 @@
       "relearn": false,
       "date": "2026-09-01",
       "note": "2026-09-01给出dar完整变位表后，同一天的翻译练习中di/dio/dimos三次人称全部正确，说明给不规则动词列对照表能快速见效，后续遇到新不规则动词优先用这个方法"
+    },
+    {
+      "error": "人称跟随主语切换：主语从单数换成todos/personas等复数集合词时同样会掉(hablamos应为hablan)，但当场纠正后立刻用对",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-02"
+    },
+    {
+      "error": "poder词干变化(o→ue)误用到nosotros(puedemos应为podemos，nosotros/vosotros不变化)",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-02"
+    },
+    {
+      "error": "bueno→buen 阳性单数名词前变短规则(un bueno trabajo应为un buen trabajo)，首次教学",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-02"
+    },
+    {
+      "error": "宾语代词lo缺失，用este替代(uso este应为lo uso)",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-02"
     }
   ],
   "week_stats": {
@@ -1563,7 +1594,7 @@
     {
       "word": "la guardería",
       "module": "童年回忆",
-      "date_wrong": "2026-09-01",
+      "date_wrong": "2026-09-02",
       "correct_count": 0
     },
     {
@@ -1972,7 +2003,7 @@
       "word": "la espalda",
       "module": "身体与健康",
       "date_wrong": "2026-09-01",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "garganta",
@@ -2092,19 +2123,43 @@
       "word": "colgar",
       "module": "高频动词",
       "date_wrong": "2026-08-31",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "devolver la llamada",
       "module": "高频动词",
       "date_wrong": "2026-08-28",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "sonar",
       "module": "高频动词",
       "date_wrong": "2026-08-28",
       "correct_count": 1
+    },
+    {
+      "word": "el yeso",
+      "module": "身体与健康",
+      "date_wrong": "2026-09-02",
+      "correct_count": 0
+    },
+    {
+      "word": "la venda",
+      "module": "身体与健康",
+      "date_wrong": "2026-09-02",
+      "correct_count": 0
+    },
+    {
+      "word": "la herida",
+      "module": "身体与健康",
+      "date_wrong": "2026-09-02",
+      "correct_count": 0
+    },
+    {
+      "word": "la urgencia",
+      "module": "身体与健康",
+      "date_wrong": "2026-09-02",
+      "correct_count": 0
     }
   ],
   "module_wrong_banks": {
@@ -2201,7 +2256,7 @@
       {
         "word": "la espalda",
         "wrong_count": 5,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-09-01"
       },
       {
@@ -2221,6 +2276,30 @@
         "wrong_count": 1,
         "correct_count": 0,
         "date_wrong": "2026-08-30"
+      },
+      {
+        "word": "el yeso",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-09-02"
+      },
+      {
+        "word": "la venda",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-09-02"
+      },
+      {
+        "word": "la herida",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-09-02"
+      },
+      {
+        "word": "la urgencia",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-09-02"
       }
     ],
     "城市交通": [
@@ -2423,13 +2502,13 @@
       {
         "word": "colgar",
         "wrong_count": 2,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-31"
       },
       {
         "word": "devolver la llamada",
         "wrong_count": 1,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-28"
       },
       {
@@ -2486,9 +2565,9 @@
       },
       {
         "word": "la guardería",
-        "wrong_count": 4,
+        "wrong_count": 5,
         "correct_count": 0,
-        "date_wrong": "2026-09-01"
+        "date_wrong": "2026-09-02"
       }
     ],
     "不规则过去式": [
