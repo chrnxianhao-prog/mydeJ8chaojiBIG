@@ -897,11 +897,11 @@
     "la cirugía"
   ],
   "recent_topics": [
-    "周测验(词汇12+句子5)",
     "健康就医新词+间接宾语代词场景练习",
     "\"了\"信号词专项验证(去干扰后100%)",
     "dar过去式专项",
-    "人称切换问题确认为系统性(多日重复)"
+    "人称切换问题确认为系统性(多日重复)",
+    "dar动词表教学法验证成功(人称问题当场解决)"
   ],
   "grammar_points_covered": [
     "ser",
@@ -1400,14 +1400,16 @@
     {
       "error": "dar简单过去式未掌握(daje是杜撰形式，正确是di/diste/dio/dimos/disteis/dieron)",
       "count": 1,
-      "relearn": true,
-      "date": "2026-09-01"
+      "relearn": false,
+      "date": "2026-09-01",
+      "note": "当天给表后立刻掌握，relearn标记移除"
     },
     {
       "error": "人称跟随主语切换持续失败(gané/ganó、puse/puso，同一模式已连续多天出现)",
       "count": 1,
-      "relearn": true,
-      "date": "2026-09-01"
+      "relearn": false,
+      "date": "2026-09-01",
+      "note": "2026-09-01给出dar完整变位表后，同一天的翻译练习中di/dio/dimos三次人称全部正确，说明给不规则动词列对照表能快速见效，后续遇到新不规则动词优先用这个方法"
     }
   ],
   "week_stats": {
