@@ -113,8 +113,15 @@
    espeak-ng -v es -s 150 -w /tmp/xxx.wav "西语文本"
    ```
    `-v es` 指定西语发音，`-s 150` 语速（默认偏快，150 比较适合学习者）
-3. **用 SendUserFile 工具发给学生**，附带机械音提示（espeak-ng 是合成音，发音生硬但内容可辨，重音音节基本准确，拿来练"听懂内容"没问题，练语感效果有限）
-4. 配 3-5 道理解题（**建议用中文提问**，只测听力理解，不夹杂产出难度）
+3. **⚠️ 直接转成 mp3 再发，不要只发 wav**：2026-09-02 学生反馈 wav 在手机上放不出声音（客户端兼容性问题）。转换步骤：
+   ```bash
+   which ffmpeg || (apt-get update -qq && apt-get install -y --no-install-recommends ffmpeg)
+   ffmpeg -y -i /tmp/xxx.wav -codec:a libmp3lame -qscale:a 4 /tmp/xxx.mp3
+   ```
+   用 SendUserFile 发 mp3 文件，不要发 wav。
+   ⚠️ 装 ffmpeg 如果第一次因为部分包 404 失败，先跑 `apt-get update -qq` 再重装一次通常能解决（无关视频驱动包的 404 可以忽略，只要 ffmpeg 本体装上就行）。
+4. **发送时附带机械音提示**（espeak-ng 是合成音，发音生硬但内容可辨，重音音节基本准确，拿来练"听懂内容"没问题，练语感效果有限）
+5. 配 3-5 道理解题（**建议用中文提问**，只测听力理解，不夹杂产出难度）
 
 ### 备选方案（学生自己动手，音质更自然）
 
