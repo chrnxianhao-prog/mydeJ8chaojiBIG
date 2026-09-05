@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 7,
-  "total_completed_days": 50,
+  "streak": 8,
+  "total_completed_days": 51,
   "total_missed_days": 8,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-09-02",
-  "last_check_date": "2026-09-02",
+  "last_task_date": "2026-09-03",
+  "last_check_date": "2026-09-03",
   "consecutive_missed": 0,
-  "consecutive_completed": 7,
+  "consecutive_completed": 8,
   "vocabulary_learned": [
     "China",
     "México",
@@ -581,7 +581,12 @@
     "discutir",
     "la razón",
     "por un lado...por otro lado",
-    "sin embargo"
+    "sin embargo",
+    "formal",
+    "la costumbre",
+    "respetar",
+    "el comportamiento",
+    "la diferencia"
   ],
   "vocabulary_review_queue": [
     "esperar",
@@ -902,11 +907,11 @@
     "la cirugía"
   ],
   "recent_topics": [
-    "dar动词表教学法验证成功(人称问题当场解决)",
-    "表达意见新词+转折连接词",
     "人称一致性(复数主语)当场纠正见效",
     "casado/cansado对比强化(彻底解决)",
-    "性数一致规则(mi/mis, ese/esos)当场掌握"
+    "性数一致规则(mi/mis, ese/esos)当场掌握",
+    "正式场合/文化差异新词",
+    "句子骨架(主谓宾)专项+当场纠正成功"
   ],
   "grammar_points_covered": [
     "ser",
@@ -962,7 +967,8 @@
     "间接宾语代词+医疗场景动词(poner/dar/hacer)",
     "表达意见/转折连接词(sin embargo/por un lado/estar de acuerdo)",
     "bueno→buen阳性单数变短规则",
-    "性数一致(形容词/物主代词/指示词跟随主语数变化)"
+    "性数一致(形容词/物主代词/指示词跟随主语数变化)",
+    "respetar+hay/tener辨析+正式场合词汇"
   ],
   "common_errors": [
     {
@@ -1473,6 +1479,30 @@
       "count": 1,
       "relearn": false,
       "date": "2026-09-02"
+    },
+    {
+      "error": "-zar动词过去式z→c规则(cruzar→crucé)，与g→gu/c→qu凑成三胞胎规则",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-03"
+    },
+    {
+      "error": "podemos(nosotros不变化)当天纠正后立刻应用正确，未再复发",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-03"
+    },
+    {
+      "error": "句子缺核心谓语动词/宾语，只写形容词或名词短语拼接(缺骨架现象)",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-03"
+    },
+    {
+      "error": "hay(客观存在) vs tener(拥有)混淆，首次发现",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-03"
     }
   ],
   "week_stats": {
@@ -1626,8 +1656,9 @@
     {
       "word": "la guardería",
       "module": "童年回忆",
-      "date_wrong": "2026-09-02",
-      "correct_count": 0
+      "date_wrong": "2026-09-03",
+      "correct_count": 0,
+      "mnemonic": "guard-ería：想象卫兵(guard)在幼儿园站岗"
     },
     {
       "word": "la carrera",
@@ -1798,12 +1829,6 @@
       "correct_count": 1
     },
     {
-      "word": "peor",
-      "module": "形容词",
-      "date_wrong": "2026-08-29",
-      "correct_count": 1
-    },
-    {
       "word": "seis",
       "module": "数字时间",
       "date_wrong": "2026-08-07",
@@ -1837,7 +1862,7 @@
       "word": "el clima",
       "module": "天气",
       "date_wrong": "2026-08-07",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "dibujar",
@@ -1974,8 +1999,8 @@
     {
       "word": "el ascensor",
       "module": "租房住房",
-      "date_wrong": "2026-08-13",
-      "correct_count": 1
+      "date_wrong": "2026-09-03",
+      "correct_count": 0
     },
     {
       "word": "la cuenta",
@@ -2092,12 +2117,6 @@
       "correct_count": 1
     },
     {
-      "word": "tal vez",
-      "module": "表达意见",
-      "date_wrong": "2026-08-27",
-      "correct_count": 1
-    },
-    {
       "word": "la infancia",
       "module": "童年回忆",
       "date_wrong": "2026-08-27",
@@ -2136,7 +2155,7 @@
     {
       "word": "prestar",
       "module": "高频动词",
-      "date_wrong": "2026-08-29",
+      "date_wrong": "2026-09-03",
       "correct_count": 0
     },
     {
@@ -2596,6 +2615,12 @@
         "wrong_count": 2,
         "correct_count": 1,
         "date_wrong": "2026-08-31"
+      },
+      {
+        "word": "prestar",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-09-03"
       }
     ],
     "厨房家务": [
@@ -2717,9 +2742,9 @@
       },
       {
         "word": "el ascensor",
-        "wrong_count": 1,
-        "correct_count": 1,
-        "date_wrong": "2026-08-13"
+        "wrong_count": 2,
+        "correct_count": 0,
+        "date_wrong": "2026-09-03"
       },
       {
         "word": "el inquilino",
