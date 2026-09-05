@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 8,
-  "total_completed_days": 51,
+  "streak": 9,
+  "total_completed_days": 52,
   "total_missed_days": 8,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-09-03",
-  "last_check_date": "2026-09-03",
+  "last_task_date": "2026-09-04",
+  "last_check_date": "2026-09-04",
   "consecutive_missed": 0,
-  "consecutive_completed": 8,
+  "consecutive_completed": 9,
   "vocabulary_learned": [
     "China",
     "México",
@@ -586,7 +586,12 @@
     "la costumbre",
     "respetar",
     "el comportamiento",
-    "la diferencia"
+    "la diferencia",
+    "convencer",
+    "el argumento",
+    "estar en contra (de)",
+    "a favor (de)",
+    "el punto de vista"
   ],
   "vocabulary_review_queue": [
     "esperar",
@@ -907,11 +912,11 @@
     "la cirugía"
   ],
   "recent_topics": [
-    "人称一致性(复数主语)当场纠正见效",
-    "casado/cansado对比强化(彻底解决)",
     "性数一致规则(mi/mis, ese/esos)当场掌握",
     "正式场合/文化差异新词",
-    "句子骨架(主谓宾)专项+当场纠正成功"
+    "句子骨架(主谓宾)专项+当场纠正成功",
+    "辩论说服新词",
+    "固定词组专项(介词不丢)当场掌握"
   ],
   "grammar_points_covered": [
     "ser",
@@ -968,7 +973,8 @@
     "表达意见/转折连接词(sin embargo/por un lado/estar de acuerdo)",
     "bueno→buen阳性单数变短规则",
     "性数一致(形容词/物主代词/指示词跟随主语数变化)",
-    "respetar+hay/tener辨析+正式场合词汇"
+    "respetar+hay/tener辨析+正式场合词汇",
+    "辩论说服新词+固定词组(estar en contra de/a favor de/tener planes de)"
   ],
   "common_errors": [
     {
@@ -1503,6 +1509,18 @@
       "count": 1,
       "relearn": false,
       "date": "2026-09-03"
+    },
+    {
+      "error": "固定词组丢介词：en contra de丢en、tener planes de丢de，经专项练习后当场纠正成功",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-04"
+    },
+    {
+      "error": "句子骨架/完整性持续改善，产出内容更真实自然",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-04"
     }
   ],
   "week_stats": {
@@ -1657,7 +1675,7 @@
       "word": "la guardería",
       "module": "童年回忆",
       "date_wrong": "2026-09-03",
-      "correct_count": 0,
+      "correct_count": 1,
       "mnemonic": "guard-ería：想象卫兵(guard)在幼儿园站岗"
     },
     {
@@ -1767,12 +1785,6 @@
       "module": "身体与健康",
       "date_wrong": "2026-08-30",
       "correct_count": 0
-    },
-    {
-      "word": "la primavera",
-      "module": "天气",
-      "date_wrong": "2026-08-30",
-      "correct_count": 1
     },
     {
       "word": "pedir",
@@ -2000,7 +2012,7 @@
       "word": "el ascensor",
       "module": "租房住房",
       "date_wrong": "2026-09-03",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "la cuenta",
@@ -2156,7 +2168,7 @@
       "word": "prestar",
       "module": "高频动词",
       "date_wrong": "2026-09-03",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "ofrecer",
@@ -2216,6 +2228,30 @@
       "word": "triste",
       "module": "形容词",
       "date_wrong": "2026-09-02",
+      "correct_count": 0
+    },
+    {
+      "word": "decidir",
+      "module": "高频动词",
+      "date_wrong": "2026-09-04",
+      "correct_count": 0
+    },
+    {
+      "word": "asistir",
+      "module": "高频动词",
+      "date_wrong": "2026-09-04",
+      "correct_count": 0
+    },
+    {
+      "word": "perder",
+      "module": "高频动词",
+      "date_wrong": "2026-09-04",
+      "correct_count": 0
+    },
+    {
+      "word": "marcar",
+      "module": "高频动词",
+      "date_wrong": "2026-09-04",
       "correct_count": 0
     }
   ],
@@ -2621,6 +2657,30 @@
         "wrong_count": 1,
         "correct_count": 0,
         "date_wrong": "2026-09-03"
+      },
+      {
+        "word": "decidir",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-09-04"
+      },
+      {
+        "word": "asistir",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-09-04"
+      },
+      {
+        "word": "perder",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-09-04"
+      },
+      {
+        "word": "marcar",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-09-04"
       }
     ],
     "厨房家务": [
@@ -2659,7 +2719,7 @@
       {
         "word": "la guardería",
         "wrong_count": 5,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-09-02"
       }
     ],
