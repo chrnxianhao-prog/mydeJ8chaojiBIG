@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 9,
-  "total_completed_days": 52,
+  "streak": 10,
+  "total_completed_days": 53,
   "total_missed_days": 8,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-09-04",
-  "last_check_date": "2026-09-04",
+  "last_task_date": "2026-09-05",
+  "last_check_date": "2026-09-05",
   "consecutive_missed": 0,
-  "consecutive_completed": 9,
+  "consecutive_completed": 10,
   "vocabulary_learned": [
     "China",
     "México",
@@ -912,11 +912,11 @@
     "la cirugía"
   ],
   "recent_topics": [
-    "性数一致规则(mi/mis, ese/esos)当场掌握",
     "正式场合/文化差异新词",
     "句子骨架(主谓宾)专项+当场纠正成功",
     "辩论说服新词",
-    "固定词组专项(介词不丢)当场掌握"
+    "固定词组专项(介词不丢)当场掌握",
+    "周六16模块弱项回炉全刷完"
   ],
   "grammar_points_covered": [
     "ser",
@@ -1521,6 +1521,30 @@
       "count": 1,
       "relearn": false,
       "date": "2026-09-04"
+    },
+    {
+      "error": "probar/probador词族b/d混淆再现(pordor应为probador)",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-05"
+    },
+    {
+      "error": "inquilino/alquiler词族混淆再现(alquilino应为inquilino)",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-05"
+    },
+    {
+      "error": "miedo(名词)/asustado(形容词)方向反转(与几天前相反)",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-05"
+    },
+    {
+      "error": "cruzar拼写r/u顺序持续错误，过去式纠正过但原形仍未巩固",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-05"
     }
   ],
   "week_stats": {
@@ -1551,24 +1575,6 @@
   "last_test_day": "2026-08-28",
   "tests_completed": 6,
   "wrong_answer_bank": [
-    {
-      "word": "ingeniero",
-      "module": "工作职业",
-      "date_wrong": "2026-08-06",
-      "correct_count": 1
-    },
-    {
-      "word": "entrevista",
-      "module": "工作职业",
-      "date_wrong": "2026-08-27",
-      "correct_count": 1
-    },
-    {
-      "word": "quiero",
-      "module": "高频动词",
-      "date_wrong": "2026-08-06",
-      "correct_count": 1
-    },
     {
       "word": "debería",
       "module": "高频动词",
@@ -1608,8 +1614,8 @@
     {
       "word": "reservar",
       "module": "旅行",
-      "date_wrong": "2026-08-19",
-      "correct_count": 1
+      "date_wrong": "2026-09-05",
+      "correct_count": 0
     },
     {
       "word": "mostrar",
@@ -1644,8 +1650,8 @@
     {
       "word": "encontrar",
       "module": "高频动词",
-      "date_wrong": "2026-08-29",
-      "correct_count": 1
+      "date_wrong": "2026-09-05",
+      "correct_count": 0
     },
     {
       "word": "aprender",
@@ -1795,7 +1801,7 @@
     {
       "word": "y",
       "module": "基础",
-      "date_wrong": "2026-08-07",
+      "date_wrong": "2026-09-05",
       "correct_count": 0
     },
     {
@@ -1943,15 +1949,9 @@
       "correct_count": 1
     },
     {
-      "word": "vestirse",
-      "module": "日常活动",
-      "date_wrong": "2026-08-11",
-      "correct_count": 1
-    },
-    {
       "word": "encender",
       "module": "厨房家务",
-      "date_wrong": "2026-08-30",
+      "date_wrong": "2026-09-05",
       "correct_count": 0
     },
     {
@@ -1963,8 +1963,8 @@
     {
       "word": "el dedo",
       "module": "身体与健康",
-      "date_wrong": "2026-08-13",
-      "correct_count": 1
+      "date_wrong": "2026-09-05",
+      "correct_count": 0
     },
     {
       "word": "querer",
@@ -1991,12 +1991,6 @@
       "correct_count": 1
     },
     {
-      "word": "el diccionario",
-      "module": "兴趣爱好",
-      "date_wrong": "2026-08-13",
-      "correct_count": 1
-    },
-    {
       "word": "tener hambre",
       "module": "食物饮料",
       "date_wrong": "2026-08-13",
@@ -2005,8 +1999,8 @@
     {
       "word": "mudarse",
       "module": "租房住房",
-      "date_wrong": "2026-08-13",
-      "correct_count": 1
+      "date_wrong": "2026-09-05",
+      "correct_count": 0
     },
     {
       "word": "el ascensor",
@@ -2021,16 +2015,10 @@
       "correct_count": 1
     },
     {
-      "word": "planchar",
-      "module": "日常活动",
-      "date_wrong": "2026-08-16",
-      "correct_count": 1
-    },
-    {
       "word": "la maleta",
       "module": "旅行",
-      "date_wrong": "2026-08-19",
-      "correct_count": 1
+      "date_wrong": "2026-09-05",
+      "correct_count": 0
     },
     {
       "word": "el casero",
@@ -2047,8 +2035,8 @@
     {
       "word": "el inquilino",
       "module": "租房住房",
-      "date_wrong": "2026-08-27",
-      "correct_count": 1
+      "date_wrong": "2026-09-05",
+      "correct_count": 0
     },
     {
       "word": "salado",
@@ -2078,7 +2066,7 @@
       "word": "bicicleta",
       "module": "城市交通",
       "date_wrong": "2026-08-21",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "probador",
@@ -2108,7 +2096,7 @@
       "word": "el tiempo libre",
       "module": "兴趣爱好",
       "date_wrong": "2026-08-21",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "dibujar",
@@ -2125,12 +2113,6 @@
     {
       "word": "sorprendido/a",
       "module": "形容词",
-      "date_wrong": "2026-08-27",
-      "correct_count": 1
-    },
-    {
-      "word": "la infancia",
-      "module": "童年回忆",
       "date_wrong": "2026-08-27",
       "correct_count": 1
     },
@@ -2313,26 +2295,26 @@
       {
         "word": "la mano",
         "wrong_count": 1,
-        "correct_count": 1,
+        "correct_count": 2,
         "date_wrong": "2026-08-06"
       },
       {
         "word": "estómago",
         "wrong_count": 1,
-        "correct_count": 1,
+        "correct_count": 2,
         "date_wrong": "2026-08-11"
       },
       {
         "word": "doler",
-        "wrong_count": 1,
-        "correct_count": 1,
-        "date_wrong": "2026-08-11"
+        "wrong_count": 2,
+        "correct_count": 0,
+        "date_wrong": "2026-09-05"
       },
       {
         "word": "el dedo",
-        "wrong_count": 3,
-        "correct_count": 1,
-        "date_wrong": "2026-08-20"
+        "wrong_count": 4,
+        "correct_count": 0,
+        "date_wrong": "2026-09-05"
       },
       {
         "word": "nariz",
@@ -2393,25 +2375,31 @@
         "wrong_count": 1,
         "correct_count": 0,
         "date_wrong": "2026-09-02"
+      },
+      {
+        "word": "la nariz",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-09-05"
       }
     ],
     "城市交通": [
       {
         "word": "cruzar",
-        "wrong_count": 2,
-        "correct_count": 1,
-        "date_wrong": "2026-08-21"
+        "wrong_count": 3,
+        "correct_count": 0,
+        "date_wrong": "2026-09-05"
       },
       {
         "word": "semáforo",
         "wrong_count": 1,
-        "correct_count": 1,
+        "correct_count": 2,
         "date_wrong": "2026-08-14"
       },
       {
         "word": "bicicleta",
         "wrong_count": 1,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-21"
       }
     ],
@@ -2421,37 +2409,25 @@
         "wrong_count": 1,
         "correct_count": 0,
         "date_wrong": "2026-08-21"
+      },
+      {
+        "word": "el probador",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-09-05"
       }
     ],
     "日常活动": [
       {
-        "word": "levantarse",
-        "wrong_count": 1,
-        "correct_count": 2,
-        "date_wrong": "2026-08-06"
-      },
-      {
-        "word": "ducharse",
-        "wrong_count": 1,
-        "correct_count": 2,
-        "date_wrong": "2026-08-06"
-      },
-      {
         "word": "primero",
         "wrong_count": 1,
-        "correct_count": 1,
-        "date_wrong": "2026-08-06"
-      },
-      {
-        "word": "vestirse",
-        "wrong_count": 3,
         "correct_count": 2,
-        "date_wrong": "2026-08-14"
+        "date_wrong": "2026-08-06"
       },
       {
         "word": "planchar",
         "wrong_count": 2,
-        "correct_count": 1,
+        "correct_count": 2,
         "date_wrong": "2026-08-16"
       },
       {
@@ -2464,14 +2440,14 @@
     "旅行": [
       {
         "word": "la maleta",
-        "wrong_count": 3,
-        "correct_count": 2,
-        "date_wrong": "2026-08-19"
+        "wrong_count": 4,
+        "correct_count": 0,
+        "date_wrong": "2026-09-05"
       },
       {
         "word": "el billete",
         "wrong_count": 1,
-        "correct_count": 1,
+        "correct_count": 2,
         "date_wrong": "2026-08-11"
       },
       {
@@ -2482,9 +2458,9 @@
       },
       {
         "word": "reservar",
-        "wrong_count": 3,
-        "correct_count": 1,
-        "date_wrong": "2026-08-19"
+        "wrong_count": 4,
+        "correct_count": 0,
+        "date_wrong": "2026-09-05"
       },
       {
         "word": "el viaje",
@@ -2515,6 +2491,12 @@
         "wrong_count": 1,
         "correct_count": 0,
         "date_wrong": "2026-09-02"
+      },
+      {
+        "word": "la cola",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-09-05"
       }
     ],
     "形容词": [
@@ -2527,14 +2509,14 @@
       {
         "word": "interesante",
         "wrong_count": 1,
-        "correct_count": 1,
+        "correct_count": 2,
         "date_wrong": "2026-08-14"
       },
       {
         "word": "inteligente",
-        "wrong_count": 1,
-        "correct_count": 1,
-        "date_wrong": "2026-08-14"
+        "wrong_count": 2,
+        "correct_count": 0,
+        "date_wrong": "2026-09-05"
       },
       {
         "word": "sorprendido/a",
@@ -2559,15 +2541,15 @@
         "wrong_count": 1,
         "correct_count": 0,
         "date_wrong": "2026-09-02"
+      },
+      {
+        "word": "preocupado/a",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-09-05"
       }
     ],
     "高频动词": [
-      {
-        "word": "quiero",
-        "wrong_count": 3,
-        "correct_count": 2,
-        "date_wrong": "2026-08-06"
-      },
       {
         "word": "entender",
         "wrong_count": 3,
@@ -2576,15 +2558,9 @@
       },
       {
         "word": "encontrar",
-        "wrong_count": 4,
-        "correct_count": 1,
-        "date_wrong": "2026-08-29"
-      },
-      {
-        "word": "devolver",
-        "wrong_count": 1,
-        "correct_count": 2,
-        "date_wrong": "2026-08-11"
+        "wrong_count": 5,
+        "correct_count": 0,
+        "date_wrong": "2026-09-05"
       },
       {
         "word": "empezar",
@@ -2686,23 +2662,23 @@
     "厨房家务": [
       {
         "word": "encender",
-        "wrong_count": 2,
+        "wrong_count": 3,
         "correct_count": 0,
-        "date_wrong": "2026-08-30"
+        "date_wrong": "2026-09-05"
       }
     ],
     "童年回忆": [
       {
         "word": "la infancia",
         "wrong_count": 5,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-27"
       },
       {
         "word": "el miedo",
-        "wrong_count": 1,
-        "correct_count": 1,
-        "date_wrong": "2026-08-13"
+        "wrong_count": 2,
+        "correct_count": 0,
+        "date_wrong": "2026-09-05"
       },
       {
         "word": "el barrio",
@@ -2712,9 +2688,9 @@
       },
       {
         "word": "crecer",
-        "wrong_count": 1,
+        "wrong_count": 2,
         "correct_count": 0,
-        "date_wrong": "2026-08-20"
+        "date_wrong": "2026-09-05"
       },
       {
         "word": "la guardería",
@@ -2727,27 +2703,21 @@
       {
         "word": "venir→vine",
         "wrong_count": 2,
-        "correct_count": 1,
-        "date_wrong": "2026-08-20"
-      },
-      {
-        "word": "decir→dije",
-        "wrong_count": 2,
         "correct_count": 2,
-        "date_wrong": "2026-08-14"
+        "date_wrong": "2026-08-20"
       }
     ],
     "工作职业": [
       {
         "word": "ingeniero",
         "wrong_count": 1,
-        "correct_count": 1,
+        "correct_count": 2,
         "date_wrong": "2026-08-06"
       },
       {
         "word": "entrevista",
         "wrong_count": 2,
-        "correct_count": 1,
+        "correct_count": 2,
         "date_wrong": "2026-08-27"
       },
       {
@@ -2775,12 +2745,6 @@
         "date_wrong": "2026-08-11"
       },
       {
-        "word": "la oportunidad",
-        "wrong_count": 4,
-        "correct_count": 2,
-        "date_wrong": "2026-08-28"
-      },
-      {
         "word": "la oficina",
         "wrong_count": 1,
         "correct_count": 1,
@@ -2789,16 +2753,10 @@
     ],
     "租房住房": [
       {
-        "word": "el alquiler",
-        "wrong_count": 2,
-        "correct_count": 2,
-        "date_wrong": "2026-08-19"
-      },
-      {
         "word": "mudarse",
-        "wrong_count": 3,
+        "wrong_count": 4,
         "correct_count": 0,
-        "date_wrong": "2026-08-29"
+        "date_wrong": "2026-09-05"
       },
       {
         "word": "el ascensor",
@@ -2808,9 +2766,9 @@
       },
       {
         "word": "el inquilino",
-        "wrong_count": 4,
-        "correct_count": 1,
-        "date_wrong": "2026-08-27"
+        "wrong_count": 5,
+        "correct_count": 0,
+        "date_wrong": "2026-09-05"
       },
       {
         "word": "el casero",
@@ -2827,21 +2785,15 @@
     ],
     "兴趣爱好": [
       {
-        "word": "el diccionario",
-        "wrong_count": 1,
-        "correct_count": 2,
-        "date_wrong": "2026-08-13"
-      },
-      {
         "word": "el fin de semana",
         "wrong_count": 2,
-        "correct_count": 1,
+        "correct_count": 2,
         "date_wrong": "2026-08-21"
       },
       {
         "word": "el tiempo libre",
         "wrong_count": 1,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-08-21"
       },
       {
@@ -2851,27 +2803,26 @@
         "date_wrong": "2026-08-21"
       }
     ],
-    "表达意见": [
-      {
-        "word": "tal vez",
-        "wrong_count": 1,
-        "correct_count": 2,
-        "date_wrong": "2026-08-27"
-      }
-    ],
+    "表达意见": [],
     "基础": [
       {
         "word": "la noticia",
         "wrong_count": 2,
         "correct_count": 0,
         "date_wrong": "2026-08-29"
+      },
+      {
+        "word": "y",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-09-05"
       }
     ],
     "天气": [
       {
         "word": "la primavera",
         "wrong_count": 1,
-        "correct_count": 1,
+        "correct_count": 2,
         "date_wrong": "2026-08-30"
       }
     ]
