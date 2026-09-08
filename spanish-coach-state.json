@@ -1214,7 +1214,8 @@
       "count": 4,
       "relearn": false,
       "date": "2026-08-30",
-      "note": "2026-08-30周测验：昨天两步法5/5达标后，今天自然出题场景中(nadaría应为nadaba)同一错误再现。说明有提示场景的成功未迁移到无提示production，需在混合/无提示场景持续验证才能算掌握"
+      "note": "2026-09-07关键突破：新解释法\"条件式=完整动词原形未被砍掉，imperfecto=词尾被替换\"，练习3/3全对。学生反馈之前的判断法(时间词/背景描述)没有真正说清楚imperfecto与condicional的构词区别，这次的\"原形完整性\"判断法更直观有效，后续统一用这个讲法",
+      "breakthrough_date": "2026-09-07"
     },
     {
       "error": "imperfecto词尾-ía vs 条件式-ría 混淆（viví↔vivía, viajaba↔viajaría）",
