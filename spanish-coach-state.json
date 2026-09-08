@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 11,
-  "total_completed_days": 54,
+  "streak": 12,
+  "total_completed_days": 55,
   "total_missed_days": 8,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-09-06",
-  "last_check_date": "2026-09-06",
+  "last_task_date": "2026-09-07",
+  "last_check_date": "2026-09-07",
   "consecutive_missed": 0,
-  "consecutive_completed": 11,
+  "consecutive_completed": 12,
   "vocabulary_learned": [
     "China",
     "México",
@@ -591,7 +591,12 @@
     "el argumento",
     "estar en contra (de)",
     "a favor (de)",
-    "el punto de vista"
+    "el punto de vista",
+    "decir que",
+    "comentar",
+    "según",
+    "mencionar",
+    "al parecer"
   ],
   "vocabulary_review_queue": [
     "esperar",
@@ -912,11 +917,11 @@
     "la cirugía"
   ],
   "recent_topics": [
-    "固定词组专项(介词不丢)当场掌握",
-    "周六16模块弱项回炉全刷完",
     "周测验+deber/poder专项(当场5/5)+拼写顽固词对比(3/3)",
     "16模块全面无提示复习(约70题)",
-    "裸聊对话首次尝试(医生问诊场景)"
+    "裸聊对话首次尝试(医生问诊场景)",
+    "decidir/asistir/perder重修完成",
+    "转述结构según练习"
   ],
   "grammar_points_covered": [
     "ser",
@@ -975,7 +980,8 @@
     "性数一致(形容词/物主代词/指示词跟随主语数变化)",
     "respetar+hay/tener辨析+正式场合词汇",
     "辩论说服新词+固定词组(estar en contra de/a favor de/tener planes de)",
-    "裸聊角色扮演(医生问诊场景)首次尝试"
+    "裸聊角色扮演(医生问诊场景)首次尝试",
+    "转述结构(según/decir que/mencionar)"
   ],
   "common_errors": [
     {
@@ -1578,6 +1584,24 @@
       "count": 1,
       "relearn": false,
       "date": "2026-09-06"
+    },
+    {
+      "error": "según后缺来源宾语(según+内容直接跳过来源)，经示范练习后掌握结构",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-07"
+    },
+    {
+      "error": "转述将来时需倒退成条件式(reported speech backshift)，超纲内容首次接触",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-07"
+    },
+    {
+      "error": "新学转述词(según/mencionar)刚学完仍默认用decir que，强制练习后有改善",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-07"
     }
   ],
   "week_stats": {
@@ -2214,24 +2238,6 @@
       "word": "triste",
       "module": "形容词",
       "date_wrong": "2026-09-02",
-      "correct_count": 0
-    },
-    {
-      "word": "decidir",
-      "module": "高频动词",
-      "date_wrong": "2026-09-04",
-      "correct_count": 0
-    },
-    {
-      "word": "asistir",
-      "module": "高频动词",
-      "date_wrong": "2026-09-04",
-      "correct_count": 0
-    },
-    {
-      "word": "perder",
-      "module": "高频动词",
-      "date_wrong": "2026-09-04",
       "correct_count": 0
     },
     {
