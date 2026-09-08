@@ -2039,7 +2039,8 @@
       "word": "el casero",
       "module": "租房住房",
       "date_wrong": "2026-09-07",
-      "correct_count": 0
+      "correct_count": 1,
+      "mnemonic_note": "casa+ero / fianza≈finance，用助记法后首次正确，需数日后无提示复测确认"
     },
     {
       "word": "el contrato",
@@ -2243,7 +2244,8 @@
       "word": "la fianza",
       "module": "租房住房",
       "date_wrong": "2026-09-07",
-      "correct_count": 0
+      "correct_count": 1,
+      "mnemonic_note": "casa+ero / fianza≈finance，用助记法后首次正确，需数日后无提示复测确认"
     },
     {
       "word": "amueblado/a",
