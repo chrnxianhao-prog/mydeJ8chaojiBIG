@@ -1617,17 +1617,15 @@
     ]
   },
   "current_focus_areas": [
-    "三时态对比(pret/imperf/cond)",
-    "me/le方向辨析(动作指向谁)",
-    "间接宾语代词句后动词场景选择(dar/mostrar/enviar/prestar)",
-    "老错题词回炉(gastar/firmar/enseñar/contestar/la espalda/entrevista/oportunidad)"
+    "imperfecto/condicional(原形完整性判断法)持续巩固验证",
+    "según等转述结构在自由输出中的应用",
+    "裸聊对话中规则的条件反射应用(结构化练习正确≠对话中用出来)",
+    "老错题词有提示vs无提示的记忆断层"
   ],
   "error_threshold": 4,
   "relearn_queue": [
-    "entrevista/oportunidad 拼写(联想记忆法)",
-    "imperfecto单独强化(不与condicional混合)",
-    "dar过去式专项(di/diste/dio对比ver的vi/viste/vio)",
-    "人称跟随主语切换强化(不管代词方向对不对，动词都要看主语选人称)"
+    "casero/fianza助记法需数日后无提示复测确认长期效果",
+    "imperfecto/condicional用新判断法(原形完整性)持续巩固"
   ],
   "weekly_test_due": false,
   "last_test_day": "2026-09-06",
