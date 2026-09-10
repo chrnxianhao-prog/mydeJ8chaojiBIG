@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 13,
-  "total_completed_days": 56,
+  "streak": 14,
+  "total_completed_days": 57,
   "total_missed_days": 8,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-09-08",
-  "last_check_date": "2026-09-08",
+  "last_task_date": "2026-09-09",
+  "last_check_date": "2026-09-09",
   "consecutive_missed": 0,
-  "consecutive_completed": 13,
+  "consecutive_completed": 14,
   "vocabulary_learned": [
     "China",
     "México",
@@ -922,11 +922,11 @@
     "la cirugía"
   ],
   "recent_topics": [
-    "裸聊对话首次尝试(医生问诊场景)",
-    "decidir/asistir/perder重修完成",
     "转述结构según练习",
     "假设情境新词",
-    "将来时识别问题(新发现)"
+    "将来时识别问题(新发现)",
+    "imaginar/suponer/hacerse重修完成",
+    "裸聊对话第二次(市场场景)-性别一致自然正确"
   ],
   "grammar_points_covered": [
     "ser",
@@ -987,7 +987,8 @@
     "辩论说服新词+固定词组(estar en contra de/a favor de/tener planes de)",
     "裸聊角色扮演(医生问诊场景)首次尝试",
     "转述结构(según/decir que/mencionar)",
-    "假设情境新词(imaginar/suponer/en caso de que/a menos que/ojalá)"
+    "假设情境新词(imaginar/suponer/en caso de que/a menos que/ojalá)",
+    "裸聊角色扮演(市场买水果场景)-决定设为每日固定环节"
   ],
   "common_errors": [
     {
@@ -1578,7 +1579,8 @@
       "error": "裸聊对话首次尝试：me duele在自由对话中又退回duelo，说明结构化练习正确≠自然对话中能条件反射用出来",
       "count": 1,
       "relearn": false,
-      "date": "2026-09-06"
+      "date": "2026-09-06",
+      "note": "2026-09-09第二次裸聊(市场买水果场景)：un/una阴阳性一致在对话中自然正确应用，未经提示。说明持续做裸聊练习能逐步把结构化规则转化为对话中的条件反射"
     },
     {
       "error": "usted正式场合误用tienes(tú形式)，正式register一致性问题",
@@ -1840,7 +1842,7 @@
       "word": "esconderse",
       "module": "童年回忆",
       "date_wrong": "2026-09-08",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "viviría",
@@ -2083,13 +2085,6 @@
       "correct_count": 1
     },
     {
-      "word": "el casero",
-      "module": "租房住房",
-      "date_wrong": "2026-09-07",
-      "correct_count": 1,
-      "mnemonic_note": "casa+ero / fianza≈finance，用助记法后首次正确，需数日后无提示复测确认"
-    },
-    {
       "word": "el contrato",
       "module": "租房住房",
       "date_wrong": "2026-08-19",
@@ -2105,7 +2100,7 @@
       "word": "salado",
       "module": "食物饮料",
       "date_wrong": "2026-09-06",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "cuchillo",
@@ -2270,13 +2265,6 @@
       "correct_count": 0
     },
     {
-      "word": "la fianza",
-      "module": "租房住房",
-      "date_wrong": "2026-09-07",
-      "correct_count": 1,
-      "mnemonic_note": "casa+ero / fianza≈finance，用助记法后首次正确，需数日后无提示复测确认"
-    },
-    {
       "word": "amueblado/a",
       "module": "租房住房",
       "date_wrong": "2026-09-07",
@@ -2292,13 +2280,13 @@
       "word": "el brazo",
       "module": "身体与健康",
       "date_wrong": "2026-09-08",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "enfermo/a",
       "module": "身体与健康",
       "date_wrong": "2026-09-08",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "el camarero",
@@ -2310,7 +2298,7 @@
       "word": "construir",
       "module": "兴趣爱好",
       "date_wrong": "2026-09-08",
-      "correct_count": 0
+      "correct_count": 1
     }
   ],
   "module_wrong_banks": {
@@ -2318,7 +2306,7 @@
       {
         "word": "salado",
         "wrong_count": 2,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-09-06"
       }
     ],
@@ -2467,13 +2455,13 @@
       {
         "word": "el brazo",
         "wrong_count": 2,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-09-08"
       },
       {
         "word": "enfermo/a",
         "wrong_count": 2,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-09-08"
       }
     ],
@@ -2819,7 +2807,7 @@
       {
         "word": "esconderse",
         "wrong_count": 2,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-09-08"
       },
       {
@@ -2909,7 +2897,7 @@
       {
         "word": "el casero",
         "wrong_count": 2,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-09-07"
       },
       {
@@ -2921,7 +2909,7 @@
       {
         "word": "la fianza",
         "wrong_count": 1,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-09-07"
       },
       {
@@ -2959,7 +2947,7 @@
       {
         "word": "construir",
         "wrong_count": 1,
-        "correct_count": 0,
+        "correct_count": 1,
         "date_wrong": "2026-09-08"
       }
     ],
