@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 14,
-  "total_completed_days": 57,
+  "streak": 15,
+  "total_completed_days": 58,
   "total_missed_days": 8,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-09-09",
-  "last_check_date": "2026-09-09",
+  "last_task_date": "2026-09-10",
+  "last_check_date": "2026-09-10",
   "consecutive_missed": 0,
-  "consecutive_completed": 14,
+  "consecutive_completed": 15,
   "vocabulary_learned": [
     "China",
     "México",
@@ -601,7 +601,11 @@
     "suponer",
     "en caso de que",
     "a menos que",
-    "ojalá"
+    "ojalá",
+    "por lo tanto",
+    "de hecho",
+    "sin duda",
+    "además"
   ],
   "vocabulary_review_queue": [
     "esperar",
@@ -922,11 +926,11 @@
     "la cirugía"
   ],
   "recent_topics": [
-    "转述结构según练习",
-    "假设情境新词",
     "将来时识别问题(新发现)",
     "imaginar/suponer/hacerse重修完成",
-    "裸聊对话第二次(市场场景)-性别一致自然正确"
+    "裸聊对话第二次(市场场景)-性别一致自然正确",
+    "论证连接词新词",
+    "裸聊对话第三次(面试场景)"
   ],
   "grammar_points_covered": [
     "ser",
@@ -988,7 +992,8 @@
     "裸聊角色扮演(医生问诊场景)首次尝试",
     "转述结构(según/decir que/mencionar)",
     "假设情境新词(imaginar/suponer/en caso de que/a menos que/ojalá)",
-    "裸聊角色扮演(市场买水果场景)-决定设为每日固定环节"
+    "裸聊角色扮演(市场买水果场景)-决定设为每日固定环节",
+    "论证连接词(por lo tanto/de hecho/sin duda/además/al final)"
   ],
   "common_errors": [
     {
@@ -1629,6 +1634,24 @@
       "count": 1,
       "relearn": false,
       "date": "2026-09-08"
+    },
+    {
+      "error": "隔夜后当场重学的词(suponer/mencionar/hacerse)同日晚些再测已巩固，验证\"多次接触\"比\"一次深讲\"更有效",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-10"
+    },
+    {
+      "error": "裸聊对话中描述过去情况(前工作原因)用原形代替imperfecto变位，比之前的imperf/cond混淆更基础",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-10"
+    },
+    {
+      "error": "por que/porque连写规则持续需要提醒",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-10"
     }
   ],
   "week_stats": {
@@ -2225,25 +2248,25 @@
     {
       "word": "el yeso",
       "module": "身体与健康",
-      "date_wrong": "2026-09-02",
+      "date_wrong": "2026-09-10",
       "correct_count": 0
     },
     {
       "word": "la venda",
       "module": "身体与健康",
-      "date_wrong": "2026-09-02",
+      "date_wrong": "2026-09-10",
       "correct_count": 0
     },
     {
       "word": "la herida",
       "module": "身体与健康",
-      "date_wrong": "2026-09-02",
+      "date_wrong": "2026-09-10",
       "correct_count": 0
     },
     {
       "word": "la urgencia",
       "module": "身体与健康",
-      "date_wrong": "2026-09-02",
+      "date_wrong": "2026-09-10",
       "correct_count": 0
     },
     {
@@ -2299,6 +2322,12 @@
       "module": "兴趣爱好",
       "date_wrong": "2026-09-08",
       "correct_count": 1
+    },
+    {
+      "word": "convencer",
+      "module": "高频动词",
+      "date_wrong": "2026-09-10",
+      "correct_count": 0
     }
   ],
   "module_wrong_banks": {
@@ -2424,27 +2453,27 @@
       },
       {
         "word": "el yeso",
-        "wrong_count": 1,
+        "wrong_count": 2,
         "correct_count": 0,
-        "date_wrong": "2026-09-02"
+        "date_wrong": "2026-09-10"
       },
       {
         "word": "la venda",
-        "wrong_count": 1,
+        "wrong_count": 2,
         "correct_count": 0,
-        "date_wrong": "2026-09-02"
+        "date_wrong": "2026-09-10"
       },
       {
         "word": "la herida",
-        "wrong_count": 1,
+        "wrong_count": 2,
         "correct_count": 0,
-        "date_wrong": "2026-09-02"
+        "date_wrong": "2026-09-10"
       },
       {
         "word": "la urgencia",
-        "wrong_count": 1,
+        "wrong_count": 2,
         "correct_count": 0,
-        "date_wrong": "2026-09-02"
+        "date_wrong": "2026-09-10"
       },
       {
         "word": "la nariz",
@@ -2763,6 +2792,12 @@
         "wrong_count": 1,
         "correct_count": 0,
         "date_wrong": "2026-09-06"
+      },
+      {
+        "word": "convencer",
+        "wrong_count": 1,
+        "correct_count": 0,
+        "date_wrong": "2026-09-10"
       }
     ],
     "厨房家务": [
