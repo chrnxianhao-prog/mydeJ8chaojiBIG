@@ -1652,6 +1652,13 @@
       "count": 1,
       "relearn": false,
       "date": "2026-09-10"
+    },
+    {
+      "error": "测试可靠性问题：聊天界面同session内答案可见，学生可能无意识照抄导致correct_count虚高",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-11",
+      "note": "规则调整：以后只有跨自然日的测试才计入连对计数，同日重复测试仅作为exposure不计分"
     }
   ],
   "week_stats": {
@@ -2255,7 +2262,8 @@
       "word": "la venda",
       "module": "身体与健康",
       "date_wrong": "2026-09-10",
-      "correct_count": 0
+      "correct_count": 0,
+      "note": "学生诚实反馈同session内测试可能是照抄，correct_count归零，需跨自然日测试才算数"
     },
     {
       "word": "la herida",
@@ -2327,7 +2335,8 @@
       "word": "convencer",
       "module": "高频动词",
       "date_wrong": "2026-09-10",
-      "correct_count": 0
+      "correct_count": 0,
+      "note": "学生诚实反馈同session内测试可能是照抄，correct_count归零，需跨自然日测试才算数"
     }
   ],
   "module_wrong_banks": {
