@@ -1,0 +1,33 @@
+#! listening gap=1800
+# Comprensión auditiva — En la farmacia
+
+// ── 给老师的批注（学生看到也没关系，这些行不会被念出来）──
+// 难度：A2　场景：药店　长度：约 1 分 20 秒
+// 考点设计：
+//   1. doler 结构（学生高频错点 #2）：Me duele / Me dolía —— 主语是「头」不是「我」
+//   2. pretérito vs imperfecto（学生最高优先级错点 #1）：
+//      "empezó"（那一刻开始，点）vs "dolía"（持续状态，线）vs "tomaba"（过去习惯）
+//   3. 老错题词复现：la receta、la farmacia
+//
+// 理解题（听完再发，不要提前发）：
+//   1. 这个人哪里不舒服？从什么时候开始的？     答：头痛，昨天晚上开始
+//   2. 他之前吃过药吗？效果怎么样？             答：吃过阿司匹林，但没用
+//   3. 药剂师给了他什么？要不要处方？           答：一种更强的药，不需要处方
+//   4. 药一天吃几次？                           答：一天两次，饭后吃
+//   5. 药剂师最后建议他做什么？                 答：如果三天后还痛，就去看医生
+
+Buenos días, ¿en qué puedo ayudarle?
+Buenos días. Me duele mucho la cabeza.
+¿Desde cuándo le duele?
+Empezó anoche, mientras cenaba con mi familia.
+¿Ha tomado algo?
+Sí, tomaba aspirinas todos los días cuando vivía en China, y anoche tomé una, pero no me hizo nada.
+Entiendo. ¿Le duele también la garganta?
+No, solo la cabeza. Y ayer me dolían un poco los ojos.
+Le voy a dar algo más fuerte. No necesita receta.
+¿Cuántas veces al día tengo que tomarlo?
+Dos veces al día, siempre después de comer.
+Muy bien. ¿Y si no se me quita?
+Si le sigue doliendo después de tres días, vaya al médico.
+Perfecto. Muchas gracias.
+De nada. Que se mejore.

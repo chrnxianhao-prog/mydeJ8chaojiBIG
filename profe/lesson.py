@@ -14,14 +14,28 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 
 from . import voices as voice_catalog
 from .segment import segment
 
 SEPARATORS = ("=", "＝")
 COMMENT_PREFIX = "//"
+DIRECTIVE_PREFIX = "#!"
 HEADER_PREFIX = "#"
+
+# 听力测试不能念中文释义 —— 那等于直接报答案；也不给慢速，否则听力难度失真。
+# 这类设定写在课文文件里而不是命令行参数里：出题的人定，做题的人不用记参数。
+PRESETS = {
+    "listening": {"slow": False, "gloss_enabled": False, "between_items_ms": 1200},
+}
+
+DIRECTIVE_FIELDS = {
+    "voice": "target_voice",
+    "gloss-voice": "gloss_voice",
+    "slow-rate": "slow_rate",
+    "gap": "between_items_ms",
+}
 
 
 @dataclass(frozen=True)
@@ -37,6 +51,7 @@ class Lesson:
     items: list[Item]
     # 第几句之前要念哪些标题。课程标题和首个小节标题都落在第 0 句前，所以是列表。
     headers: dict[int, list[str]] = field(default_factory=dict)
+    overrides: dict[str, object] = field(default_factory=dict)  # 由 #! 声明得出
 
 
 @dataclass(frozen=True)
@@ -72,14 +87,45 @@ class LessonError(ValueError):
     pass
 
 
+def _parse_directive(body: str, line_no: int) -> dict[str, object]:
+    """解析一行 `#!` 声明，例如 `#! listening voice=es-MX-JorgeNeural`。"""
+    overrides: dict[str, object] = {}
+    for token in body.split():
+        if "=" not in token:
+            if token not in PRESETS:
+                raise LessonError(f"第 {line_no} 行：未知的模式 {token!r}，可用：{', '.join(PRESETS)}")
+            overrides.update(PRESETS[token])
+            continue
+
+        key, value = token.split("=", 1)
+        field_name = DIRECTIVE_FIELDS.get(key)
+        if not field_name:
+            raise LessonError(
+                f"第 {line_no} 行：未知的设定 {key!r}，可用：{', '.join(DIRECTIVE_FIELDS)}"
+            )
+        if field_name == "between_items_ms":
+            if not value.isdigit():
+                raise LessonError(f"第 {line_no} 行：gap 要是毫秒数，收到 {value!r}")
+            overrides[field_name] = int(value)
+        else:
+            overrides[field_name] = value
+    return overrides
+
+
 def parse(text: str) -> Lesson:
     title: str | None = None
     items: list[Item] = []
     headers: dict[int, list[str]] = {}
+    overrides: dict[str, object] = {}
 
     for line_no, raw in enumerate(text.splitlines(), start=1):
         line = raw.strip()
         if not line or line.startswith(COMMENT_PREFIX):
+            continue
+
+        # 必须排在 HEADER_PREFIX 之前判断：#! 也是以 # 开头的
+        if line.startswith(DIRECTIVE_PREFIX):
+            overrides.update(_parse_directive(line[len(DIRECTIVE_PREFIX) :], line_no))
             continue
 
         if line.startswith(HEADER_PREFIX):
@@ -104,7 +150,16 @@ def parse(text: str) -> Lesson:
 
     if not items:
         raise LessonError("课文里没有任何句子")
-    return Lesson(title=title, items=items, headers=headers)
+    return Lesson(title=title, items=items, headers=headers, overrides=overrides)
+
+
+def apply_overrides(style: Style, overrides: dict[str, object]) -> Style:
+    """把课文里的 #! 声明套到默认节奏上。音色名在这里统一解析成完整 ID。"""
+    resolved = dict(overrides)
+    for key in ("target_voice", "gloss_voice"):
+        if key in resolved:
+            resolved[key] = voice_catalog.resolve(str(resolved[key]))
+    return replace(style, **resolved)
 
 
 def speak_mixed(text: str, style: Style, rate: str, role: str) -> list[Speak]:

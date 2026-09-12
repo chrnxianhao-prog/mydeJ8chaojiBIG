@@ -5,12 +5,13 @@ from __future__ import annotations
 import argparse
 import asyncio
 import sys
+from dataclasses import replace
 from pathlib import Path
 from unicodedata import east_asian_width
 
 from . import voices as voice_catalog
 from .audio import duration_ms
-from .lesson import LessonError, Style, build_plan, parse
+from .lesson import LessonError, Style, apply_overrides, build_plan, parse
 from .providers import SynthesisError, get_provider
 from .render import render, render_text, write_timeline
 
@@ -28,15 +29,24 @@ def _format_duration(ms: float) -> str:
     return f"{seconds // 60} 分 {seconds % 60} 秒"
 
 
-def _style_from_args(args: argparse.Namespace) -> Style:
-    return Style(
-        target_voice=voice_catalog.resolve(args.voice),
-        gloss_voice=voice_catalog.resolve(args.gloss_voice),
-        slow=not args.no_slow,
-        slow_rate=args.slow_rate,
-        gloss_enabled=not args.no_gloss,
-        between_items_ms=args.gap,
-    )
+def _style_for(lesson, args: argparse.Namespace) -> Style:
+    """默认节奏 → 课文里的 #! 声明 → 命令行参数，后者依次覆盖前者。"""
+    style = apply_overrides(Style(), lesson.overrides)
+
+    explicit: dict[str, object] = {}
+    if args.voice:
+        explicit["target_voice"] = voice_catalog.resolve(args.voice)
+    if args.gloss_voice:
+        explicit["gloss_voice"] = voice_catalog.resolve(args.gloss_voice)
+    if args.slow_rate:
+        explicit["slow_rate"] = args.slow_rate
+    if args.gap is not None:
+        explicit["between_items_ms"] = args.gap
+    if args.no_slow:
+        explicit["slow"] = False
+    if args.no_gloss:
+        explicit["gloss_enabled"] = False
+    return replace(style, **explicit)
 
 
 def _progress(done: int, total: int) -> None:
@@ -58,13 +68,16 @@ def cmd_lesson(args: argparse.Namespace) -> int:
         print(f"课文解析失败：{error}", file=sys.stderr)
         return 1
 
-    style = _style_from_args(args)
+    style = _style_for(lesson, args)
     plan = build_plan(lesson, style)
     output = Path(args.output) if args.output else source.with_suffix(".mp3")
     output.parent.mkdir(parents=True, exist_ok=True)
 
     print(f"课程：{lesson.title or source.stem}（{len(lesson.items)} 句）")
-    print(f"目标语音色：{style.target_voice}    释义音色：{style.gloss_voice}")
+    if style.gloss_enabled:
+        print(f"目标语音色：{style.target_voice}    释义音色：{style.gloss_voice}")
+    else:
+        print(f"目标语音色：{style.target_voice}    听力模式：不念中文释义")
 
     provider = get_provider(args.provider)
     cache = None if args.no_cache else CACHE_DIR
@@ -169,10 +182,10 @@ def build_parser() -> argparse.ArgumentParser:
     lesson = subparsers.add_parser("lesson", help="把课文生成为一条完整的练习音频")
     lesson.add_argument("lesson", help="课文文件路径")
     lesson.add_argument("-o", "--output", help="输出的 mp3 路径，默认与课文同名")
-    lesson.add_argument("--voice", default=voice_catalog.DEFAULT_TARGET, help="西语音色，可写 es-MX 这类简写")
-    lesson.add_argument("--gloss-voice", default=voice_catalog.DEFAULT_GLOSS, help="中文释义音色")
-    lesson.add_argument("--slow-rate", default="-35%", help="慢速那一遍的语速，默认 -35%%")
-    lesson.add_argument("--gap", type=int, default=900, help="句与句之间的停顿毫秒数")
+    lesson.add_argument("--voice", help="西语音色，可写 es-MX 这类简写")
+    lesson.add_argument("--gloss-voice", help="中文释义音色")
+    lesson.add_argument("--slow-rate", help="慢速那一遍的语速，默认 -35%%")
+    lesson.add_argument("--gap", type=int, help="句与句之间的停顿毫秒数")
     lesson.add_argument("--no-slow", action="store_true", help="不要慢速复读那一遍")
     lesson.add_argument("--no-gloss", action="store_true", help="不要中文释义，做纯西语沉浸材料")
     lesson.add_argument("--no-cache", action="store_true", help="不使用本地缓存")

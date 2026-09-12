@@ -1,6 +1,14 @@
 import pytest
 
-from profe.lesson import LessonError, Pause, Speak, Style, build_plan, parse
+from profe.lesson import (
+    LessonError,
+    Pause,
+    Speak,
+    Style,
+    apply_overrides,
+    build_plan,
+    parse,
+)
 
 SOURCE = """
 # Lección 1 — Saludos
@@ -96,3 +104,51 @@ def test_mixed_language_gloss_splits_across_two_voices():
         "es-ES-ElviraNeural",
         "zh-CN-XiaoxiaoNeural",
     ]
+
+
+def _style(source: str) -> Style:
+    return apply_overrides(Style(), parse(source).overrides)
+
+
+def test_listening_mode_never_speaks_the_chinese_gloss():
+    # 听力测试里念出中文释义等于直接报答案，这条是这个模式存在的理由
+    plan = build_plan(parse("#! listening\nHola = 你好"), _style("#! listening\nHola = 你好"))
+    assert _roles(plan) == ["normal"]
+    assert "你好" not in "".join(step.text for step in plan if isinstance(step, Speak))
+
+
+def test_directive_is_not_mistaken_for_a_header():
+    lesson = parse("#! listening\n# Saludos\nHola = 你好")
+    assert lesson.title == "Saludos"
+    assert lesson.headers == {0: ["Saludos"]}
+
+
+def test_directive_sets_the_voice_and_accepts_shorthand():
+    assert _style("#! voice=es-MX\nHola").target_voice == "es-MX-DaliaNeural"
+    assert _style("#! voice=jorge\nHola").target_voice == "es-MX-JorgeNeural"
+
+
+def test_one_line_can_carry_a_preset_and_a_setting():
+    style = _style("#! listening voice=es-AR-ElenaNeural gap=2000\nHola")
+    assert (style.gloss_enabled, style.target_voice, style.between_items_ms) == (
+        False,
+        "es-AR-ElenaNeural",
+        2000,
+    )
+
+
+def test_unknown_preset_or_key_fails_loudly():
+    # 静默忽略打错的设定就会悄悄产出泄题的音频，所以必须报错
+    with pytest.raises(LessonError, match="未知的模式"):
+        parse("#! listenning\nHola")
+    with pytest.raises(LessonError, match="未知的设定"):
+        parse("#! vioce=es-MX\nHola")
+
+
+def test_gap_must_be_a_number():
+    with pytest.raises(LessonError, match="毫秒数"):
+        parse("#! gap=慢一点\nHola")
+
+
+def test_no_directive_keeps_the_teaching_rhythm():
+    assert _style("Hola = 你好") == Style()

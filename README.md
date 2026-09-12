@@ -46,6 +46,36 @@ python -m profe lesson lecciones/leccion-01.txt
 
 **跟读时间是按慢速那一遍的实际时长算的**，不是固定值：句子长停得久，句子短停得短，刚好够你跟着念一遍。
 
+## 听力测试模式
+
+课文第一行写 `#! listening`，就只念西语，**不念中文释义、不给慢速复读**：
+
+```
+#! listening
+# Comprensión auditiva — En la farmacia
+Buenos días, ¿en qué puedo ayudarle?
+Me duele mucho la cabeza.
+```
+
+**为什么要单独一个模式**：默认节奏会把中文释义念出来，用在听力测试上等于直接报答案。
+把这个设定写在文件里而不是命令行参数里，是因为出题的人才知道这是听力材料，
+做题的人不该需要记参数——忘一次就废一套题。
+
+同一行还能带设定：
+
+```
+#! listening voice=es-MX-JorgeNeural gap=2000
+```
+
+| 设定 | 作用 |
+|---|---|
+| `voice=` | 西语音色，支持 `es-MX`、`jorge` 这类简写 |
+| `gloss-voice=` | 中文释义音色 |
+| `slow-rate=` | 慢速那一遍的语速 |
+| `gap=` | 句间停顿毫秒数 |
+
+写错模式名或设定名会直接报错，不会静默忽略——就是为了防止悄悄产出泄题的音频。
+
 ## 常用参数
 
 ```bash
