@@ -1,0 +1,29 @@
+# Lección 1 — Saludos y presentaciones
+// 课文格式：西语原文 = 中文释义。中文释义可以省略。
+// 以 // 开头的行是批注，不会被念出来。
+// 以 # 开头的行是小节标题，会被念出来。
+
+# Saludos
+Hola. = 你好。
+Buenos días. = 早上好。
+Buenas tardes. = 下午好。
+Buenas noches. = 晚上好，也可以是晚安。
+¿Cómo estás? = 你好吗？
+Muy bien, gracias. = 很好，谢谢。
+¿Y tú? = 你呢？
+
+# Presentarse
+¿Cómo te llamas? = 你叫什么名字？
+Me llamo Ana. = 我叫安娜。
+Mucho gusto. = 幸会。
+Encantado de conocerte. = 很高兴认识你，男生说这句。
+Encantada de conocerte. = 很高兴认识你，女生说这句。
+¿De dónde eres? = 你是哪里人？
+Soy de China. = 我是中国人。
+Vivo en Madrid. = 我住在马德里。
+
+# Despedidas
+Adiós. = 再见。
+Hasta luego. = 回头见。
+Hasta mañana. = 明天见。
+Nos vemos. = 回见。

@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# 合成产物与缓存
+.profe-cache/
+*.mp3
+*.timeline.json
