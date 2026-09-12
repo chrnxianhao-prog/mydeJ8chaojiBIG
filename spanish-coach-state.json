@@ -605,7 +605,9 @@
     "por lo tanto",
     "de hecho",
     "sin duda",
-    "además"
+    "además",
+    "el problema (阳性例外)",
+    "Si yo fuera tú... (固定短语)"
   ],
   "vocabulary_review_queue": [
     "esperar",
@@ -926,11 +928,10 @@
     "la cirugía"
   ],
   "recent_topics": [
-    "将来时识别问题(新发现)",
-    "imaginar/suponer/hacerse重修完成",
-    "裸聊对话第二次(市场场景)-性别一致自然正确",
-    "论证连接词新词",
-    "裸聊对话第三次(面试场景)"
+    "翻译练习:三时态综合(mientras背景/si假设/过去习惯)",
+    "裸聊对话第四次(房东报修电话场景)",
+    "el problema等阳性例外词首次教学",
+    "imperfecto重复习惯触发条件漏判(新发现，需专项)"
   ],
   "grammar_points_covered": [
     "ser",
@@ -1667,6 +1668,24 @@
       "relearn": false,
       "date": "2026-09-12",
       "note": "说明规则本身掌握，弱点是识别\"这是不是假设\"这一步——没有si/信号词时容易被condicional词尾形状带偏，用原形完整性法(caminaria保留r=条件式 vs caminaba砍掉ar=imperfecto)复查后一次纠正"
+    },
+    {
+      "error": "过去习惯(todos los veranos+重复动作)漏判为pretérito(fui代替iba)，说明imperfecto的\"重复习惯\"触发条件比\"背景被打断\"更容易漏，需要分开专项巩固",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-12"
+    },
+    {
+      "error": "el problema阳性例外词(-a结尾但阳性)：problema/mapa/día/sistema/programa这类，写成una problema",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-12"
+    },
+    {
+      "error": "压力下(裸聊对话)主谓一致漏词：esta en mi casa少主语yo(应为sí, voy a estar)",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-12"
     }
   ],
   "week_stats": {
@@ -1689,7 +1708,8 @@
   "error_threshold": 4,
   "relearn_queue": [
     "casero/fianza助记法需数日后无提示复测确认长期效果",
-    "imperfecto/condicional用新判断法(原形完整性)持续巩固"
+    "imperfecto/condicional用新判断法(原形完整性)持续巩固",
+    "imperfecto\"重复过去习惯\"场景(todos los veranos/siempre+过去动词)单独出题巩固，不与\"背景被打断\"混着练"
   ],
   "weekly_test_due": false,
   "last_test_day": "2026-09-06",
