@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 15,
-  "total_completed_days": 58,
+  "streak": 16,
+  "total_completed_days": 59,
   "total_missed_days": 8,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-09-10",
-  "last_check_date": "2026-09-10",
+  "last_task_date": "2026-09-12",
+  "last_check_date": "2026-09-12",
   "consecutive_missed": 0,
-  "consecutive_completed": 15,
+  "consecutive_completed": 16,
   "vocabulary_learned": [
     "China",
     "México",
@@ -993,7 +993,8 @@
     "转述结构(según/decir que/mencionar)",
     "假设情境新词(imaginar/suponer/en caso de que/a menos que/ojalá)",
     "裸聊角色扮演(市场买水果场景)-决定设为每日固定环节",
-    "论证连接词(por lo tanto/de hecho/sin duda/además/al final)"
+    "论证连接词(por lo tanto/de hecho/sin duda/además/al final)",
+    "imperfecto/condicional背景句型(mientras/cuando)专项巩固-复发与纠正"
   ],
   "common_errors": [
     {
@@ -1659,6 +1660,13 @@
       "relearn": false,
       "date": "2026-09-11",
       "note": "规则调整：以后只有跨自然日的测试才计入连对计数，同日重复测试仅作为exposure不计分"
+    },
+    {
+      "error": "imperfecto/condicional在\"mientras/cuando\"背景句型中复发(caminaria代替caminaba)，但换回si条件句+明确信号词时2/2秒对",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-12",
+      "note": "说明规则本身掌握，弱点是识别\"这是不是假设\"这一步——没有si/信号词时容易被condicional词尾形状带偏，用原形完整性法(caminaria保留r=条件式 vs caminaba砍掉ar=imperfecto)复查后一次纠正"
     }
   ],
   "week_stats": {
