@@ -1,0 +1,47 @@
+#! listening voice=es-MX-JorgeNeural gap=1800
+# Comprensión auditiva — La entrevista de trabajo
+
+// ── 给老师的批注（不会被念出来）──
+// 日期：2026-09-14　难度：A2（difficulty_modifier 28）　长度：约 1 分 40 秒
+// 音色：es-MX-JorgeNeural（墨西哥男声，学生在墨城时区，这个口音对他有实用价值）
+//
+// 考点设计：
+//   1. 🔴 三时态对比（最高优先级错点）——全篇靠时态区分叙事层次：
+//      imperfecto（背景/习惯）：trabajaba / gustaba / ganaba / estaba / tenía / quería / buscaba
+//      pretérito（一次性事件）：recomendó / escribí / mandé / recibí / fue / preguntó / contesté / esperé / llamó / encontré
+//      condicional（建议与假设）：deberías / llamaría / cambiaría
+//      特别注意第 11 句 "me llamaría"（过去将来）和第 14 句 "cambiaría"（假设），
+//      这正是学生把 viajaba 当条件式那类错误的反面训练。
+//   2. 错题库老词复现：la entrevista、la oportunidad、recomendar、encontrar、
+//      recibir、debería、gustaría 对应的 deberías
+//   3. 学生本人做生意，找工作/面试场景和他的真实语境贴近，便于记住
+//
+// 理解题（⚠️ 学生听完再发，提前发就测不出真实水平）：
+//   1. 他去年在哪里工作？为什么想换工作？
+//      答：在市中心的一家餐厅；喜欢那份工作，但赚得太少
+//   2. 是谁告诉他这个机会的？那个人建议他做什么？
+//      答：朋友 Carmen；建议他当天就把简历寄出去
+//   3. 面试是星期几、几点？他当时什么心情，为什么？
+//      答：星期二早上十点；很紧张，因为没有办公室工作经验
+//   4. 老板问了他什么？他怎么回答的？
+//      答：问他为什么想换工作；他回答说在找更稳定的工作
+//   5. 那家公司最后录用他了吗？他现在在哪里上班？
+//      答：没有，等了一周没人打电话；他最后在一家银行找到了工作
+//
+// 批改后要落库的点：若第 1、5 题答错 → 说明 pretérito/imperfecto 的叙事层次没听出来，
+// 下次继续三时态专项；若 entrevista/oportunidad 听不出来 → 这两个词回 wrong_answer_bank。
+
+El año pasado yo trabajaba en un restaurante en el centro.
+Me gustaba el trabajo, pero ganaba muy poco dinero.
+Un día, mi amiga Carmen me recomendó una oportunidad en una oficina.
+Ella me dijo: Deberías mandar tu currículum hoy mismo.
+Esa noche escribí una carta y la mandé por correo.
+Dos semanas después recibí una llamada para una entrevista.
+Estaba muy nervioso, porque no tenía experiencia en oficinas.
+La entrevista fue el martes a las diez de la mañana.
+El jefe me preguntó por qué quería cambiar de trabajo.
+Le contesté que buscaba algo más estable.
+Me dijo que me llamaría en tres días.
+Esperé toda la semana, pero nadie me llamó.
+Al final encontré otro trabajo en un banco, y ahora estoy muy contento.
+Si tuviera otra oportunidad, no cambiaría nada.
