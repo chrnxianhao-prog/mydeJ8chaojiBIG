@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 16,
-  "total_completed_days": 59,
-  "total_missed_days": 8,
+  "streak": 1,
+  "total_completed_days": 60,
+  "total_missed_days": 9,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-09-12",
-  "last_check_date": "2026-09-12",
+  "last_task_date": "2026-09-14",
+  "last_check_date": "2026-09-14",
   "consecutive_missed": 0,
-  "consecutive_completed": 16,
+  "consecutive_completed": 1,
   "vocabulary_learned": [
     "China",
     "México",
@@ -928,10 +928,9 @@
     "la cirugía"
   ],
   "recent_topics": [
-    "翻译练习:三时态综合(mientras背景/si假设/过去习惯)",
-    "裸聊对话第四次(房东报修电话场景)",
-    "el problema等阳性例外词首次教学",
-    "imperfecto重复习惯触发条件漏判(新发现，需专项)"
+    "imperfecto重复过去习惯专项(隔天后)：从漏判到2/2正确",
+    "imperfecto词尾变位(-ar vs -er/ir)混淆发现与纠正",
+    "主语数一致(单复数)对比练习法验证有效"
   ],
   "grammar_points_covered": [
     "ser",
@@ -1686,6 +1685,19 @@
       "count": 1,
       "relearn": false,
       "date": "2026-09-12"
+    },
+    {
+      "error": "imperfecto词尾变位本身混淆：-ir动词(salir)误用-ar词尾(saliaba代替salía)，给完词尾对照表后当场纠正",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-14"
+    },
+    {
+      "error": "主语数一致老问题再现：los niños(复数)配单数变位jugaba，用\"同动词换主语数\"极简对比练习后2/2秒对",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-14",
+      "note": "这个方法(不换动词只换主语数)验证有效，以后主谓一致问题优先用这个练法"
     }
   ],
   "week_stats": {
@@ -1709,7 +1721,7 @@
   "relearn_queue": [
     "casero/fianza助记法需数日后无提示复测确认长期效果",
     "imperfecto/condicional用新判断法(原形完整性)持续巩固",
-    "imperfecto\"重复过去习惯\"场景(todos los veranos/siempre+过去动词)单独出题巩固，不与\"背景被打断\"混着练"
+    "imperfecto重复习惯用法本轮练习表现改善(iba/cocinaba/jugaba多数正确)，但仍需隔天无提示复测确认"
   ],
   "weekly_test_due": false,
   "last_test_day": "2026-09-06",
