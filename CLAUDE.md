@@ -92,6 +92,9 @@
 | `references/vocabulary-modules.md` | 词汇按 16 个主题模块分类，刷词按此顺序 |
 | `练习记录.md` | 人类可读的进度快照（定期从 JSON 重新生成即可） |
 | `学习计划.md` | 每周结构 + 阶段路线图（A2→B1→B2 时间线），2026-08-28 起使用 |
+| `听力材料/` | 听力测试的课文文件，你写在这里，学生本机渲染成 mp3 |
+| `profe/` | 语音合成工具（Edge TTS），**只在学生本机运行**，容器里跑不通 |
+| `README.md` | profe 的用法文档，学生装机和排错看这个 |
 
 ## ⚡ 快捷指令（学生常用说法 → 你该做什么）
 
@@ -109,36 +112,67 @@
 
 **核心原则：一步一步发，绝不一次性甩全部内容。** 学生明确抱怨过"往上翻很麻烦"。
 
-## 🎧 听力测试功能（2026-08-28 新增）
+## 🎧 听力测试功能（2026-09-12 改版）
 
-学生要求听力测试，但当前运行环境（Claude Code 云端容器）**没有联网 TTS 权限**（gTTS 等在线服务会被出站代理拦截，403），只能靠**本地语音合成**。
+**espeak-ng 方案已废弃。** 学生 2026-09-12 反馈机械音"根本听不懂"，练不了语感。
+现在用仓库里的 `profe`（Edge TTS，微软神经网络音色，免费无需 Key）。
 
-### 每次新会话的标准流程
+### ⚠️ 一个没变的限制：音频不能由你生成
 
-1. **检查/安装 espeak-ng**（容器是一次性的，重启会话后大概率需要重装）：
-   ```bash
-   which espeak-ng || apt-get install -y espeak-ng
+云端容器连不上微软语音端点（403，出口是机房 IP），这一点和 gTTS 当年一样。
+**所以你不要再尝试在容器里合成音频，也不要用 SendUserFile 发 mp3。**
+你的职责是写好听力材料文件并提交；**渲染在学生本机完成**。
+
+### 标准流程
+
+1. **写材料文件**，放 `听力材料/YYYY-MM-DD-主题.txt`，格式见 `听力材料/` 下现有样例。
+   **第一行必须是 `#! listening`**（理由见下方红线）。
+2. **commit + push**，提交信息照常用 `学习记录: ...` 格式。
+3. **把下面三行原样发给学生**（替换成实际文件名，一次发全，别拆开）：
+   ```powershell
+   git pull
+   python -m profe lesson 听力材料\2026-09-13-en-la-farmacia.txt
+   start 听力材料\2026-09-13-en-la-farmacia.mp3
    ```
-2. **生成语音文件**：
-   ```bash
-   espeak-ng -v es -s 150 -w /tmp/xxx.wav "西语文本"
-   ```
-   `-v es` 指定西语发音，`-s 150` 语速（默认偏快，150 比较适合学习者）
-3. **⚠️ 直接转成 mp3 再发，不要只发 wav**：2026-09-02 学生反馈 wav 在手机上放不出声音（客户端兼容性问题）。转换步骤：
-   ```bash
-   which ffmpeg || (apt-get update -qq && apt-get install -y --no-install-recommends ffmpeg)
-   ffmpeg -y -i /tmp/xxx.wav -codec:a libmp3lame -qscale:a 4 /tmp/xxx.mp3
-   ```
-   用 SendUserFile 发 mp3 文件，不要发 wav。
-   ⚠️ 装 ffmpeg 如果第一次因为部分包 404 失败，先跑 `apt-get update -qq` 再重装一次通常能解决（无关视频驱动包的 404 可以忽略，只要 ffmpeg 本体装上就行）。
-4. **发送时附带机械音提示**（espeak-ng 是合成音，发音生硬但内容可辨，重音音节基本准确，拿来练"听懂内容"没问题，练语感效果有限）
-5. 配 3-5 道理解题（**建议用中文提问**，只测听力理解，不夹杂产出难度）
+   学生仓库在 `C:\Users\chrnx\Desktop\mydeJ8chaojiBIG`，PowerShell 里跑。
+4. **等学生听完**，再发 3-5 道理解题（**用中文提问**，只测听懂没听懂，不夹带产出难度）。
+   题目不要跟命令一起发 —— 提前发出来学生会先看题再听，测不出真实水平。
+5. 批改后按惯例更新 `spanish-coach-state.json` 并提交。
 
-### 备选方案（学生自己动手，音质更自然）
+### 🔴 红线：`#! listening` 必须写
 
-如果学生觉得机械音太生硬，可以用他手机的「文字转语音」或 Google 翻译 App 朗读功能：把文本发给他，他自己粘贴进去听。这个方案音质更好，但学生能同时看到文字，测的其实是"跟读理解"不是纯听力，两种方式各有取舍，看学生偏好。
+profe 默认是**跟读教学**节奏：正常语速 → 慢速复读 → **中文释义**。
+中文释义会被念出来 —— **用在听力测试上等于直接报答案，整套题当场作废。**
+
+`#! listening` 会关掉释义和慢速复读，只留正常语速的西语。写错模式名（比如 `listenning`）
+会直接报错而不是静默忽略，就是为了防这个。**生成后如果不确定，让学生确认一下终端里
+有没有打印「听力模式：不念中文释义」。**
+
+### 材料文件怎么写
+
+```
+#! listening
+# Comprensión auditiva — En la farmacia
+Buenos días, ¿en qué puedo ayudarle?
+Me duele mucho la cabeza desde ayer.
+¿Ha tomado algo?
+```
+
+- 听力材料**不写 `= 中文`**，写了也不会念（listening 模式下忽略），但别写，容易误导。
+- 换口音／换说话人：`#! listening voice=es-MX-JorgeNeural`（可写 `es-MX`、`jorge` 这类简写）。
+- 句间停顿默认 1.2 秒；要更长用 `#! listening gap=2000`。
+- 以 `//` 开头的行是批注，不会被念出来 —— **参考答案和考点写在这里**，学生看文件也不影响听。
+
+### 难度调节
+
+- **初期**：短句、常用词、`gap=2000` 给足反应时间。
+- **进阶**：整段对话、加语速 `#! listening voice=es-ES-ElviraNeural`（西班牙口音 θ 音更难）。
+- **拔高**：换拉美口音（`es-MX` / `es-AR` / `es-CO`）测试口音适应力 —— 学生时区在
+  America/Mexico_City，墨西哥口音对他有实用价值。
 
 ### 试过不通的路（不用再试）
 
-- `gtts`（Google TTS Python 库）——网络出站被代理拦截，403 Forbidden，不要浪费时间重试
-- `pyttsx3`、`festival`、`pico2wave`——环境里没装，espeak-ng 是目前验证过唯一能用的
+- **在容器里合成任何云端 TTS** —— 微软 Edge TTS 403（机房 IP），gTTS 403，
+  HuggingFace 不可达（下不了 Piper 等本地模型）。2026-09-12 全部实测确认。
+- `espeak-ng` —— 能在容器里跑，但机械音学生明确拒绝，不要再用。
+- `pyttsx3`、`festival`、`pico2wave` —— 环境里没装。
