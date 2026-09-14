@@ -146,11 +146,16 @@ def cmd_voices(args: argparse.Namespace) -> int:
 
 
 def cmd_doctor(args: argparse.Namespace) -> int:
+    print(f"0. 当前 Python：{sys.executable}")
     print("1. 检查 edge-tts 是否装好 ... ", end="")
     try:
         import edge_tts  # noqa: F401
     except ImportError:
-        print("没装\n   跑一下：pip install edge-tts")
+        print(
+            "没装\n"
+            "   装到上面那个解释器里：python -m pip install -r requirements.txt\n"
+            "   （机器上有多个 Python 时，用 python -m pip 才能保证装对地方）"
+        )
         return 1
     print("好")
 

@@ -7,8 +7,28 @@
 from __future__ import annotations
 
 import asyncio
+import sys
 
 from . import SynthesisError
+
+
+def _require_edge_tts():
+    """装 edge-tts 的解释器和跑 profe 的解释器必须是同一个。
+
+    Windows 上常见一台机器多个 Python（应用商店版、官网版、各项目的 venv），
+    `pip install` 装进哪个全看 PATH 当时指向谁 —— 换个窗口就可能不一样。
+    所以报错要把当前解释器路径打出来，不然看不出是装错了地方。
+    """
+    try:
+        import edge_tts
+    except ImportError as error:
+        raise SynthesisError(
+            f"当前这个 Python 没装 edge-tts：\n"
+            f"   {sys.executable}\n"
+            f"   装到同一个解释器里：python -m pip install -r requirements.txt\n"
+            f"   （机器上有多个 Python 时，用 python -m pip 才能保证装对地方）"
+        ) from error
+    return edge_tts
 
 _MAX_ATTEMPTS = 3
 _BACKOFF_SECONDS = (1, 3)
@@ -35,7 +55,7 @@ class EdgeProvider:
     name = "edge"
 
     async def synthesize(self, text: str, voice: str, rate: str = "+0%") -> bytes:
-        import edge_tts
+        edge_tts = _require_edge_tts()
 
         last: Exception | None = None
         for attempt in range(_MAX_ATTEMPTS):
@@ -57,7 +77,7 @@ class EdgeProvider:
         raise SynthesisError(f"合成失败（{voice}）：{_diagnose(last)}") from last
 
     async def list_voices(self, prefix: str = "") -> list[dict]:
-        import edge_tts
+        edge_tts = _require_edge_tts()
 
         try:
             voices = await edge_tts.list_voices()
