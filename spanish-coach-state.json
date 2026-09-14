@@ -928,9 +928,9 @@
     "la cirugía"
   ],
   "recent_topics": [
-    "imperfecto重复过去习惯专项(隔天后)：从漏判到2/2正确",
-    "imperfecto词尾变位(-ar vs -er/ir)混淆发现与纠正",
-    "主语数一致(单复数)对比练习法验证有效"
+    "新词:表达意见/论证动词(afirmar/negar/dudar/estar seguro de/cambiar de opinión)",
+    "裸聊对话第五次(朋友劝说换工作场景)",
+    "imperfecto重复习惯隔天复测通过"
   ],
   "grammar_points_covered": [
     "ser",
@@ -1698,6 +1698,19 @@
       "relearn": false,
       "date": "2026-09-14",
       "note": "这个方法(不换动词只换主语数)验证有效，以后主谓一致问题优先用这个练法"
+    },
+    {
+      "error": "今日新词(afirmar/negar/dudar/estar seguro de/cambiar de opinión)首次上手错误密集：culpa/error混淆、negar词干变化漏、tener razón结构忘用ser替代、negar haber+过去分词缺主动词、escuchar/cambiar拼写+pretérito变位",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-14",
+      "note": "第一次接触新词正常，已入库明天开始投放巩固"
+    },
+    {
+      "error": "裸聊对话第五次(朋友劝说该不该换工作)：no sabe应为no sé(yo变位错用第三人称)，impropte拼写(importante)，los amigos y la familia son...复数主谓一致漏",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-14"
     }
   ],
   "week_stats": {
@@ -2377,6 +2390,33 @@
       "date_wrong": "2026-09-10",
       "correct_count": 0,
       "note": "学生诚实反馈同session内测试可能是照抄，correct_count归零，需跨自然日测试才算数"
+    },
+    {
+      "word": "afirmar",
+      "module": "表达意见",
+      "date_wrong": "2026-09-14",
+      "correct_count": 0
+    },
+    {
+      "word": "negar",
+      "module": "表达意见",
+      "date_wrong": "2026-09-14",
+      "correct_count": 0,
+      "note": "e→ie词干变化(niego/niegas/niega)，今天写成nega漏变位"
+    },
+    {
+      "word": "dudar",
+      "module": "表达意见",
+      "date_wrong": "2026-09-14",
+      "correct_count": 0,
+      "note": "dudar que + 虚拟式固定搭配，先当整体背，虚拟式语法未正式教"
+    },
+    {
+      "word": "la culpa",
+      "module": "表达意见",
+      "date_wrong": "2026-09-14",
+      "correct_count": 0,
+      "note": "\"是TA的错\"用culpa不用error"
     }
   ],
   "module_wrong_banks": {
