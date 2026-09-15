@@ -1,0 +1,39 @@
+#! listening voice=es-MX-JorgeNeural gap=1700
+# Nivel A2 — El cumpleaños de Carmen
+
+// ── 分级定位测试 第 2 段 / 共 3 段 ──
+// 目标级别：A2（学生当前定位）　长度：11 句，约 1 分钟
+// 语法范围：pretérito 与 imperfecto 交替，一层从句，无条件式无虚拟式。
+//
+// 🔴 这一段是主诊断段。叙事层次全靠时态区分：
+//    imperfecto（背景/习惯）：éramos / quería / estaba / venía / esperábamos /
+//                             hablábamos / estudiaba
+//    pretérito（一次性事件）：celebramos / quedamos / llegué / dijo / llegó /
+//                             dimos / puso / hicimos / fue
+//    理解题第 3、4 题必须靠这个区分才能答对 —— 只听懂词汇答不出来。
+//
+// 错题库老词：celebrar、quedar、la carrera、hacer una excursión
+//
+// 理解题（⚠️ 学生听完再发）：
+//   1. 这是谁的生日？什么时候过的？
+//      答：Carmen 的；上个月
+//   2. 他们约在什么地方？
+//      答：市中心一家小餐厅
+//   3. 说话人几点到？Carmen 几点到？她怎么来的？
+//      答：八点；八点半；坐出租车来的
+//   4. 等待的时候他们在聊什么？Carmen 那时候在读什么专业？
+//      答：聊大学；医学专业（注意是 estudiaba，「那段时期」而非某一天）
+//   5. 下一个星期天他们做了什么？
+//      答：去山里远足
+
+El mes pasado celebramos el cumpleaños de Carmen.
+Cuando éramos niños, ella siempre quería una fiesta grande.
+Esta vez quedamos en un restaurante pequeño del centro.
+Llegué a las ocho, pero ella todavía no estaba.
+Su hermano me dijo que venía en taxi.
+Mientras esperábamos, hablábamos de la universidad.
+Carmen estudiaba una carrera de medicina en aquella época.
+Por fin llegó a las ocho y media, muy contenta.
+Le dimos un regalo y ella se puso a llorar.
+El domingo siguiente hicimos una excursión a las montañas.
+Fue un fin de semana que no voy a olvidar.

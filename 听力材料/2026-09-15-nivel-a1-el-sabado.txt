@@ -1,0 +1,30 @@
+#! listening voice=es-MX-JorgeNeural gap=2000
+# Nivel A1 — El sábado
+
+// ── 分级定位测试 第 1 段 / 共 3 段 ──
+// 目标级别：A1　长度：8 句，约 40 秒
+// 语法范围：只用现在式。无从句、无过去时、无虚拟式。
+// 词汇：全部来自 vocabulary_learned，且挑了错题库里 correct_count=0 的四个
+//       —— descansar、el centro comercial、el sombrero、divertido/a
+//
+// 这一段的作用是「地板」：如果这段都听不全，说明问题不在语法难度，
+// 而在基础听辨（语速适应、词边界切分），那整个教学重心要往前挪。
+//
+// 理解题（⚠️ 学生听完再发）：
+//   1. Luis 周六上班吗？早上他做什么？
+//      答：不上班；在家休息
+//   2. 他和谁一起出门？去哪里？
+//      答：和他姐姐/妹妹；去商场
+//   3. 她要找什么东西？
+//      答：一顶新帽子
+//   4. 他们几点吃了什么？
+//      答：一点钟吃披萨
+
+Me llamo Luis y vivo en la Ciudad de México.
+Los sábados no trabajo.
+Por la mañana descanso en casa.
+Después voy al centro comercial con mi hermana.
+Ella busca un sombrero nuevo.
+A mí me gusta mirar las tiendas de deporte.
+Comemos una pizza a la una.
+Es un día muy divertido.

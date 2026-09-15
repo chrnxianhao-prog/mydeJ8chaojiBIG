@@ -1,0 +1,45 @@
+#! listening voice=es-MX-JorgeNeural gap=1400
+# Nivel B1 — Mudarse o quedarse
+
+// ── 分级定位测试 第 3 段 / 共 3 段 ──
+// 目标级别：B1（学生的一年目标）　长度：13 句，约 1 分 20 秒
+// 语法范围：条件式 + 虚拟式过去时 + 现在完成时 + 多层从句，句子明显变长。
+//
+// 考点：错题库里 correct_count=0 躺最久的三个条件式全在这段
+//    gustaría（me gustaría probar）
+//    diría（mi mujer diría que...）
+//    viviría（dice que viviría allí...）
+//  外加 me parece que、soñar 两个老错词。
+//  虚拟式：tuviera / tenga / aunque sea / cuando termine —— 这是 B1 的门槛，
+//  现在听不出来是正常的，能抓到大意就算过关。
+//
+// 话题刻意选「搬家权衡」：抽象、有正反面、含假设，这是 B1 听力的典型形态，
+// 而且贴近学生自己做生意的处境。
+//
+// 理解题（⚠️ 学生听完再发）：
+//   1. 他这几个月在考虑什么？为什么？
+//      答：搬去别的城市；觉得这里的机会不如从前多
+//   2. 什么条件下他明年就会走？
+//      答：如果存款再多一些（Si tuviera más ahorros）
+//   3. 他太太会怎么说？他自己怎么看这个说法？
+//      答：会说他太夸张；他承认她可能有道理
+//   4. 他朋友搬走后，一开始过得怎么样？现在的说法呢？
+//      答：一开始很难熬；现在说愿意在那儿住一辈子
+//   5. 有一件事他绝对不会做，是什么？
+//      答：没有稳定工作就搬走
+//   6. 他们打算什么时候做决定？
+//      答：等孩子的课程结束的时候
+
+Desde hace meses pienso en mudarme a otra ciudad.
+Me parece que aquí ya no hay tantas oportunidades como antes.
+Si tuviera más ahorros, me iría el próximo año sin dudarlo.
+Mi mujer diría que estoy exagerando, y quizá tenga razón.
+Cuando llegamos aquí, todo era más barato y la gente era más tranquila.
+Yo soñaba con abrir mi propio negocio antes de los cuarenta.
+Ese sueño no ha desaparecido, pero se ha vuelto más complicado.
+Un amigo que se mudó el año pasado me contó que al principio lo pasó fatal.
+Ahora, en cambio, dice que viviría allí el resto de su vida.
+A mí me gustaría probar, aunque sea solo durante seis meses.
+Lo que no haría nunca es marcharme sin un trabajo seguro.
+Supongo que lo decidiremos cuando termine el curso de los niños.
+Mientras tanto, seguimos ahorrando y mirando anuncios por internet.
