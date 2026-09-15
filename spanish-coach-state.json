@@ -928,9 +928,9 @@
     "la cirugía"
   ],
   "recent_topics": [
-    "新词:表达意见/论证动词(afirmar/negar/dudar/estar seguro de/cambiar de opinión)",
-    "裸聊对话第五次(朋友劝说换工作场景)",
-    "imperfecto重复习惯隔天复测通过"
+    "culpa/error对比专项(第二次巩固，选词稳定)",
+    "miedo/asustado接续动词规则(tener miedo vs estar/parecer asustado)",
+    "negar词干变化(niego/niegas/niega)首次教学，3/3全对"
   ],
   "grammar_points_covered": [
     "ser",
@@ -1725,6 +1725,19 @@
       "relearn": false,
       "date": "2026-09-15",
       "note": "教学策略调整：接下来几天暂停引入新词，专注反复巩固已标记的2-3个高频混淆点(culpa/error、miedo/asustado、negar词干变化)，减少单次信息密度"
+    },
+    {
+      "error": "miedo(名词)/asustado(形容词)接续动词混用(tengo asustado/es muy miedo)，给规则\"miedo配tener，asustado配estar/parecer\"后2/2秒对",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-15"
+    },
+    {
+      "error": "今日验证：收窄范围只练2-3个高频混淆点(culpa/error、miedo/asustado、negar)，全部当场见效，比同时铺开多个新词效果好很多",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-15",
+      "note": "教学法确认：出现\"记不住\"信号时，优先收窄+给二元判断规则，而不是继续扩量"
     }
   ],
   "week_stats": {
@@ -1776,7 +1789,7 @@
       "word": "asustado/a",
       "module": "形容词",
       "date_wrong": "2026-08-07",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "el paisaje",
@@ -2431,6 +2444,13 @@
       "date_wrong": "2026-09-14",
       "correct_count": 1,
       "note": "\"是TA的错\"用culpa不用error"
+    },
+    {
+      "word": "negar(词干变化)",
+      "module": "高频动词",
+      "date_wrong": "2026-09-15",
+      "correct_count": 0,
+      "note": "当天3/3全对但按规则不计connect，需隔天复测"
     }
   ],
   "module_wrong_banks": {
