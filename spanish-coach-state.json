@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 1,
-  "total_completed_days": 60,
+  "streak": 2,
+  "total_completed_days": 61,
   "total_missed_days": 9,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-09-14",
-  "last_check_date": "2026-09-14",
+  "last_task_date": "2026-09-15",
+  "last_check_date": "2026-09-15",
   "consecutive_missed": 0,
-  "consecutive_completed": 1,
+  "consecutive_completed": 2,
   "vocabulary_learned": [
     "China",
     "México",
@@ -1711,6 +1711,20 @@
       "count": 1,
       "relearn": false,
       "date": "2026-09-14"
+    },
+    {
+      "error": "culpa/error双向混淆(不是只会漏说culpa，也会把error场景错用成culpa)，用\"culpa=责任在谁/error=事情本身错了\"判断法后，同一天内连续2轮选对",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-15",
+      "note": "今日因学生反馈信息量过载，主动收窄范围只练这一组对比，效果明显好于铺开练多个词"
+    },
+    {
+      "error": "学生诚实反馈\"记不住，脑海里能记住的就几个\"——信息密度过大导致的正常记忆瓶颈，非知识问题",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-15",
+      "note": "教学策略调整：接下来几天暂停引入新词，专注反复巩固已标记的2-3个高频混淆点(culpa/error、miedo/asustado、negar词干变化)，减少单次信息密度"
     }
   ],
   "week_stats": {
@@ -1725,10 +1739,10 @@
     ]
   },
   "current_focus_areas": [
-    "imperfecto/condicional(原形完整性判断法)持续巩固验证",
-    "según等转述结构在自由输出中的应用",
-    "裸聊对话中规则的条件反射应用(结构化练习正确≠对话中用出来)",
-    "老错题词有提示vs无提示的记忆断层"
+    "culpa/error对比(已见效，需隔天无提示复测确认长期效果)",
+    "miedo(名词)/asustado(形容词)词性对比，含阴阳性一致(asustado/asustada)",
+    "negar词干变化(niego/niegas/niega)专项",
+    "暂停新词引入，优先巩固已有错题库，降低单次信息密度"
   ],
   "error_threshold": 4,
   "relearn_queue": [
@@ -2415,7 +2429,7 @@
       "word": "la culpa",
       "module": "表达意见",
       "date_wrong": "2026-09-14",
-      "correct_count": 0,
+      "correct_count": 1,
       "note": "\"是TA的错\"用culpa不用error"
     }
   ],
