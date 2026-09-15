@@ -26,4 +26,8 @@ def get_provider(name: str) -> Provider:
         from .edge import EdgeProvider
 
         return EdgeProvider()
-    raise SynthesisError(f"未知的合成引擎：{name}")
+    if name == "piper":
+        from .piper import PiperProvider
+
+        return PiperProvider()
+    raise SynthesisError(f"未知的合成引擎：{name}（可用：edge、piper）")

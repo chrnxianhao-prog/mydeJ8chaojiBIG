@@ -8,3 +8,6 @@ venv/
 .profe-cache/
 *.mp3
 *.timeline.json
+
+# Piper 引擎与模型缓存（约 50MB，按需下载）
+.piper-cache/

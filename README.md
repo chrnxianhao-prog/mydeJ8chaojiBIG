@@ -76,6 +76,35 @@ Me duele mucho la cabeza.
 
 写错模式名或设定名会直接报错，不会静默忽略——就是为了防止悄悄产出泄题的音频。
 
+## 两个合成引擎
+
+```bash
+python -m profe lesson 课文.txt                    # 默认 edge，音质最好
+python -m profe --provider piper lesson 课文.txt   # piper，完全离线
+```
+
+| | edge | piper |
+|---|---|---|
+| 音质 | 微软神经音色，最好 | 神经模型，够用但偏糊 |
+| 联网 | 合成时要联网 | 只在首次下模型时要，之后纯离线 |
+| 西语音色 | 几十个，多种口音 | 一个（`es-carlfm-x-low`） |
+| 适用 | 本机日常使用 | 出网受限的环境（如云端容器） |
+
+**为什么要有 piper**：云端容器访问微软语音端点会被判定为机房 IP 返回 403，
+而 Piper 的模型放在 GitHub release 上、下载得到，跑的是本地推理。
+首次使用会下约 50 MB 到 `.piper-cache/`。
+
+piper 需要额外装 MP3 编码器（它输出 WAV，而拼接是按 MPEG 帧做的）：
+
+```bash
+python -m pip install lameenc
+```
+
+⚠️ **piper 只有一个西语音色**，课文里写别的音色名它会忽略并用默认音色，不会报错。
+
+⚠️ 它的默认噪声参数会让同一句话每次跑出的时长差到 50%，偶尔还在词尾接一段重复杂音。
+profe 已经把噪声参数固定住了，实测波动降到 ±3%。
+
 ## 常用参数
 
 ```bash

@@ -1,0 +1,293 @@
+<title>__TITLE__</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Petrona:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --ground: #F1F4F3;
+    --surface: #FFFFFF;
+    --ink: #15201E;
+    --ink-soft: #566360;
+    --line: #D6DEDB;
+    --accent: #0F766E;
+    --accent-ink: #FFFFFF;
+    --track: #DDE4E2;
+
+    --display: "Petrona", Georgia, "Songti SC", serif;
+    --body: "IBM Plex Sans", system-ui, "PingFang SC", "Microsoft YaHei", sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #0E1413;
+      --surface: #18211F;
+      --ink: #E7EDEB;
+      --ink-soft: #97A5A1;
+      --line: #2A3633;
+      --accent: #2DD4BF;
+      --accent-ink: #0E1413;
+      --track: #2A3633;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --ground: #0E1413;
+    --surface: #18211F;
+    --ink: #E7EDEB;
+    --ink-soft: #97A5A1;
+    --line: #2A3633;
+    --accent: #2DD4BF;
+    --accent-ink: #0E1413;
+    --track: #2A3633;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 16px;
+    line-height: 1.65;
+    padding-block: 48px 72px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  main {
+    width: 100%;
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+  }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin: 0 0 10px;
+  }
+
+  h1 {
+    font-family: var(--display);
+    font-size: clamp(2rem, 7vw, 2.75rem);
+    font-weight: 600;
+    line-height: 1.12;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+    margin: 0;
+  }
+
+  .player {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .row { display: flex; align-items: center; gap: 16px; }
+
+  #toggle {
+    width: 62px;
+    height: 62px;
+    flex: none;
+    border: none;
+    border-radius: 50%;
+    background: var(--accent);
+    color: var(--accent-ink);
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    padding-left: 3px;
+  }
+
+  #toggle[data-state="playing"] { padding-left: 0; }
+  #toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+  .meter { flex: 1; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+
+  #bar {
+    appearance: none;
+    width: 100%;
+    height: 6px;
+    border-radius: 3px;
+    background: var(--track);
+    cursor: pointer;
+  }
+
+  #bar::-webkit-slider-thumb {
+    appearance: none;
+    width: 15px; height: 15px;
+    border-radius: 50%;
+    background: var(--accent);
+    border: none;
+  }
+
+  #bar::-moz-range-thumb {
+    width: 15px; height: 15px;
+    border-radius: 50%;
+    background: var(--accent);
+    border: none;
+  }
+
+  #bar:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+
+  .times {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--mono);
+    font-size: 12.5px;
+    color: var(--ink-soft);
+    font-variant-numeric: tabular-nums;
+  }
+
+  #replay {
+    font-family: var(--body);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ink-soft);
+    background: transparent;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 7px 16px;
+    cursor: pointer;
+    align-self: flex-start;
+  }
+
+  #replay:hover { border-color: var(--accent); color: var(--accent); }
+  #replay:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .how { display: flex; flex-direction: column; gap: 14px; }
+
+  .step { display: flex; gap: 14px; align-items: baseline; }
+
+  .step .n {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--accent);
+    flex: none;
+    width: 1.4em;
+  }
+
+  .step p { margin: 0; }
+  .step b { font-weight: 600; }
+
+  .after {
+    border-top: 1px solid var(--line);
+    padding-top: 18px;
+    color: var(--ink-soft);
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .after b { color: var(--ink); font-weight: 600; }
+</style>
+
+<main>
+  <header>
+    <p class="eyebrow">__EYEBROW__</p>
+    <h1>__TITLE__</h1>
+  </header>
+
+  <div class="player">
+    <div class="row">
+      <button id="toggle" type="button" aria-label="播放" data-state="idle">▶</button>
+      <div class="meter">
+        <input id="bar" type="range" min="0" max="1000" value="0" step="1" aria-label="播放进度">
+        <div class="times"><span id="now">0:00</span><span id="total">0:00</span></div>
+      </div>
+    </div>
+    <button id="replay" type="button">↺ 从头再听一遍</button>
+  </div>
+
+  <div class="how">
+    <div class="step">
+      <span class="n">1</span>
+      <p><b>第一遍别停</b>，整段过完，只抓大意：谁、在干什么、结果如何。</p>
+    </div>
+    <div class="step">
+      <span class="n">2</span>
+      <p><b>第二遍抓细节</b>：时间、星期、人名、数字，以及动词的<b>词尾</b>。</p>
+    </div>
+    <div class="step">
+      <span class="n">3</span>
+      <p>听不清的地方可以拖进度条回去重听，但<b>别去翻原文</b>。</p>
+    </div>
+  </div>
+
+  <p class="after">
+    听完回聊天里说一声，我再发<b>理解题</b>。
+    题目现在不给你 —— 提前看到题，测出来的是找答案的能力，不是听力。
+  </p>
+</main>
+
+<script>
+  const audio = new Audio("data:audio/mpeg;base64,__AUDIO__");
+  const toggle = document.getElementById("toggle");
+  const bar = document.getElementById("bar");
+  const now = document.getElementById("now");
+  const total = document.getElementById("total");
+  const replay = document.getElementById("replay");
+  let scrubbing = false;
+
+  function clock(seconds) {
+    if (!isFinite(seconds)) return "0:00";
+    const m = Math.floor(seconds / 60);
+    const s = Math.floor(seconds % 60);
+    return m + ":" + String(s).padStart(2, "0");
+  }
+
+  audio.addEventListener("loadedmetadata", function () {
+    total.textContent = clock(audio.duration);
+  });
+
+  audio.addEventListener("timeupdate", function () {
+    if (scrubbing || !audio.duration) return;
+    bar.value = Math.round((audio.currentTime / audio.duration) * 1000);
+    now.textContent = clock(audio.currentTime);
+  });
+
+  audio.addEventListener("ended", function () {
+    toggle.textContent = "▶";
+    toggle.dataset.state = "idle";
+    toggle.setAttribute("aria-label", "播放");
+  });
+
+  toggle.addEventListener("click", function () {
+    if (audio.paused) {
+      audio.play();
+      toggle.textContent = "❚❚";
+      toggle.dataset.state = "playing";
+      toggle.setAttribute("aria-label", "暂停");
+    } else {
+      audio.pause();
+      toggle.textContent = "▶";
+      toggle.dataset.state = "idle";
+      toggle.setAttribute("aria-label", "播放");
+    }
+  });
+
+  replay.addEventListener("click", function () {
+    audio.currentTime = 0;
+    if (audio.paused) toggle.click();
+  });
+
+  bar.addEventListener("input", function () {
+    scrubbing = true;
+    if (audio.duration) now.textContent = clock((bar.value / 1000) * audio.duration);
+  });
+
+  bar.addEventListener("change", function () {
+    if (audio.duration) audio.currentTime = (bar.value / 1000) * audio.duration;
+    scrubbing = false;
+  });
+</script>
