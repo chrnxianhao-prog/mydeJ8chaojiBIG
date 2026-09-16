@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 2,
-  "total_completed_days": 61,
+  "streak": 3,
+  "total_completed_days": 62,
   "total_missed_days": 9,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-09-15",
-  "last_check_date": "2026-09-15",
+  "last_task_date": "2026-09-16",
+  "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
-  "consecutive_completed": 2,
+  "consecutive_completed": 3,
   "vocabulary_learned": [
     "China",
     "México",
@@ -607,7 +607,8 @@
     "sin duda",
     "además",
     "el problema (阳性例外)",
-    "Si yo fuera tú... (固定短语)"
+    "Si yo fuera tú... (固定短语)",
+    "No tengas miedo. (固定短语)"
   ],
   "vocabulary_review_queue": [
     "esperar",
@@ -1738,6 +1739,12 @@
       "relearn": false,
       "date": "2026-09-15",
       "note": "教学法确认：出现\"记不住\"信号时，优先收窄+给二元判断规则，而不是继续扩量"
+    },
+    {
+      "error": "\"是你的错\"漏掉物主代词tu(no es culpa应为no es tu culpa)",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-16"
     }
   ],
   "week_stats": {
