@@ -3181,5 +3181,16 @@
     "新发现的机制": "词汇替换：听到模糊音段时大脑抓最相近的熟词填空，而不是留白。实例 sombrero→hombre（抓住中间 -ombre- 丢掉首尾）、trabajaba→trabajado、gustaba→gusta。这解释了为何这些词长期留在错题库。",
     "仍需注意": "功能词（y / en / no / al / la-las 的 s）与非重读词尾仍是薄弱处",
     "计数": "本轮原文可见，属练习非考核，不推进 correct_count"
+  },
+  "listening_training_2": {
+    "date": "2026-09-16",
+    "材料": "听力材料/2026-09-16-a1-el-mercado.txt（9句，陌生材料，精听条件：慢速可用）",
+    "条件说明": "学生用的是精听页（慢速+正常速可反复），不是冷听。不能与昨天的冷听 2/8 直接比较，同条件对照的是昨天精听后的 8/8。",
+    "成绩": "完整3句(1,4,6)、近乎完整3句(2,3,8 仅功能词级差错)、丢失中间块3句(5,7,9)。9句无一空白 —— 昨天冷听有3句完全空白。",
+    "三对陷阱词": "caro/carro、perro/pero、cansado/casado 全部未上当（3/3）。对比昨天 sombrero→hombre，词汇替换机制这轮未发动。",
+    "已稳固": "-mos 人称词尾（vamos/compramos/tomamos 全中）、a+el→al、否定词 no、la/las 时间规则、功能词串开头（A mi hijo le gusta 完整）",
+    "下一个靶子": "多词功能块整块塌陷 —— 当3个以上不重读词挤在实词之间，整块丢失。实例：al lado de la（第5句）、prefiero esperar afuera porque estoy（第7句）、enfrente del（第9句）。实词都抓到了，块状连接部分塌掉。",
+    "新苗头": "salimos 听成 salíamos —— 开始往上套 imperfecto 词尾（过度矫正）。说明 -ía/-aba 已在感知层变得显著，需要平衡练习。",
+    "计数": "同日多轮，按制度不推进 correct_count"
   }
 }
