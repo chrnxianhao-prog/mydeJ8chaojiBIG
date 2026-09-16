@@ -1,0 +1,42 @@
+#! listening voice=es-MX-JorgeNeural gap=2000
+# A1 — El mercado del domingo
+
+// ── 解码训练 第 2 轮 · 陌生材料冷听 ──
+// 目标级别：A1（与 2026-09-15 那份同级，便于横向比较）
+// 长度：9 句，约 50 秒　语法：只用现在式
+//
+// 冷听条件与上一轮一致：不给原文、不给慢速、连续播放。
+// 上一轮冷听成绩 2/8，这一轮的数字才是真实进步的度量。
+//
+// 🎯 针对 2026-09-16 精听暴露的四个弱点定向埋点：
+//
+// 1. 功能词串（上次 "A mí me gusta" 整串冲垮）
+//    S2: "A mi hijo le gusta" —— 开头四个短促功能词
+//
+// 2. a+el→al / de+el→del 缩合（上次把 al 听成单独的 a）
+//    S1 vamos al mercado　S5 al lado de　S8 salimos del mercado　S9 enfrente del banco
+//
+// 3. 词汇替换陷阱（上次 sombrero 被 hombre 顶掉）
+//    S4 caro   ← 可能被听成 carro（车）
+//    S5 perro  ← 可能被听成 pero（但是）
+//    S7 cansado ← 可能被听成 casado（已婚）
+//    这三对都只差一个音，且干扰项是更熟的词，正是上次那个机制。
+//
+// 4. 非重读动词人称词尾（上次 comemos 听成 come）
+//    vamos / compramos / salimos / tomamos 四个 -mos，
+//    对比 S2 的 gusta、S4 的 es、S6 的 busca 单数形式。
+//
+// 另：S8 的 "a las tres" 用上今天刚讲的 la/las 规则 —— 听到 las 就知道不是一点。
+//
+// 批改要点：重点看那三对陷阱词有没有被熟词顶掉。如果 caro/perro/cansado
+// 里有听成 carro/pero/casado 的，说明词汇替换机制还在起作用，下一轮继续埋。
+
+Los domingos vamos al mercado con mi esposa.
+A mi hijo le gusta comer fruta fresca.
+Compramos pescado, arroz y tres kilos de naranjas.
+El pescado de aquí no es caro.
+Hay un perro pequeño al lado de la puerta.
+Mi esposa busca una camisa azul para el trabajo.
+Yo prefiero esperar afuera porque estoy cansado.
+Salimos del mercado a las tres de la tarde.
+Después tomamos un café enfrente del banco.
