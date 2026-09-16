@@ -1745,6 +1745,21 @@
       "count": 1,
       "relearn": false,
       "date": "2026-09-16"
+    },
+    {
+      "error": "听力：否定词 no 漏听（no trabajo 听成 lo trabajo，意思反转）",
+      "count": 1,
+      "relearn": true
+    },
+    {
+      "error": "听力：非重读动词词尾丢失（comemos→come、trabajaba→trabajado）",
+      "count": 1,
+      "relearn": true
+    },
+    {
+      "error": "听力：孤岛式切分，只捞熟词，词间内容整段空白",
+      "count": 1,
+      "relearn": true
     }
   ],
   "week_stats": {
@@ -3143,5 +3158,13 @@
   "target_level": "B2",
   "target_deadline": "2027-08",
   "level_note": "2026-08-27摸底测试定位：A2稳定期，语法认知达B1但精细产出滞后",
-  "last_assessment_date": "2026-08-27"
+  "last_assessment_date": "2026-08-27",
+  "listening_placement": {
+    "date": "2026-09-16",
+    "a1": "约40-50%（8句中完整2句、部分2句、全漏3句）",
+    "a2": "听不明白",
+    "b1": "听不明白",
+    "结论": "语法认知B1、产出A2，但听力未站稳A1。瓶颈在音流切分速度，不在词汇量（已599词）。",
+    "转向": "教学重心转到听觉解码：短句精听+慢速梯度+功能词专项"
+  }
 }
