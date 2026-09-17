@@ -1819,18 +1819,12 @@
     {
       "word": "hacer una excursión",
       "module": "旅行",
-      "date_wrong": "2026-09-02",
+      "date_wrong": "2026-09-17",
       "correct_count": 0
     },
     {
       "word": "asustado/a",
       "module": "形容词",
-      "date_wrong": "2026-08-07",
-      "correct_count": 1
-    },
-    {
-      "word": "el paisaje",
-      "module": "旅行",
       "date_wrong": "2026-08-07",
       "correct_count": 1
     },
@@ -1922,20 +1916,14 @@
     {
       "word": "el viaje",
       "module": "旅行",
-      "date_wrong": "2026-08-07",
-      "correct_count": 1
+      "date_wrong": "2026-09-17",
+      "correct_count": 0
     },
     {
       "word": "diría",
       "module": "高频动词",
-      "date_wrong": "2026-08-10",
+      "date_wrong": "2026-09-17",
       "correct_count": 0
-    },
-    {
-      "word": "el pueblo",
-      "module": "旅行",
-      "date_wrong": "2026-08-10",
-      "correct_count": 1
     },
     {
       "word": "divertido/a",
@@ -1958,7 +1946,7 @@
     {
       "word": "celebrar",
       "module": "高频动词",
-      "date_wrong": "2026-08-10",
+      "date_wrong": "2026-09-17",
       "correct_count": 0
     },
     {
@@ -2001,7 +1989,7 @@
       "word": "disfrutar",
       "module": "旅行",
       "date_wrong": "2026-09-02",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "tener planes",
@@ -2024,7 +2012,7 @@
     {
       "word": "pedir",
       "module": "高频动词",
-      "date_wrong": "2026-09-06",
+      "date_wrong": "2026-09-17",
       "correct_count": 0
     },
     {
@@ -2043,7 +2031,7 @@
       "word": "la carta",
       "module": "旅行",
       "date_wrong": "2026-09-02",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "preguntar",
@@ -2132,7 +2120,7 @@
     {
       "word": "responder",
       "module": "高频动词",
-      "date_wrong": "2026-08-07",
+      "date_wrong": "2026-09-17",
       "correct_count": 0
     },
     {
@@ -2144,8 +2132,8 @@
     {
       "word": "el equipaje",
       "module": "旅行",
-      "date_wrong": "2026-08-29",
-      "correct_count": 1
+      "date_wrong": "2026-09-17",
+      "correct_count": 0
     },
     {
       "word": "la entrevista",
@@ -2186,8 +2174,8 @@
     {
       "word": "el dedo",
       "module": "身体与健康",
-      "date_wrong": "2026-09-05",
-      "correct_count": 1
+      "date_wrong": "2026-09-17",
+      "correct_count": 0
     },
     {
       "word": "querer",
@@ -2337,7 +2325,7 @@
       "word": "contestar",
       "module": "高频动词",
       "date_wrong": "2026-08-31",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "prestar",
@@ -2372,7 +2360,7 @@
     {
       "word": "el yeso",
       "module": "身体与健康",
-      "date_wrong": "2026-09-10",
+      "date_wrong": "2026-09-17",
       "correct_count": 0
     },
     {
@@ -2386,12 +2374,12 @@
       "word": "la herida",
       "module": "身体与健康",
       "date_wrong": "2026-09-10",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "la urgencia",
       "module": "身体与健康",
-      "date_wrong": "2026-09-10",
+      "date_wrong": "2026-09-17",
       "correct_count": 0
     },
     {
@@ -2427,8 +2415,8 @@
     {
       "word": "el brazo",
       "module": "身体与健康",
-      "date_wrong": "2026-09-08",
-      "correct_count": 1
+      "date_wrong": "2026-09-17",
+      "correct_count": 0
     },
     {
       "word": "enfermo/a",
@@ -2451,7 +2439,7 @@
     {
       "word": "convencer",
       "module": "高频动词",
-      "date_wrong": "2026-09-10",
+      "date_wrong": "2026-09-17",
       "correct_count": 0,
       "note": "学生诚实反馈同session内测试可能是照抄，correct_count归零，需跨自然日测试才算数"
     },
@@ -3232,5 +3220,23 @@
     "达成了什么": "信号词策略建立 —— antes / cuando era niño / siempre 对 si tuviera / yo que tú / ¿podrías? / me gustaría，句首听到信号就能定时态框架。这是他标红一个多月的三时态问题上的实质进展。",
     "⚠️ 尚未证明的": "只有 8 个句子，其中 3 句听了两遍 —— 第二遍可能是记住了句子而非重新解码。且信号词一旦学会，这个任务本身就变容易（这正是设计目的）。所以 100% 证明的是「学会了信号词」，不等于「能处理没听过的话」。",
     "下一级": "信号词不在句首、在句中句尾、或整句没有信号词 —— 那时只能靠动词形式判断。真实语流里大多数句子并不以 antes 或 si tuviera 开头，这才是迁移的关键一步。"
+  },
+  "dictado": {
+    "date": "2026-09-17",
+    "首轮基线": "27 题答对 8（含 2 个只差重音），正确率 30%。词全部来自错题本。",
+    "答对的": [
+      "contestar",
+      "la herida",
+      "disfrutar",
+      "la carta",
+      "el paisaje",
+      "el pueblo",
+      "gustaría",
+      "viviría"
+    ],
+    "gustaría/viviría 备注": "拼写正确只差重音，但同场刚上过专项课，按规则不推进连对计数。不过这说明当天学的条件式规则立刻在听写里兑现了。",
+    "学生反馈": "成绩不好啊，我擦 —— 并要求把已学词混进来测",
+    "据此改法": "词池扩到 92：30 个错题词 + 62 个已学词（挑的是拼写有陷阱的：重音、ñ、ll、h 不发音、rr、qu）。全是错题本的词池等于一整页硬骨头，难度没有梯度。",
+    "工程笔记": "成绩改为按单词存而非按序号 —— 换词表时序号会错位。旧数据已迁移，进度未丢。"
   }
 }
