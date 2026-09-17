@@ -1775,6 +1775,32 @@
       "error": "条件式用法：-ría 不只是假设，日常更多是委婉/建议（deberías、me gustaría）",
       "count": 0,
       "relearn": false
+    },
+    {
+      "error": "【重大】未完成过去时写成过去分词：comía→comido、pedía→pedido、hacía→hicedo、podía→pusedo。4 个动词全部套 -do 词尾，说明他脑子里「过去的形式」只有一个槽位，-ía 这一套根本没建立",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-17",
+      "note": "对应规则：-aba/-ía 是「那时候常做」，-ado/-ido 是「做过的」当形容词用（la comida está pedida）。必须分开建槽"
+    },
+    {
+      "error": "条件式加在简单过去词干上而非完整原形上：pedí→pedaria（应 pediría）、hice→hiceria（应 haría）、puse→puseria（应 podría）。规则动词 comería 反而对了，说明规则没内化，只是 comer 那个形态碰巧简单",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-17",
+      "note": "规则：条件式 = 完整原形 + ía（pedir+ía=pediría）。九个不规则用变体词干：hacer→har-、poder→podr-、tener→tendr-、decir→dir-、salir→saldr-、poner→pondr-、venir→vendr-、querer→querr-、saber→sabr-"
+    },
+    {
+      "error": "poder 的简单过去写成 puse（那是 poner 的）。poder→pude / poner→puse 两个 u 词干不规则动词混淆",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-17"
+    },
+    {
+      "error": "cuchara（勺子）/ tenedor（叉子）互换；餐厅模块的餐具词整组不稳",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-17"
     }
   ],
   "week_stats": {
@@ -1850,7 +1876,7 @@
       "word": "el centro comercial",
       "module": "购物",
       "date_wrong": "2026-08-07",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "la bicicleta",
@@ -1910,7 +1936,7 @@
     {
       "word": "la carrera",
       "module": "工作职业",
-      "date_wrong": "2026-08-10",
+      "date_wrong": "2026-09-17",
       "correct_count": 0
     },
     {
@@ -2042,7 +2068,7 @@
     {
       "word": "trepar",
       "module": "童年回忆",
-      "date_wrong": "2026-08-07",
+      "date_wrong": "2026-09-17",
       "correct_count": 0
     },
     {
@@ -2084,13 +2110,13 @@
     {
       "word": "el semáforo",
       "module": "城市交通",
-      "date_wrong": "2026-08-07",
+      "date_wrong": "2026-09-17",
       "correct_count": 0
     },
     {
       "word": "el almuerzo",
       "module": "食物饮料",
-      "date_wrong": "2026-08-07",
+      "date_wrong": "2026-09-17",
       "correct_count": 0
     },
     {
@@ -2102,7 +2128,7 @@
     {
       "word": "dibujar",
       "module": "兴趣爱好",
-      "date_wrong": "2026-08-07",
+      "date_wrong": "2026-09-17",
       "correct_count": 0
     },
     {
@@ -2150,7 +2176,7 @@
     {
       "word": "el éxito",
       "module": "工作职业",
-      "date_wrong": "2026-08-13",
+      "date_wrong": "2026-09-17",
       "correct_count": 0
     },
     {
@@ -2168,7 +2194,7 @@
     {
       "word": "cuchara",
       "module": "餐厅",
-      "date_wrong": "2026-08-13",
+      "date_wrong": "2026-09-17",
       "correct_count": 0
     },
     {
@@ -2288,7 +2314,7 @@
     {
       "word": "dibujar",
       "module": "兴趣爱好",
-      "date_wrong": "2026-08-21",
+      "date_wrong": "2026-09-17",
       "correct_count": 0
     },
     {
@@ -3238,5 +3264,46 @@
     "学生反馈": "成绩不好啊，我擦 —— 并要求把已学词混进来测",
     "据此改法": "词池扩到 92：30 个错题词 + 62 个已学词（挑的是拼写有陷阱的：重音、ñ、ll、h 不发音、rr、qu）。全是错题本的词池等于一整页硬骨头，难度没有梯度。",
     "工程笔记": "成绩改为按单词存而非按序号 —— 换词表时序号会错位。旧数据已迁移，进度未丢。"
+  },
+  "examen_2026_09_17": {
+    "fecha": "2026-09-17",
+    "tipo": "综合卷（单词8 + 变位12 + 翻译8 + 造句4，满分32）",
+    "bloque_1_vocabulario": {
+      "puntos": 1,
+      "total": 8,
+      "correctas": [
+        "el centro comercial（漏冠词）"
+      ],
+      "falladas": {
+        "el semáforo": "写成 cemaforo（c/s 混 + 漏重音）",
+        "el almuerzo": "写成 alumero",
+        "dibujar": "不会",
+        "trepar": "写成 pedir（跟今天刚学的词串了）",
+        "la carrera": "不会",
+        "el éxito": "不会",
+        "la cuchara": "写成 tenedor（叉子/勺子混）"
+      }
+    },
+    "bloque_2_conjugacion": {
+      "puntos": 4,
+      "total": 12,
+      "correctas": [
+        "comí",
+        "comería",
+        "pedí",
+        "hice"
+      ],
+      "falladas": [
+        "comido→comía",
+        "pedido→pedía",
+        "pedaria→pediría",
+        "hicedo→hacía",
+        "hiceria→haría",
+        "puse→pude",
+        "pusedo→podía",
+        "puseria→podría"
+      ]
+    },
+    "hallazgo": "未完成过去时被整体套成过去分词（-ado/-ido）；条件式被加在简单过去词干上而非完整原形上"
   }
 }
