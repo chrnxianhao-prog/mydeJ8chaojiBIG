@@ -3197,5 +3197,14 @@
     "下一个靶子": "多词功能块整块塌陷 —— 当3个以上不重读词挤在实词之间，整块丢失。实例：al lado de la（第5句）、prefiero esperar afuera porque estoy（第7句）、enfrente del（第9句）。实词都抓到了，块状连接部分塌掉。",
     "新苗头": "salimos 听成 salíamos —— 开始往上套 imperfecto 词尾（过度矫正）。说明 -ía/-aba 已在感知层变得显著，需要平衡练习。",
     "计数": "同日多轮，按制度不推进 correct_count"
+  },
+  "listening_training_3": {
+    "date": "2026-09-17",
+    "内容": "六个多词功能块的数词训练（昨天定位的靶子）",
+    "成绩": "完全正确 2/6（porque estoy cansado、después de la comida）；另外 4 块词数与内容全对，只差一个辅音。",
+    "关键变化": "昨天 al lado de la 整块空白；今天五个词位置全对，只差 al 的 l。块的切分能力已经建立，剩下的是块内最弱的那个音。",
+    "残余错误全部同型": "al 的 l（a+el 缩合）、del 的 l 两处（de+el 缩合）、las 的 s（复数）。四处错同一个点：缩合与词尾的那个辅音。",
+    "已给的补偿策略": "a+el→al、de+el→del 是强制缩合，后接阳性单数名词时必然是 al/del。听不清那个 l 也能靠语法推出来 —— 比练耳朵快。学生当场用阴性的de la comida 验证成功。",
+    "明日靶子": "a/al、de/del、la/las 三对最小对立 —— 目标已收窄到单个辅音"
   }
 }
