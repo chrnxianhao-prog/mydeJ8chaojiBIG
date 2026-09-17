@@ -1,10 +1,10 @@
 {
   "level": "A2",
-  "streak": 3,
-  "total_completed_days": 62,
+  "streak": 4,
+  "total_completed_days": 63,
   "total_missed_days": 9,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-09-16",
+  "last_task_date": "2026-09-17",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
   "consecutive_completed": 3,
@@ -1765,6 +1765,11 @@
       "error": "听力：词汇替换——模糊音段被自动补成最相近的熟词（sombrero→hombre）",
       "count": 1,
       "relearn": true
+    },
+    {
+      "error": "条件式听辨：听到 -ía 词尾就套最熟的 debería，词干未解码（gustaría/viviría/debería 互混）",
+      "count": 1,
+      "relearn": true
     }
   ],
   "week_stats": {
@@ -1803,7 +1808,7 @@
     {
       "word": "gustaría",
       "module": "高频动词",
-      "date_wrong": "2026-08-07",
+      "date_wrong": "2026-09-17",
       "correct_count": 0
     },
     {
@@ -1966,14 +1971,14 @@
     {
       "word": "me parece que",
       "module": "表达意见",
-      "date_wrong": "2026-08-07",
+      "date_wrong": "2026-09-17",
       "correct_count": 0
     },
     {
       "word": "descansar",
       "module": "高频动词",
       "date_wrong": "2026-08-07",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "esconderse",
@@ -1984,7 +1989,7 @@
     {
       "word": "viviría",
       "module": "高频动词",
-      "date_wrong": "2026-08-07",
+      "date_wrong": "2026-09-17",
       "correct_count": 0
     },
     {
@@ -1996,7 +2001,7 @@
     {
       "word": "tener planes",
       "module": "旅行",
-      "date_wrong": "2026-08-07",
+      "date_wrong": "2026-09-17",
       "correct_count": 0
     },
     {
@@ -2038,7 +2043,7 @@
     {
       "word": "preguntar",
       "module": "高频动词",
-      "date_wrong": "2026-08-07",
+      "date_wrong": "2026-09-17",
       "correct_count": 0
     },
     {
@@ -2051,7 +2056,7 @@
       "word": "pasado mañana",
       "module": "时间",
       "date_wrong": "2026-08-07",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "dejar",
@@ -2074,7 +2079,7 @@
     {
       "word": "cerrar",
       "module": "厨房家务",
-      "date_wrong": "2026-08-07",
+      "date_wrong": "2026-09-17",
       "correct_count": 0
     },
     {
