@@ -1827,6 +1827,38 @@
       "count": 1,
       "relearn": false,
       "date": "2026-09-17"
+    },
+    {
+      "error": "两个动词连用时第二个也变位：me gustaría veo（应 ver）。quiero comer / puedo ir / me gustaría ver 这个结构没建立",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-17"
+    },
+    {
+      "error": "「不要辣」说成 no tengo picante（=我没有辣的）。tener 当成了万能动词，「有没有」和「要不要」混用",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-17",
+      "note": "地道说法：no picante / sin picante。收尾说 eso es todo，不是 ya todo"
+    },
+    {
+      "error": "me gustaría 漏 me：今天出现两次（考卷 gustaria un cafe、对话 gustaria un jugo）。第二次纠正后立刻改对，属于提醒型而非认知型",
+      "count": 2,
+      "relearn": false,
+      "date": "2026-09-17"
+    },
+    {
+      "error": "a + el 没缩成 al：写出 a el mesero。8 月做过重修日，需再提醒",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-17"
+    },
+    {
+      "error": "间接宾语规则过度泛化：教了「小词后面要 a + 人」之后，把施动者也塞进 a 的位置 —— nos trajo el menú a el mesero。根因是我那条规则讲漏了「a 后面的人必须和小词同一个人」",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-17",
+      "note": "已补讲句子骨架：主语(谁做) + 小词(给谁) + 动词 + 东西。教学提醒：给规则时要同时给边界，否则他会机械套用"
     }
   ],
   "week_stats": {
@@ -3357,5 +3389,22 @@
       "tras_explicar": "4/4",
       "nota": "间接宾语代词 le/les/me/te 填空 4 题全对，一讲就通。但同题第二个空『信』(la carta) 仍写不出来"
     }
+  },
+  "conversacion_2026_09_17": {
+    "fecha": "2026-09-17",
+    "escena": "餐厅点餐（学生当客人，老师当服务员）",
+    "modo": "裸聊（全程西语）",
+    "aciertos": [
+      "me gustaría：纠一次下一句就改过来，而且是在对话流里改的",
+      "no me gusta：gustar 主语摆对（老毛病之一）",
+      "¿Qué significa? 听不懂主动用西语问，没装懂也没退回中文",
+      "necesito salsa / quiero los tacos：基本点餐句式能出口"
+    ],
+    "errores": [
+      "me gustaría veo → ver：两个动词连用时第二个不变位",
+      "no tengo picante（=我没有辣的）→ no picante / sin picante：tener 用错，「有没有」和「要不要」混了",
+      "ya todo → eso es todo / nada más",
+      "postre es muy dulce → el postre（漏冠词）"
+    ]
   }
 }
