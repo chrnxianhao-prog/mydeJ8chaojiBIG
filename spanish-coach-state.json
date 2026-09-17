@@ -1801,6 +1801,32 @@
       "count": 1,
       "relearn": false,
       "date": "2026-09-17"
+    },
+    {
+      "error": "【安全项】ñ 当成 n 写，踩到西语经典地雷：el ano pasado（=去年的肛门，应 año）、pedo un menu（=我屁一份菜单，应 pediría）、de nino（应 niño）",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-17",
+      "note": "已强调：ñ 是另一个字母不是重音装饰，漏了会换意思，优先级高于 café/día 这类漏重音。建议他装西语输入法"
+    },
+    {
+      "error": "间接宾语代词 le：8-27 摸底写 dame foto para él，今天写 te tomo la foto —— 写法换了漏的还是同一个 le。但给出『中文说给谁→动词前放一个小词』规则后 4/4 全对",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-17",
+      "note": "规则一讲就通，说明缺的是显式规则不是能力。下一步要验证的是能不能自己造整句，填空对≠会用"
+    },
+    {
+      "error": "mostrar（给人看）/ tomar una foto（拍照）混淆，动作本身理解错",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-17"
+    },
+    {
+      "error": "词汇提取的方向差：la carta 今天听写时拼对了，中文→西语却想不起来。听得懂 ≠ 主动想得起来，两个方向要分开练",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-17"
     }
   ],
   "week_stats": {
@@ -2056,8 +2082,8 @@
     {
       "word": "la carta",
       "module": "旅行",
-      "date_wrong": "2026-09-02",
-      "correct_count": 1
+      "date_wrong": "2026-09-17",
+      "correct_count": 0
     },
     {
       "word": "preguntar",
@@ -3304,6 +3330,32 @@
         "puseria→podría"
       ]
     },
-    "hallazgo": "未完成过去时被整体套成过去分词（-ado/-ido）；条件式被加在简单过去词干上而非完整原形上"
+    "hallazgo": "未完成过去时被整体套成过去分词（-ado/-ido）；条件式被加在简单过去词干上而非完整原形上",
+    "bloque_3_traduccion": {
+      "puntos": 5,
+      "total": 8,
+      "aciertos": [
+        "me duele la cabeza（doler 结构老毛病，今天过了）",
+        "jugaba（刚讲的 -ía 当场用对）"
+      ],
+      "falladas": {
+        "Me gustaría un café": "漏 me",
+        "Le mostré la foto": "写成 te tomo la foto，三处全错",
+        "en el parque": "漏冠词"
+      }
+    },
+    "bloque_4_redaccion": {
+      "puntos": 1,
+      "total": 4,
+      "falladas": {
+        "Pediría el menú": "写成 pedo（=屁），且没用条件式",
+        "el año pasado + 工作": "写成 el ano（=肛门）+ 吃饭内容，跑题；comí 时态对"
+      }
+    },
+    "puntos_totales": "11/32",
+    "remedial_le": {
+      "tras_explicar": "4/4",
+      "nota": "间接宾语代词 le/les/me/te 填空 4 题全对，一讲就通。但同题第二个空『信』(la carta) 仍写不出来"
+    }
   }
 }
