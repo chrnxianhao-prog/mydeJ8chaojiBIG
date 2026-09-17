@@ -1,1 +1,6 @@
 edge-tts>=7.0
+
+# --provider piper（离线合成）用得到；只用 edge 的话不装也能跑
+sherpa-onnx
+numpy
+lameenc

@@ -11,13 +11,17 @@ description: 给浩哥出西班牙语听力测试的完整流程 —— 挑选�
 不联网合成，所以不受出网限制。学生确认过音质够用。
 
 在线合成的路仍然是死的 —— Edge TTS / gTTS 都返回 403（出口是机房 IP），
-HuggingFace 直接不可达。**能走通是因为 Piper 的模型放在 GitHub release 上，而 GitHub 是通的。**
+HuggingFace 直接不可达。**能走通是因为模型放在 sherpa-onnx 的 GitHub release 上，而 GitHub 是通的。**
 
 成品**不要用 SendUserFile 发 mp3**，学生明确说过"不能在线听有点烦恼"。
 包成网页发布成 Artifact，他点链接就能播，不用下载也不用跑命令。
 
 espeak-ng 老方案已废弃 —— 那是规则合成的机械音，学生 2026-09-12 反馈"根本听不懂"。
 Piper 是神经网络模型，跟 Edge TTS 同一类技术，只是模型小些。
+
+音色是 `es_MX-claude-high`（墨西哥口音，22 kHz），用 sherpa-onnx 推理。
+2026-09-17 之前用的是 `es-carlfm-x-low`，学生反馈"读错的太多了"——
+最低档模型念孤立单词尤其吃力，已经换掉，别再退回去。
 
 ## 步骤
 
@@ -68,7 +72,7 @@ Me gustaba el trabajo, pero ganaba muy poco dinero.
   学生会先看题再听，测出来的是找答案能力不是听力。
 - **听力材料不写 `= 中文`**。listening 模式下写了也不念，但别写，容易误导后来的人。
 - 换音色：`voice=es-MX-JorgeNeural`（可写 `es-MX`、`jorge` 简写）。
-  **注意 Piper 只有一个可用西语音色**，写了别的名字它会忽略并用自己的默认音色，不会报错。
+  **注意 piper 只有一个可用西语音色**（`es_MX-claude-high`），写了别的名字它会忽略并用它，不会报错。
   音色字段现在只在学生本机用 Edge 渲染时才起作用，先照写，将来换引擎不用改材料。
 - `gap=` 是句间停顿毫秒数，初期给 1800-2000 留反应时间。
 
@@ -88,8 +92,9 @@ python3 -m profe --provider piper lesson 听力材料/YYYY-MM-DD-主题.txt \
     -o <scratchpad>/主题.mp3 --no-cache
 ```
 
-第一次跑会下约 50 MB 的引擎和模型到 `.piper-cache/`（已在 .gitignore 里），
+第一次跑会下约 65 MB 的模型到 `.piper-cache/`（已在 .gitignore 里），
 之后同会话内复用。容器是一次性的，每个新会话都要重下一次，属正常。
+需要 `sherpa-onnx numpy lameenc`，容器里没有就先 `python3 -m pip install` 上。
 
 mp3 放 scratchpad，**不要提交进仓库** —— 音频是可以从课文重新生成的产物。
 
@@ -147,6 +152,7 @@ profe 默认是**跟读教学**节奏：正常语速 → 慢速复读 → **中�
 - **题目跟链接一起发** —— 学生先看题再听，测不出真实水平。必须等他听完再发。
 - **材料超过 20 句** —— 他会走神，且理解题覆盖不过来。
 - **理解题掺西语作答要求** —— 混淆了听力和产出两种能力，分不清错在哪。
-- **改用在线 TTS** —— Edge TTS / gTTS 在容器里都是 403，别再试。离线的 Piper 才是通路。
+- **改用在线 TTS** —— Edge TTS / gTTS 在容器里都是 403，别再试。离线的 piper 才是通路。
+- **退回 x-low 音色** —— 学生已经明确否掉过，`es_MX-claude-high` 是他点头认可的。
 - **把 mp3 提交进仓库** —— 音频是可再生成的产物，只提交课文 txt。
 - **用 SendUserFile 发 mp3** —— 学生要的是点开即播，发文件卡片他得先下载。

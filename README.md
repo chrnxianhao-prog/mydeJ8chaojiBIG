@@ -85,25 +85,29 @@ python -m profe --provider piper lesson 课文.txt   # piper，完全离线
 
 | | edge | piper |
 |---|---|---|
-| 音质 | 微软神经音色，最好 | 神经模型，够用但偏糊 |
+| 音质 | 微软神经音色，最好 | 神经模型，22 kHz，孤立单词也念得清 |
 | 联网 | 合成时要联网 | 只在首次下模型时要，之后纯离线 |
-| 西语音色 | 几十个，多种口音 | 一个（`es-carlfm-x-low`） |
+| 西语音色 | 几十个，多种口音 | 一个（`es_MX-claude-high`，墨西哥口音） |
 | 适用 | 本机日常使用 | 出网受限的环境（如云端容器） |
 
 **为什么要有 piper**：云端容器访问微软语音端点会被判定为机房 IP 返回 403，
-而 Piper 的模型放在 GitHub release 上、下载得到，跑的是本地推理。
-首次使用会下约 50 MB 到 `.piper-cache/`。
+而模型放在 GitHub release 上、下载得到，跑的是本地推理。
+首次使用会下约 65 MB 到 `.piper-cache/`。
 
-piper 需要额外装 MP3 编码器（它输出 WAV，而拼接是按 MPEG 帧做的）：
+piper 需要额外装推理引擎和 MP3 编码器（模型输出 WAV，而拼接是按 MPEG 帧做的）：
 
 ```bash
-python -m pip install lameenc
+python -m pip install sherpa-onnx numpy lameenc
 ```
+
+**为什么不用 Piper 官方二进制**：它打包的 onnxruntime 只认到 IR 版本 8，
+读不了现在这批模型。sherpa-onnx 从 PyPI 装得到，而这些模型本来就是它打包发布的。
 
 ⚠️ **piper 只有一个西语音色**，课文里写别的音色名它会忽略并用默认音色，不会报错。
 
-⚠️ 它的默认噪声参数会让同一句话每次跑出的时长差到 50%，偶尔还在词尾接一段重复杂音。
-profe 已经把噪声参数固定住了，实测波动降到 ±3%。
+📌 **音色换过一次**（2026-09-17）：原来用的是 `es-carlfm-x-low` —— 最低档、16 kHz、
+西班牙口音，学生反馈"读错的太多了，很多次根本听不懂"。现在换成
+`es_MX-claude-high`：高两个档位，而且是墨西哥口音，跟学生天天在街上听到的一致。
 
 ## 常用参数
 
