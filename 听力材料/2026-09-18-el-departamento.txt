@@ -1,0 +1,53 @@
+#! listening voice=es-MX-JorgeNeural gap=1900
+# Comprensión auditiva — Buscar departamento
+
+// ── 给老师的批注（不会被念出来）──
+//
+// 考点设计（2026-09-18，接昨天定的靶子）：
+//   主靶：信号词不在句首，或整句没有信号词 —— 逼他只靠动词形式判断时态。
+//     · 句 1  信号词 antes 埋在动词后面，不在句首
+//     · 句 2/3/4/6/7/8  完全没有时间信号词，只能靠 -aba/-ía 和 pretérito 词尾分辨
+//     · 句 5/11 信号词甩到句末（el sábado por la mañana / el jueves siguiente）
+//   副靶一：podía / podría 最小对立对（句 6 和句 10），差一个 r，
+//           昨天他在产出端把条件式加错位置，这里测接收端能不能分辨
+//   副靶二：间接宾语代词高密度出现 —— me dijo / me recomendó / me mostró /
+//           me pidió / le expliqué。昨天填空 4/4，这里测听得出来吗
+//   副靶三：错题本老词自然复现 —— el centro comercial、el semáforo、
+//           recomendar、mostrar、la empresa、la carta、el inquilino、
+//           la oportunidad、encontrar
+//
+// 理解题（⚠️ 学生听完再发，提前发就测不出真实水平）：
+//   1. 他以前住的地方，便宜是便宜，有哪两个毛病？
+//      答：没有自然光；街上的噪音吵得睡不着
+//   2. 朋友带他看了几套房子？什么时候看的？
+//      答：三套；星期六上午（信号词在句末）
+//   3. 第二套他明明喜欢，为什么没要？第三套哪里好？
+//      答：第二套贵一倍；第三套不大，但有一扇很大的窗户、光线足
+//   4. 他说在第三套「可以安静地工作」—— 这是他已经做到的事，
+//      还是他当时心里的推测？
+//      答：当时的推测（pensé que podría —— 条件式，不是事实）
+//   5. 房东要他交什么？他怎么解释自己的情况？
+//      答：银行的一封信 + 两个月押金；他解释自己是做生意的，不给公司打工
+//   6. 最后他说，如果钱再多点他会怎么办？
+//      答：买一套自己的（compraría algo mío）
+//
+// 陷阱复盘（批改时讲）：
+//   句 6「no podía ni pensar」= 那时候根本没法思考（事实，未完成过去）
+//   句 10「pensé que podría trabajar」= 我当时觉得应该能工作（推测，条件式）
+//   两个词只差一个 r，意思差在「发生过」和「设想过」。
+
+Yo vivía antes en un departamento muy pequeño cerca del centro comercial.
+Pagaba poco, pero no tenía luz natural.
+El ruido de la calle no me dejaba dormir.
+El casero me dijo que el edificio era viejo y que no lo iba a arreglar.
+Un amigo que trabaja en una empresa de bienes raíces me recomendó buscar en otra colonia.
+Me mostró tres departamentos el sábado por la mañana.
+El primero estaba junto a un semáforo y no podía ni pensar con tanto ruido.
+El segundo me gustó, pero costaba el doble.
+El tercero no era grande, aunque tenía una ventana enorme y mucha luz.
+Pensé que allí podría trabajar tranquilo.
+Firmé el contrato el jueves siguiente.
+El casero me pidió una carta del banco y dos meses de depósito.
+Yo le expliqué que soy comerciante y que no trabajo para una empresa.
+Al final aceptó, y ahora soy inquilino de ese lugar.
+Si tuviera más dinero, compraría algo mío, pero por ahora esta oportunidad me sirve.
