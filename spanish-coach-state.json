@@ -1866,6 +1866,27 @@
       "relearn": false,
       "date": "2026-09-18",
       "note": "补救模板：整段听崩 → 拆单句页（慢速+正常速+分层提示+原文），学生自控节奏，最后一步必须是「看完原文回头按正常速再听一遍」，那一步才是把字和音对上。收集「看了原文才懂」的句号作为真实窟窿清单"
+    },
+    {
+      "error": "听力切分的位置依赖：动词 -ía 词尾在句首/主句开头能抓到（vivía、compraría 只漏重音），夹在句中非重读位置就整词丢失（podía 在 no…ni 之间、podría 在 allí 和 trabajar 之间，两题全空白）。mostró、semáforo 同理",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-18",
+      "note": "下一阶段靶子应该是「句中非重读位置的词」，不是继续加语法难度。最小对立对 podía/podría 现在练早了 —— 他连捕获都没做到，谈不上分辨"
+    },
+    {
+      "error": "孤岛式切分在填词题里的活样本：recomendó 那空填了 trabaja （同一句里另一个更熟的动词）；inquilino 那空填了 estoy。没抓到目标词时会就近抓一个熟词顶上，而不是留空",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-18",
+      "note": "跟 sombrero→hombre 是同一个机制，这次在产出端也拍到了"
+    },
+    {
+      "error": "写 -ía 结尾的词时漏重音：vivia、compraria。词干全对，只差那一撇",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-18",
+      "note": "比 ñ 那类轻，不换意思，但 -ía 的重音是区分时态的关键标记，要顺手纠"
     }
   ],
   "week_stats": {
@@ -3421,6 +3442,34 @@
     "resultado": "整段听完一片空白，学生原话「听完讲什么不知道」",
     "diagnostico_del_profesor": "出题失误，不是学生问题。一次叠加了三层难度：①撤掉时间信号词 ②仍是 15 句连续正常语速 ③没给场景。现实听力永远带语境，抽掉语境不是听力是猜谜。",
     "correccion": "同一段拆成 15 句单句页（慢速/正常速 + 分层提示 + 原文），先给场景，学生自己控节奏。页面 https://claude.ai/artifact/Kt5LZEuJVJP9YPG9wacro7",
-    "por_medir": "哪几句是看了原文才懂的 —— 那些是真窟窿"
+    "por_medir": "哪几句是看了原文才懂的 —— 那些是真窟窿",
+    "prueba": {
+      "fecha": "2026-09-18",
+      "puntos": "判断 8/10　听音填词 3/9",
+      "fiabilidad": "学生主动申报「上次听过了记忆还在」—— 按测试可靠性规则，同日重复不推进连对计数。这是他第二次主动标记测试污染，他的自报可以当可信数据用",
+      "juicio_fallado": [
+        "第1题 旧公寓房租贵 → 他选「对」，实际 Pagaba poco（便宜）",
+        "第9题 他在公司上班 → 他选「对」，实际 no trabajo para una empresa"
+      ],
+      "relleno_detalle": {
+        "acertado": [
+          "carta（完全正确）",
+          "vivía→vivia（只差重音）",
+          "compraría→compraria（只差重音）"
+        ],
+        "en_blanco": [
+          "mostró",
+          "semáforo",
+          "podía",
+          "podría"
+        ],
+        "sustitucion": [
+          "recomendó → 填了 trabaja（同句里另一个动词，孤岛式切分的活样本）",
+          "inquilino → 填了 estoy（把空格当成了系动词位，soy 也听成 estoy）"
+        ]
+      },
+      "diagnostico": "【精确定位】-ía 词尾不是抓不到，是位置决定的：vivía（句首第二词）和 compraría（主句开头）都抓到了词干，只漏重音；而 podía（夹在 no…ni 中间）和 podría（夹在 allí 和 trabajar 中间）两题全空白。同理 mostró（句中第二位）、semáforo（介词短语里）也整词丢失。→ 问题不在词形认知，在非句首、非重读位置的切分",
+      "contraste": "判断 8/10 对填词 3/9 —— 大意能抓（且有中文选项托底），具体词形抓不到。两种能力差距很大，说明他是靠语境推的，不是听出来的"
+    }
   }
 }
