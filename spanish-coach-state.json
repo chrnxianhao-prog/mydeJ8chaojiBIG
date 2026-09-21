@@ -1889,6 +1889,19 @@
       "relearn": false,
       "date": "2026-09-18",
       "note": "比 ñ 那类轻，不换意思，但 -ía 的重音是区分时态的关键标记，要顺手纠"
+    },
+    {
+      "error": "【核心】命令式从原形出发而不是从 yo 现在式出发：hablar→habla、comer→come、decir→deci、abrir→abri、venir→vena、traer→trae。10 道产出题错 8 道，全是这一个动作缺失",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-21",
+      "note": "规则第一步「先写 yo 形」被跳过。后果是不规则部分全丢（vengo 的 g、traigo 的 ig、digo 的 i）。补救：强制写出三步中间过程，不许跳"
+    },
+    {
+      "error": "命令式词尾方向不清：-ar 动词换 e、-er/-ir 动词换 a（反着来）。学生主动问「这个 o、a 怎么转换的呢」，说明方向感没建立",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-21"
     }
   ],
   "week_stats": {
@@ -3483,6 +3496,17 @@
     "calibracion": "听辨靶子选在词尾元音 -o 对 -a/-e。上次 podía/podría 出早了，这次差别明显得多，属于应该能过的难度",
     "estado": "已发布 v2（两标签页 22 题），等学生交卷",
     "siguiente": "第三节过了再给 tú 形（含 8 个不规则：di/haz/ve/pon/sal/sé/ten/ven）",
-    "formato": "学生 2026-09-21 指定：以后每天都出成「练习/测试」两标签页的网页。练习页答案可翻不计分，测试页盖住答案交卷算分并回传 db。测试区固定三节：听辨 12 + 写形式 6 + 填句子 4 = 22 题。已写进 CLAUDE.md，模板存 .claude/skills/listening-test/assets/daily-page.template.html"
+    "formato": "学生 2026-09-21 指定：以后每天都出成「练习/测试」两标签页的网页。练习页答案可翻不计分，测试页盖住答案交卷算分并回传 db。测试区固定三节：听辨 12 + 写形式 6 + 填句子 4 = 22 题。已写进 CLAUDE.md，模板存 .claude/skills/listening-test/assets/daily-page.template.html",
+    "prueba": {
+      "fecha": "2026-09-21",
+      "puntos": "14/22",
+      "oido": "12/12 满分 —— 靶子选对了，词尾 -o 对 -a/-e 他完全分得出来。对比 9-18 的 podía/podría 全空白，证明那次是我出早了，不是他不行",
+      "forma": "2/6（escriba、haga 对，其余错）",
+      "hueco": "0/4",
+      "causa_unica": "【关键】10 道产出题里 8 道错，全是同一个错：他从原形出发，不从 yo 现在式出发。hablar→habla、comer→come、firmar→firma、esperar→espera（砍掉 -r 就交卷）；venir→vena、traer→trae、decir→deci、abrir→abri（砍掉 -ir/-er 再加尾巴）。规则的第一步「先写 yo 形」被整个跳过了",
+      "por_que_importa": "跳过 yo 那一圈，不规则的部分就全丢了：venir 原形看不出 g 但 vengo 有（→venga）；traer 看不出 ig 但 traigo 有（→traiga）；decir 原形是 e 但 digo 是 i（→diga）。他写的 vena/trae/deci 正是丢失的证据",
+      "aciertos_sospechosos": "escriba 和 haga 对了，但 hablo→hable、hago→haga 我在聊天里给过表格，haga 练习区也出现过 —— 大概率是记忆不是推导。hablar→habla 说明表格看过照样错，所以不是记不住，是转换动作本身没建立",
+      "intervencion": "强制写出中间步骤：每题必须先写 yo 形，再砍 o，再加尾巴。不许直接给答案"
+    }
   }
 }
