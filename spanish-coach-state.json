@@ -1917,6 +1917,31 @@
       "relearn": true,
       "date": "2026-09-21",
       "note": "pedir/poder/poner 三个 p 开头动词互相污染，需要专项二元区分"
+    },
+    {
+      "error": "【习得≠自动化】命令式单题做对，对话里退回 yo 形：同一天填空题写对 traigo→traiga，对话结尾却说「ok traigo」（应 tráigalas / me las llevo）",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-21",
+      "note": "教学提醒：测试通过只说明规则习得，会用要在对话里反复逼。以后每次裸聊都设计需要下指令的场景"
+    },
+    {
+      "error": "tú/usted 混用：对店员说 ¿Tienes mejor precio?（应 ¿Tiene…?）。做生意场合这条比语法错更容易得罪人",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-21"
+    },
+    {
+      "error": "tenga 当疑问用：想问「您有吗」说成 tenga。tenga 是给东西时说的「给您/拿着」，问有没有是 ¿Tiene?",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-21"
+    },
+    {
+      "error": "钱的疑问词用错：cuantos cuesta（应 cuánto，问价格时不随数变）。另：¿Cuánto cuesta por una? 多了 por，应 cada una —— 但 ¿Cuántas piezas por caja? 里的 por 是对的",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-21"
     }
   ],
   "week_stats": {
@@ -3530,5 +3555,29 @@
       "metodo_que_funciono": "强制写出三步中间过程（yo 形 → 砍 o → 加尾巴），不许跳步。把「转换动作」和「yo 形正确性」拆成两件事分别评价，学生立刻看出自己其实做对了一半，而不是全错",
       "estado": "命令式 usted 形转换动作已掌握。未教：cerrar 的 e→ie、pedir 的 e→i 两帮词干变化"
     }
+  },
+  "conversacion_2026_09_21": {
+    "fecha": "2026-09-21",
+    "escena": "文具店订货（学生当客户，老师当店员）",
+    "modo": "裸聊（全程西语）",
+    "objetivo": "把当天学的命令式 usted 形逼进对话",
+    "aciertos": [
+      "撑完一整段生意对话，全程没退回中文",
+      "敢问价敢砍价：cuánto cuesta / 30 cajas / 问有没有更好的价",
+      "por caja 用对了，而且是在我刚纠过另一个 por（cuánto cuesta por una）之后还能分清",
+      "听不懂直接说 no entiendo，没装懂"
+    ],
+    "errores": [
+      "tenga 当成疑问用（想问「您有吗」说成 tenga）→ ¿Tiene…?",
+      "¿Cuánto cuesta por una? → 多了 por，应 cada una",
+      "SI tienes mejor precio? → tú 形用在店员身上，应 ¿Tiene un mejor precio?",
+      "cuantos cuesta → 钱永远用 cuánto，不随数变",
+      "no necesito mucho → muchas（plumas 阴性复数）",
+      "cuantas pizas → piezas 拼错",
+      "necesito pluma grande → 漏冠词 una",
+      "ok traigo → 该用命令式 tráigalas / 或 me las llevo"
+    ],
+    "hallazgo_clave": "【重要】单题能做对，进对话就退回 yo 形。同一天的填空题里他刚写对 traigo→traiga，对话结尾却说 ok traigo。规则已习得但未自动化 —— 这是两个不同的阶段，别把测试通过当成会用",
+    "hallazgo_2": "tú/usted 混用：对店员说 tienes。做生意场合这条比语法错更要紧，需要在每次角色扮演里持续盯"
   }
 }
