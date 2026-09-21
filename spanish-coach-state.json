@@ -1,10 +1,10 @@
 {
   "level": "A2",
-  "streak": 4,
-  "total_completed_days": 63,
-  "total_missed_days": 9,
+  "streak": 1,
+  "total_completed_days": 65,
+  "total_missed_days": 11,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-09-17",
+  "last_task_date": "2026-09-21",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
   "consecutive_completed": 3,
@@ -997,7 +997,8 @@
     "裸聊角色扮演(市场买水果场景)-决定设为每日固定环节",
     "论证连接词(por lo tanto/de hecho/sin duda/además/al final)",
     "imperfecto/condicional背景句型(mientras/cuando)专项巩固-复发与纠正",
-    "命令式 usted 形：从 yo 现在式去 -o 加 a/e 的统一规则（含不规则动词），语音课形式"
+    "命令式 usted 形：从 yo 现在式去 -o 加 a/e 的统一规则（含不规则动词），语音课形式",
+    "-go 帮动词现在式 yo 形（salgo/tengo/pongo/vengo/hago/digo/traigo/oigo）—— 八个词一个规则"
   ],
   "common_errors": [
     {
@@ -1902,6 +1903,20 @@
       "count": 1,
       "relearn": false,
       "date": "2026-09-21"
+    },
+    {
+      "error": "现在式 yo 形的词干变化没建立：cerrar→写成 cerro（应 cierro，e→ie）、salir→写成 salo（应 salgo，-go 帮）",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-21",
+      "note": "-go 帮当天已打包教会并 3/3 验证（salgo/tengo/pongo/vengo/hago/digo/traigo/oigo）。e→ie（cerrar/querer/empezar/pensar）和 e→i（pedir/servir/repetir）两帮还没教"
+    },
+    {
+      "error": "pedir（请求/点餐）和 poder（能够）再次互换：yo pido 写成 yo puedo。9-20 综合卷里也把 poder 的过去式写成 puse（poner 的）",
+      "count": 2,
+      "relearn": true,
+      "date": "2026-09-21",
+      "note": "pedir/poder/poner 三个 p 开头动词互相污染，需要专项二元区分"
     }
   ],
   "week_stats": {
@@ -1916,10 +1931,11 @@
     ]
   },
   "current_focus_areas": [
-    "culpa/error对比(已见效，需隔天无提示复测确认长期效果)",
-    "miedo(名词)/asustado(形容词)词性对比，含阴阳性一致(asustado/asustada)",
-    "negar词干变化(niego/niegas/niega)专项",
-    "暂停新词引入，优先巩固已有错题库，降低单次信息密度"
+    "命令式 usted 形：转换动作已过，保持",
+    "现在式词干变化 e→ie（cerrar/querer/pensar）—— 未教",
+    "现在式词干变化 e→i（pedir/servir/repetir）—— 未教",
+    "pedir / poder / poner 三词互相污染，需专项区分",
+    "听力：句中非重读位置的词（9-18 定的靶子，还没打）"
   ],
   "error_threshold": 4,
   "relearn_queue": [
@@ -3507,6 +3523,12 @@
       "por_que_importa": "跳过 yo 那一圈，不规则的部分就全丢了：venir 原形看不出 g 但 vengo 有（→venga）；traer 看不出 ig 但 traigo 有（→traiga）；decir 原形是 e 但 digo 是 i（→diga）。他写的 vena/trae/deci 正是丢失的证据",
       "aciertos_sospechosos": "escriba 和 haga 对了，但 hablo→hable、hago→haga 我在聊天里给过表格，haga 练习区也出现过 —— 大概率是记忆不是推导。hablar→habla 说明表格看过照样错，所以不是记不住，是转换动作本身没建立",
       "intervencion": "强制写出中间步骤：每题必须先写 yo 形，再砍 o，再加尾巴。不许直接给答案"
+    },
+    "remedial": {
+      "ronda_1": "cerro/cerre, salo/sala, puedo/pueda, llamo/llame —— 转换动作 4/4 全对（砍 o + 方向正确），错的全在 yo 形本身。llamar 一题从头到尾完全正确。关键区分：转换动作已建立，剩下的是现在式词干变化，是另一个毛病",
+      "ronda_2": "3/3 全对（pongo/ponga, traigo/traiga, oigo/oiga），六个形式无一错。-go 帮打包教学当场见效",
+      "metodo_que_funciono": "强制写出三步中间过程（yo 形 → 砍 o → 加尾巴），不许跳步。把「转换动作」和「yo 形正确性」拆成两件事分别评价，学生立刻看出自己其实做对了一半，而不是全错",
+      "estado": "命令式 usted 形转换动作已掌握。未教：cerrar 的 e→ie、pedir 的 e→i 两帮词干变化"
     }
   }
 }
