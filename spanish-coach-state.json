@@ -3481,7 +3481,8 @@
     "pagina": "https://claude.ai/artifact/DAPGJTu3nePtwYXpbCNnMf",
     "estructura": "①街头 6 句（听→想→翻答案）②6 个动词规则演示（yo 形/命令形/例句各一段音）③12 题 yo/usted 听辨小测，自动计分回传 resultados/imperativo",
     "calibracion": "听辨靶子选在词尾元音 -o 对 -a/-e。上次 podía/podría 出早了，这次差别明显得多，属于应该能过的难度",
-    "estado": "已发布，等学生交卷",
-    "siguiente": "第三节过了再给 tú 形（含 8 个不规则：di/haz/ve/pon/sal/sé/ten/ven）"
+    "estado": "已发布 v2（两标签页 22 题），等学生交卷",
+    "siguiente": "第三节过了再给 tú 形（含 8 个不规则：di/haz/ve/pon/sal/sé/ten/ven）",
+    "formato": "学生 2026-09-21 指定：以后每天都出成「练习/测试」两标签页的网页。练习页答案可翻不计分，测试页盖住答案交卷算分并回传 db。测试区固定三节：听辨 12 + 写形式 6 + 填句子 4 = 22 题。已写进 CLAUDE.md，模板存 .claude/skills/listening-test/assets/daily-page.template.html"
   }
 }

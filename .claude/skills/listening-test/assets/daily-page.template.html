@@ -1,0 +1,468 @@
+<title>Usted 命令式</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Petrona:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --ground:#F1F4F3; --surface:#FFFFFF; --ink:#15201E; --ink-soft:#566360;
+    --line:#D6DEDB; --accent:#0F766E; --accent-ink:#FFFFFF;
+    --yo:#7C3AED; --ud:#0F766E; --warn:#B45309;
+    --display:"Petrona",Georgia,"Songti SC",serif;
+    --body:"IBM Plex Sans",system-ui,"PingFang SC","Microsoft YaHei",sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:#0E1413; --surface:#18211F; --ink:#E7EDEB; --ink-soft:#97A5A1;
+      --line:#2A3633; --accent:#2DD4BF; --accent-ink:#0E1413;
+      --yo:#A78BFA; --ud:#2DD4BF; --warn:#F59E0B;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground:#0E1413; --surface:#18211F; --ink:#E7EDEB; --ink-soft:#97A5A1;
+    --line:#2A3633; --accent:#2DD4BF; --accent-ink:#0E1413;
+    --yo:#A78BFA; --ud:#2DD4BF; --warn:#F59E0B;
+  }
+  * { box-sizing:border-box; }
+  body {
+    background:var(--ground); color:var(--ink); font-family:var(--body);
+    font-size:16px; line-height:1.6; padding:42px 20px 72px;
+    display:flex; justify-content:center;
+  }
+  main { width:100%; max-width:620px; display:flex; flex-direction:column; gap:30px; }
+  .eyebrow {
+    font-family:var(--mono); font-size:12px; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--ink-soft); margin:0 0 10px;
+  }
+  h1 {
+    font-family:var(--display); font-size:clamp(2rem,7vw,2.6rem); font-weight:600;
+    line-height:1.1; letter-spacing:-.015em; text-wrap:balance; margin:0 0 14px;
+  }
+  .lede { margin:0; color:var(--ink-soft); max-width:58ch; }
+  .lede b { color:var(--ink); font-weight:600; }
+  section { display:flex; flex-direction:column; gap:11px; }
+  section > h2 {
+    font-family:var(--mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase;
+    color:var(--ink-soft); margin:0; font-weight:500;
+  }
+  section > .sub { margin:-6px 0 2px; font-size:14.5px; color:var(--ink-soft); }
+  section > .sub b { color:var(--ink); font-weight:600; }
+  .card {
+    background:var(--surface); border:1px solid var(--line); border-radius:10px;
+    padding:13px 16px; display:flex; flex-direction:column; gap:9px;
+  }
+  .btns { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+  button {
+    font-family:var(--body); font-size:13.5px; font-weight:500; color:var(--ink);
+    background:transparent; border:1px solid var(--line); border-radius:999px;
+    padding:6px 13px; display:inline-flex; align-items:center; gap:7px;
+    cursor:pointer; transition:border-color .15s,color .15s,background .15s;
+  }
+  button:hover { border-color:var(--accent); color:var(--accent); }
+  button:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+  button.play { padding-left:9px; }
+  button.play[data-state="playing"] { border-color:var(--accent); color:var(--accent); }
+  button.play .dot {
+    width:16px; height:16px; flex:none; border-radius:50%; background:var(--accent);
+    color:var(--accent-ink); display:grid; place-items:center; font-size:6.5px; line-height:1;
+  }
+  button.play[data-k="yo"] .dot { background:var(--yo); }
+  button.play[data-k="ud"] .dot { background:var(--ud); }
+  button.rev { font-size:13px; color:var(--ink-soft); margin-left:auto; }
+  .oculto { display:none !important; }
+  .resp { display:flex; flex-direction:column; gap:2px; }
+  .resp .es { font-family:var(--display); font-size:1.08rem; font-weight:600; margin:0; }
+  .resp .zh { font-size:13.5px; color:var(--ink-soft); margin:0; }
+  /* 规则卡 */
+  .verbo { display:flex; align-items:baseline; gap:9px; }
+  .verbo .inf { font-family:var(--display); font-size:1.15rem; font-weight:600; }
+  .verbo .zh { font-size:13px; color:var(--ink-soft); }
+  .flecha {
+    display:flex; align-items:center; gap:9px; flex-wrap:wrap;
+    font-family:var(--mono); font-size:14px;
+  }
+  .flecha .f-yo { color:var(--yo); font-weight:500; }
+  .flecha .f-ud { color:var(--ud); font-weight:600; }
+  .flecha .sep { color:var(--ink-soft); }
+  .ej { margin:0; font-size:14px; }
+  .ej b { font-family:var(--display); font-size:1.02rem; font-weight:600; }
+  .ej span { color:var(--ink-soft); }
+  /* 小测 */
+  .q { background:var(--surface); border:1px solid var(--line); border-radius:10px;
+       padding:12px 15px; display:flex; flex-direction:column; gap:8px; }
+  .q[data-mark="ok"]  { border-color:var(--accent); }
+  .q[data-mark="mal"] { border-color:var(--warn); }
+  .q .n { font-family:var(--mono); font-size:12px; color:var(--ink-soft); }
+  .opts { display:flex; gap:8px; flex-wrap:wrap; }
+  .opts button[aria-pressed="true"][data-v="yo"] { border-color:var(--yo); color:var(--yo); font-weight:600; }
+  .opts button[aria-pressed="true"][data-v="usted"] { border-color:var(--ud); color:var(--ud); font-weight:600; }
+  .fb { margin:0; font-size:13.5px; }
+  .fb[data-mark="ok"]  { color:var(--accent); }
+  .fb[data-mark="mal"] { color:var(--warn); }
+  .fb.oculto { display:none !important; }
+  button.grande {
+    font-size:15px; font-weight:600; padding:11px 24px; align-self:flex-start;
+    border-color:var(--accent); color:var(--accent);
+  }
+  button.grande:hover { background:var(--accent); color:var(--accent-ink); }
+  #marcador {
+    background:var(--surface); border:1px solid var(--line);
+    border-left:3px solid var(--accent); border-radius:10px; padding:16px 18px;
+  }
+  #marcador h3 { font-family:var(--display); font-size:1.5rem; margin:0 0 5px; font-weight:600; }
+  #marcador p { margin:0; color:var(--ink-soft); font-size:14.5px; }
+  .after { border-top:1px solid var(--line); padding-top:18px; margin:0;
+           color:var(--ink-soft); font-size:15px; }
+  .after b { color:var(--ink); font-weight:600; }
+  #guardado { font-family:var(--mono); font-size:12px; color:var(--ink-soft); }
+
+  /* 标签页 */
+  .tabs {
+    display:flex; gap:6px; background:var(--surface);
+    border:1px solid var(--line); border-radius:999px; padding:4px; align-self:flex-start;
+    position:sticky; top:12px; z-index:5;
+  }
+  .tabs button {
+    border:none; border-radius:999px; padding:8px 20px; font-size:14.5px; font-weight:600;
+    color:var(--ink-soft);
+  }
+  .tabs button[aria-selected="true"] { background:var(--accent); color:var(--accent-ink); }
+  .tabs button:hover { color:var(--ink); }
+  .tabs button[aria-selected="true"]:hover { color:var(--accent-ink); }
+  .panel { display:flex; flex-direction:column; gap:30px; }
+  .panel[hidden] { display:none; }
+  /* 输入框 */
+  .fila { display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+  .fila input {
+    font-family:var(--display); font-size:1.05rem; color:var(--ink);
+    background:transparent; border:none; border-bottom:1.5px solid var(--line);
+    padding:4px 6px; width:160px; text-align:center;
+  }
+  .fila input:focus { outline:none; border-bottom-color:var(--accent); }
+  .frase { font-family:var(--display); font-size:1.06rem; margin:0; line-height:1.45; }
+  .frase .hueco { color:var(--ink-soft); letter-spacing:.06em; }
+  .cue { font-family:var(--mono); font-size:12.5px; color:var(--ink-soft); }
+  .aviso {
+    background:var(--surface); border:1px solid var(--line); border-left:3px solid var(--warn);
+    border-radius:10px; padding:13px 16px; font-size:14.5px; color:var(--ink-soft);
+  }
+  .aviso b { color:var(--ink); font-weight:600; }
+
+  @media (prefers-reduced-motion: reduce) { * { transition:none !important; } }
+</style>
+
+<main>
+  <header>
+    <p class="eyebrow">Imperativo · 21 sep 2026</p>
+    <h1>Usted 命令式</h1>
+    <p class="lede">
+      跟客户、供应商、医生、办事窗口说话全都用 usted。这几句你<b>每天在街上被人说</b>，
+      先听得出来，再谈开口。<br><br>
+      <b>练习</b>那页答案能翻、不计分；<b>测试</b>那页盖住答案，交卷算分。
+    </p>
+  </header>
+
+  <div class="tabs" role="tablist">
+    <button type="button" role="tab" data-panel="practica" aria-selected="true">练习</button>
+    <button type="button" role="tab" data-panel="prueba" aria-selected="false">测试</button>
+  </div>
+
+  <div class="panel" id="practica">
+    <section>
+      <h2>街上天天听到的</h2>
+      <p class="sub">先听，想意思，再翻答案。<b>别看着字听。</b></p>
+      <div id="calle"></div>
+    </section>
+
+    <section>
+      <h2>一条规则，不规则动词也管用</h2>
+      <p class="sub">
+        <b>从「我」的现在式出发，砍掉 -o，-ar 加 e、-er/-ir 加 a。</b><br>
+        紫色是「我在做」，绿色是「请您做」。先听紫的，再听绿的，听差别在哪儿。
+      </p>
+      <div id="regla"></div>
+    </section>
+
+    <p class="after" style="border:none;padding:0">
+      练熟了再切到<b>测试</b>那页。那边答案是盖住的，交卷才出分。
+    </p>
+  </div>
+
+  <div class="panel" id="prueba" hidden>
+    <p class="aviso">
+      练习那页过完了再做。<b>一边翻答案一边考，测出来的是抄写速度。</b>
+    </p>
+
+    <section>
+      <h2>第一节 · 听辨（12 题）</h2>
+      <p class="sub">
+        听一个词，判断是<b>「我在做」</b>还是<b>「请您做」</b>。
+        差别只在最后一个元音：<b>-o</b> 是我，<b>-a / -e</b> 是您。
+      </p>
+      <div id="test"></div>
+    </section>
+
+    <section>
+      <h2>第二节 · 写出命令形（6 题）</h2>
+      <p class="sub">给你原形，写 <b>usted</b> 的命令形。走三步：yo 现在式 → 砍掉 o → 换尾巴。</p>
+      <div id="forma"></div>
+    </section>
+
+    <section>
+      <h2>第三节 · 填进句子（4 题）</h2>
+      <p class="sub">括号里是原形，把命令形填进去。<b>句首要大写。</b></p>
+      <div id="hueco"></div>
+    </section>
+
+    <button class="grande" type="button" id="entregar">交卷</button>
+    <div id="marcador" class="oculto"></div>
+
+    <p class="after">
+      成绩自动传回来，不用你抄。<br><br>
+      全过了我再给 <b>tú 形</b>（跟朋友、家里人说话用的），那套有 8 个不规则要单背。
+      <span id="guardado"></span>
+    </p>
+  </div>
+
+</main>
+
+<script>
+  const CLIPS = __AUDIO__;
+  const D = __DATA__;
+
+
+  // ── 标签页 ──────────────────────────────────
+  const tabs = document.querySelectorAll(".tabs button");
+  function abrir(nombre) {
+    tabs.forEach(function (b) {
+      b.setAttribute("aria-selected", b.dataset.panel === nombre ? "true" : "false");
+    });
+    ["practica", "prueba"].forEach(function (p) {
+      document.getElementById(p).hidden = p !== nombre;
+    });
+    try { localStorage.setItem("mandato.tab", nombre); } catch (e) {}
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+  tabs.forEach(function (b) {
+    b.addEventListener("click", function () { abrir(b.dataset.panel); });
+  });
+  try {
+    const guardadoTab = localStorage.getItem("mandato.tab");
+    if (guardadoTab === "prueba") abrir("prueba");
+  } catch (e) {}
+
+  const sinTilde = function (s) {
+    return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  };
+  const limpiar = function (s) {
+    return s.trim().toLowerCase().replace(/[.,;:¿?¡!]/g, "");
+  };
+
+  const cache = {};
+  let current = null;
+
+  function play(key, button) {
+    if (current && current.button !== button) {
+      current.audio.pause(); current.audio.currentTime = 0;
+      current.button.dataset.state = "idle";
+    }
+    if (!cache[key]) cache[key] = new Audio("data:audio/mpeg;base64," + CLIPS[key]);
+    const audio = cache[key];
+    if (!audio.paused) {
+      audio.pause(); audio.currentTime = 0;
+      button.dataset.state = "idle"; current = null; return;
+    }
+    audio.currentTime = 0; audio.play();
+    button.dataset.state = "playing";
+    current = { audio: audio, button: button };
+    audio.onended = function () { button.dataset.state = "idle"; current = null; };
+  }
+
+  function cablear(el) {
+    el.querySelectorAll("button.play").forEach(function (b) {
+      b.addEventListener("click", function () { play(b.dataset.key, b); });
+    });
+  }
+
+  // ── 第一节 ──
+  const hostC = document.getElementById("calle");
+  D.calle.forEach(function (f) {
+    const el = document.createElement("div");
+    el.className = "card";
+    el.innerHTML =
+      '<div class="btns">' +
+        '<button class="play" type="button" data-key="c' + f.i + '_lento" data-state="idle">' +
+          '<span class="dot">&#9654;</span>慢</button>' +
+        '<button class="play" type="button" data-key="c' + f.i + '_normal" data-state="idle">' +
+          '<span class="dot">&#9654;</span>正常</button>' +
+        '<button class="rev" type="button">翻答案</button>' +
+      "</div>" +
+      '<div class="resp oculto"><p class="es">' + f.es + '</p><p class="zh">' + f.zh + "</p></div>";
+    hostC.appendChild(el);
+    cablear(el);
+    const rev = el.querySelector("button.rev"), caja = el.querySelector(".resp");
+    rev.addEventListener("click", function () {
+      const abierto = !caja.classList.contains("oculto");
+      caja.classList.toggle("oculto", abierto);
+      rev.textContent = abierto ? "翻答案" : "藏起来";
+    });
+  });
+
+  // ── 第二节 ──
+  const hostR = document.getElementById("regla");
+  D.regla.forEach(function (v) {
+    const el = document.createElement("div");
+    el.className = "card";
+    el.innerHTML =
+      '<div class="verbo"><span class="inf">' + v.inf + '</span>' +
+        '<span class="zh">' + v.zh + "</span></div>" +
+      '<div class="flecha">' +
+        '<span class="f-yo">yo ' + v.yo + "</span>" +
+        '<span class="sep">→ 去掉 o →</span>' +
+        '<span class="f-ud">usted ' + v.ud + "</span>" +
+      "</div>" +
+      '<div class="btns">' +
+        '<button class="play" type="button" data-k="yo" data-key="r' + v.i + '_yo" data-state="idle">' +
+          '<span class="dot">&#9654;</span>' + v.yo + "</button>" +
+        '<button class="play" type="button" data-k="ud" data-key="r' + v.i + '_ud" data-state="idle">' +
+          '<span class="dot">&#9654;</span>' + v.ud + "</button>" +
+        '<button class="play" type="button" data-key="r' + v.i + '_ej" data-state="idle">' +
+          '<span class="dot">&#9654;</span>例句</button>' +
+      "</div>" +
+      '<p class="ej"><b>' + v.ej + '</b><br><span>' + v.ejzh + "</span></p>";
+    hostR.appendChild(el);
+    cablear(el);
+  });
+
+  // ── 第三节 ──
+  const hostT = document.getElementById("test");
+  const elegido = {};
+  D.test.forEach(function (q, n) {
+    const el = document.createElement("div");
+    el.className = "q";
+    el.innerHTML =
+      '<div class="btns"><span class="n">' + (n + 1) + ".</span>" +
+        '<button class="play" type="button" data-key="t' + q.i + '" data-state="idle">' +
+          '<span class="dot">&#9654;</span>听</button>' +
+        '<button class="play" type="button" data-key="t' + q.i + '_lento" data-state="idle">' +
+          '<span class="dot">&#9654;</span>慢</button>' +
+      "</div>" +
+      '<div class="opts">' +
+        '<button type="button" data-v="yo" aria-pressed="false">我在做</button>' +
+        '<button type="button" data-v="usted" aria-pressed="false">请您做</button>' +
+      "</div>" +
+      '<p class="fb oculto"></p>';
+    hostT.appendChild(el);
+    cablear(el);
+    el.querySelectorAll(".opts button").forEach(function (b) {
+      b.addEventListener("click", function () {
+        el.querySelectorAll(".opts button").forEach(function (o) {
+          o.setAttribute("aria-pressed", "false");
+        });
+        b.setAttribute("aria-pressed", "true");
+        elegido[n] = b.dataset.v;
+      });
+    });
+  });
+
+
+  // ── 测试第二节：写出命令形 ──
+  const hostF = document.getElementById("forma");
+  D.forma.forEach(function (q, n) {
+    const el = document.createElement("div");
+    el.className = "q";
+    el.innerHTML =
+      '<div class="fila"><span class="n">' + (n + 1) + '.</span>' +
+        '<span class="cue">' + q.inf + '　' + q.zh + "</span></div>" +
+      '<div class="fila"><span class="cue">usted</span>' +
+        '<input type="text" autocomplete="off" autocapitalize="off" spellcheck="false"></div>' +
+      '<p class="fb oculto"></p>';
+    hostF.appendChild(el);
+  });
+
+  // ── 测试第三节：填进句子 ──
+  const hostH = document.getElementById("hueco");
+  D.hueco.forEach(function (q, n) {
+    const el = document.createElement("div");
+    el.className = "q";
+    el.innerHTML =
+      '<div class="fila"><span class="n">' + (n + 1) + '.</span>' +
+        '<span class="cue">(' + q.inf + ")</span></div>" +
+      '<p class="frase">' + q.frase.replace("______", '<span class="hueco">______</span>') + "</p>" +
+      '<div class="fila"><input type="text" autocomplete="off" spellcheck="false"></div>' +
+      '<p class="fb oculto"></p>';
+    hostH.appendChild(el);
+  });
+
+  let db = null;
+  const guardado = document.getElementById("guardado");
+  window.claude.use("db").then(function (x) { db = x; }).catch(function () {});
+
+  document.getElementById("entregar").addEventListener("click", async function () {
+    const detalle = { oido: [], forma: [], hueco: [] };
+    let bienO = 0, bienF = 0, bienH = 0;
+
+    // 第一节 听辨
+    D.test.forEach(function (q, n) {
+      const el = hostT.children[n];
+      const fb = el.querySelector(".fb");
+      const ok = elegido[n] === q.resp;
+      if (ok) bienO++;
+      el.dataset.mark = ok ? "ok" : "mal";
+      fb.dataset.mark = ok ? "ok" : "mal";
+      fb.classList.remove("oculto");
+      fb.textContent = (ok ? "✓ " : "✗ ") + q.pal + " · " + q.inf + " · " +
+        (q.resp === "yo" ? "我在做" : "请您做");
+      detalle.oido.push({ n: n + 1, pal: q.pal, dado: elegido[n] || null, ok: ok });
+    });
+
+    // 第二、三节 用同一套三档判定：全对 / 只差重音 / 错
+    function calificar(host, lista, clave, marcados) {
+      let bien = 0;
+      lista.forEach(function (q, n) {
+        const el = host.children[n];
+        const fb = el.querySelector(".fb");
+        const dado = limpiar(el.querySelector("input").value);
+        const esperado = limpiar(q.resp);
+        const exacto = dado === esperado;
+        const casi = !exacto && dado.length > 0 && sinTilde(dado) === sinTilde(esperado);
+        const ok = exacto || casi;
+        if (ok) bien++;
+        el.dataset.mark = ok ? "ok" : "mal";
+        fb.dataset.mark = ok ? "ok" : "mal";
+        fb.classList.remove("oculto");
+        fb.innerHTML = (exacto ? "✓ " + q.resp
+            : casi ? "✓ 只差重音 → " + q.resp
+            : "✗ " + q.resp + "　（" + q.yo + " → 去掉 o → " + q.resp + "）") +
+          '　<button class="play" type="button" data-key="' + clave + n +
+          '" data-state="idle"><span class="dot">&#9654;</span>听</button>';
+        cablear(fb);
+        marcados.push({ n: n + 1, resp: q.resp, dado: dado, exacto: exacto, casi: casi });
+      });
+      return bien;
+    }
+
+    bienF = calificar(hostF, D.forma, "fm", detalle.forma);
+    bienH = calificar(hostH, D.hueco, "hu", detalle.hueco);
+
+    const total = D.test.length + D.forma.length + D.hueco.length;
+    const bien = bienO + bienF + bienH;
+    const m = document.getElementById("marcador");
+    m.classList.remove("oculto");
+    m.innerHTML = "<h3>" + bien + " / " + total + "</h3>" +
+      "<p>听辨 " + bienO + "/" + D.test.length +
+      "　写形式 " + bienF + "/" + D.forma.length +
+      "　填句子 " + bienH + "/" + D.hueco.length + "</p>";
+    m.scrollIntoView({ behavior: "smooth", block: "center" });
+
+    if (!db) return;
+    try {
+      await db.doc("resultados/imperativo").set({
+        fecha: "2026-09-21",
+        oido: bienO, oidoTotal: D.test.length,
+        forma: bienF, formaTotal: D.forma.length,
+        hueco: bienH, huecoTotal: D.hueco.length,
+        detalle: detalle, updatedAt: new Date().toISOString()
+      });
+      guardado.textContent = "成绩已回传";
+    } catch (e) { guardado.textContent = "成绩没存上，截图发我"; }
+  });
+</script>
