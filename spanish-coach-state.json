@@ -931,7 +931,8 @@
   "recent_topics": [
     "culpa/error对比专项(第二次巩固，选词稳定)",
     "miedo/asustado接续动词规则(tener miedo vs estar/parecer asustado)",
-    "negar词干变化(niego/niegas/niega)首次教学，3/3全对"
+    "negar词干变化(niego/niegas/niega)首次教学，3/3全对",
+    "命令式 usted 形（新内容，学生要求重新开始不碰旧账）"
   ],
   "grammar_points_covered": [
     "ser",
@@ -995,7 +996,8 @@
     "假设情境新词(imaginar/suponer/en caso de que/a menos que/ojalá)",
     "裸聊角色扮演(市场买水果场景)-决定设为每日固定环节",
     "论证连接词(por lo tanto/de hecho/sin duda/además/al final)",
-    "imperfecto/condicional背景句型(mientras/cuando)专项巩固-复发与纠正"
+    "imperfecto/condicional背景句型(mientras/cuando)专项巩固-复发与纠正",
+    "命令式 usted 形：从 yo 现在式去 -o 加 a/e 的统一规则（含不规则动词），语音课形式"
   ],
   "common_errors": [
     {
@@ -3471,5 +3473,15 @@
       "diagnostico": "【精确定位】-ía 词尾不是抓不到，是位置决定的：vivía（句首第二词）和 compraría（主句开头）都抓到了词干，只漏重音；而 podía（夹在 no…ni 中间）和 podría（夹在 allí 和 trabajar 中间）两题全空白。同理 mostró（句中第二位）、semáforo（介词短语里）也整词丢失。→ 问题不在词形认知，在非句首、非重读位置的切分",
       "contraste": "判断 8/10 对填词 3/9 —— 大意能抓（且有中文选项托底），具体词形抓不到。两种能力差距很大，说明他是靠语境推的，不是听出来的"
     }
+  },
+  "imperativo_usted": {
+    "fecha_ensenado": "2026-09-21",
+    "razon": "学生要求「重新开始，练今天的新内容，旧的先放一边」。选命令式 usted 形：他在墨西哥城做生意，跟客户/供应商/医生/窗口说话全用 usted，每天被人说 Pásele / Dígame / Espéreme 却开不了口",
+    "regla": "从 yo 现在式出发，砍掉 -o，-ar 加 e、-er/-ir 加 a。关键卖点：不规则动词的麻烦在 yo 那一步已经解决，命令式白捡（digo→diga、tengo→tenga、salgo→salga、vuelvo→vuelva）",
+    "pagina": "https://claude.ai/artifact/DAPGJTu3nePtwYXpbCNnMf",
+    "estructura": "①街头 6 句（听→想→翻答案）②6 个动词规则演示（yo 形/命令形/例句各一段音）③12 题 yo/usted 听辨小测，自动计分回传 resultados/imperativo",
+    "calibracion": "听辨靶子选在词尾元音 -o 对 -a/-e。上次 podía/podría 出早了，这次差别明显得多，属于应该能过的难度",
+    "estado": "已发布，等学生交卷",
+    "siguiente": "第三节过了再给 tú 形（含 8 个不规则：di/haz/ve/pon/sal/sé/ten/ven）"
   }
 }
