@@ -1981,6 +1981,32 @@
       "count": 1,
       "relearn": false,
       "date": "2026-09-22"
+    },
+    {
+      "error": "tú/usted 在同一句里打架：llámame o pregunte por mí（llámame 是 tú 形，应 llámeme）。9-21 裸聊对店员说 tienes，今天写作里又犯",
+      "count": 3,
+      "relearn": true,
+      "date": "2026-09-22",
+      "note": "做生意场合一律 usted。这条已经第三次出现，每次角色扮演和写作都要盯"
+    },
+    {
+      "error": "性数一致：Mis clientes son mujer（应 mujeres）。同一篇里 mi→mis 自己改对了，但句子后半的 mujer 没跟着变复数 —— 只修了一半",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-22"
+    },
+    {
+      "error": "no está en A, sino en B 这个成对句型只写前半截就收尾，丢了 sino 那半",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-22",
+      "note": "阅读短文里刚见过原句（el éxito no está en la comida, sino en el servicio），可直接拿来对照"
+    },
+    {
+      "error": "regla（规矩）写成 regala（他送礼物）；sirvo ropa 多写一个 a",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-22"
     }
   ],
   "week_stats": {
@@ -1995,9 +2021,10 @@
     ]
   },
   "current_focus_areas": [
-    "servir → sirvo / seguir → sigo 两个词专项（唯一剩下的窟窿，别铺开）",
-    "命令式进对话：单题会做，开口就退回 yo 形（9-21 裸聊暴露）",
-    "tú / usted：做生意场合别说 tienes",
+    "tú/usted 混用 —— 已第三次，做生意场合一律 usted（最高优先）",
+    "性数一致：mis clientes son mujeres 这类整句连动",
+    "servir → sirvo / seguir → sigo 两个词",
+    "命令式进对话：单题会做，开口就退回 yo 形",
     "o → ue 帮（poder/volver/dormir）—— 已会一半，可快速过",
     "听力：句中非重读位置的词（9-18 定的靶子，还没打）"
   ],
@@ -3664,6 +3691,30 @@
         "comparte → Compare（多一个 t 就变成 compartir「分享」，他要的是 comparar「比较」的命令式）",
         "第 3 题给的是三步模板，他只产出了第③步，前两步（Entiendo / Es que…）没说"
       ]
+    },
+    "escrito": {
+      "entregado": "Hola, me llamo yinho,Tengo un Negocio en taizhou,sirvo a ropa a mis clientes,Trabajo cinco días a la semana. Y abro a las nueve. Mis clientes son mujer. Sigo una regala. El precio justo todos. Para mi,exito no esta en la tienda,si usted quiere comprar,llámame o pregunte por mi",
+      "andamio": "七个填空句 + 词块表。上一条他还「一个字写不出来」，加了脚手架后七句全写完",
+      "aciertos": [
+        "a mis clientes —— 上一轮刚纠的 mi→mis，这次没提醒就对了",
+        "Trabajo cinco días a la semana y abro a las nueve —— 整句零错误",
+        "pregunte por mí —— usted 命令式用对了",
+        "Tengo un negocio en Taizhou —— 正确"
+      ],
+      "errores_principales": [
+        "llámame o pregunte —— 同一句里 tú 形和 usted 形打架，应统一 llámeme。跟 9-21 文具店对店员说 tienes 是同一笔老账",
+        "son mujer → son mujeres —— 性数一致，跟他刚修好的 mi→mis 同一家族",
+        "第 6 句只写了 no está en… 前半截，丢了 sino en…。这个句型是成对的，阅读短文里刚见过"
+      ],
+      "errores_menores": [
+        "sirvo a ropa（多个 a）",
+        "regala → regla（regala 是「他送礼物」）",
+        "precio justo todos → 漏 para",
+        "Para mi → Para mí",
+        "exito/esta → éxito/está"
+      ],
+      "palabras": "约 55 词（丢了 sino 半句所以偏短，目标 60-80）",
+      "nivel_andamio": "当前：七句填空 + 词块表全给。下次可撤一级 —— 只给句首和中文提示，不给词块表"
     }
   }
 }
