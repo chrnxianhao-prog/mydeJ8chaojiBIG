@@ -184,6 +184,20 @@ with sync_playwright() as pw:
 最后**截一张图自己看一眼**（`locator.screenshot()` 然后用 Read 工具读）。
 computed style 对了不等于人看着清楚，眼睛过一遍最保险。
 
+⚠️ **读样式前要把 CSS 过渡动画排掉，否则会读到动画中间值，判出假故障。**
+按钮上有 `transition: .15s`，2026-09-22 只等 120ms 就读，
+结果同一个页面在 dark/390px 报「悬停盖掉选中态」，逐属性重测其实完全一致 ——
+是我的检查在抖，不是页面有毛病。两个办法，一起用最稳：
+
+```python
+p = b.new_page(color_scheme=tema, reduced_motion="reduce")   # 直接关掉过渡
+...
+opt.click(); p.wait_for_timeout(350)                          # 再留足余量
+```
+
+**自己的检查报错时，先怀疑检查本身，逐属性打出来对一遍再下结论。**
+拿着假故障去改代码，等于把好的改坏。
+
 ## 难度调节
 
 跟着 `difficulty_modifier` 走：

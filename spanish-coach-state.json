@@ -3622,5 +3622,19 @@
       "diagnostico": "窟窿收窄到 servir / seguir 两个词，而且两个都在 e→i 帮。原因：①两个原形长得像（servir/seguir）②变位后 sirvo/sigo 跟原形几乎不沾边 ③seguir 还多一层 gu→g 的拼写变化。对比 pedir/repetir 都对了，说明 e→i 这个规则本身他懂，是这两个词的形没记住",
       "siguiente": "只练 servir / seguir 两个词，别再铺开。按 9-15 验证过的做法：出现「记不住」信号时收窄到 2-3 个点效果最好"
     }
+  },
+  "dia_2026_09_22": {
+    "fecha": "2026-09-22",
+    "tema": "餐厅（servir / seguir 专项）",
+    "formato": "学生 2026-09-22 指定的五节大纲首次落地",
+    "pagina": "https://claude.ai/artifact/PjAp5ASWhfvsTpLwSxZWdw",
+    "secciones": {
+      "1_听声辨位": "10 题，听变位形式选原形。servir/seguir 占 6 题（sirvo/sigo/sirve/sigue/sirva/siga），另混 pedir/poder/poner/cerrar/perder",
+      "2_单词": "6 题中→西，全是 9-20 综合卷上答错、躺了一个多月的：el semáforo / el almuerzo / dibujar / la carrera / el éxito / la cuchara",
+      "3_阅读理解": "9 句短文《我叔叔的餐厅》+ 4 题判断。短文自然用上 pongo/sirvo/sigo/piensa/perder 和上面那批错词，每句带▶可听",
+      "4_口语表述": "3 个话题（用 sirvo 讲生意、用 sigo 讲原则、客人嫌贵怎么回且要用 usted 命令式），聊天里交",
+      "5_小作文": "«Mi negocio» 60-80 词，必须用到 sirvo/servimos、sigo、el éxito、一句 usted 命令式"
+    },
+    "estado": "已发布，等交卷（前三节自动回传 resultados/dia-0922，后两节等他在聊天里交）"
   }
 }
