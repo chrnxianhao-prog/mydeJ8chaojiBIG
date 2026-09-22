@@ -3755,5 +3755,22 @@
     "la cuchara": "sopa（汤）和 cuchara（勺）都是 a 结尾，绑一对：喝汤用勺。cuchillo（刀）的 ll 是两道刃",
     "la carrera": "跟 carro（车）同根，本意跑道/赛跑 → 人生的跑道 → 职业生涯",
     "dibujar": "没有词源钩子，绑人：A mi hija le gusta dibujar。让他绑一个身边真会画画的人"
+  },
+  "dia_2026_09_22b": {
+    "fecha": "2026-09-22（同日第二轮 · 加练）",
+    "tema": "tú / usted 专项 + no está en A sino en B",
+    "razon": "tú/usted 已第三次：9-21 对文具店店员说 tienes，9-22 小作文 llámame 撞 pregunte。sino 句型第二次栽（小作文丢后半截、阅读第 3 题答错）",
+    "pagina": "https://claude.ai/artifact/TKyJqcBsgssSMRpjubBmNk",
+    "regla_misma_fecha": "昨天刚考的四个锚点词（dibujar/la carrera/el éxito/la cuchara）今天不再考 —— 同日问等于看脸熟。②改成另外六个躺得久的：trepar/el sombrero/la empresa/la garganta/el probador/la noticia。那四个明天正式复测",
+    "secciones": {
+      "练习": "6 组同句两版本（¿Tienes/¿Tiene、Llámame/Llámeme、Dime/Dígame、Siéntate/Siéntese、Espera/Espere、¿Qué quieres/¿Qué quiere）+ 3 句 sino 句型",
+      "1_听声辨位": "10 题，听一句判断对朋友说还是对客户说。靶子是词尾 -s 有无、-me 前的元音、音节数，比 9-18 的 podía/podría 明显得多",
+      "2_单词": "6 题，全是 correct_count=0 且躺一个多月的",
+      "3_阅读理解": "9 句短文《两种说话方式》—— 一个店主对朋友用 tú、对客户用 usted，早期对所有人用 tú 得罪过客人。第 4 题考的正是 sino 那句",
+      "4_口语": "3 题，保持脚手架（同句说两遍、三句 usted 招呼、用 sino 句型说看法）",
+      "5_小作文": "《Cómo hablo con mis clientes》—— **支架撤一级**：七句仍给句首和中文提示，但不再给词块表，词自己想"
+    },
+    "nivel_andamio": "口语仍给骨架；小作文撤到「只给句首+中文提示，无词块表」。下次若过关，再撤到「只给题目+必须用到的结构清单」",
+    "estado": "已发布，等交卷"
   }
 }
