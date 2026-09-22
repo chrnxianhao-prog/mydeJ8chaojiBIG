@@ -1962,6 +1962,25 @@
       "relearn": true,
       "date": "2026-09-22",
       "note": "跟 pedir/poder/poner 是同一类毛病（形近动词成组污染）。已验证有效的解法是收窄到 2-3 个点 + 给二元判断规则，别铺开"
+    },
+    {
+      "error": "【教学法·我的错】五节大纲的④⑤只给题目不给脚手架，学生一个字产不出。他 A2、精细产出滞后，自由产出对他就是空白页 —— 跟 9-18 整段听力零理解同一个错",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-22",
+      "note": "已写进 CLAUDE.md：④给句型骨架+词块表（要对话就给三步模板），⑤拆成 6-8 个填空句、句型优先从当天阅读短文里搬。写顺了再一根根撤支架"
+    },
+    {
+      "error": "物主代词漏性数一致：mi clientes（应 mis clientes）。9-16 也犯过近亲错误（no es culpa 漏 tu）",
+      "count": 2,
+      "relearn": true,
+      "date": "2026-09-22"
+    },
+    {
+      "error": "comparar（比较）写成 comparte，多一个 t 就成了 compartir（分享）的形式",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-22"
     }
   ],
   "week_stats": {
@@ -3635,6 +3654,16 @@
       "4_口语表述": "3 个话题（用 sirvo 讲生意、用 sigo 讲原则、客人嫌贵怎么回且要用 usted 命令式），聊天里交",
       "5_小作文": "«Mi negocio» 60-80 词，必须用到 sirvo/servimos、sigo、el éxito、一句 usted 命令式"
     },
-    "estado": "已发布，等交卷（前三节自动回传 resultados/dia-0922，后两节等他在聊天里交）"
+    "estado": "已发布，等交卷（前三节自动回传 resultados/dia-0922，后两节等他在聊天里交）",
+    "habla": {
+      "andamio": "第一版只给题目，学生一个字写不出来（原话「口语表述怎么说不知小作文也写不来怎么搞搞」）。改成句型骨架 + 词块表后当场能产出",
+      "respuestas": "Sirvo ropa a mi clientes / sigo una regla: precio justo para todos / comparte con otros",
+      "resultado": "3 句全部方向正确，第 2 句完全正确",
+      "errores": [
+        "mi clientes → mis clientes（物主代词性数一致，老毛病）",
+        "comparte → Compare（多一个 t 就变成 compartir「分享」，他要的是 comparar「比较」的命令式）",
+        "第 3 题给的是三步模板，他只产出了第③步，前两步（Entiendo / Es que…）没说"
+      ]
+    }
   }
 }
