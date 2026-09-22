@@ -1,10 +1,10 @@
 {
   "level": "A2",
-  "streak": 1,
-  "total_completed_days": 65,
+  "streak": 2,
+  "total_completed_days": 66,
   "total_missed_days": 11,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-09-21",
+  "last_task_date": "2026-09-22",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
   "consecutive_completed": 3,
@@ -998,7 +998,8 @@
     "论证连接词(por lo tanto/de hecho/sin duda/además/al final)",
     "imperfecto/condicional背景句型(mientras/cuando)专项巩固-复发与纠正",
     "命令式 usted 形：从 yo 现在式去 -o 加 a/e 的统一规则（含不规则动词），语音课形式",
-    "-go 帮动词现在式 yo 形（salgo/tengo/pongo/vengo/hago/digo/traigo/oigo）—— 八个词一个规则"
+    "-go 帮动词现在式 yo 形（salgo/tengo/pongo/vengo/hago/digo/traigo/oigo）—— 八个词一个规则",
+    "现在式词干变化 e→ie（cerrar/pensar/entender/perder，测试 4/4）与 e→i（pedir/repetir 已过，servir/seguir 未过）"
   ],
   "common_errors": [
     {
@@ -1942,6 +1943,25 @@
       "count": 1,
       "relearn": false,
       "date": "2026-09-21"
+    },
+    {
+      "error": "servir 的 yo 形写成 siervo（应 sirvo）—— 套错帮，用了 e→ie 而不是 e→i",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-22"
+    },
+    {
+      "error": "seguir 的命令式写成 sega（应 siga）—— 词干完全没变，直接从原形砍。seguir 是 e→i 帮里最难的：sigo 既有 e→i 又掉了 gu 的 u",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-22"
+    },
+    {
+      "error": "servir / seguir 互相污染：听 sigo 选成了 servir。两个原形长得像，变位后 sirvo/sigo 又跟原形几乎不沾边",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-22",
+      "note": "跟 pedir/poder/poner 是同一类毛病（形近动词成组污染）。已验证有效的解法是收窄到 2-3 个点 + 给二元判断规则，别铺开"
     }
   ],
   "week_stats": {
@@ -1956,10 +1976,10 @@
     ]
   },
   "current_focus_areas": [
-    "命令式 usted 形：转换动作已过，保持",
-    "现在式词干变化 e→ie（cerrar/querer/pensar）—— 未教",
-    "现在式词干变化 e→i（pedir/servir/repetir）—— 未教",
-    "pedir / poder / poner 三词互相污染，需专项区分",
+    "servir → sirvo / seguir → sigo 两个词专项（唯一剩下的窟窿，别铺开）",
+    "命令式进对话：单题会做，开口就退回 yo 形（9-21 裸聊暴露）",
+    "tú / usted：做生意场合别说 tienes",
+    "o → ue 帮（poder/volver/dormir）—— 已会一半，可快速过",
     "听力：句中非重读位置的词（9-18 定的靶子，还没打）"
   ],
   "error_threshold": 4,
@@ -3588,6 +3608,19 @@
     "estructura": "练习区：8 句真能用的命令（Repita/Siga derecho/No pierda el recibo…）+ 规则演示；测试区：听辨 10（听 yo 形选原形）+ 写 yo 形 6 + 填命令形 4 = 20 题",
     "trampa_intencional": "听辨里混进 pido/puedo/pongo —— pedir/poder/poner 他 9-20、9-21 各串过一次，这次用耳朵分一遍",
     "estado": "已发布，等交卷",
-    "nota_conteo": "同一自然日第二轮。内容是新的，所以测试算数；但 streak 和完成天数不重复推进"
+    "nota_conteo": "同一自然日第二轮。内容是新的，所以测试算数；但 streak 和完成天数不重复推进",
+    "prueba": {
+      "fecha": "2026-09-22（材料是 9-21 出的，跨日作答，计入）",
+      "puntos": "17/20（听辨 9/10、写形式 5/6、填句子 3/4）",
+      "e_ie_grupo": "4/4 全对 —— cierro / pienso / entiendo / pierdo。这一帮当天就过了",
+      "e_i_grupo": "pedir→pido ✓、repetir→repito ✓，但 servir 和 seguir 全错",
+      "falladas": {
+        "servir → siervo": "套错帮了，用了 e→ie。（siervo 还真是个词，意思是「奴仆」）",
+        "seguir → sega": "词干根本没变，直接从原形 seguir 砍成 seg- 加 a。seguir 是最难的一个：yo sigo 里 e 变 i，而且 gu 的 u 掉了",
+        "听辨 sigo → 选了 servir": "servir / seguir 互相污染，跟上面两条同一个源"
+      },
+      "diagnostico": "窟窿收窄到 servir / seguir 两个词，而且两个都在 e→i 帮。原因：①两个原形长得像（servir/seguir）②变位后 sirvo/sigo 跟原形几乎不沾边 ③seguir 还多一层 gu→g 的拼写变化。对比 pedir/repetir 都对了，说明 e→i 这个规则本身他懂，是这两个词的形没记住",
+      "siguiente": "只练 servir / seguir 两个词，别再铺开。按 9-15 验证过的做法：出现「记不住」信号时收窄到 2-3 个点效果最好"
+    }
   }
 }
