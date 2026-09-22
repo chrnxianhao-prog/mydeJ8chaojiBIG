@@ -2007,6 +2007,26 @@
       "count": 1,
       "relearn": false,
       "date": "2026-09-22"
+    },
+    {
+      "error": "【提取方向】el éxito 同一天读到、答题碰到、自己写作还用了，但中→西问「成功」答不会。认得出来 ≠ 提取得出来，两个方向要分开练",
+      "count": 2,
+      "relearn": true,
+      "date": "2026-09-22",
+      "note": "9-17 la carta 是同一回事。对策：给记忆锚点（已建 anclas_memoria 字段），而不是让词反复出现在材料里"
+    },
+    {
+      "error": "cuchara（勺）/ cuchillo（刀）互换。餐具整组不稳，9-17 也错过一次",
+      "count": 2,
+      "relearn": true,
+      "date": "2026-09-22"
+    },
+    {
+      "error": "no está en A, sino en B 成对句型第二次栽：阅读第 3 题答错（原文就是这句），前一天小作文里也只写了前半截",
+      "count": 2,
+      "relearn": true,
+      "date": "2026-09-22",
+      "note": "教法：看见 no está en 就该等着 sino en。这个句型要当固定块整体教"
     }
   ],
   "week_stats": {
@@ -2144,8 +2164,9 @@
     {
       "word": "la carrera",
       "module": "工作职业",
-      "date_wrong": "2026-09-17",
-      "correct_count": 0
+      "date_wrong": "2026-09-22",
+      "correct_count": 0,
+      "mnemonic": "跟 carro（车）同根，本意跑道/赛跑 → 人生的跑道 → 职业生涯"
     },
     {
       "word": "el viaje",
@@ -2319,13 +2340,13 @@
       "word": "el semáforo",
       "module": "城市交通",
       "date_wrong": "2026-09-17",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "el almuerzo",
       "module": "食物饮料",
       "date_wrong": "2026-09-17",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "el clima",
@@ -2336,8 +2357,9 @@
     {
       "word": "dibujar",
       "module": "兴趣爱好",
-      "date_wrong": "2026-09-17",
-      "correct_count": 0
+      "date_wrong": "2026-09-22",
+      "correct_count": 0,
+      "mnemonic": "没有词源钩子，绑人：A mi hija le gusta dibujar。让他绑一个身边真会画画的人"
     },
     {
       "word": "divertirse",
@@ -2384,8 +2406,9 @@
     {
       "word": "el éxito",
       "module": "工作职业",
-      "date_wrong": "2026-09-17",
-      "correct_count": 0
+      "date_wrong": "2026-09-22",
+      "correct_count": 0,
+      "mnemonic": "假朋友陷阱：英语 exit（出口）跟 éxito（成功）长得像但毫无关系。脑子里蹦出「出口」对不上「成功」，词就存不住。点明两码事即可"
     },
     {
       "word": "camarero",
@@ -2402,8 +2425,9 @@
     {
       "word": "cuchara",
       "module": "餐厅",
-      "date_wrong": "2026-09-17",
-      "correct_count": 0
+      "date_wrong": "2026-09-22",
+      "correct_count": 0,
+      "mnemonic": "sopa（汤）和 cuchara（勺）都是 a 结尾，绑一对：喝汤用勺。cuchillo（刀）的 ll 是两道刃"
     },
     {
       "word": "el dedo",
@@ -2522,8 +2546,9 @@
     {
       "word": "dibujar",
       "module": "兴趣爱好",
-      "date_wrong": "2026-09-17",
-      "correct_count": 0
+      "date_wrong": "2026-09-22",
+      "correct_count": 0,
+      "mnemonic": "没有词源钩子，绑人：A mi hija le gusta dibujar。让他绑一个身边真会画画的人"
     },
     {
       "word": "médico",
@@ -3715,6 +3740,20 @@
       ],
       "palabras": "约 55 词（丢了 sino 半句所以偏短，目标 60-80）",
       "nivel_andamio": "当前：七句填空 + 词块表全给。下次可撤一级 —— 只给句首和中文提示，不给词块表"
+    },
+    "resultado": {
+      "puntos": "15/20（听声辨位 10/10、单词 2/6、阅读 3/4）",
+      "oido": "【靶子命中】servir/seguir 六题全对，满分。昨天他 servir 写成 siervo、seguir 命令式写成 sega、听辨也选错；今天听觉这关彻底过了",
+      "palabras": "对 el semáforo / el almuerzo；不会 dibujar / la carrera / el éxito；la cuchara 写成 el cuchillo（刀）",
+      "lectura": "第 3 题错 —— 正是问 el éxito 那句（no está en la comida, sino en el servicio）",
+      "hallazgo_clave": "【重要】el éxito 同一天出现三次：阅读短文里有、阅读第 3 题问的就是它、他自己小作文里还用了 exito。读得过去、写得出来，但一问「成功」怎么说就是不会。→ 认得出来但提取不出来。跟 9-17 记的 la carta 是同一回事（听写拼得对，中→西想不起来）",
+      "conclusion": "这四个词躺了一个多月还在，不是背得不够，是没有钩子。光让词出现在材料里不解决提取问题，得装记忆锚点"
     }
+  },
+  "anclas_memoria": {
+    "el éxito": "假朋友陷阱：英语 exit（出口）跟 éxito（成功）长得像但毫无关系。脑子里蹦出「出口」对不上「成功」，词就存不住。点明两码事即可",
+    "la cuchara": "sopa（汤）和 cuchara（勺）都是 a 结尾，绑一对：喝汤用勺。cuchillo（刀）的 ll 是两道刃",
+    "la carrera": "跟 carro（车）同根，本意跑道/赛跑 → 人生的跑道 → 职业生涯",
+    "dibujar": "没有词源钩子，绑人：A mi hija le gusta dibujar。让他绑一个身边真会画画的人"
   }
 }
