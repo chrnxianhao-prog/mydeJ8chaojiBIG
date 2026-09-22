@@ -141,16 +141,11 @@
 **成绩回传**：页面声明 `capabilities: {"db": {}}`，交卷时
 `db.doc("resultados/<主题>").set({...})`，老师用 ArtifactData 读，学生不用抄给你。
 
-⚠️ **`window.claude.use()` 要包在 try/catch 里，而且交卷的绑定要写在它前面。**
-`window.claude` 拿不到时 `.use` 是**同步抛错**，`.catch()` 接不住；
-错误一抛整个脚本就断在那儿，后面交卷按钮压根没绑上，学生按了没反应还以为页面坏了。
-2026-09-22 踩过一次。
-
-⚠️ **发布前用 Playwright 真点一遍**（容器里 Chromium 现成的，
-`executable_path="/opt/pw-browsers/chromium"`，别跑 playwright install）。
-至少验三件事：标签能切、选项能选、交卷能出分。
-再各跑一遍「全填对该满分」和「全填错该零分」，判分方向反了也能当场抓住。
-肉眼看代码看不出上面那个同步抛错。
+⚠️ **页面的交互必须肉眼可见，而且发布前用 Playwright 真点一遍。**
+选中状态只改 `aria-pressed` 不算数；选中样式别跟 `data-v` 取值绑死；
+`window.claude.use()` 要包 try/catch。三条都在
+`.claude/skills/listening-test/SKILL.md` 的「红线：学生点了必须看得见」那节，
+**做每日页之前先读那节**，别在这里重复（两份迟早打架）。
 
 做法照 `.claude/skills/listening-test/SKILL.md` 的渲染与发布两步，
 参考实现见 2026-09-21 的命令式页（`scratchpad/mandato.template.html`）。

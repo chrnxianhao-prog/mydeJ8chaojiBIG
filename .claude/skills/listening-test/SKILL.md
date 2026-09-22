@@ -137,6 +137,53 @@ profe 默认是**跟读教学**节奏：正常语速 → 慢速复读 → **中�
 `#! listening` 关掉释义和慢速。模式名写错（如 `listenning`）会直接报错而不是静默忽略，
 但**光靠肉眼看文件看不出编排结果**，所以第 4 步的校验脚本必须跑。
 
+## 🔴 红线：做出来的页面，学生点了必须看得见
+
+2026-09-22 学生原话：「我点了一个单词但是没有什么变化，颜色变化也要框选让我能看到啊，
+**不能只有你知道**」。他说得对，而且这是同一天里第二次栽在「代码看着对，用起来是死的」。
+
+### 三条硬规矩
+
+1. **任何可点的东西，选中状态必须肉眼可见**：填色 + 描边 + 一个 ✓，三样一起上。
+   只改 `aria-pressed` 属性不算数 —— 那是给读屏软件看的，不是给人看的。
+
+2. **选中样式只挂 `aria-pressed`，别跟 `data-v` 的具体取值绑死。**
+   ```css
+   ✅ .opts button[aria-pressed="true"] { ... }
+   ❌ .opts button[aria-pressed="true"][data-v="yo"] { ... }
+   ```
+   下面那种写法，换一套选项（`data-v` 从 `yo`/`usted` 换成动词原形）就整个失效，
+   而且**不报任何错**，页面看着完好，点了没反应。这正是 9-22 翻车的原因。
+
+3. **`window.claude.use()` 必须包 try/catch，交卷的绑定写在它前面。**
+   `window.claude` 拿不到时 `.use` 是**同步抛错**，`.catch()` 接不住；
+   一抛脚本就断在那行，后面的按钮全没绑上。
+
+### 发布前必须用浏览器真跑一遍
+
+容器里 Chromium 是现成的，**别跑 `playwright install`**：
+
+```python
+from playwright.sync_api import sync_playwright
+with sync_playwright() as pw:
+    b = pw.chromium.launch(executable_path="/opt/pw-browsers/chromium")
+```
+
+**验「看得见」，不是验「状态对了」。** 我 9-22 第一次测只查了 `aria-pressed` 变成
+`true`，通过了，可学生那边点下去毫无动静 —— 因为样式压根没匹配上。
+
+至少跑这四项：
+
+| 验什么 | 怎么验 |
+|--------|--------|
+| 点击有视觉反馈 | 比对点击前后的 `getComputedStyle`，**至少 2 个属性变化**（底色/边框/字色/字重） |
+| 明暗两套皮都对 | `new_page(color_scheme="light")` 和 `"dark"` 各跑一遍 |
+| 判分方向没反 | 全填正确答案该满分、全填错该零分，**两个方向都跑** |
+| 没有 JS 报错 | 挂 `page.on("pageerror", ...)`，有错就是有雷 |
+
+最后**截一张图自己看一眼**（`locator.screenshot()` 然后用 Read 工具读）。
+computed style 对了不等于人看着清楚，眼睛过一遍最保险。
+
 ## 难度调节
 
 跟着 `difficulty_modifier` 走：
