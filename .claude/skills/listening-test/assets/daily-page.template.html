@@ -394,7 +394,13 @@
 
   let db = null;
   const guardado = document.getElementById("guardado");
-  window.claude.use("db").then(function (x) { db = x; }).catch(function () {});
+  // window.claude 拿不到时 .use 是同步抛错，.catch 接不住 ——
+  // 一抛整个脚本就断在这儿，下面交卷的绑定压根跑不到，按了没反应。
+  try {
+    window.claude.use("db").then(function (x) { db = x; }).catch(function () {});
+  } catch (e) {
+    guardado.textContent = "成绩存不了，做完截图发我";
+  }
 
   document.getElementById("entregar").addEventListener("click", async function () {
     const detalle = { oido: [], forma: [], hueco: [] };
