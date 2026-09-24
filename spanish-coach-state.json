@@ -2066,6 +2066,26 @@
       "count": 1,
       "relearn": false,
       "date": "2026-09-23"
+    },
+    {
+      "error": "tú/usted 动词层已稳，代词层没跟上：对客户说 de ti（应 a su izquierda）。一致性要连带 te/le、tu/su、ti/usted 一起换",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-23",
+      "note": "下一个靶子：做一组「动词对了，代词也要跟着换」的对照练习"
+    },
+    {
+      "error": "口语里夹英语词：offer（应 descuento / oferta）",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-23"
+    },
+    {
+      "error": "对话里只报数据不成句：S,M,L,XL 800pesos",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-23",
+      "note": "裸聊时要他说整句：Tenemos… / Cuesta…"
     }
   ],
   "week_stats": {
@@ -2080,9 +2100,9 @@
     ]
   },
   "current_focus_areas": [
-    "gustar / querer + 原形 —— 第二次出现，第二个动词不变位",
-    "la carrera / la cuchara —— 换了锚点（问句绑定 / 谐音 CHA=茶），下次跨日复测",
-    "tú/usted —— 听辨已 10/10，看裸聊里产出端是否稳住",
+    "tú/usted 代词层：te/le、tu/su、ti/usted 跟着动词一起换（动词层已稳）",
+    "gustar / querer + 原形 —— 第二次出现",
+    "la carrera / la cuchara —— 换了锚点，下次跨日复测",
     "小作文支架：升到「填一个词，不给词块」",
     "o → ue 帮（poder/volver/dormir）—— 已会一半",
     "听力：句中非重读位置的词（9-18 定的靶子，还没打）"
@@ -3865,5 +3885,21 @@
       },
       "nivel_andamio": "⑤ 本次在「填一个词 + 给词块」级，全部完成且自加词汇。下次升到「填一个词，不给词块」"
     }
+  },
+  "conversacion_2026_09_23": {
+    "fecha": "2026-09-23",
+    "escena": "他自己的服装店，老师当第一次来的客人（买外套、试穿、砍价）",
+    "modo": "裸聊（全程西语）",
+    "aciertos": [
+      "开口第一句 Espere aquí —— 当天练的 usted 命令式直接用出来",
+      "tenemos 用得自然（店主说「我们有」）",
+      "砍价时直接给方案，没慌"
+    ],
+    "errores": [
+      "en izquiero de ti → está a su izquierda（tú 的代词 ti 用在客户身上；izquierda 拼错；介词 a）",
+      "S,M,L,XL 800pesos —— 只报数不成句，应 Tenemos S, M, L y XL. Cuesta 800 pesos.",
+      "20% offer —— 英语混入，应 un 20% de descuento / una oferta del 20%"
+    ],
+    "hallazgo": "【新发现】tú/usted 在动词层面已经稳了（听辨 10/10、对话里 espere 对），但跟着走的代词还没跟上：de ti 应 a su。tú/usted 的一致性不止动词，还有 te/le、tu/su、ti/usted"
   }
 }
