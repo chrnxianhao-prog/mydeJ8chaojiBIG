@@ -1,10 +1,10 @@
 {
   "level": "A2",
-  "streak": 2,
-  "total_completed_days": 66,
+  "streak": 3,
+  "total_completed_days": 67,
   "total_missed_days": 11,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-09-22",
+  "last_task_date": "2026-09-23",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
   "consecutive_completed": 3,
@@ -2053,6 +2053,19 @@
       "count": 1,
       "relearn": true,
       "date": "2026-09-23"
+    },
+    {
+      "error": "gustar 后的动词又变了位：me gustaba jugaba（应 jugar）。同 9-17 me gustaría veo（应 ver）",
+      "count": 2,
+      "relearn": true,
+      "date": "2026-09-23",
+      "note": "规则：gustar / querer / poder 等后面接的第二个动词一律原形"
+    },
+    {
+      "error": "介词 en 后面接了变位动词：no está en ganas mucho dinero（应 ganar）",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-23"
     }
   ],
   "week_stats": {
@@ -2067,11 +2080,11 @@
     ]
   },
   "current_focus_areas": [
-    "tú/usted 混用 —— 已第三次，做生意场合一律 usted（最高优先）",
-    "性数一致：mis clientes son mujeres 这类整句连动",
-    "servir → sirvo / seguir → sigo 两个词",
-    "命令式进对话：单题会做，开口就退回 yo 形",
-    "o → ue 帮（poder/volver/dormir）—— 已会一半，可快速过",
+    "gustar / querer + 原形 —— 第二次出现，第二个动词不变位",
+    "la carrera / la cuchara —— 换了锚点（问句绑定 / 谐音 CHA=茶），下次跨日复测",
+    "tú/usted —— 听辨已 10/10，看裸聊里产出端是否稳住",
+    "小作文支架：升到「填一个词，不给词块」",
+    "o → ue 帮（poder/volver/dormir）—— 已会一半",
     "听力：句中非重读位置的词（9-18 定的靶子，还没打）"
   ],
   "error_threshold": 4,
@@ -2178,7 +2191,7 @@
       "word": "el sombrero",
       "module": "购物",
       "date_wrong": "2026-09-22",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "la guardería",
@@ -2190,9 +2203,9 @@
     {
       "word": "la carrera",
       "module": "工作职业",
-      "date_wrong": "2026-09-22",
+      "date_wrong": "2026-09-23",
       "correct_count": 0,
-      "mnemonic": "跟 carro（车）同根，本意跑道/赛跑 → 人生的跑道 → 职业生涯"
+      "mnemonic": "绑高频问句：¿Qué carrera estudiaste?（你大学读的什么专业）。carrera = 读的哪一行、干的哪一行。（替换掉失效的 carro→跑道 词源链）"
     },
     {
       "word": "el viaje",
@@ -2384,7 +2397,7 @@
       "word": "dibujar",
       "module": "兴趣爱好",
       "date_wrong": "2026-09-22",
-      "correct_count": 0,
+      "correct_count": 1,
       "mnemonic": "没有词源钩子，绑人：A mi hija le gusta dibujar。让他绑一个身边真会画画的人"
     },
     {
@@ -2427,13 +2440,13 @@
       "word": "la empresa",
       "module": "工作职业",
       "date_wrong": "2026-09-22",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "el éxito",
       "module": "工作职业",
       "date_wrong": "2026-09-22",
-      "correct_count": 0,
+      "correct_count": 1,
       "mnemonic": "假朋友陷阱：英语 exit（出口）跟 éxito（成功）长得像但毫无关系。脑子里蹦出「出口」对不上「成功」，词就存不住。点明两码事即可"
     },
     {
@@ -2451,9 +2464,9 @@
     {
       "word": "cuchara",
       "module": "餐厅",
-      "date_wrong": "2026-09-22",
+      "date_wrong": "2026-09-23",
       "correct_count": 0,
-      "mnemonic": "sopa（汤）和 cuchara（勺）都是 a 结尾，绑一对：喝汤用勺。cuchillo（刀）的 ll 是两道刃"
+      "mnemonic": "谐音+重音：cu-CHA-ra 重音在 CHA = 茶，勺子舀茶。（替换掉失效的 sopa/cuchara 押韵法。他三次都抓到别的餐具：cuchillo、tenedor —— 知道是餐具分不清哪个）"
     },
     {
       "word": "el dedo",
@@ -2573,7 +2586,7 @@
       "word": "dibujar",
       "module": "兴趣爱好",
       "date_wrong": "2026-09-22",
-      "correct_count": 0,
+      "correct_count": 1,
       "mnemonic": "没有词源钩子，绑人：A mi hija le gusta dibujar。让他绑一个身边真会画画的人"
     },
     {
@@ -3778,9 +3791,10 @@
   },
   "anclas_memoria": {
     "el éxito": "假朋友陷阱：英语 exit（出口）跟 éxito（成功）长得像但毫无关系。脑子里蹦出「出口」对不上「成功」，词就存不住。点明两码事即可",
-    "la cuchara": "sopa（汤）和 cuchara（勺）都是 a 结尾，绑一对：喝汤用勺。cuchillo（刀）的 ll 是两道刃",
-    "la carrera": "跟 carro（车）同根，本意跑道/赛跑 → 人生的跑道 → 职业生涯",
-    "dibujar": "没有词源钩子，绑人：A mi hija le gusta dibujar。让他绑一个身边真会画画的人"
+    "la cuchara": "谐音+重音：cu-CHA-ra 重音在 CHA = 茶，勺子舀茶。（替换掉失效的 sopa/cuchara 押韵法。他三次都抓到别的餐具：cuchillo、tenedor —— 知道是餐具分不清哪个）",
+    "la carrera": "绑高频问句：¿Qué carrera estudiaste?（你大学读的什么专业）。carrera = 读的哪一行、干的哪一行。（替换掉失效的 carro→跑道 词源链）",
+    "dibujar": "没有词源钩子，绑人：A mi hija le gusta dibujar。让他绑一个身边真会画画的人",
+    "_tipos_que_funcionan": "对比型（éxito vs exit）、绑人型（dibujar）有效；推理型（词源链、押韵）无效"
   },
   "dia_2026_09_22b": {
     "fecha": "2026-09-22（同日第二轮 · 加练）",
@@ -3822,6 +3836,34 @@
       "4_口语": "同句两遍（坐、在这儿等）+ 用 el éxito no está en…sino en… 说看法",
       "5_小作文": "«Mi propia tienda» 七句，每空一个词，给词块表"
     },
-    "estado": "已发布，等交卷"
+    "estado": "已发布，等交卷",
+    "resultado": {
+      "puntos": "18/20（听声辨位 10/10、单词 4/6、阅读 4/4）—— 迄今最高",
+      "oido": "【-te/-se 记法生效】上次 Siéntate/Siéntese 两题全反，今天五对十题全对",
+      "lectura": "【控生词生效】上次 1/4，今天 4/4。练习区预习生词之后短文全读懂",
+      "palabras": "dibujar ✓、el éxito ✓（只差重音）、el sombrero ✓（上次写 hombre）、la empresa ✓（上次漏冠词）；la carrera 不会、la cuchara 写成 tenedor",
+      "anclas_resultado": {
+        "funcionan": [
+          "el éxito —— 对比型（跟英语 exit 对比）",
+          "dibujar —— 绑人型"
+        ],
+        "no_funcionan": [
+          "la carrera —— 词源链（carro→跑道→生涯），要推理的记不住",
+          "la cuchara —— 押韵配对（sopa/cuchara 都 a 结尾），记不住"
+        ],
+        "leccion": "对他有用的是「对比」和「绑人」，要一步步推的（词源链、押韵）没用"
+      },
+      "habla": "三题方向全对。siéntate/siéntese、espera/espere 顺序全对只漏重音。第 3 题直接借用阅读里的 hacer lo que le gusta —— 读到的马上用。唯一错：no está en ganas → ganar（en 后接原形）",
+      "escrito": {
+        "entregado": "mi amigo / jugaba / aprende / tienda y vende la ropa / vendo vistido y abrigo / trabajo seite / exito, contendo todos los dias",
+        "hito": "【重要】七句全写，而且自己加了词块表里没有的词：abrigo（外套）、contento（开心）。产出开始自主",
+        "errores": [
+          "me gustaba jugaba → jugar（gustar 后接原形，同 9-17 me gustaría veo）",
+          "第 3 句填 aprende，该填 carrera —— 正是②里没记住的词，连锁导致这句空",
+          "seite→siete、vistido→vestidos、abrigo→abrigos、contendo→contento、exito→éxito"
+        ]
+      },
+      "nivel_andamio": "⑤ 本次在「填一个词 + 给词块」级，全部完成且自加词汇。下次升到「填一个词，不给词块」"
+    }
   }
 }
