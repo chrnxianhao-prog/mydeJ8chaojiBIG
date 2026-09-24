@@ -2027,6 +2027,32 @@
       "relearn": true,
       "date": "2026-09-22",
       "note": "教法：看见 no está en 就该等着 sino en。这个句型要当固定块整体教"
+    },
+    {
+      "error": "【教学法·我的错】阅读短文生词密度过高（9-22 加练九句塞了五六个没学过的词），学生 1/4、原文写明的信息也答错。阅读考的是理解不是猜生词",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-23",
+      "note": "对策：短文生词先在练习区预习；关键信息句只用已学词"
+    },
+    {
+      "error": "Siéntate / Siéntese 两题全部选反 —— -te / -se 规则颠倒，不是随机猜错",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-23",
+      "note": "记法：tú 有 t → -te；usted 有 s → -se"
+    },
+    {
+      "error": "【教学法·我的错】小作文撤支架撤错了方向：撤掉词块表后，单词级的空全填对，要凑短语/子句的空全空着。支架应按「填词 vs 填子句」分级",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-23"
+    },
+    {
+      "error": "el sombrero 拼写成 hombre —— 听力上的 sombrero→hombre 替换现在在拼写端也出现了",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-23"
     }
   ],
   "week_stats": {
@@ -2151,7 +2177,7 @@
     {
       "word": "el sombrero",
       "module": "购物",
-      "date_wrong": "2026-08-19",
+      "date_wrong": "2026-09-22",
       "correct_count": 0
     },
     {
@@ -2297,7 +2323,7 @@
     {
       "word": "trepar",
       "module": "童年回忆",
-      "date_wrong": "2026-09-17",
+      "date_wrong": "2026-09-22",
       "correct_count": 0
     },
     {
@@ -2382,8 +2408,8 @@
     {
       "word": "garganta",
       "module": "身体与健康",
-      "date_wrong": "2026-08-13",
-      "correct_count": 1
+      "date_wrong": "2026-09-22",
+      "correct_count": 0
     },
     {
       "word": "el equipaje",
@@ -2400,7 +2426,7 @@
     {
       "word": "la empresa",
       "module": "工作职业",
-      "date_wrong": "2026-08-21",
+      "date_wrong": "2026-09-22",
       "correct_count": 0
     },
     {
@@ -2504,7 +2530,7 @@
     {
       "word": "garganta",
       "module": "身体与健康",
-      "date_wrong": "2026-08-21",
+      "date_wrong": "2026-09-22",
       "correct_count": 0
     },
     {
@@ -2516,7 +2542,7 @@
     {
       "word": "probador",
       "module": "购物",
-      "date_wrong": "2026-08-21",
+      "date_wrong": "2026-09-22",
       "correct_count": 0
     },
     {
@@ -2571,7 +2597,7 @@
     {
       "word": "la noticia",
       "module": "基础",
-      "date_wrong": "2026-08-29",
+      "date_wrong": "2026-09-22",
       "correct_count": 0
     },
     {
@@ -3771,6 +3797,31 @@
       "5_小作文": "《Cómo hablo con mis clientes》—— **支架撤一级**：七句仍给句首和中文提示，但不再给词块表，词自己想"
     },
     "nivel_andamio": "口语仍给骨架；小作文撤到「只给句首+中文提示，无词块表」。下次若过关，再撤到「只给题目+必须用到的结构清单」",
+    "estado": "已发布，等交卷",
+    "resultado": {
+      "puntos": "8/20（听声辨位 7/10、单词 0/6、阅读 1/4）",
+      "oido": "Llámame/Llámeme、Dime/Dígame、¿Qué quieres/quiere 全对。错 ¿Tiene tiempo?（选了对朋友）以及 Siéntate/Siéntese 两题【全部选反】—— 不是随机，是 -te/-se 规则弄颠倒了",
+      "palabras": "0/6。trepar 不会；el sombrero 写成 hombre（跟听力上 sombrero→hombre 的替换同一个毛病，现在拼写端也出现了）；la empresa 词对只漏冠词；garganta→garatar；probador→pordor；noticia→el mesaje",
+      "lectura": "1/4。第 2、3 题的答案原文里写得明明白白也错了 —— 短文根本没读懂",
+      "diagnostico_mio": "【我的错】短文九句塞了 trataba / se molestó / al principio / desde entonces / distinto 一堆没学过的词，生词密度太高。阅读题考的该是理解，不是猜生词",
+      "nota_andamio": "他交的小作文前四句（ropa/tú/usted/Buenas tardes）全填对，5/6/7 空着。能填的都是单个词，填不了的都要凑短语 —— 支架该按「填词 vs 填子句」分级，不是按「给不给词块表」分级。我撤错了东西"
+    }
+  },
+  "dia_2026_09_23": {
+    "fecha": "2026-09-23（墨西哥城日期）",
+    "pagina": "https://claude.ai/artifact/SdN7X1N6WrDGV5r2fc33MP",
+    "cambios_por_errores_previos": [
+      "-te/-se 给了首字母记法：tú 有 t → -te；usted 有 s → -se",
+      "阅读短文控生词：七句，生词全部先在练习区「短文生词，先过一遍」里预习",
+      "小作文回到「每空只填一个词 + 词块表」—— 填词级，不要他凑子句"
+    ],
+    "secciones": {
+      "1_听声辨位": "10 题，五对：Siéntate/Siéntese、Levántate/Levántese、¿Tienes/¿Tiene tiempo?、Espera/Espere aquí、Cuéntame/Cuénteme",
+      "2_单词": "前四个是锚点词跨日正式复测（dibujar / la carrera / el éxito / la cuchara），后两个是上次全错的（el sombrero / la empresa）",
+      "3_阅读": "七句《Ana 的帽子店》，生词全预习过；4 题判断对/错各半",
+      "4_口语": "同句两遍（坐、在这儿等）+ 用 el éxito no está en…sino en… 说看法",
+      "5_小作文": "«Mi propia tienda» 七句，每空一个词，给词块表"
+    },
     "estado": "已发布，等交卷"
   }
 }
