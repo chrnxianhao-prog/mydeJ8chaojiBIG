@@ -1,10 +1,10 @@
 {
   "level": "A2",
-  "streak": 4,
-  "total_completed_days": 68,
+  "streak": 5,
+  "total_completed_days": 69,
   "total_missed_days": 11,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-09-24",
+  "last_task_date": "2026-09-25",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
   "consecutive_completed": 3,
@@ -2106,6 +2106,27 @@
       "count": 1,
       "relearn": true,
       "date": "2026-09-24"
+    },
+    {
+      "error": "听写时声音→拼写映射偏差：jarabe→jarber、nervioso→narvioso、guía→quia、garganta→garagata",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-25",
+      "note": "具体规律：gu+i/e 念 gi/ge 写 gu 不写 q；rg 辅音连缀中间不插元音；非重读 e 听成 a"
+    },
+    {
+      "error": "su / le 在句首仍会混：口语 le pedido（应 Su pedido），同页 su tienda 却对了",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-25",
+      "note": "判断法：后面跟东西（pedido/tienda）用 su；「给您」用 le"
+    },
+    {
+      "error": "【我的错】单词题干「有趣的」又有歧义（divertido / interesante 都成立），9-24 刚立的「中文提示唯一指向」规矩当天就违反了",
+      "count": 2,
+      "relearn": false,
+      "date": "2026-09-25",
+      "note": "出题时对每个中文提示问一句「还有别的常见西语词能对上吗」，有就加限定：如「好玩的（不是『有意思的』）」"
     }
   ],
   "week_stats": {
@@ -2120,10 +2141,10 @@
     ]
   },
   "current_focus_areas": [
-    "【方向调整】产出为主：听辨/阅读已连续满分，测试比重往自己写偏",
-    "「您」的三个形：usted / le 对话里已产出，**su 还没自己说出来** —— 下次首靶",
-    "①改成听写（听词填拼写）",
-    "la cuchara / la carrera：停止换锚点，改听写 + 造句自产三遍",
+    "听写：声音→拼写映射（gu/q、rg 连缀、非重读 e）",
+    "su / le 句首：后面跟东西用 su",
+    "⑤ 支架升到「填半句」",
+    "熟词替换：la carrera→la carta（同 sombrero→hombre）",
     "o → ue 帮（poder/volver/dormir）—— 已会一半",
     "听力：句中非重读位置的词（9-18 定的靶子，还没打）"
   ],
@@ -2236,14 +2257,14 @@
     {
       "word": "la guardería",
       "module": "童年回忆",
-      "date_wrong": "2026-09-03",
-      "correct_count": 1,
+      "date_wrong": "2026-09-25",
+      "correct_count": 0,
       "mnemonic": "guard-ería：想象卫兵(guard)在幼儿园站岗"
     },
     {
       "word": "la carrera",
       "module": "工作职业",
-      "date_wrong": "2026-09-24",
+      "date_wrong": "2026-09-25",
       "correct_count": 0,
       "mnemonic": "绑高频问句：¿Qué carrera estudiaste?（你大学读的什么专业）。carrera = 读的哪一行、干的哪一行。（替换掉失效的 carro→跑道 词源链）"
     },
@@ -2286,7 +2307,7 @@
     {
       "word": "quedar",
       "module": "高频动词",
-      "date_wrong": "2026-08-10",
+      "date_wrong": "2026-09-25",
       "correct_count": 0
     },
     {
@@ -2340,7 +2361,7 @@
     {
       "word": "el jarabe",
       "module": "身体与健康",
-      "date_wrong": "2026-08-30",
+      "date_wrong": "2026-09-25",
       "correct_count": 0
     },
     {
@@ -2376,7 +2397,7 @@
     {
       "word": "trepar",
       "module": "童年回忆",
-      "date_wrong": "2026-09-24",
+      "date_wrong": "2026-09-25",
       "correct_count": 0
     },
     {
@@ -2443,13 +2464,13 @@
     {
       "word": "divertirse",
       "module": "童年回忆",
-      "date_wrong": "2026-08-07",
+      "date_wrong": "2026-09-25",
       "correct_count": 0
     },
     {
       "word": "la guía",
       "module": "旅行",
-      "date_wrong": "2026-08-07",
+      "date_wrong": "2026-09-25",
       "correct_count": 0
     },
     {
@@ -2461,8 +2482,8 @@
     {
       "word": "garganta",
       "module": "身体与健康",
-      "date_wrong": "2026-09-22",
-      "correct_count": 1
+      "date_wrong": "2026-09-25",
+      "correct_count": 0
     },
     {
       "word": "el equipaje",
@@ -2505,7 +2526,7 @@
       "word": "cuchara",
       "module": "餐厅",
       "date_wrong": "2026-09-24",
-      "correct_count": 0,
+      "correct_count": 1,
       "mnemonic": "谐音+重音：cu-CHA-ra 重音在 CHA = 茶，勺子舀茶。（替换掉失效的 sopa/cuchara 押韵法。他三次都抓到别的餐具：cuchillo、tenedor —— 知道是餐具分不清哪个）"
     },
     {
@@ -2577,14 +2598,14 @@
     {
       "word": "cuchillo",
       "module": "餐厅",
-      "date_wrong": "2026-08-21",
+      "date_wrong": "2026-09-25",
       "correct_count": 0
     },
     {
       "word": "garganta",
       "module": "身体与健康",
-      "date_wrong": "2026-09-22",
-      "correct_count": 1
+      "date_wrong": "2026-09-25",
+      "correct_count": 0
     },
     {
       "word": "bicicleta",
@@ -2596,7 +2617,7 @@
       "word": "probador",
       "module": "购物",
       "date_wrong": "2026-09-24",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "la habitación",
@@ -2613,7 +2634,7 @@
     {
       "word": "la guardería",
       "module": "童年回忆",
-      "date_wrong": "2026-08-29",
+      "date_wrong": "2026-09-25",
       "correct_count": 0
     },
     {
@@ -2674,7 +2695,7 @@
     {
       "word": "ofrecer",
       "module": "高频动词",
-      "date_wrong": "2026-08-29",
+      "date_wrong": "2026-09-25",
       "correct_count": 0
     },
     {
@@ -2723,13 +2744,13 @@
     {
       "word": "nervioso/a",
       "module": "形容词",
-      "date_wrong": "2026-09-02",
+      "date_wrong": "2026-09-25",
       "correct_count": 0
     },
     {
       "word": "triste",
       "module": "形容词",
-      "date_wrong": "2026-09-02",
+      "date_wrong": "2026-09-25",
       "correct_count": 0
     },
     {
@@ -3987,7 +4008,41 @@
       "4_口语": "Su pedido / su tienda / Le mando 三句骨架",
       "5_小作文": "«Respuesta a mi proveedor» 每空一个词不给词块，mi/su/me/le 混着考"
     },
-    "estado": "已发布，等交卷"
+    "estado": "已发布，等交卷",
+    "resultado": {
+      "puntos": "前三节 7/20（听写 3/10、单词 1/6、阅读 3/4）。页面判 6/20，单词第 1 题题干「有趣的」有歧义（interesante 也对），算他对",
+      "dictado": {
+        "exactos": [
+          "la cuchara（第五次终于对了，前四次写成 cuchillo/tenedor）",
+          "el probador（之前 pordor/parbor）",
+          "la noticia"
+        ],
+        "casi": [
+          "el jarabe→el jarber",
+          "nervioso→narvioso",
+          "la guía→la quia（gu+í 写成 q）",
+          "la garganta→la garagata（rg 之间插了 a、丢了 n）"
+        ],
+        "sustitucion": "la carrera→la carta（熟词替换，同 sombrero→hombre）",
+        "vacios": [
+          "trepar",
+          "triste"
+        ],
+        "nota": "①首次从二选一改听写，3/10 在预料中。四个「差一点」都是音对、拼写偏 —— 声音到拼写的映射问题，不是不认识"
+      },
+      "palabras": {
+        "divertido": "写 interensante —— 题干歧义算对，拼写多个 n",
+        "divertirse": "写 contentar ✗",
+        "quedar": "写 la cita（相关名词，要的是动词）✗",
+        "ofrecer": "不会",
+        "la guardería": "不会",
+        "el cuchillo": "写 cuchillo，漏冠词"
+      },
+      "lectura": "3/4。错第 2 题（供应商会把布料送到店里 → 对）。原文 Si usted quiere, le llevamos… —— 可能被 si 条件句带偏，而且 llevar 正是他报发音有问题的词",
+      "habla": "2/3：Su pedido 写成 le pedido ✗；su tienda ✓；le mando ✓",
+      "escrito": "【7/7 全对】señor Xie / su mensaje / mi tienda / me mandar / le pago / vender / luego。昨天同类三个代词空 0/3（yo/te/me），今天在「填一个词、不给词块」级全过",
+      "nivel_andamio": "⑤「填一个词、不给词块」已过关。下次升到「填半句」"
+    }
   },
   "voz_2026_09_25": {
     "queja": "学生：llevar、barato、las telas 还是念得有问题，要专业西语音色，并分拉美口音和西班牙口音",
