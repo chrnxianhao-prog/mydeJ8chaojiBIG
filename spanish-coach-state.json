@@ -3988,5 +3988,31 @@
       "5_小作文": "«Respuesta a mi proveedor» 每空一个词不给词块，mi/su/me/le 混着考"
     },
     "estado": "已发布，等交卷"
+  },
+  "voz_2026_09_25": {
+    "queja": "学生：llevar、barato、las telas 还是念得有问题，要专业西语音色，并分拉美口音和西班牙口音",
+    "limite": "商业 TTS（微软/Google）从容器访问都是 403，只能用开源模型。已如实告诉学生",
+    "candidatos": [
+      "es_MX-claude-high（现用）",
+      "es_MX-ald-medium",
+      "es_AR-daniela-high",
+      "es_ES-davefx-medium",
+      "es_ES-sharvard-medium（男女两个说话人）",
+      "kokoro-multi-lang-v1_0（西语 sid 28 ef_dora 女、29 em_alex 男、53 em_santa 男）"
+    ],
+    "juez_whisper": {
+      "Kokoro dora/alex · lang=es-419（拉美）": "20/20",
+      "Kokoro dora/alex · lang=es（西班牙）": "20/20",
+      "es_ES-davefx": "19/20",
+      "es_MX-claude（现用）": "18/20（siga→sida）",
+      "es_ES-sharvard 女/男": "17/20 / 16/20",
+      "es_MX-ald": "15/20",
+      "es_AR-daniela": "13/20",
+      "nota": "pedir la cuenta → pedirle cuenta 七个音色都这样，是连读的识别问题不是念错",
+      "limitacion": "学生报的三个词 whisper 听现用 claude 也全对 —— 他的耳朵更细，分数只做初筛"
+    },
+    "kokoro_acento": "lang=es（c/z 咬舌）vs es-419（c/z 念 s），同句音频确实不同",
+    "ab": "https://claude.ai/artifact/AnoNUaeTJxzouBWKYH2EQS（选择写进 resultados/voz）",
+    "estado": "等学生选；选定后把 profe 和每日页生成脚本切到选中的音色"
   }
 }
