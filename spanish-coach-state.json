@@ -1,10 +1,10 @@
 {
   "level": "A2",
-  "streak": 3,
-  "total_completed_days": 67,
+  "streak": 4,
+  "total_completed_days": 68,
   "total_missed_days": 11,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-09-23",
+  "last_task_date": "2026-09-24",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
   "consecutive_completed": 3,
@@ -2086,6 +2086,20 @@
       "relearn": false,
       "date": "2026-09-23",
       "note": "裸聊时要他说整句：Tenemos… / Cuesta…"
+    },
+    {
+      "error": "「您」只会 usted 一个形，不知道句中变形：¿usted gusta?（应 ¿Le gusta?）、小作文三个代词空写成 yo/te/me（应 Su/Le/le）",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-24",
+      "note": "三行表：usted（主语/介词后）· su（您的）· le（给您/动词前）"
+    },
+    {
+      "error": "【教学法·我的错】单词题干「消息、新闻」有歧义，el mensaje 和 la noticia 都说得通",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-24",
+      "note": "单词题的中文提示要唯一指向一个词，近义词要加限定（如「新闻、消息（报上那种）」）"
     }
   ],
   "week_stats": {
@@ -2100,10 +2114,10 @@
     ]
   },
   "current_focus_areas": [
-    "tú/usted 代词层：te/le、tu/su、ti/usted 跟着动词一起换（动词层已稳）",
-    "gustar / querer + 原形 —— 第二次出现",
-    "la carrera / la cuchara —— 换了锚点，下次跨日复测",
-    "小作文支架：升到「填一个词，不给词块」",
+    "【方向调整】产出为主：听辨/阅读已连续满分，测试比重往自己写偏",
+    "「您」的三个形：usted / su / le（产出端全错，听辨端全对）",
+    "①改成听写（听词填拼写）",
+    "la cuchara / la carrera：停止换锚点，改听写 + 造句自产三遍",
     "o → ue 帮（poder/volver/dormir）—— 已会一半",
     "听力：句中非重读位置的词（9-18 定的靶子，还没打）"
   ],
@@ -2223,7 +2237,7 @@
     {
       "word": "la carrera",
       "module": "工作职业",
-      "date_wrong": "2026-09-23",
+      "date_wrong": "2026-09-24",
       "correct_count": 0,
       "mnemonic": "绑高频问句：¿Qué carrera estudiaste?（你大学读的什么专业）。carrera = 读的哪一行、干的哪一行。（替换掉失效的 carro→跑道 词源链）"
     },
@@ -2356,7 +2370,7 @@
     {
       "word": "trepar",
       "module": "童年回忆",
-      "date_wrong": "2026-09-22",
+      "date_wrong": "2026-09-24",
       "correct_count": 0
     },
     {
@@ -2442,7 +2456,7 @@
       "word": "garganta",
       "module": "身体与健康",
       "date_wrong": "2026-09-22",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "el equipaje",
@@ -2484,7 +2498,7 @@
     {
       "word": "cuchara",
       "module": "餐厅",
-      "date_wrong": "2026-09-23",
+      "date_wrong": "2026-09-24",
       "correct_count": 0,
       "mnemonic": "谐音+重音：cu-CHA-ra 重音在 CHA = 茶，勺子舀茶。（替换掉失效的 sopa/cuchara 押韵法。他三次都抓到别的餐具：cuchillo、tenedor —— 知道是餐具分不清哪个）"
     },
@@ -2564,7 +2578,7 @@
       "word": "garganta",
       "module": "身体与健康",
       "date_wrong": "2026-09-22",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "bicicleta",
@@ -2575,7 +2589,7 @@
     {
       "word": "probador",
       "module": "购物",
-      "date_wrong": "2026-09-22",
+      "date_wrong": "2026-09-24",
       "correct_count": 0
     },
     {
@@ -3919,6 +3933,21 @@
       "4_口语": "para ti/usted、¿Te/Le gusta? 各说两遍 + Me gusta + 原形",
       "5_小作文": "«Un mensaje para mi cliente» 七句，每空一个词，不给词块。第 2/3/5 空考 Su/Le/le，第 6 空考 gustar + 原形"
     },
-    "estado": "已发布，等交卷"
+    "estado": "已发布，等交卷",
+    "resultado": {
+      "puntos": "16/20（听声辨位 10/10、单词 2/6、阅读 4/4）。页面原判 15/20，la noticia 题我题干写「消息、新闻」有歧义，他填 el mensaje 算对",
+      "oido": "10/10 —— 代词对（te/le、tu/su、ti/usted）靠小词分全对",
+      "lectura": "4/4 —— 连续第二天满分",
+      "palabras": "la garganta ✓（上次 garatar）；la noticia→el mensaje 算对（题干歧义，且 mensaje 拼对了，上次 mesaje）；la carrera 空（第三次）；la cuchara→el cuchillo（第四次）；probador→parbor；trepar 不会",
+      "habla": "para ti / para usted ✓✓；¿Te gusta? ✓；¿usted gusta? ✗ 应 ¿Le gusta?；Me gusta viajar ✓（gustar+原形，错两次后这次对了）",
+      "escrito": "2/3/5 三个代词空全错：yo pedido（Su）、te llamo（Le）、si me gusta（le）。第 1 空写 usted（该填姓）；第 6 空漏；cincuenta ✓、luego ✓"
+    }
+  },
+  "hallazgo_2026_09_24": {
+    "patron": "【核心判断，三天数据坐实】接收已过关，产出严重滞后。听声辨位 7→10→10、阅读 1→4→4；单词自产 0→4→2、代词自产 0/3。同一批 Su/Le 听辨十题全对，自己写三空全错",
+    "mismo_patron_que": "9-17 la carta、9-22 el éxito —— 认得出 ≠ 提取得出",
+    "usted_formas": "他知道「您」= usted，但不知道「您」在句中会变形：su（您的）、le（给您/宾语）。¿usted gusta? 这个错最能说明问题",
+    "anclas_agotadas": "la cuchara 四次、la carrera 三次，换过三种锚点（押韵、谐音、问句绑定）都无效。问题不在锚点而在产出次数不够。停止换锚点，改为听写+造句自产",
+    "cambio_de_metodo": "①听声辨位 从「二选一选原形」切到「听词填拼写」（大纲里本就允许）。听辨和阅读已连续满分，测试比重往产出偏"
   }
 }
