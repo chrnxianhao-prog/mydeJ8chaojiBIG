@@ -2100,6 +2100,12 @@
       "relearn": false,
       "date": "2026-09-24",
       "note": "单词题的中文提示要唯一指向一个词，近义词要加限定（如「新闻、消息（报上那种）」）"
+    },
+    {
+      "error": "指示词/形容词没跟复数名词走：estes abrigos listo（应 estos abrigos están listos）。同 9-22 mis clientes son mujer 一类",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-24"
     }
   ],
   "week_stats": {
@@ -2115,7 +2121,7 @@
   },
   "current_focus_areas": [
     "【方向调整】产出为主：听辨/阅读已连续满分，测试比重往自己写偏",
-    "「您」的三个形：usted / su / le（产出端全错，听辨端全对）",
+    "「您」的三个形：usted / le 对话里已产出，**su 还没自己说出来** —— 下次首靶",
     "①改成听写（听词填拼写）",
     "la cuchara / la carrera：停止换锚点，改听写 + 造句自产三遍",
     "o → ue 帮（poder/volver/dormir）—— 已会一半",
@@ -3949,5 +3955,20 @@
     "usted_formas": "他知道「您」= usted，但不知道「您」在句中会变形：su（您的）、le（给您/宾语）。¿usted gusta? 这个错最能说明问题",
     "anclas_agotadas": "la cuchara 四次、la carrera 三次，换过三种锚点（押韵、谐音、问句绑定）都无效。问题不在锚点而在产出次数不够。停止换锚点，改为听写+造句自产",
     "cambio_de_metodo": "①听声辨位 从「二选一选原形」切到「听词填拼写」（大纲里本就允许）。听辨和阅读已连续满分，测试比重往产出偏"
+  },
+  "conversacion_2026_09_24": {
+    "fecha": "2026-09-24",
+    "escena": "客户 García 来店里取两件外套的订单，老师当客户",
+    "modo": "裸聊（全程西语）",
+    "aciertos": [
+      "Le llamo cuando llegue —— 小作文里刚写成 te llamo，几分钟后对话里自己用对了（同日，算练习不算考核）",
+      "para usted ✓"
+    ],
+    "errores": [
+      "qué cosas —— 想问客户订了什么，应 ¿Cuál es su pedido? / ¿Qué pidió usted?",
+      "listo estes abrigos → Sí, están listos. Estos abrigos…（estes→estos，listo→listos，漏动词）",
+      "llmao（手滑，不计）"
+    ],
+    "pendiente": "usted / le 在对话里都产出了，su 还没自己说出来（Su pedido 是老师示范的）"
   }
 }
