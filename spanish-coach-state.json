@@ -4013,6 +4013,10 @@
     },
     "kokoro_acento": "lang=es（c/z 咬舌）vs es-419（c/z 念 s），同句音频确实不同",
     "ab": "https://claude.ai/artifact/AnoNUaeTJxzouBWKYH2EQS（选择写进 resultados/voz）",
-    "estado": "等学生选；选定后把 profe 和每日页生成脚本切到选中的音色"
+    "estado": "已切换：profe 新增 local 引擎（piper 旧名兼容），出题脚本统一用 profe.voz.hablar()；今天的每日页已用 Kokoro dora 重新生成并发布到原链接",
+    "eleccion": {
+      "latam": "Kokoro ef_dora（sid 28）lang=es-419",
+      "espana": "Piper es_ES-davefx-medium"
+    }
   }
 }

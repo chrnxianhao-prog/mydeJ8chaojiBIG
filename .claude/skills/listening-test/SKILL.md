@@ -7,7 +7,7 @@ description: 给浩哥出西班牙语听力测试的完整流程 —— 挑选�
 
 ## 先理解这个流程为什么长这样
 
-**你可以自己生成音频**（2026-09-15 起）。用 `--provider piper`：模型下到本地自己推理，
+**你可以自己生成音频**（2026-09-15 起）。用 `--provider local`（旧名 `piper` 也还能用）：模型下到本地自己推理，
 不联网合成，所以不受出网限制。学生确认过音质够用。
 
 在线合成的路仍然是死的 —— Edge TTS / gTTS 都返回 403（出口是机房 IP），
@@ -19,9 +19,18 @@ HuggingFace 直接不可达。**能走通是因为模型放在 sherpa-onnx 的 G
 espeak-ng 老方案已废弃 —— 那是规则合成的机械音，学生 2026-09-12 反馈"根本听不懂"。
 Piper 是神经网络模型，跟 Edge TTS 同一类技术，只是模型小些。
 
-音色是 `es_MX-claude-high`（墨西哥口音，22 kHz），用 sherpa-onnx 推理。
-2026-09-17 之前用的是 `es-carlfm-x-low`，学生反馈"读错的太多了"——
-最低档模型念孤立单词尤其吃力，已经换掉，别再退回去。
+**音色（2026-09-25 学生选定）**：
+- 拉美口音（默认）：**Kokoro 女声 dora**，`lang=es-419`，24 kHz
+- 西班牙口音：**Piper davefx**，22 kHz。课文 `voice=es-ES-*` 就走这个
+
+换过两次了：`es-carlfm-x-low`（9-17 学生说「读错的太多了」）→ `es_MX-claude-high`
+（9-25 学生说 llevar / barato / las telas 还是不对）→ 现在这两个。
+第二次换之前跑了识别测试（`scripts/voice_judge.py`，七个模型 × 十句易错句交给 whisper-small）：
+Kokoro 两种读法 20/20、davefx 19/20、claude 18/20。但学生报的那三个词 whisper 听 claude 也全对 ——
+**他的耳朵比识别模型细，分数只做初筛，最后让他听 A/B 自己选**。别退回旧音色。
+
+出题脚本（每日页那种）合成单句一律用 `profe.voz.hablar(texto, speed, acento)`，
+别再各自抄一份引擎配置 —— 9-25 以前每个脚本都自己写了一遍，换音色时得一个个改。
 
 ## 步骤
 
@@ -88,11 +97,11 @@ python .claude/skills/listening-test/scripts/check_listening.py 听力材料/YYY
 ### 5. 渲染音频
 
 ```bash
-python3 -m profe --provider piper lesson 听力材料/YYYY-MM-DD-主题.txt \
+python3 -m profe --provider local lesson 听力材料/YYYY-MM-DD-主题.txt \
     -o <scratchpad>/主题.mp3 --no-cache
 ```
 
-第一次跑会下约 65 MB 的模型到 `.piper-cache/`（已在 .gitignore 里），
+第一次跑会下模型到 `.piper-cache/`（已在 .gitignore 里；Kokoro 约 330 MB，davefx 约 64 MB，用到哪个下哪个），
 之后同会话内复用。容器是一次性的，每个新会话都要重下一次，属正常。
 需要 `sherpa-onnx numpy lameenc`，容器里没有就先 `python3 -m pip install` 上。
 
@@ -220,6 +229,6 @@ opt.click(); p.wait_for_timeout(350)                          # 再留足余量
 - **材料超过 20 句** —— 他会走神，且理解题覆盖不过来。
 - **理解题掺西语作答要求** —— 混淆了听力和产出两种能力，分不清错在哪。
 - **改用在线 TTS** —— Edge TTS / gTTS 在容器里都是 403，别再试。离线的 piper 才是通路。
-- **退回 x-low 音色** —— 学生已经明确否掉过，`es_MX-claude-high` 是他点头认可的。
+- **退回旧音色** —— x-low 和 claude-high 学生都明确否掉过，Kokoro dora / davefx 是他 A/B 听过自己选的。
 - **把 mp3 提交进仓库** —— 音频是可再生成的产物，只提交课文 txt。
 - **用 SendUserFile 发 mp3** —— 学生要的是点开即播，发文件卡片他得先下载。

@@ -79,35 +79,31 @@ Me duele mucho la cabeza.
 ## 两个合成引擎
 
 ```bash
-python -m profe lesson 课文.txt                    # 默认 edge，音质最好
-python -m profe --provider piper lesson 课文.txt   # piper，完全离线
+python -m profe lesson 课文.txt                    # 默认 edge，微软音色，要联网
+python -m profe --provider local lesson 课文.txt   # local，完全离线（旧名 piper 也能用）
 ```
 
-| | edge | piper |
+| | edge | local |
 |---|---|---|
-| 音质 | 微软神经音色，最好 | 神经模型，22 kHz，孤立单词也念得清 |
+| 音质 | 微软神经音色 | 开源神经模型，识别测试 19-20/20 |
 | 联网 | 合成时要联网 | 只在首次下模型时要，之后纯离线 |
-| 西语音色 | 几十个，多种口音 | 一个（`es_MX-claude-high`，墨西哥口音） |
+| 拉美口音 | es-MX-JorgeNeural 等 | **Kokoro 女声 dora**（默认） |
+| 西班牙口音 | es-ES-AlvaroNeural 等 | **Piper davefx**（课文写 `voice=es-ES-…` 时） |
 | 适用 | 本机日常使用 | 出网受限的环境（如云端容器） |
 
-**为什么要有 piper**：云端容器访问微软语音端点会被判定为机房 IP 返回 403，
-而模型放在 GitHub release 上、下载得到，跑的是本地推理。
-首次使用会下约 65 MB 到 `.piper-cache/`。
+**为什么要有 local**：云端容器访问微软语音端点会被判定为机房 IP 返回 403，
+而模型放在 sherpa-onnx 的 GitHub release 上、下载得到，跑的是本地推理。
+首次使用会下到 `.piper-cache/`（Kokoro 约 330 MB，davefx 约 64 MB，用到哪个下哪个）。
 
-piper 需要额外装推理引擎和 MP3 编码器（模型输出 WAV，而拼接是按 MPEG 帧做的）：
+需要额外装推理引擎和 MP3 编码器：
 
 ```bash
 python -m pip install sherpa-onnx numpy lameenc
 ```
 
-**为什么不用 Piper 官方二进制**：它打包的 onnxruntime 只认到 IR 版本 8，
-读不了现在这批模型。sherpa-onnx 从 PyPI 装得到，而这些模型本来就是它打包发布的。
-
-⚠️ **piper 只有一个西语音色**，课文里写别的音色名它会忽略并用默认音色，不会报错。
-
-📌 **音色换过一次**（2026-09-17）：原来用的是 `es-carlfm-x-low` —— 最低档、16 kHz、
-西班牙口音，学生反馈"读错的太多了，很多次根本听不懂"。现在换成
-`es_MX-claude-high`：高两个档位，而且是墨西哥口音，跟学生天天在街上听到的一致。
+📌 **音色换过两次**：`es-carlfm-x-low` → `es_MX-claude-high` → 现在这两个（2026-09-25）。
+第二次学生反馈 llevar / barato / las telas 念得不对，七个开源模型跑了 whisper 识别测试
+（`.claude/skills/listening-test/scripts/voice_judge.py`），入围的做成 A/B，学生自己听着选的。
 
 ## 常用参数
 

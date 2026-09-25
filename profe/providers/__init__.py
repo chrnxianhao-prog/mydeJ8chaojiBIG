@@ -26,8 +26,8 @@ def get_provider(name: str) -> Provider:
         from .edge import EdgeProvider
 
         return EdgeProvider()
-    if name == "piper":
-        from .piper import PiperProvider
+    if name in ("local", "piper"):   # piper 是旧名字，2026-09-25 起同样走 local
+        from .local import LocalProvider
 
-        return PiperProvider()
-    raise SynthesisError(f"未知的合成引擎：{name}（可用：edge、piper）")
+        return LocalProvider()
+    raise SynthesisError(f"未知的合成引擎：{name}（可用：edge、local）")
