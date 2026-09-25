@@ -3970,5 +3970,23 @@
       "llmao（手滑，不计）"
     ],
     "pendiente": "usted / le 在对话里都产出了，su 还没自己说出来（Su pedido 是老师示范的）"
+  },
+  "dia_2026_09_25": {
+    "fecha": "2026-09-25（墨西哥城日期）",
+    "pagina": "https://claude.ai/artifact/2KofeoXcgYKMy7EzkPQhG8",
+    "cambio_de_formato": "①从「二选一」正式切到「听写」（听词拼写，三档判分，容忍大小写/空格/句号）。理由：听辨/阅读已连续满分，测试比重往产出偏",
+    "objetivos": [
+      "su 首靶（9-24 对话里 usted/le 已产出，su 还没自己说）",
+      "mi/su、me/le 成对区分",
+      "la cuchara / la carrera 改用听写自产（停止换锚点）"
+    ],
+    "secciones": {
+      "1_听写": "la cuchara、la carrera、el probador、trepar、el jarabe、nervioso、triste、la guía、la garganta、la noticia",
+      "2_单词": "divertido、divertirse、quedar、ofrecer、la guardería、el cuchillo（中文提示已写唯一）",
+      "3_阅读": "七句《供应商的消息》—— 这次被称 usted 的是他自己，读 su/le 指向他。出题脚本自查过短文不含①②的答案",
+      "4_口语": "Su pedido / su tienda / Le mando 三句骨架",
+      "5_小作文": "«Respuesta a mi proveedor» 每空一个词不给词块，mi/su/me/le 混着考"
+    },
+    "estado": "已发布，等交卷"
   }
 }

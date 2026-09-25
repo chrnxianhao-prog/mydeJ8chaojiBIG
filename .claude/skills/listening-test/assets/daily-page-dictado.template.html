@@ -1,0 +1,576 @@
+<title>每日练习 · 我的与您的</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Petrona:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --ground:#F1F4F3; --surface:#FFFFFF; --ink:#15201E; --ink-soft:#566360;
+    --line:#D6DEDB; --accent:#0F766E; --accent-ink:#FFFFFF;
+    --yo:#7C3AED; --ud:#0F766E; --warn:#B45309;
+    --display:"Petrona",Georgia,"Songti SC",serif;
+    --body:"IBM Plex Sans",system-ui,"PingFang SC","Microsoft YaHei",sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:#0E1413; --surface:#18211F; --ink:#E7EDEB; --ink-soft:#97A5A1;
+      --line:#2A3633; --accent:#2DD4BF; --accent-ink:#0E1413;
+      --yo:#A78BFA; --ud:#2DD4BF; --warn:#F59E0B;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground:#0E1413; --surface:#18211F; --ink:#E7EDEB; --ink-soft:#97A5A1;
+    --line:#2A3633; --accent:#2DD4BF; --accent-ink:#0E1413;
+    --yo:#A78BFA; --ud:#2DD4BF; --warn:#F59E0B;
+  }
+  * { box-sizing:border-box; }
+  body {
+    background:var(--ground); color:var(--ink); font-family:var(--body);
+    font-size:16px; line-height:1.6; padding:42px 20px 72px;
+    display:flex; justify-content:center;
+  }
+  main { width:100%; max-width:620px; display:flex; flex-direction:column; gap:30px; }
+  .eyebrow {
+    font-family:var(--mono); font-size:12px; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--ink-soft); margin:0 0 10px;
+  }
+  h1 {
+    font-family:var(--display); font-size:clamp(2rem,7vw,2.6rem); font-weight:600;
+    line-height:1.1; letter-spacing:-.015em; text-wrap:balance; margin:0 0 14px;
+  }
+  .lede { margin:0; color:var(--ink-soft); max-width:58ch; }
+  .lede b { color:var(--ink); font-weight:600; }
+  section { display:flex; flex-direction:column; gap:11px; }
+  section > h2 {
+    font-family:var(--mono); font-size:11px; letter-spacing:.1em; text-transform:uppercase;
+    color:var(--ink-soft); margin:0; font-weight:500;
+  }
+  section > .sub { margin:-6px 0 2px; font-size:14.5px; color:var(--ink-soft); }
+  section > .sub b { color:var(--ink); font-weight:600; }
+  .card {
+    background:var(--surface); border:1px solid var(--line); border-radius:10px;
+    padding:13px 16px; display:flex; flex-direction:column; gap:9px;
+  }
+  .btns { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+  button {
+    font-family:var(--body); font-size:13.5px; font-weight:500; color:var(--ink);
+    background:transparent; border:1px solid var(--line); border-radius:999px;
+    padding:6px 13px; display:inline-flex; align-items:center; gap:7px;
+    cursor:pointer; transition:border-color .15s,color .15s,background .15s;
+  }
+  button:hover { border-color:var(--accent); color:var(--accent); }
+  button:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+  button.play { padding-left:9px; }
+  button.play[data-state="playing"] { border-color:var(--accent); color:var(--accent); }
+  button.play .dot {
+    width:16px; height:16px; flex:none; border-radius:50%; background:var(--accent);
+    color:var(--accent-ink); display:grid; place-items:center; font-size:6.5px; line-height:1;
+  }
+  button.play[data-k="yo"] .dot { background:var(--yo); }
+  button.play[data-k="ud"] .dot { background:var(--ud); }
+  button.rev { font-size:13px; color:var(--ink-soft); margin-left:auto; }
+  .oculto { display:none !important; }
+  .resp { display:flex; flex-direction:column; gap:2px; }
+  .resp .es { font-family:var(--display); font-size:1.08rem; font-weight:600; margin:0; }
+  .resp .zh { font-size:13.5px; color:var(--ink-soft); margin:0; }
+  /* 规则卡 */
+  .verbo { display:flex; align-items:baseline; gap:9px; }
+  .verbo .inf { font-family:var(--display); font-size:1.15rem; font-weight:600; }
+  .verbo .zh { font-size:13px; color:var(--ink-soft); }
+  .flecha {
+    display:flex; align-items:center; gap:9px; flex-wrap:wrap;
+    font-family:var(--mono); font-size:14px;
+  }
+  .flecha .f-yo { color:var(--yo); font-weight:500; }
+  .flecha .f-ud { color:var(--ud); font-weight:600; }
+  .flecha .sep { color:var(--ink-soft); }
+  .ej { margin:0; font-size:14px; }
+  .ej b { font-family:var(--display); font-size:1.02rem; font-weight:600; }
+  .ej span { color:var(--ink-soft); }
+  /* 小测 */
+  .q { background:var(--surface); border:1px solid var(--line); border-radius:10px;
+       padding:12px 15px; display:flex; flex-direction:column; gap:8px; }
+  .q[data-mark="ok"]  { border-color:var(--accent); }
+  .q[data-mark="mal"] { border-color:var(--warn); }
+  .q .n { font-family:var(--mono); font-size:12px; color:var(--ink-soft); }
+  .opts { display:flex; gap:8px; flex-wrap:wrap; }
+  .opts button[aria-pressed="true"] {
+    background:var(--accent); border-color:var(--accent); color:var(--accent-ink);
+    font-weight:600; border-width:2px; outline:2px solid var(--accent); outline-offset:2px;
+  }
+  .opts button[aria-pressed="true"]:hover { color:var(--accent-ink); }
+  .opts button[aria-pressed="true"]::before { content:"✓"; font-size:12px; margin-right:2px; }
+  .fb { margin:0; font-size:13.5px; }
+  .fb[data-mark="ok"]  { color:var(--accent); }
+  .fb[data-mark="mal"] { color:var(--warn); }
+  .fb.oculto { display:none !important; }
+  button.grande {
+    font-size:15px; font-weight:600; padding:11px 24px; align-self:flex-start;
+    border-color:var(--accent); color:var(--accent);
+  }
+  button.grande:hover { background:var(--accent); color:var(--accent-ink); }
+  #marcador {
+    background:var(--surface); border:1px solid var(--line);
+    border-left:3px solid var(--accent); border-radius:10px; padding:16px 18px;
+  }
+  #marcador h3 { font-family:var(--display); font-size:1.5rem; margin:0 0 5px; font-weight:600; }
+  #marcador p { margin:0; color:var(--ink-soft); font-size:14.5px; }
+  .after { border-top:1px solid var(--line); padding-top:18px; margin:0;
+           color:var(--ink-soft); font-size:15px; }
+  .after b { color:var(--ink); font-weight:600; }
+  #guardado { font-family:var(--mono); font-size:12px; color:var(--ink-soft); }
+
+  /* 标签页 */
+  .tabs-bar {
+    position:sticky; top:0; z-index:5; background:var(--ground);
+    padding:10px 0; margin:-10px 0;
+  }
+  .tabs {
+    display:flex; gap:6px; background:var(--surface); width:max-content;
+    border:1px solid var(--line); border-radius:999px; padding:4px;
+  }
+  .tabs button {
+    border:none; border-radius:999px; padding:8px 20px; font-size:14.5px; font-weight:600;
+    color:var(--ink-soft);
+  }
+  .tabs button[aria-selected="true"] { background:var(--accent); color:var(--accent-ink); }
+  .tabs button:hover { color:var(--ink); }
+  .tabs button[aria-selected="true"]:hover { color:var(--accent-ink); }
+  .panel { display:flex; flex-direction:column; gap:30px; }
+  .panel[hidden] { display:none; }
+  /* 输入框 */
+  .fila { display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+  .fila input {
+    font-family:var(--display); font-size:1.05rem; color:var(--ink);
+    background:transparent; border:none; border-bottom:1.5px solid var(--line);
+    padding:4px 6px; width:160px; text-align:center;
+  }
+  .fila input:focus { outline:none; border-bottom-color:var(--accent); }
+  .frase { font-family:var(--display); font-size:1.06rem; margin:0; line-height:1.45; }
+  .frase .hueco { color:var(--ink-soft); letter-spacing:.06em; }
+  .cue { font-family:var(--mono); font-size:12.5px; color:var(--ink-soft); }
+  .aviso {
+    background:var(--surface); border:1px solid var(--line); border-left:3px solid var(--warn);
+    border-radius:10px; padding:13px 16px; font-size:14.5px; color:var(--ink-soft);
+  }
+  .aviso b { color:var(--ink); font-weight:600; }
+
+
+  /* 五节大纲新增 */
+  .familia { display:flex; flex-direction:column; gap:6px; }
+  .formas { display:flex; gap:7px; flex-wrap:wrap; }
+  .forma-et {
+    font-family:var(--mono); font-size:11px; color:var(--ink-soft);
+    align-self:center; margin-right:2px;
+  }
+  .texto-lectura {
+    background:var(--surface); border:1px solid var(--line); border-radius:10px;
+    padding:16px 18px; display:flex; flex-direction:column; gap:9px;
+  }
+  .texto-lectura .linea { display:flex; gap:9px; align-items:flex-start; }
+  .texto-lectura .linea .num {
+    font-family:var(--mono); font-size:11px; color:var(--ink-soft); flex:none;
+    width:16px; padding-top:5px;
+  }
+  .texto-lectura .linea p {
+    font-family:var(--display); font-size:1.04rem; margin:0; line-height:1.5; flex:1;
+  }
+  .tarea {
+    background:var(--surface); border:1px solid var(--line);
+    border-left:3px solid var(--yo); border-radius:10px; padding:14px 17px;
+    display:flex; flex-direction:column; gap:8px;
+  }
+  .tarea ol, .tarea ul { margin:0; padding-left:22px; display:flex; flex-direction:column; gap:7px; }
+  .tarea li { font-size:15px; }
+  .tarea li b { color:var(--ink); }
+  .tarea .aqui {
+    font-family:var(--mono); font-size:12px; color:var(--yo);
+    letter-spacing:.04em; text-transform:uppercase;
+  }
+  .debe { display:flex; gap:7px; flex-wrap:wrap; }
+  .debe span {
+    font-family:var(--mono); font-size:12.5px; padding:4px 10px;
+    border:1px solid var(--yo); color:var(--yo); border-radius:999px;
+  }
+
+  .lineas { display:flex; flex-direction:column; gap:9px; }
+  .lineas .ln { display:flex; flex-direction:column; gap:2px; }
+  .lineas .ln p { margin:0; font-family:var(--display); font-size:1.03rem; }
+  .lineas .ln span { font-size:12.5px; color:var(--ink-soft); font-family:var(--mono); }
+  .par { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+  .par .zh { font-size:13px; color:var(--ink-soft); margin-left:auto; }
+  button.play[data-k="tu"] .dot { background:var(--yo); }
+  button.play[data-k="ud"] .dot { background:var(--ud); }
+
+  @media (prefers-reduced-motion: reduce) { * { transition:none !important; } }
+</style>
+
+<main>
+  <header>
+    <p class="eyebrow">Día 69 · 25 sep 2026</p>
+    <h1>我的，您的</h1>
+    <p class="lede">
+      昨天店里取货那段，<b>Le llamo</b> 和 <b>para usted</b> 你都自己说出来了 ——
+      「您」的三个样子就差 <b>su</b> 还没开口。今天冲它。<br><br>
+      <b>第一节改成听写了</b>：听辨你已经连续两天满分，
+      往后多让你自己拼，少让你挑。
+    </p>
+  </header>
+
+  <div class="tabs-bar">
+    <div class="tabs" role="tablist">
+    <button type="button" role="tab" data-panel="practica" aria-selected="true">练习</button>
+    <button type="button" role="tab" data-panel="prueba" aria-selected="false">测试</button>
+  </div>
+  </div>
+
+  <div class="panel" id="practica">
+    <section>
+      <h2>我的 · 您的</h2>
+      <div class="tarea" style="border-left-color:var(--ud)">
+        <p style="margin:0;font-size:15px;line-height:1.9">
+          <span style="color:var(--yo)"><b>mi</b></span> 我的　→　<span style="color:var(--ud)"><b>su</b></span> 您的<br>
+          <span style="color:var(--yo)"><b>me</b></span> 给我　→　<span style="color:var(--ud)"><b>le</b></span> 给您<br>
+          <span style="color:var(--yo)"><b>mí</b></span>（para 后）→　<span style="color:var(--ud)"><b>usted</b></span>
+        </p>
+      </div>
+      <p class="sub">紫色是「我」，绿色是「您」。两个都点，听差在哪个小词。</p>
+      <div id="parejas"></div>
+    </section>
+
+    <section>
+      <h2>短文生词，先过一遍</h2>
+      <p class="sub">测试里的阅读会用到这六个。</p>
+      <div id="previo"></div>
+    </section>
+
+    <p class="after" style="border:none;padding:0">听熟了再切<b>测试</b>。</p>
+  </div>
+
+  <div class="panel" id="prueba" hidden>
+    <p class="aviso">
+      练习那页过完了再做。<b>第一节是听写</b>：只听不看，听到什么拼什么，名词带冠词。
+    </p>
+
+    <section>
+      <h2>① 听写（10 题）</h2>
+      <p class="sub">点 ▶ 听，把听到的<b>拼出来</b>。听不清就点「慢」。重音漏了算对，但会告诉你。</p>
+      <div id="test"></div>
+    </section>
+
+    <section>
+      <h2>② 单词（6 题）</h2>
+      <p class="sub">中文 → 西语，名词<b>带冠词</b>。这六个在错题本里躺了一个多月。</p>
+      <div id="palabras"></div>
+    </section>
+
+    <section>
+      <h2>③ 阅读理解（4 题）</h2>
+      <p class="sub">这次的生词都在练习区过过了。先读，再判断。</p>
+      <div class="texto-lectura" id="texto"></div>
+      <div id="lectura"></div>
+    </section>
+
+    <button class="grande" type="button" id="entregar">交卷（前三节）</button>
+    <div id="marcador" class="oculto"></div>
+
+    <section>
+      <h2>④ 口语表述（3 题）</h2>
+      <div class="tarea">
+        <span class="aqui">→ 在聊天里说给我听</span>
+        <ol id="habla"></ol>
+      </div>
+    </section>
+
+    <section>
+      <h2>⑤ 小作文</h2>
+      <div class="tarea">
+        <span class="aqui">→ 在聊天里写给我　·　每空一个词，不给词块</span>
+        <p style="margin:0"><b id="es-titulo"></b></p>
+        <p style="margin:0;font-size:14px;color:var(--ink-soft)" id="es-pide"></p>
+        <div class="lineas" id="es-lineas"></div>
+      </div>
+    </section>
+
+    <p class="after">
+      前三节的分自动传回来。<b>口语和小作文在聊天里交。</b>
+      <span id="guardado"></span>
+    </p>
+  </div>
+</main>
+
+<script>
+  const CLIPS = __AUDIO__;
+  const D = __DATA__;
+
+
+  // ── 标签页 ──────────────────────────────────
+  const tabs = document.querySelectorAll(".tabs button");
+  function abrir(nombre) {
+    tabs.forEach(function (b) {
+      b.setAttribute("aria-selected", b.dataset.panel === nombre ? "true" : "false");
+    });
+    ["practica", "prueba"].forEach(function (p) {
+      document.getElementById(p).hidden = p !== nombre;
+    });
+    try { localStorage.setItem("mandato.tab", nombre); } catch (e) {}
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+  tabs.forEach(function (b) {
+    b.addEventListener("click", function () { abrir(b.dataset.panel); });
+  });
+  try {
+    const guardadoTab = localStorage.getItem("mandato.tab");
+    if (guardadoTab === "prueba") abrir("prueba");
+  } catch (e) {}
+
+  const sinTilde = function (s) {
+    return s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  };
+  const limpiar = function (s) {
+    return s.trim().toLowerCase().replace(/[.,;:¿?¡!]/g, "");
+  };
+
+  const cache = {};
+  let current = null;
+
+  function play(key, button) {
+    if (current && current.button !== button) {
+      current.audio.pause(); current.audio.currentTime = 0;
+      current.button.dataset.state = "idle";
+    }
+    if (!cache[key]) cache[key] = new Audio("data:audio/mpeg;base64," + CLIPS[key]);
+    const audio = cache[key];
+    if (!audio.paused) {
+      audio.pause(); audio.currentTime = 0;
+      button.dataset.state = "idle"; current = null; return;
+    }
+    audio.currentTime = 0; audio.play();
+    button.dataset.state = "playing";
+    current = { audio: audio, button: button };
+    audio.onended = function () { button.dataset.state = "idle"; current = null; };
+  }
+
+  function cablear(el) {
+    el.querySelectorAll("button.play").forEach(function (b) {
+      b.addEventListener("click", function () { play(b.dataset.key, b); });
+    });
+  }
+
+  // ── 练习：同一句话两个版本 ──
+  const hostP = document.getElementById("parejas");
+  D.parejas.forEach(function (f) {
+    const el = document.createElement("div");
+    el.className = "card";
+    el.innerHTML =
+      '<div class="par">' +
+        '<button class="play" type="button" data-k="tu" data-key="pa' + f.i + '_tu" data-state="idle">' +
+          '<span class="dot">&#9654;</span>' + f.tu + "</button>" +
+        '<button class="play" type="button" data-k="ud" data-key="pa' + f.i + '_ud" data-state="idle">' +
+          '<span class="dot">&#9654;</span>' + f.ud + "</button>" +
+        '<span class="zh">' + f.zh + "</span>" +
+      "</div>";
+    hostP.appendChild(el);
+    cablear(el);
+  });
+
+  // ── 练习：短文生词预习 ──
+  const hostPv = document.getElementById("previo");
+  D.previo.forEach(function (f) {
+    const el = document.createElement("div");
+    el.className = "card";
+    el.innerHTML =
+      '<div class="btns">' +
+        '<button class="play" type="button" data-key="pv' + f.i + '" data-state="idle">' +
+          '<span class="dot">&#9654;</span>听</button>' +
+        '<button class="rev" type="button">翻答案</button>' +
+      "</div>" +
+      '<div class="resp oculto"><p class="es">' + f.es + '</p><p class="zh">' + f.zh + "</p></div>";
+    hostPv.appendChild(el);
+    cablear(el);
+    const rev = el.querySelector("button.rev"), caja = el.querySelector(".resp");
+    rev.addEventListener("click", function () {
+      const abierto = !caja.classList.contains("oculto");
+      caja.classList.toggle("oculto", abierto);
+      rev.textContent = abierto ? "翻答案" : "藏起来";
+    });
+  });
+
+  // ── ① 听写 ──
+  const hostT = document.getElementById("test");
+  D.dictado.forEach(function (q, n) {
+    const el = document.createElement("div");
+    el.className = "q";
+    el.innerHTML =
+      '<div class="btns"><span class="n">' + (n + 1) + ".</span>" +
+        '<button class="play" type="button" data-key="t' + q.i + '" data-state="idle">' +
+          '<span class="dot">&#9654;</span>听</button>' +
+        '<button class="play" type="button" data-key="t' + q.i + '_lento" data-state="idle">' +
+          '<span class="dot">&#9654;</span>慢</button>' +
+      "</div>" +
+      '<div class="fila"><input type="text" autocomplete="off" autocapitalize="off" ' +
+        'spellcheck="false" placeholder="听到什么拼什么"></div>' +
+      '<p class="fb oculto"></p>';
+    hostT.appendChild(el);
+    cablear(el);
+  });
+
+  // ── ② 单词 ──
+  const hostPa = document.getElementById("palabras");
+  D.palabras.forEach(function (q, n) {
+    const el = document.createElement("div");
+    el.className = "q";
+    el.innerHTML =
+      '<div class="fila"><span class="n">' + (n + 1) + '.</span>' +
+        '<span class="cue">' + q.zh + "</span></div>" +
+      '<div class="fila"><input type="text" autocomplete="off" autocapitalize="off" ' +
+        'spellcheck="false" placeholder="带冠词"></div>' +
+      '<p class="fb oculto"></p>';
+    hostPa.appendChild(el);
+  });
+
+  // ── ③ 阅读：短文 + 判断 ──
+  const hostTx = document.getElementById("texto");
+  D.texto.forEach(function (f) {
+    const el = document.createElement("div");
+    el.className = "linea";
+    el.innerHTML =
+      '<span class="num">' + (f.i + 1) + "</span>" +
+      "<p>" + f.es + "</p>" +
+      '<button class="play" type="button" data-key="tx' + f.i + '" data-state="idle">' +
+        '<span class="dot">&#9654;</span></button>';
+    hostTx.appendChild(el);
+    cablear(el);
+  });
+
+  const hostLe = document.getElementById("lectura");
+  const juzgado = {};
+  D.lectura.forEach(function (q, n) {
+    const el = document.createElement("div");
+    el.className = "q";
+    el.innerHTML =
+      '<p class="enun"><span class="n">' + (n + 1) + '.</span><span>' + q.t + "</span></p>" +
+      '<div class="opts">' +
+        '<button type="button" data-v="1" aria-pressed="false">对</button>' +
+        '<button type="button" data-v="0" aria-pressed="false">错</button>' +
+      "</div>" +
+      '<p class="fb oculto"></p>';
+    hostLe.appendChild(el);
+    el.querySelectorAll(".opts button").forEach(function (b) {
+      b.addEventListener("click", function () {
+        el.querySelectorAll(".opts button").forEach(function (o) {
+          o.setAttribute("aria-pressed", "false");
+        });
+        b.setAttribute("aria-pressed", "true");
+        juzgado[n] = b.dataset.v === "1";
+      });
+    });
+  });
+
+  // ── ④⑤ 只放题目，不判分 ──
+  const hostHa = document.getElementById("habla");
+  D.habla.forEach(function (s) {
+    const li = document.createElement("li");
+    li.innerHTML = s.replace(/\*\*(.+?)\*\*/g, "<b>$1</b>");
+    hostHa.appendChild(li);
+  });
+  document.getElementById("es-titulo").textContent = "«" + D.escrito.titulo + "»";
+  document.getElementById("es-pide").innerHTML = D.escrito.pide;
+  const hostLn = document.getElementById("es-lineas");
+  D.escrito.lineas.forEach(function (par, n) {
+    const el = document.createElement("div");
+    el.className = "ln";
+    el.innerHTML = "<p>" + (n + 1) + ". " + par[0] + "</p><span>" + par[1] + "</span>";
+    hostLn.appendChild(el);
+  });
+
+
+  let db = null;
+  const guardado = document.getElementById("guardado");
+  // window.claude 拿不到时 .use 是同步抛错，.catch 接不住 ——
+  // 一抛整个脚本就断在这儿，下面交卷的绑定压根跑不到，按了没反应。
+  try {
+    window.claude.use("db").then(function (x) { db = x; }).catch(function () {});
+  } catch (e) {
+    guardado.textContent = "成绩存不了，做完截图发我";
+  }
+
+  document.getElementById("entregar").addEventListener("click", async function () {
+    const detalle = { oido: [], palabras: [], lectura: [] };
+    let bienO = 0, bienP = 0, bienL = 0;
+
+    D.dictado.forEach(function (q, n) {
+      const el = hostT.children[n], fb = el.querySelector(".fb");
+      const dado = limpiar(el.querySelector("input").value);
+      const esperado = limpiar(q.resp);
+      const exacto = dado === esperado;
+      const casi = !exacto && dado.length > 0 && sinTilde(dado) === sinTilde(esperado);
+      const ok = exacto || casi;
+      if (ok) bienO++;
+      el.dataset.mark = ok ? "ok" : "mal";
+      fb.dataset.mark = ok ? "ok" : "mal";
+      fb.classList.remove("oculto");
+      fb.textContent = exacto ? "✓ " + q.resp
+        : casi ? "✓ 只差重音 → " + q.resp
+        : "✗ " + q.resp + (dado ? "　（你写的：" + dado + "）" : "");
+      detalle.oido.push({ n: n + 1, resp: q.resp, dado: dado, exacto: exacto, casi: casi });
+    });
+
+    D.palabras.forEach(function (q, n) {
+      const el = hostPa.children[n], fb = el.querySelector(".fb");
+      const dado = limpiar(el.querySelector("input").value);
+      const esperado = limpiar(q.resp);
+      const exacto = dado === esperado;
+      const casi = !exacto && dado.length > 0 && sinTilde(dado) === sinTilde(esperado);
+      const sinArt = !exacto && !casi && dado.length > 0 &&
+        sinTilde(esperado).replace(/^(el|la) /, "") === sinTilde(dado).replace(/^(el|la) /, "");
+      const ok = exacto || casi;
+      if (ok) bienP++;
+      el.dataset.mark = ok ? "ok" : "mal";
+      fb.dataset.mark = ok ? "ok" : "mal";
+      fb.classList.remove("oculto");
+      fb.innerHTML = (exacto ? "✓ " + q.resp
+          : casi ? "✓ 只差重音 → " + q.resp
+          : sinArt ? "✗ " + q.resp + "　（词对了，冠词漏了）"
+          : "✗ " + q.resp) +
+        '　<button class="play" type="button" data-key="w' + n +
+          '" data-state="idle"><span class="dot">&#9654;</span>词</button>' +
+        '<button class="play" type="button" data-key="w' + n +
+          '_ej" data-state="idle"><span class="dot">&#9654;</span>例句</button>';
+      cablear(fb);
+      detalle.palabras.push({ n: n + 1, resp: q.resp, dado: dado, exacto: exacto, casi: casi, sinArt: sinArt });
+    });
+
+    D.lectura.forEach(function (q, n) {
+      const el = hostLe.children[n], fb = el.querySelector(".fb");
+      const ok = juzgado[n] === q.v;
+      if (ok) bienL++;
+      el.dataset.mark = ok ? "ok" : "mal";
+      fb.dataset.mark = ok ? "ok" : "mal";
+      fb.classList.remove("oculto");
+      fb.textContent = (ok ? "✓ " : "✗ 应该是「" + (q.v ? "对" : "错") + "」 · ") + q.por;
+      detalle.lectura.push({ n: n + 1, ok: ok, dado: juzgado[n] });
+    });
+
+    const total = D.dictado.length + D.palabras.length + D.lectura.length;
+    const bien = bienO + bienP + bienL;
+    const m = document.getElementById("marcador");
+    m.classList.remove("oculto");
+    m.innerHTML = "<h3>" + bien + " / " + total + "</h3>" +
+      "<p>听写 " + bienO + "/" + D.dictado.length +
+      "　单词 " + bienP + "/" + D.palabras.length +
+      "　阅读 " + bienL + "/" + D.lectura.length +
+      "<br>口语和小作文在聊天里交，那两节我亲自批。</p>";
+    m.scrollIntoView({ behavior: "smooth", block: "center" });
+
+    if (!db) return;
+    try {
+      await db.doc("resultados/dia-0925").set({
+        fecha: "2026-09-25", tema: "听写 · mi/su me/le",
+        oido: bienO, oidoTotal: D.dictado.length,
+        palabras: bienP, palabrasTotal: D.palabras.length,
+        lectura: bienL, lecturaTotal: D.lectura.length,
+        detalle: detalle, updatedAt: new Date().toISOString()
+      });
+      guardado.textContent = "成绩已回传";
+    } catch (e) { guardado.textContent = "成绩没存上，截图发我"; }
+  });
+</script>
