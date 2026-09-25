@@ -2127,6 +2127,20 @@
       "relearn": false,
       "date": "2026-09-25",
       "note": "出题时对每个中文提示问一句「还有别的常见西语词能对上吗」，有就加限定：如「好玩的（不是『有意思的』）」"
+    },
+    {
+      "error": "命令式和 yo 形方向互换：想说「我等」说成 espere（您等）。9-21 是反过来（该用命令式时说 traigo）",
+      "count": 2,
+      "relearn": true,
+      "date": "2026-09-25",
+      "note": "规则：说自己的事 -o（espero）；叫对方做 → 命令式（espere）"
+    },
+    {
+      "error": "【头号问题相关】说将来的事用了过去时：la tela llegó（应 cuando llegue）、yo fui a la tienda（应 paso / voy）",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-25",
+      "note": "A2 简化规则：将来的事用现在时（voy / paso）；「等…到了」用 cuando llegue 整块。他 9-24 自己说过 Le llamo cuando llegue，可以拿来当锚"
     }
   ],
   "week_stats": {
@@ -2141,6 +2155,7 @@
     ]
   },
   "current_focus_areas": [
+    "【头号问题回归】时间方向：说将来用了过去时（llegó/fui）→ 现在时表将来 + cuando llegue",
     "听写：声音→拼写映射（gu/q、rg 连缀、非重读 e）",
     "su / le 句首：后面跟东西用 su",
     "⑤ 支架升到「填半句」",
@@ -4073,5 +4088,21 @@
       "latam": "Kokoro ef_dora（sid 28）lang=es-419",
       "espana": "Piper es_ES-davefx-medium"
     }
+  },
+  "conversacion_2026_09_25": {
+    "fecha": "2026-09-25",
+    "escena": "供应商打电话：蓝色布料没到，问他等一周还是拿绿色",
+    "modo": "裸聊（全程西语）",
+    "aciertos": [
+      "接电话说 Bueno —— 墨西哥人的接法",
+      "听懂了二选一并做了选择，理解没问题"
+    ],
+    "errores": [
+      "que paso → 对供应商宜说 Dígame / ¿En qué le puedo ayudar?（且漏重音 qué pasó）",
+      "espere una semana → espero / prefiero esperar（把命令式当成 yo 形，跟 9-21 traigo 当命令用正好反过来）",
+      "la tela azul llegó también → cuando llegue la tela azul（说将来的事用了过去时）",
+      "luego yo fui a la tienda → paso a la tienda（同上，过去时说将来）"
+    ],
+    "hallazgo": "【接头号问题】说还没发生的事用过去时（llegó、fui）—— 三时态混淆的又一种表现：时间方向本身搞反。cuando llegue 他 9-24 自己说对过，没迁移过来"
   }
 }
