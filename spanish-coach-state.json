@@ -2141,6 +2141,25 @@
       "relearn": true,
       "date": "2026-09-25",
       "note": "A2 简化规则：将来的事用现在时（voy / paso）；「等…到了」用 cuando llegue 整块。他 9-24 自己说过 Le llamo cuando llegue，可以拿来当锚"
+    },
+    {
+      "error": "【今天三次】-ar 动词过去时「我」写成「他」：llamó→llamé、cocinó→cociné",
+      "count": 3,
+      "relearn": true,
+      "date": "2026-09-25",
+      "note": "表：yo -é / él -ó。llegar 的 yo 是 llegué（加 u 保 g 音），且 llegué ≠ llegue（cuando llegue）"
+    },
+    {
+      "error": "llegué 写成 llegue：少一个重音，从「我到了」变成虚拟式",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-25"
+    },
+    {
+      "error": "llamar a + 人 漏 a：llamo mi mamá（应 llamo a mi mamá）",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-25"
     }
   ],
   "week_stats": {
@@ -2155,6 +2174,7 @@
     ]
   },
   "current_focus_areas": [
+    "【明天主菜】-ar 过去时 yo -é / él -ó（今天错三次）+ llegué/llegue 重音",
     "【头号问题回归】时间方向：说将来用了过去时（llegó/fui）→ 现在时表将来 + cuando llegue",
     "听写：声音→拼写映射（gu/q、rg 连缀、非重读 e）",
     "su / le 句首：后面跟东西用 su",
@@ -4104,5 +4124,30 @@
       "luego yo fui a la tienda → paso a la tienda（同上，过去时说将来）"
     ],
     "hallazgo": "【接头号问题】说还没发生的事用过去时（llegó、fui）—— 三时态混淆的又一种表现：时间方向本身搞反。cuando llegue 他 9-24 自己说对过，没迁移过来"
+  },
+  "jiaolian_2026_09_25_noche": {
+    "fecha": "2026-09-25（墨城晚上，同日加练，不推进计数）",
+    "formato": "学生要求「不要语音」—— 纯文字在聊天里三步走，未出网页",
+    "paso1_rellenar": "6/6 —— llegó/llega/llegue/fui/voy/llamo 全对（动词已给，只挑形式）",
+    "paso2_traducir": {
+      "tiempo": "4/4 时间方向全对：过去用过去时、将来用现在时、cuando llegue 也用了",
+      "errores": [
+        "漏 cuando；llamo para usted → le llamo",
+        "el pasado semana → la semana pasada（阴性 + 形容词后置）",
+        "llamó → llamé（yo 形写成 él 形）"
+      ]
+    },
+    "paso3_medio_frase": {
+      "entregado": "Cocinó fui al mercado, llegue la bodega, llamó mi mama, la cosa le llegue",
+      "interpretacion": "La semana pasada cociné y fui al mercado / Ayer llegué a la bodega / Mañana llamo a mi mamá / （第 4 行漏）/ Cuando llegue la tela, le llamo（只写一半）",
+      "errores": [
+        "cocinó → cociné",
+        "llegue → llegué（少重音变成虚拟式）+ 漏 a",
+        "Mañana … llamó → llamo（自由写作里时间方向又错一次）",
+        "llamo mi mamá → llamo a mi mamá"
+      ],
+      "nivel_andamio": "填半句级：5 行写出 4 行，有内容但错多。下次留在这一级，每行给一个示范句"
+    },
+    "hallazgo": "【新发现，今天三次】-ar 过去时 yo 形写成 él 形：llamó、cocinó（应 llamé、cociné）。有提示时时间方向全对，放开写又冒出一次「明天 + 过去时」"
   }
 }
