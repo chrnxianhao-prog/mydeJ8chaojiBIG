@@ -1,10 +1,10 @@
 {
   "level": "A2",
-  "streak": 5,
-  "total_completed_days": 69,
+  "streak": 6,
+  "total_completed_days": 70,
   "total_missed_days": 11,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-09-25",
+  "last_task_date": "2026-09-26",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
   "consecutive_completed": 3,
@@ -2160,6 +2160,25 @@
       "count": 1,
       "relearn": false,
       "date": "2026-09-25"
+    },
+    {
+      "error": "-é/-ó 的元音（人称）已经分对了，但重音全漏：trabaje/pago/espere/cambio",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-26",
+      "note": "trabaje 不带重音是虚拟式，跟 llegué/llegue 同一个坑。下一步专练「写上重音」"
+    },
+    {
+      "error": "garganta 连续两天在 rg 之间插 a（garagata、garaganta）",
+      "count": 2,
+      "relearn": true,
+      "date": "2026-09-26"
+    },
+    {
+      "error": "【我的错·音色】Kokoro 念孤立单词开头有杂音，habló 被听成 sabor。已改为套句念",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-26"
     }
   ],
   "week_stats": {
@@ -2292,14 +2311,14 @@
     {
       "word": "la guardería",
       "module": "童年回忆",
-      "date_wrong": "2026-09-25",
+      "date_wrong": "2026-09-26",
       "correct_count": 0,
       "mnemonic": "guard-ería：想象卫兵(guard)在幼儿园站岗"
     },
     {
       "word": "la carrera",
       "module": "工作职业",
-      "date_wrong": "2026-09-25",
+      "date_wrong": "2026-09-26",
       "correct_count": 0,
       "mnemonic": "绑高频问句：¿Qué carrera estudiaste?（你大学读的什么专业）。carrera = 读的哪一行、干的哪一行。（替换掉失效的 carro→跑道 词源链）"
     },
@@ -2342,7 +2361,7 @@
     {
       "word": "quedar",
       "module": "高频动词",
-      "date_wrong": "2026-09-25",
+      "date_wrong": "2026-09-26",
       "correct_count": 0
     },
     {
@@ -2396,7 +2415,7 @@
     {
       "word": "el jarabe",
       "module": "身体与健康",
-      "date_wrong": "2026-09-25",
+      "date_wrong": "2026-09-26",
       "correct_count": 0
     },
     {
@@ -2499,13 +2518,13 @@
     {
       "word": "divertirse",
       "module": "童年回忆",
-      "date_wrong": "2026-09-25",
+      "date_wrong": "2026-09-26",
       "correct_count": 0
     },
     {
       "word": "la guía",
       "module": "旅行",
-      "date_wrong": "2026-09-25",
+      "date_wrong": "2026-09-26",
       "correct_count": 0
     },
     {
@@ -2517,7 +2536,7 @@
     {
       "word": "garganta",
       "module": "身体与健康",
-      "date_wrong": "2026-09-25",
+      "date_wrong": "2026-09-26",
       "correct_count": 0
     },
     {
@@ -2639,7 +2658,7 @@
     {
       "word": "garganta",
       "module": "身体与健康",
-      "date_wrong": "2026-09-25",
+      "date_wrong": "2026-09-26",
       "correct_count": 0
     },
     {
@@ -2669,7 +2688,7 @@
     {
       "word": "la guardería",
       "module": "童年回忆",
-      "date_wrong": "2026-09-25",
+      "date_wrong": "2026-09-26",
       "correct_count": 0
     },
     {
@@ -2730,7 +2749,7 @@
     {
       "word": "ofrecer",
       "module": "高频动词",
-      "date_wrong": "2026-09-25",
+      "date_wrong": "2026-09-26",
       "correct_count": 0
     },
     {
@@ -2780,12 +2799,12 @@
       "word": "nervioso/a",
       "module": "形容词",
       "date_wrong": "2026-09-25",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "triste",
       "module": "形容词",
-      "date_wrong": "2026-09-25",
+      "date_wrong": "2026-09-26",
       "correct_count": 0
     },
     {
@@ -4164,6 +4183,39 @@
       "5_小作文": "«Ayer en mi tienda» 填半句级，每行给示范句；前四行过去时、最后一行现在时（接时间方向问题）"
     },
     "verificacion": "判分验过：trabajó（写错人）判错；pago（只漏重音）按三档规矩算对并提示",
-    "estado": "已发布，等交卷"
+    "estado": "已发布，等交卷",
+    "resultado": {
+      "puntos": "页面判 9/20（听写 5/10、单词 0/6、阅读 4/4）。habló 那题是音频故障（孤立词开头杂音），他写 sabor，不算他错 → 听写按 5/9 计",
+      "objetivo_-e_-o": "【靶子命中】阅读 4/4（全靠 -é/-ó 分出谁做的）；听写四个 -é/-ó 词元音全对（trabaje/espere 是 e = 我，pago/cambio 是 o = 他），只是重音全漏",
+      "dictado": {
+        "acento_olvidado": [
+          "trabajé→trabaje",
+          "pagó→pago",
+          "esperé→espere",
+          "cambió→cambio"
+        ],
+        "exacto": [
+          "nervioso（昨天 narvioso）"
+        ],
+        "vacios": [
+          "terminé",
+          "triste",
+          "la guía"
+        ],
+        "otros": [
+          "la garganta→la garaganta（rg 之间又插 a，同昨天 garagata）"
+        ],
+        "fallo_audio": "habló→sabor（Kokoro 孤立词开头杂音，已修）"
+      },
+      "palabras": {
+        "la carrera": "不会（第五次）",
+        "divertirse": "写 interesant ✗（被昨天的 interesante 带跑）",
+        "quedar": "写 la cita ✗（同昨天）",
+        "ofrecer": "写 dame ✗",
+        "la guardería": "写 guarderia —— 词对，漏冠词和重音",
+        "el jarabe": "写 jaraber（同昨天听写 jarber）"
+      },
+      "arreglo_audio": "孤立单词改为套 Digo ___, otra vez. 念（profe.voz.hablar_palabra）；今天页面 32 段单词音频已重做并重新发布，浏览器解码后 whisper 回测听写 10/10"
+    }
   }
 }

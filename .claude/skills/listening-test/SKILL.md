@@ -29,6 +29,17 @@ Piper 是神经网络模型，跟 Edge TTS 同一类技术，只是模型小些�
 Kokoro 两种读法 20/20、davefx 19/20、claude 18/20。但学生报的那三个词 whisper 听 claude 也全对 ——
 **他的耳朵比识别模型细，分数只做初筛，最后让他听 A/B 自己选**。别退回旧音色。
 
+🔴 **单个词一律用 `profe.voz.hablar_palabra(palabra)`，别直接喂给 `hablar()`。**
+Kokoro 是拿整句训练的，孤立单词开头会多出一个杂音。2026-09-26 学生听写把 habló 写成 sabor
+（原话「这个 hablo 怎么读成 sablo」）。whisper 回测：孤立单词 16 个只认对 6 个
+（habló→sablo、hermano→ser mano、hijo→dijo、llevar→Y éste —— 9-25 他报的 llevar 多半也是这个原因）；
+放进 `Digo ___, otra vez.` 里念，当天页面 33 个词全认对。词放句尾也会糊（La palabra es: habló → Ableu），
+`Escribe ___` 会跟元音开头的词连读（escribe habló → a Blu），所以固定用 `Digo ___, otra vez.`。
+页面上要告诉学生「只写中间那个词」。
+
+发布前可以用浏览器把页面里的 mp3 解码成 PCM 交给 whisper 回测（`AudioContext.decodeAudioData`，
+容器里没有 ffmpeg），测的就是学生实际听到的那份音频。
+
 出题脚本（每日页那种）合成单句一律用 `profe.voz.hablar(texto, speed, acento)`，
 别再各自抄一份引擎配置 —— 9-25 以前每个脚本都自己写了一遍，换音色时得一个个改。
 
