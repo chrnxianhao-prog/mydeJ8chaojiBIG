@@ -4149,5 +4149,21 @@
       "nivel_andamio": "填半句级：5 行写出 4 行，有内容但错多。下次留在这一级，每行给一个示范句"
     },
     "hallazgo": "【新发现，今天三次】-ar 过去时 yo 形写成 él 形：llamó、cocinó（应 llamé、cociné）。有提示时时间方向全对，放开写又冒出一次「明天 + 过去时」"
+  },
+  "dia_2026_09_26": {
+    "fecha": "2026-09-26（墨西哥城日期，晚 23:30 开始）",
+    "pagina": "https://claude.ai/artifact/Kb5r9JLrZWDwVHTdBfXpJp",
+    "objetivo": "-ar 过去时 yo -é / él -ó（9-25 晚加练错三次）+ llegué / llegue",
+    "voz": "第一天用学生选的 Kokoro dora（profe.voz.hablar）",
+    "secciones": {
+      "练习": "五组「Yo -é / Él -ó」对照 + llegué/llegue 重音卡 + 短文六个生词",
+      "1_听写": "trabajé、pagó、esperé、habló、terminé、cambió（-é/-ó）+ triste、nervioso、la guía、la garganta（9-25 听写错的，跨日）",
+      "2_单词": "la carrera、divertirse、quedar、ofrecer、la guardería、el jarabe —— 题干都写明「不是什么」防同义词",
+      "3_阅读": "七句《昨天店里》：我 -é、哥哥 -ó，判断题考「谁做的」—— 只能靠词尾分人。出题脚本自查无泄答案",
+      "4_口语": "llamé / compró / llegué 三句骨架",
+      "5_小作文": "«Ayer en mi tienda» 填半句级，每行给示范句；前四行过去时、最后一行现在时（接时间方向问题）"
+    },
+    "verificacion": "判分验过：trabajó（写错人）判错；pago（只漏重音）按三档规矩算对并提示",
+    "estado": "已发布，等交卷"
   }
 }
