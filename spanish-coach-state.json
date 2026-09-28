@@ -4217,5 +4217,12 @@
       },
       "arreglo_audio": "孤立单词改为套 Digo ___, otra vez. 念（profe.voz.hablar_palabra）；今天页面 32 段单词音频已重做并重新发布，浏览器解码后 whisper 回测听写 10/10"
     }
+  },
+  "dia_2026_09_28": {
+    "tema": "重音 -é/-ó：pago/pagó, cambio/cambió, hablo/habló, trabaje/trabajé, llegue/llegué",
+    "artifact": "https://claude.ai/artifact/PQVQu9NZiFVp91rzwWi2Vj",
+    "db_doc": "resultados/dia-0928",
+    "nota": "9-27 没练；9-28 容器被回收，从远端分支恢复。听写改为严判重音；「慢」按钮换成「念两遍」（Kokoro 放慢会丢尾音节重音，9-26 的慢速 pagó/cambió 是错的，已告知学生）。",
+    "estado": "已发布，待交卷"
   }
 }
