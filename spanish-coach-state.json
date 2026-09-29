@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 6,
-  "total_completed_days": 70,
-  "total_missed_days": 11,
+  "streak": 1,
+  "total_completed_days": 71,
+  "total_missed_days": 12,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-09-26",
+  "last_task_date": "2026-09-28",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
-  "consecutive_completed": 3,
+  "consecutive_completed": 1,
   "vocabulary_learned": [
     "China",
     "México",
@@ -2179,6 +2179,24 @@
       "count": 1,
       "relearn": false,
       "date": "2026-09-26"
+    },
+    {
+      "error": "从不打重音/ñ：听写 7 个错全是漏重音，聊天里 cafe/nino/ano 也一样。先解决键盘（手机长按元音），再判断听辨",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-28"
+    },
+    {
+      "error": "él 的过去时写成 yo 的现在时：compró→compro、pagó→pago（重音一漏人就变了）",
+      "count": 2,
+      "relearn": true,
+      "date": "2026-09-28"
+    },
+    {
+      "error": "a + el 没缩合：voy a centro → voy al centro",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-28"
     }
   ],
   "week_stats": {
@@ -2311,16 +2329,20 @@
     {
       "word": "la guardería",
       "module": "童年回忆",
-      "date_wrong": "2026-09-26",
+      "date_wrong": "2026-09-28",
       "correct_count": 0,
-      "mnemonic": "guard-ería：想象卫兵(guard)在幼儿园站岗"
+      "mnemonic": "guard-ería：想象卫兵(guard)在幼儿园站岗",
+      "veces_mal_seguidas": 2,
+      "plan": "先进练习区（听+例句+在④⑤里用一次），当天不考，隔天再考"
     },
     {
       "word": "la carrera",
       "module": "工作职业",
-      "date_wrong": "2026-09-26",
+      "date_wrong": "2026-09-28",
       "correct_count": 0,
-      "mnemonic": "绑高频问句：¿Qué carrera estudiaste?（你大学读的什么专业）。carrera = 读的哪一行、干的哪一行。（替换掉失效的 carro→跑道 词源链）"
+      "mnemonic": "绑高频问句：¿Qué carrera estudiaste?（你大学读的什么专业）。carrera = 读的哪一行、干的哪一行。（替换掉失效的 carro→跑道 词源链）",
+      "veces_mal_seguidas": 2,
+      "plan": "先进练习区（听+例句+在④⑤里用一次），当天不考，隔天再考"
     },
     {
       "word": "el viaje",
@@ -2361,8 +2383,10 @@
     {
       "word": "quedar",
       "module": "高频动词",
-      "date_wrong": "2026-09-26",
-      "correct_count": 0
+      "date_wrong": "2026-09-28",
+      "correct_count": 0,
+      "veces_mal_seguidas": 2,
+      "plan": "先进练习区（听+例句+在④⑤里用一次），当天不考，隔天再考"
     },
     {
       "word": "soñar",
@@ -2415,8 +2439,10 @@
     {
       "word": "el jarabe",
       "module": "身体与健康",
-      "date_wrong": "2026-09-26",
-      "correct_count": 0
+      "date_wrong": "2026-09-28",
+      "correct_count": 0,
+      "veces_mal_seguidas": 2,
+      "plan": "先进练习区（听+例句+在④⑤里用一次），当天不考，隔天再考"
     },
     {
       "word": "pedir",
@@ -2688,8 +2714,10 @@
     {
       "word": "la guardería",
       "module": "童年回忆",
-      "date_wrong": "2026-09-26",
-      "correct_count": 0
+      "date_wrong": "2026-09-28",
+      "correct_count": 0,
+      "veces_mal_seguidas": 2,
+      "plan": "先进练习区（听+例句+在④⑤里用一次），当天不考，隔天再考"
     },
     {
       "word": "el tiempo libre",
@@ -2749,8 +2777,10 @@
     {
       "word": "ofrecer",
       "module": "高频动词",
-      "date_wrong": "2026-09-26",
-      "correct_count": 0
+      "date_wrong": "2026-09-28",
+      "correct_count": 0,
+      "veces_mal_seguidas": 2,
+      "plan": "先进练习区（听+例句+在④⑤里用一次），当天不考，隔天再考"
     },
     {
       "word": "colgar",
@@ -2804,8 +2834,10 @@
     {
       "word": "triste",
       "module": "形容词",
-      "date_wrong": "2026-09-26",
-      "correct_count": 0
+      "date_wrong": "2026-09-28",
+      "correct_count": 0,
+      "veces_mal_seguidas": 2,
+      "plan": "先进练习区（听+例句+在④⑤里用一次），当天不考，隔天再考"
     },
     {
       "word": "marcar",
@@ -4223,6 +4255,14 @@
     "artifact": "https://claude.ai/artifact/PQVQu9NZiFVp91rzwWi2Vj",
     "db_doc": "resultados/dia-0928",
     "nota": "9-27 没练；9-28 容器被回收，从远端分支恢复。听写改为严判重音；「慢」按钮换成「念两遍」（Kokoro 放慢会丢尾音节重音，9-26 的慢速 pagó/cambió 是错的，已告知学生）。",
-    "estado": "已发布，待交卷"
+    "estado": "已交卷，已批",
+    "resultado": {
+      "puntos": "页面 7/20（听写 3/10、单词 0/6、阅读 4/4）",
+      "听写": "10 个字母全对，错的 7 个全是漏重音（pagó llegué trabajé habló esperé cambió compré）；不带重音的 3 个全对。浩哥所有聊天输入从没打过重音和 ñ（cafe/nino/ano），很可能是键盘不会打，不是听不出 —— 这次测不出他到底听没听出来",
+      "单词": "跟 9-26 一模一样的 6 个词又全错（la carrera 第 6 次）；jarabe 词对冠词漏。换词源/押韵记忆都没用，问题在：这几个词只在测试区出现，练习区没教过",
+      "④": "trabaje（漏重音）/ pago→pagó（他付了，写成了我付）/ pago ✓",
+      "⑤": "abri→abrí；compro→compró（人错了：我买）；Hoy cerre tarde 语法可以但漏重音（cerré），想说现在是 cierro；voy a centro→voy al centro；la cosa le llamo mi cliente→Cuando llegue la mercancía, le llamo a mi cliente。时间方向（mañana/cuando llegue 用现在时）两处全对 —— 这是 9-25 起的老问题，今天第一次都对",
+      "支架": "填半句级，5 行全都写出来了，下次保持这一级"
+    }
   }
 }
