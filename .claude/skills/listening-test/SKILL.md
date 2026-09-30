@@ -29,6 +29,15 @@ Piper 是神经网络模型，跟 Edge TTS 同一类技术，只是模型小些�
 Kokoro 两种读法 20/20、davefx 19/20、claude 18/20。但学生报的那三个词 whisper 听 claude 也全对 ——
 **他的耳朵比识别模型细，分数只做初筛，最后让他听 A/B 自己选**。别退回旧音色。
 
+🟢 **Dalia（es-MX-DaliaNeural）走浏览器，不走容器。** 2026-09-30 学生说他 3D 动画项目的配音好听，
+那是 Edge「大声朗读」的 Dalia（msedge-tts 调 wss://speech.platform.bing.com/…/edge/v1）。
+学生在环境设置里放行了 speech.platform.bing.com，HTTPS 通了（200），但**合成走的是 WebSocket，
+代理不支持 WebSocket 升级**（握手 403），容器里合成不了 —— 别再绕。
+做法：页面顶部放「声音」开关（`assets/daily-page-dalia.template.html`），电脑上用 Edge 打开时
+`speechSynthesis.getVoices()` 里有 Dalia，就用 Web Speech 现场念；手机和别的浏览器没有 Dalia，
+自动回落到页面里嵌的 Kokoro 录音。模板要多填一个 `__TEXTOS__`（每个录音 key 对应的原文，
+`_dos` 念两遍）。注意：Dalia 这条路**没法事先用 whisper 验**，学生报哪个词念得怪再记下来。
+
 🔴 **单个词一律用 `profe.voz.hablar_palabra(palabra)`，别直接喂给 `hablar()`。**
 Kokoro 是拿整句训练的，孤立单词开头会多出一个杂音。2026-09-26 学生听写把 habló 写成 sabor
 （原话「这个 hablo 怎么读成 sablo」）。whisper 回测：孤立单词 16 个只认对 6 个
