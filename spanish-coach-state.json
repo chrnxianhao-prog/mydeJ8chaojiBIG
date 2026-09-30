@@ -2221,6 +2221,12 @@
       "count": 1,
       "relearn": true,
       "date": "2026-09-29"
+    },
+    {
+      "error": "ir/venir、llevar/traer 方向反：朝说话人这边来用 venir/traer（mi jefe viene y trae el abrigo）；对顾客 para ti → para usted",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-29"
     }
   ],
   "week_stats": {
@@ -4311,7 +4317,8 @@
       "阅读": "3/4，错第 3 题：la llamé（我打过了）没认出是过去时",
       "④": "3 对：Cuando llegue la tela, le llamo ✓；1、2 两句正好填反了（周四到写成 llegó，已经到了写成 llega）",
       "⑤": "El lunes un cliente llegó ✓；Quería una chaqueta ✓；Las camisas no llega→no llegan（复数）但用了现在时 ✓；Cuando llegue la tela, le llamo ✓；ofrecer 行空着（nose）；quedar el domigo→¿Quedamos el domingo a las once?",
-      "支架": "填半句级保持"
+      "支架": "填半句级保持",
+      "裸聊": "接上回大衣投诉：hoy todavía no llega ✓（墨西哥口语地道，现在时说未到）；主动用上 devolver la llamada（当天单词题刚错）；方向动词反了：mi jefe va a esta tienda y lleva el abrigo para ti → viene … trae … para usted；顾客问 cuando llegue ¿me llama? 只答 sí, claro，没把整句说出来"
     }
   }
 }
