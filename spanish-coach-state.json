@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 1,
-  "total_completed_days": 71,
+  "streak": 2,
+  "total_completed_days": 72,
   "total_missed_days": 12,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-09-28",
+  "last_task_date": "2026-09-29",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
-  "consecutive_completed": 1,
+  "consecutive_completed": 2,
   "vocabulary_learned": [
     "China",
     "México",
@@ -2197,6 +2197,30 @@
       "count": 1,
       "relearn": false,
       "date": "2026-09-28"
+    },
+    {
+      "error": "时间方向书面也会填反：「布周四到」写 llegó、「布已经到了」写 llega。抓手：中文有「了」→ llegó；说哪天、没「了」→ llega",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-29"
+    },
+    {
+      "error": "主语复数动词没跟：las camisas no llega → no llegan",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-09-29"
+    },
+    {
+      "error": "recibir（收到）写成 enviar（寄出），方向反了",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-29"
+    },
+    {
+      "error": "-ar 虚拟式 g 后要加 u：pague 写成 pagé",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-29"
     }
   ],
   "week_stats": {
@@ -2317,8 +2341,9 @@
     {
       "word": "recibir",
       "module": "高频动词",
-      "date_wrong": "2026-08-29",
-      "correct_count": 1
+      "date_wrong": "2026-09-29",
+      "correct_count": 0,
+      "plan": "先进练习区（听+例句），当天不考，隔天再考"
     },
     {
       "word": "el sombrero",
@@ -2580,15 +2605,17 @@
     {
       "word": "la empresa",
       "module": "工作职业",
-      "date_wrong": "2026-09-22",
-      "correct_count": 1
+      "date_wrong": "2026-09-29",
+      "correct_count": 0,
+      "plan": "先进练习区（听+例句），当天不考，隔天再考"
     },
     {
       "word": "el éxito",
       "module": "工作职业",
-      "date_wrong": "2026-09-22",
-      "correct_count": 1,
-      "mnemonic": "假朋友陷阱：英语 exit（出口）跟 éxito（成功）长得像但毫无关系。脑子里蹦出「出口」对不上「成功」，词就存不住。点明两码事即可"
+      "date_wrong": "2026-09-29",
+      "correct_count": 0,
+      "mnemonic": "假朋友陷阱：英语 exit（出口）跟 éxito（成功）长得像但毫无关系。脑子里蹦出「出口」对不上「成功」，词就存不住。点明两码事即可",
+      "plan": "先进练习区（听+例句），当天不考，隔天再考"
     },
     {
       "word": "camarero",
@@ -2694,12 +2721,6 @@
       "correct_count": 1
     },
     {
-      "word": "probador",
-      "module": "购物",
-      "date_wrong": "2026-09-24",
-      "correct_count": 1
-    },
-    {
       "word": "la habitación",
       "module": "旅行",
       "date_wrong": "2026-08-21",
@@ -2747,8 +2768,9 @@
     {
       "word": "recomendar",
       "module": "高频动词",
-      "date_wrong": "2026-08-27",
-      "correct_count": 1
+      "date_wrong": "2026-09-29",
+      "correct_count": 0,
+      "plan": "先进练习区（听+例句），当天不考，隔天再考"
     },
     {
       "word": "la noticia",
@@ -2791,8 +2813,9 @@
     {
       "word": "devolver la llamada",
       "module": "高频动词",
-      "date_wrong": "2026-08-28",
-      "correct_count": 1
+      "date_wrong": "2026-09-29",
+      "correct_count": 0,
+      "plan": "先进练习区（听+例句），当天不考，隔天再考"
     },
     {
       "word": "sonar",
@@ -4279,6 +4302,16 @@
       "4_口语": "llega / llegó / cuando llegue… le llamo 三句",
       "5_小作文": "《Un pedido》六行填半句，第 5、6 行必须用 ofrecer、quedar"
     },
-    "estado": "已发布，等交卷"
+    "estado": "已交卷，已批",
+    "resultado": {
+      "puntos": "页面 8/20（听写 4/10、单词 1/6、阅读 3/4）",
+      "键盘": "能打重音了：pagó 写对，聊天里 llegó 也带了重音。从今天起听写的重音错可以当真听辨问题看",
+      "听写": "对：paga espera pagó llamo。错：cambió→cambio、esperé→espere（尾音节重音没听出）、pague→pagé（g 后没加 u，重音也加反了）、cambia→cambiar、llamó/terminó 空着。尾音节 -ó/-é 听辨仍弱",
+      "单词": "el probador ✓（第二次对，出库）；recibir→enviar（收/寄反了）、recomendar→recomeder、devolver la llamada→la llama、la empresa→espresa、el éxito 漏冠词（算半对）",
+      "阅读": "3/4，错第 3 题：la llamé（我打过了）没认出是过去时",
+      "④": "3 对：Cuando llegue la tela, le llamo ✓；1、2 两句正好填反了（周四到写成 llegó，已经到了写成 llega）",
+      "⑤": "El lunes un cliente llegó ✓；Quería una chaqueta ✓；Las camisas no llega→no llegan（复数）但用了现在时 ✓；Cuando llegue la tela, le llamo ✓；ofrecer 行空着（nose）；quedar el domigo→¿Quedamos el domingo a las once?",
+      "支架": "填半句级保持"
+    }
   }
 }
