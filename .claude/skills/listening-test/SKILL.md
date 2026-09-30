@@ -37,6 +37,7 @@ Kokoro 两种读法 20/20、davefx 19/20、claude 18/20。但学生报的那三�
 `speechSynthesis.getVoices()` 里有 Dalia，就用 Web Speech 现场念；手机和别的浏览器没有 Dalia，
 自动回落到页面里嵌的 Kokoro 录音。模板要多填一个 `__TEXTOS__`（每个录音 key 对应的原文，
 `_dos` 念两遍）。注意：Dalia 这条路**没法事先用 whisper 验**，学生报哪个词念得怪再记下来。
+2026-09-30 学生在 Edge 里听了对比，定下**Dalia 为默认、Kokoro 备用**。模板里有 Dalia 就自动选中，学生点过 Kokoro 才记住 Kokoro。
 
 🔴 **单个词一律用 `profe.voz.hablar_palabra(palabra)`，别直接喂给 `hablar()`。**
 Kokoro 是拿整句训练的，孤立单词开头会多出一个杂音。2026-09-26 学生听写把 habló 写成 sabor

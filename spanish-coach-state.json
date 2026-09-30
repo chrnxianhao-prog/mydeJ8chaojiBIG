@@ -4338,7 +4338,7 @@
   },
   "voz_2026_09_30": {
     "pedido": "学生觉得他 3D 动画项目的配音好（Edge 大声朗读 es-MX-DaliaNeural，msedge-tts）",
-    "resultado": "环境放行 speech.platform.bing.com 后 HTTPS 通了，但合成要 WebSocket，代理不支持 → 容器里合成不了。改为页面里加声音开关：电脑 Edge 打开用浏览器自带 Dalia 现场念，其它设备回落 Kokoro。9-30 页面已加，等学生试听反馈",
-    "pendiente": "问他：电脑 Edge 上能不能切到 Dalia、好不好听；教学分支是否合并进 main（等他点头）"
+    "resultado": "环境放行 speech.platform.bing.com 后 HTTPS 通了，但合成要 WebSocket，代理不支持 → 容器里合成不了。改为页面里加声音开关：电脑 Edge 打开用浏览器自带 Dalia 现场念，其它设备回落 Kokoro。9-30 页面已加，等学生试听反馈。学生在 Edge 里试过：「dalia 的比较好点。原先这作为备用吧。主要用现在这个 dalia」→ Dalia 默认、Kokoro 备用，模板已改",
+    "pendiente": "教学分支是否合并进 main（等他点头）"
   }
 }

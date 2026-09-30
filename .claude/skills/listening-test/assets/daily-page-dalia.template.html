@@ -218,10 +218,10 @@
   </header>
 
   <div class="card" id="voces">
-    <p style="margin:0;font-size:14px"><b>声音</b>　<span style="color:var(--ink-soft)">Dalia 是 Edge 浏览器「大声朗读」的墨西哥女声，只有电脑上用 Edge 打开才有。</span></p>
+    <p style="margin:0;font-size:14px"><b>声音</b>　<span style="color:var(--ink-soft)">Dalia 是 Edge 浏览器「大声朗读」的墨西哥女声，电脑上用 Edge 打开才有；没有时自动用 Kokoro。</span></p>
     <div class="opts">
-      <button type="button" data-voz="kokoro" aria-pressed="true">Kokoro（默认）</button>
-      <button type="button" data-voz="dalia" aria-pressed="false">Dalia（Edge）</button>
+      <button type="button" data-voz="dalia" aria-pressed="false">Dalia（默认）</button>
+      <button type="button" data-voz="kokoro" aria-pressed="true">Kokoro（备用）</button>
     </div>
     <p class="fb" id="voz-estado" style="margin:0"></p>
   </div>
@@ -345,12 +345,16 @@
               vs.find(function (v) { return /dalia/i.test(v.name); }) || null;
     } catch (e) { dalia = null; }
     if (!dalia && modo === "dalia") modo = "kokoro";
+    if (dalia) {
+      let pref = null;
+      try { pref = localStorage.getItem("voz"); } catch (e) {}
+      if (pref !== "kokoro") modo = "dalia";
+    }
     pintarVoz();
   }
   buscarDalia();
   try { if (sintesis) sintesis.onvoiceschanged = function () {
     buscarDalia();
-    try { if (dalia && localStorage.getItem("voz") === "dalia") { modo = "dalia"; pintarVoz(); } } catch (e) {}
   }; } catch (e) {}
   [btnK, btnD].forEach(function (b) {
     b.addEventListener("click", function () {

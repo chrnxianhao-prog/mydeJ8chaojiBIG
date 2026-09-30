@@ -209,6 +209,11 @@
 1. **你可以自己生成音频**（2026-09-15 起）：`python3 -m profe --provider local lesson <材料>`。
    模型下到本地推理，不联网合成，所以不受出网限制。在线 TTS 仍然全是 403，别再试。
    **音色是学生 2026-09-25 自己听着选的**：拉美口音 Kokoro 女声 dora（默认），西班牙口音 Piper davefx。
+   **2026-09-30 起主用 Dalia（es-MX-DaliaNeural），Kokoro 降为备用**（学生原话「dalia 的比较好点，原先这作为备用吧」）。
+   Dalia 容器里合成不了（Edge 配音走 WebSocket，代理不支持），所以每日页一律用
+   `.claude/skills/listening-test/assets/daily-page-dalia.template.html`：电脑上用 Edge 打开时浏览器现场用 Dalia 念，
+   其它设备自动放页面里嵌的 Kokoro 录音。Kokoro 录音照旧逐词 whisper 验过再嵌。
+   学生在 Claude 桌面端里点开没有 Dalia —— 发链接时提醒他**复制到 Edge 里打开**。
    课文 `voice=` 写 `es-ES-*` 就走西班牙口音，其余一律拉美。别换回 es_MX-claude-high。
    成品包成网页发布成 Artifact 给学生点开即听，**不要用 SendUserFile 发 mp3**（他要下载，嫌烦）。
 2. **材料第一行必须 `#! listening`**，否则 profe 会把中文释义念出来 = 音频里直接报答案。
