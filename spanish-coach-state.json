@@ -4320,5 +4320,20 @@
       "支架": "填半句级保持",
       "裸聊": "接上回大衣投诉：hoy todavía no llega ✓（墨西哥口语地道，现在时说未到）；主动用上 devolver la llamada（当天单词题刚错）；方向动词反了：mi jefe va a esta tienda y lleva el abrigo para ti → viene … trae … para usted；顾客问 cuando llegue ¿me llama? 只答 sí, claro，没把整句说出来"
     }
+  },
+  "dia_2026_09_30": {
+    "fecha": "2026-09-30（墨西哥城）",
+    "pagina": "https://claude.ai/artifact/BC9ACtWcpQN3iuCvL8QzTk",
+    "db_doc": "resultados/dia-0930",
+    "objetivo": "venir/traer（往我这边）vs ir/llevar（离开我这边）—— 来自 9-29 裸聊 mi jefe va… lleva… para ti",
+    "secciones": {
+      "练习": "规则卡 + venir↔ir、traer↔llevar 两组各三句 + 9-29 错的五个词（recibir recomendar devolver la llamada la empresa el éxito，只学不考）+ 短文六个生词",
+      "1_听写": "llevó trae vengo cambió llevo esperé viene mandó compro terminé —— 五个带重音五个不带，严判；发布版回测 20/20（llevó 首条 MP3 解码后被听成 llevo，重选一条）",
+      "2_单词": "9-28 二连错的六个老词（前天练习区学过，今天跨日考）",
+      "3_阅读": "八句《don Luis 送货》，考谁来谁去",
+      "4_口语": "trae / llevo / viene… trae 三句",
+      "5_小作文": "《Un martes en mi tienda》六行填半句，第 6 行用 recomendar"
+    },
+    "estado": "已发布，等交卷"
   }
 }
