@@ -4262,7 +4262,23 @@
       "单词": "跟 9-26 一模一样的 6 个词又全错（la carrera 第 6 次）；jarabe 词对冠词漏。换词源/押韵记忆都没用，问题在：这几个词只在测试区出现，练习区没教过",
       "④": "trabaje（漏重音）/ pago→pagó（他付了，写成了我付）/ pago ✓",
       "⑤": "abri→abrí；compro→compró（人错了：我买）；Hoy cerre tarde 语法可以但漏重音（cerré），想说现在是 cierro；voy a centro→voy al centro；la cosa le llamo mi cliente→Cuando llegue la mercancía, le llamo a mi cliente。时间方向（mañana/cuando llegue 用现在时）两处全对 —— 这是 9-25 起的老问题，今天第一次都对",
-      "支架": "填半句级，5 行全都写出来了，下次保持这一级"
+      "支架": "填半句级，5 行全都写出来了，下次保持这一级",
+      "裸聊": "投诉场景（大衣破了要换）：先道歉、主动提出换货、给到货时间都做到了；时间方向说反两次：el jueves llegue（应 llega el jueves）、ya llegó el abrigo le llamo（应 cuando llegue el abrigo, le llamo）。书面对、口头错。聊天里 perdón/llegó 仍没打重音（他说换了西语键盘）"
     }
+  },
+  "dia_2026_09_29": {
+    "fecha": "2026-09-29（墨西哥城）",
+    "pagina": "https://claude.ai/artifact/RvE7tbr1szd2UGnm7bP5co",
+    "db_doc": "resultados/dia-0929",
+    "objetivo": "时间方向三格：ya llegó（发生过）/ llega el jueves（还没发生，说哪天 → 现在时）/ cuando llegue（等…时）；llegar、pagar 两组",
+    "secciones": {
+      "练习": "键盘自测框（打出带重音字母才显示 ✓）+ 三个时间两组 + 六个二连错老词（只学不考，明天考）+ 短文六个生词",
+      "1_听写": "paga llamó pague cambió espera pagó llamo esperé cambia terminó —— 严判重音（漏了、多了都错），逐词 whisper 验过，发布版回测 20/20",
+      "2_单词": "el probador、recibir、recomendar、devolver la llamada、la empresa、el éxito（都连对过一次，今天跨日再考）",
+      "3_阅读": "八句《红裙子订单》，判断题考到没到/打没打过电话；自查无泄答案",
+      "4_口语": "llega / llegó / cuando llegue… le llamo 三句",
+      "5_小作文": "《Un pedido》六行填半句，第 5、6 行必须用 ofrecer、quedar"
+    },
+    "estado": "已发布，等交卷"
   }
 }
