@@ -4,7 +4,7 @@
   "total_completed_days": 72,
   "total_missed_days": 12,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-09-29",
+  "last_task_date": "2026-09-30",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
   "consecutive_completed": 2,
@@ -2227,6 +2227,24 @@
       "count": 1,
       "relearn": true,
       "date": "2026-09-29"
+    },
+    {
+      "error": "llev- 听成 lleg-（llevó→llegó, llevo→llego）：连练 llegar 三天后的干扰",
+      "count": 2,
+      "relearn": true,
+      "date": "2026-09-30"
+    },
+    {
+      "error": "过度加重音：没有重音符号的词（compro）也加了。重音=最后一个音节被重读且是 -é/-ó/-í 这类才写",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-09-30"
+    },
+    {
+      "error": "老词复习方式失效：la carrera/quedar/ofrecer/la guardería/el jarabe/triste 三次共 0/18。改：先看首字母+字数提示的主动回忆",
+      "count": 3,
+      "relearn": true,
+      "date": "2026-09-30"
     }
   ],
   "week_stats": {
@@ -2360,20 +2378,20 @@
     {
       "word": "la guardería",
       "module": "童年回忆",
-      "date_wrong": "2026-09-28",
+      "date_wrong": "2026-09-30",
       "correct_count": 0,
       "mnemonic": "guard-ería：想象卫兵(guard)在幼儿园站岗",
-      "veces_mal_seguidas": 2,
-      "plan": "先进练习区（听+例句+在④⑤里用一次），当天不考，隔天再考"
+      "veces_mal_seguidas": 3,
+      "plan": "第三次全错：改成「首字母+字数提示」主动回忆，先自测再考"
     },
     {
       "word": "la carrera",
       "module": "工作职业",
-      "date_wrong": "2026-09-28",
+      "date_wrong": "2026-09-30",
       "correct_count": 0,
       "mnemonic": "绑高频问句：¿Qué carrera estudiaste?（你大学读的什么专业）。carrera = 读的哪一行、干的哪一行。（替换掉失效的 carro→跑道 词源链）",
-      "veces_mal_seguidas": 2,
-      "plan": "先进练习区（听+例句+在④⑤里用一次），当天不考，隔天再考"
+      "veces_mal_seguidas": 3,
+      "plan": "第三次全错：改成「首字母+字数提示」主动回忆，先自测再考"
     },
     {
       "word": "el viaje",
@@ -2414,10 +2432,10 @@
     {
       "word": "quedar",
       "module": "高频动词",
-      "date_wrong": "2026-09-28",
+      "date_wrong": "2026-09-30",
       "correct_count": 0,
-      "veces_mal_seguidas": 2,
-      "plan": "先进练习区（听+例句+在④⑤里用一次），当天不考，隔天再考"
+      "veces_mal_seguidas": 3,
+      "plan": "第三次全错：改成「首字母+字数提示」主动回忆，先自测再考"
     },
     {
       "word": "soñar",
@@ -2470,10 +2488,10 @@
     {
       "word": "el jarabe",
       "module": "身体与健康",
-      "date_wrong": "2026-09-28",
+      "date_wrong": "2026-09-30",
       "correct_count": 0,
-      "veces_mal_seguidas": 2,
-      "plan": "先进练习区（听+例句+在④⑤里用一次），当天不考，隔天再考"
+      "veces_mal_seguidas": 3,
+      "plan": "第三次全错：改成「首字母+字数提示」主动回忆，先自测再考"
     },
     {
       "word": "pedir",
@@ -2741,10 +2759,10 @@
     {
       "word": "la guardería",
       "module": "童年回忆",
-      "date_wrong": "2026-09-28",
+      "date_wrong": "2026-09-30",
       "correct_count": 0,
-      "veces_mal_seguidas": 2,
-      "plan": "先进练习区（听+例句+在④⑤里用一次），当天不考，隔天再考"
+      "veces_mal_seguidas": 3,
+      "plan": "第三次全错：改成「首字母+字数提示」主动回忆，先自测再考"
     },
     {
       "word": "el tiempo libre",
@@ -2805,10 +2823,10 @@
     {
       "word": "ofrecer",
       "module": "高频动词",
-      "date_wrong": "2026-09-28",
+      "date_wrong": "2026-09-30",
       "correct_count": 0,
-      "veces_mal_seguidas": 2,
-      "plan": "先进练习区（听+例句+在④⑤里用一次），当天不考，隔天再考"
+      "veces_mal_seguidas": 3,
+      "plan": "第三次全错：改成「首字母+字数提示」主动回忆，先自测再考"
     },
     {
       "word": "colgar",
@@ -2863,10 +2881,10 @@
     {
       "word": "triste",
       "module": "形容词",
-      "date_wrong": "2026-09-28",
+      "date_wrong": "2026-09-30",
       "correct_count": 0,
-      "veces_mal_seguidas": 2,
-      "plan": "先进练习区（听+例句+在④⑤里用一次），当天不考，隔天再考"
+      "veces_mal_seguidas": 3,
+      "plan": "第三次全错：改成「首字母+字数提示」主动回忆，先自测再考"
     },
     {
       "word": "marcar",
@@ -4334,7 +4352,13 @@
       "4_口语": "trae / llevo / viene… trae 三句",
       "5_小作文": "《Un martes en mi tienda》六行填半句，第 6 行用 recomendar"
     },
-    "estado": "已发布，等交卷"
+    "estado": "页面已交卷（④⑤ 还没在聊天里交）",
+    "resultado": {
+      "puntos": "页面 9/20（听写 5/10、单词 0/6、阅读 4/4）—— 11:47 墨城时间交的",
+      "听写": "对：vengo cambió esperé viene mandó。错：llevó→llegó、llevo→llego（把 llev- 听成 lleg-，被连着练了三天的 llegar 带偏）、trae→traer（多写 r）、compro→compró（没有重音的词多加了重音：过度加重音）、terminé 空着",
+      "单词": "六个二连错老词第三次 0/6，四个直接写 nose；jarabe 又漏冠词；guardería→guiria。结论：只听只翻答案的「只学不考」对他没用，要改成主动回忆+有提示",
+      "阅读": "4/4 ✓（venir/traer 的方向读得懂）"
+    }
   },
   "voz_2026_09_30": {
     "pedido": "学生觉得他 3D 动画项目的配音好（Edge 大声朗读 es-MX-DaliaNeural，msedge-tts）",
