@@ -4416,10 +4416,25 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-01 墨城 12:27，学生要开新会话",
-    "hoy": "墨城 10-01 的正式练习还没做（昨晚 9-30 21:30 做的 dia-1001 页算加练）",
+    "hoy": "10-01 正式页已发：https://claude.ai/artifact/SvcZHwT89kQhfbtr1x7XGd",
     "plan": "新页：-er/-ir 动词的 -ía（vendía、comía、vivía）vs -í / -ió（vendí / vendió），重点分清 yo（-í）和 él（-ió）；继续 llev-/lleg- 听辨；② 正式考 recomendar、la carrera + 首字母提示；修「元音结尾补 -r」（trae/mandé）",
     "pendiente_chat": "9-30 晚的裸聊开了头没接（顾客问 ¿Por qué cambió de negocio?），新会话可以从这里接",
     "voz": "每日页用 assets/daily-page-dalia.template.html（Dalia 默认、Kokoro 备用），发链接放代码框，提醒复制到 Edge 打开",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
+  },
+  "dia_2026_10_01b": {
+    "fecha": "2026-10-01（墨城），当天正式那一页",
+    "pagina": "https://claude.ai/artifact/SvcZHwT89kQhfbtr1x7XGd",
+    "db_doc": "resultados/dia-1001（这个 artifact 自己的 db）",
+    "objetivo": "-er/-ir：以前 -ía（yo/él 同形）vs 我 -í vs 他 -ió（vender comer salir）",
+    "secciones": {
+      "练习": "规则卡（对照 -ar 的 -aba/-é/-ó）+ vender/comer/salir 三组 + 明天要考的六个错题词主动回忆（el jarabe la garganta el cuchillo la noticia divertirse la guía）+ 短文六个生词",
+      "1_听写": "vendí vendió salía salió llevo comió llegó salí vivía trae，严判，回测 20/20",
+      "2_单词": "quedar ofrecer la guardería triste recomendar la carrera（跨日正式考，带首字母）",
+      "3_阅读": "八句《我爸的鞋店》",
+      "4_口语": "vendía / vendí… vendió / comía… comí",
+      "5_小作文": "《Mi papá y yo》六行填半句，第 6 行 quedar"
+    },
+    "estado": "已发布，等交卷"
   }
 }
