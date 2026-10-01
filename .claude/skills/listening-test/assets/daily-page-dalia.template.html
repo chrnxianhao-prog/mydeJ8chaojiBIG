@@ -1,4 +1,4 @@
-<title>每日练习 · 来还是去</title>
+<title>每日练习 · 以前和那一次</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Petrona:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
   :root {
@@ -208,12 +208,12 @@
 
 <main>
   <header>
-    <p class="eyebrow">Día 73 · 30 sep 2026</p>
-    <h1>来还是去？</h1>
+    <p class="eyebrow">Día 74 · 1 oct 2026</p>
+    <h1>以前 vs 那一次</h1>
     <p class="lede">
-      昨天裸聊你说：<b>mi jefe va a esta tienda y lleva el abrigo para ti</b>。
-      老板是<b>往你这儿来</b>，所以是 <b>viene</b>、<b>trae</b>，对顾客还得说 <b>usted</b>。<br><br>
-      西语跟中文一样分「来 / 去」「带来 / 带走」。今天就练这两对。
+      你已经会说「昨天做了」：<b>llegó、compré、cerré</b>。<br>
+      可是中文说「以前我每天卖衣服」，西语的动词<b>变得不一样</b>：<b>vendía</b>，不是 vendí。<br><br>
+      今天就分这两格：<b>以前常常做</b>，和<b>某一次做完了</b>。
     </p>
   </header>
 
@@ -235,25 +235,25 @@
 
   <div class="panel" id="practica">
     <section>
-      <h2>往我这边，还是离开我这边</h2>
+      <h2>以前常常做，还是那一次做完</h2>
       <div class="tarea" style="border-left-color:var(--ud)">
         <p style="margin:0;font-size:15px;line-height:1.9">
-          <b>往我这边来</b>　→　venir（vengo / viene）<br>
-          <b>从这儿去别处</b>　→　ir（voy / va）<br>
-          <b>带到我这边</b>　→　traer（traigo / trae）<br>
-          <b>从我这儿带走</b>　→　llevar（llevo / lleva）
+          <b>以前、总是、每天、每周二（反复做）</b><br>
+          　→　-ar 动词加 <b>-aba</b>，-er / -ir 动词加 <b>-ía</b>　<span style="color:var(--ink-soft)">llegaba、vendía</span><br>
+          <b>昨天、有一天、那个周二（一次做完）</b><br>
+          　→　-ó / -é / -í　<span style="color:var(--ink-soft)">llegó、llegué、vendí</span>
         </p>
         <p style="margin:0;font-size:13.5px;color:var(--ink-soft)">
-          站在你店里想：人和东西是<b>朝店里来</b>，还是<b>从店里出去</b>？跟中文的「来 / 去」「带来 / 带走」一模一样。
+          看句子里的<b>时间词</b>：antes、siempre、cada… 是「常常」；ayer、un día、el martes 是「那一次」。
         </p>
       </div>
-      <p class="sub">每组三句都点，听完再翻中文。</p>
+      <p class="sub">每组三句都点，听完再翻中文。<b>llev- 和 lleg- 也单独放了一组</b>，上次听写你把 llevó 听成了 llegó。</p>
       <div id="tres"></div>
     </section>
 
     <section>
-      <h2>昨天错的五个词：今天只学，明天再考</h2>
-      <p class="sub">今天不考，先听词、听例句，再翻答案。<b>recibir 是收到，不是寄出。</b>小作文第 6 行要用上 recomendar。</p>
+      <h2>六个老词：先想，再对答案</h2>
+      <p class="sub">这六个已经连着三次没写出来了，只听只翻答案没用。今天<b>先看中文和首字母，自己写，再点「对一下」</b>。写不出来就点「提示」。</p>
       <div id="viejas"></div>
     </section>
 
@@ -279,7 +279,7 @@
 
     <section>
       <h2>② 单词（6 题）</h2>
-      <p class="sub">中文 → 西语，名词<b>带冠词</b>。括号里写了「不是什么」，别填同义词。这六个前天在练习区学过，今天正式考。</p>
+      <p class="sub">中文 → 西语，名词<b>带冠词</b>。每题后面给了<b>首字母和字数</b>（一个下划线是一个字母）。这六个是前几天练习区学过的。</p>
       <div id="palabras"></div>
     </section>
 
@@ -393,14 +393,14 @@
     ["practica", "prueba"].forEach(function (p) {
       document.getElementById(p).hidden = p !== nombre;
     });
-    try { localStorage.setItem("dia0930.tab", nombre); } catch (e) {}
+    try { localStorage.setItem("dia1001.tab", nombre); } catch (e) {}
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
   tabs.forEach(function (b) {
     b.addEventListener("click", function () { abrir(b.dataset.panel); });
   });
   try {
-    const guardadoTab = localStorage.getItem("dia0930.tab");
+    const guardadoTab = localStorage.getItem("dia1001.tab");
     if (guardadoTab === "prueba") abrir("prueba");
   } catch (e) {}
 
@@ -466,28 +466,47 @@
     });
   });
 
-  // ── 练习：昨天错的词 ──
+  // ── 练习：老词主动回忆 ──
   const hostV = document.getElementById("viejas");
   D.viejas.forEach(function (f) {
     const el = document.createElement("div");
     el.className = "card";
     el.innerHTML =
+      '<p class="cue" style="margin:0;font-size:14px">' + f.zh + "　<b>" + f.pista + "</b></p>" +
+      '<div class="fila"><input type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="写出来">' +
+        '<button class="rev" type="button" data-a="chk" style="margin-left:0">对一下</button>' +
+        '<button class="rev" type="button" data-a="hint" style="margin-left:0">提示</button></div>' +
+      '<p class="fb oculto"></p>' +
       '<div class="btns">' +
-        '<button class="play" type="button" data-key="v' + f.i + '" data-state="idle">' +
-          '<span class="dot">&#9654;</span>词</button>' +
-        '<button class="play" type="button" data-key="v' + f.i + '_ej" data-state="idle">' +
-          '<span class="dot">&#9654;</span>例句</button>' +
-        '<button class="rev" type="button">翻答案</button>' +
+        '<button class="play oculto" type="button" data-key="v' + f.i + '" data-state="idle"><span class="dot">&#9654;</span>词</button>' +
+        '<button class="play oculto" type="button" data-key="v' + f.i + '_ej" data-state="idle"><span class="dot">&#9654;</span>例句</button>' +
       "</div>" +
-      '<div class="resp oculto"><p class="es">' + f.es + '</p><p class="zh">' + f.zh + "</p>" +
-        '<p class="ej"><b>' + f.ej + "</b>　<span>" + f.ejzh + "</span></p></div>";
+      '<div class="resp oculto"><p class="ej"><b>' + f.ej + "</b>　<span>" + f.ejzh + "</span></p></div>";
     hostV.appendChild(el);
     cablear(el);
-    const rev = el.querySelector("button.rev"), caja = el.querySelector(".resp");
-    rev.addEventListener("click", function () {
-      const abierto = !caja.classList.contains("oculto");
-      caja.classList.toggle("oculto", abierto);
-      rev.textContent = abierto ? "翻答案" : "藏起来";
+    const inp = el.querySelector("input"), fb = el.querySelector(".fb"), caja = el.querySelector(".resp");
+    let fallos = 0;
+    function abrirTodo() {
+      caja.classList.remove("oculto");
+      el.querySelectorAll("button.play").forEach(function (b) { b.classList.remove("oculto"); });
+    }
+    el.querySelector('[data-a="chk"]').addEventListener("click", function () {
+      const dado = limpiar(inp.value), esperado = limpiar(f.es);
+      fb.classList.remove("oculto");
+      if (!dado) { fb.dataset.mark = "mal"; fb.textContent = "先写点什么，写不出来就点「提示」"; return; }
+      if (dado === esperado || sinTilde(dado) === sinTilde(esperado)) {
+        el.dataset.mark = "ok"; fb.dataset.mark = "ok";
+        fb.textContent = "✓ " + f.es + (dado === esperado ? "" : "　（注意重音）");
+        abrirTodo();
+      } else {
+        fallos++; el.dataset.mark = "mal"; fb.dataset.mark = "mal";
+        fb.textContent = fallos >= 2 ? "✗ 答案：" + f.es + "　抄一遍再听一次" : "✗ 再想想，首字母：" + f.pista;
+        if (fallos >= 2) abrirTodo();
+      }
+    });
+    el.querySelector('[data-a="hint"]').addEventListener("click", function () {
+      fb.classList.remove("oculto"); fb.dataset.mark = "";
+      fb.textContent = "首字母和字数：" + f.pista + "　例句里有它：" + f.ej.replace(new RegExp(f.es.replace(/^(el|la) /, ""), "i"), "______");
     });
   });
 
@@ -684,8 +703,8 @@
 
     if (!db) return;
     try {
-      await db.doc("resultados/dia-0930").set({
-        fecha: "2026-09-30", tema: "venir/traer vs ir/llevar",
+      await db.doc("resultados/dia-1001").set({
+        fecha: "2026-10-01", tema: "imperfecto -aba/-ía vs pretérito",
         oido: bienO, oidoTotal: D.dictado.length,
         palabras: bienP, palabrasTotal: D.palabras.length,
         lectura: bienL, lecturaTotal: D.lectura.length,
