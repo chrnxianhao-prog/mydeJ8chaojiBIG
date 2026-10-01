@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 2,
-  "total_completed_days": 72,
+  "streak": 3,
+  "total_completed_days": 73,
   "total_missed_days": 12,
   "difficulty_modifier": 28,
   "last_task_date": "2026-09-30",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
-  "consecutive_completed": 2,
+  "consecutive_completed": 3,
   "vocabulary_learned": [
     "China",
     "México",
@@ -2245,6 +2245,30 @@
       "count": 3,
       "relearn": true,
       "date": "2026-09-30"
+    },
+    {
+      "error": "-er/-ir 动词的过去式不会：vender→「Vendó」（该 vendía/vendí）。-ar 的 -aba、-é/-ó 都能用，-er/-ir 的 -ía、-í/-ió 没学",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-10-01"
+    },
+    {
+      "error": "听到元音结尾的词补 -r（trae→traer、mandé→mander）；写 recomender/lacarrer：元音 a→e",
+      "count": 2,
+      "relearn": true,
+      "date": "2026-10-01"
+    },
+    {
+      "error": "llevar/llegar：听写两个方向都混，写话也用成 llevaba（想说 llegaba），连错 3 天",
+      "count": 3,
+      "relearn": true,
+      "date": "2026-10-01"
+    },
+    {
+      "error": "jugar a + 游戏（jugaba a los videojuegos）；ocho y media（写成 ocho medio）",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-10-01"
     }
   ],
   "week_stats": {
@@ -2391,7 +2415,7 @@
       "correct_count": 0,
       "mnemonic": "绑高频问句：¿Qué carrera estudiaste?（你大学读的什么专业）。carrera = 读的哪一行、干的哪一行。（替换掉失效的 carro→跑道 词源链）",
       "veces_mal_seguidas": 3,
-      "plan": "第三次全错：改成「首字母+字数提示」主动回忆，先自测再考"
+      "plan": "10-01 加练：lacarrer，明天再考"
     },
     {
       "word": "el viaje",
@@ -2794,7 +2818,7 @@
       "module": "高频动词",
       "date_wrong": "2026-09-29",
       "correct_count": 0,
-      "plan": "先进练习区（听+例句），当天不考，隔天再考"
+      "plan": "10-01 加练：recomender 拼错，明天再考"
     },
     {
       "word": "la noticia",
@@ -4379,6 +4403,15 @@
       "5_小作文": "《Antes y ahora》六行填半句，第 6 行 recomendar"
     },
     "計分规则": "他交卷时间在墨城 10-01 及以后：②连对计数正常算；还在 9-30 当天：当加练，②不推进 correct_count",
-    "estado": "已发布，等交卷"
+    "estado": "已交卷（墨城 9-30 21:30，按规则算加练，不计新的一天）",
+    "resultado": {
+      "puntos": "页面 12/20（听写 4/10、单词 4/6、阅读 4/4）",
+      "单词": "首字母提示起效：recibir devolver la llamada la empresa el éxito 全对；错 recomender（a→e）、lacarrer。同日加练，②不推进 correct_count，明天（墨城 10-01）正式再考",
+      "听写": "对：llego compro compró terminé（compro/compró 不再多加重音 ✓）。错：llevó→llegó、llegó→llevo（llev-/lleg- 两个方向都混）、llevo 多加重音、trae→traer、mandé→mander、abro→habló。新发现：听到元音结尾的词会补 -r（trae→traer、mandé→mander）",
+      "阅读": "4/4 ✓",
+      "④": "0/4：Vendó（-er 动词写成 -ó，形式不存在）、compró（该写 vendí，换了个动词且人称是他不是我）、llegado（分词）、llegué（主语是供应商，该是 llegaba / llegó）。-er/-ir 的 -ía 和 yo/él 人称两个点都没过",
+      "⑤": "5/6 ✓：jugaba los videojuegos（-aba 自己会用，a 漏：jugar a）、no fui al trabajo（fui 自己用对）、cociné en mi casa、voy al mercado（al ✓）、Le recomiendo este restaurante。错：Siempre me llevaba a las ocho medio → llegaba a las ocho y media（llevar/llegar 又混，medio→y media）",
+      "支架": "填半句级保持；⑤自由选动词全对，④被指定动词（vender）就崩 → 说明 -ía 与 yo/él 人称是缺口，不是支架问题"
+    }
   }
 }
