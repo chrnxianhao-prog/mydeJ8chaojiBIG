@@ -4413,5 +4413,13 @@
       "⑤": "5/6 ✓：jugaba los videojuegos（-aba 自己会用，a 漏：jugar a）、no fui al trabajo（fui 自己用对）、cociné en mi casa、voy al mercado（al ✓）、Le recomiendo este restaurante。错：Siempre me llevaba a las ocho medio → llegaba a las ocho y media（llevar/llegar 又混，medio→y media）",
       "支架": "填半句级保持；⑤自由选动词全对，④被指定动词（vender）就崩 → 说明 -ía 与 yo/él 人称是缺口，不是支架问题"
     }
+  },
+  "siguiente_sesion": {
+    "escrito": "2026-10-01 墨城 12:27，学生要开新会话",
+    "hoy": "墨城 10-01 的正式练习还没做（昨晚 9-30 21:30 做的 dia-1001 页算加练）",
+    "plan": "新页：-er/-ir 动词的 -ía（vendía、comía、vivía）vs -í / -ió（vendí / vendió），重点分清 yo（-í）和 él（-ió）；继续 llev-/lleg- 听辨；② 正式考 recomendar、la carrera + 首字母提示；修「元音结尾补 -r」（trae/mandé）",
+    "pendiente_chat": "9-30 晚的裸聊开了头没接（顾客问 ¿Por qué cambió de negocio?），新会话可以从这里接",
+    "voz": "每日页用 assets/daily-page-dalia.template.html（Dalia 默认、Kokoro 备用），发链接放代码框，提醒复制到 Edge 打开",
+    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   }
 }
