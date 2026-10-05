@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 0,
-  "total_completed_days": 73,
+  "streak": 1,
+  "total_completed_days": 74,
   "total_missed_days": 15,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-09-30",
+  "last_task_date": "2026-10-04",
   "last_check_date": "2026-09-16",
-  "consecutive_missed": 3,
-  "consecutive_completed": 0,
+  "consecutive_missed": 0,
+  "consecutive_completed": 1,
   "vocabulary_learned": [
     "China",
     "México",
@@ -2269,6 +2269,18 @@
       "count": 1,
       "relearn": false,
       "date": "2026-10-01"
+    },
+    {
+      "error": "imperfecto 写成 condicional：Él siempre jugaría → jugaba（-ía 前面多个 r 就是「会」）。摸底测试就有，10-04 小作文又出",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-10-04"
+    },
+    {
+      "error": "页面上听写不打重音（10-04 8 个全漏），聊天里却能打 —— 先确认他用哪台设备做页面",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-10-04"
     }
   ],
   "week_stats": {
@@ -2402,7 +2414,7 @@
     {
       "word": "la guardería",
       "module": "童年回忆",
-      "date_wrong": "2026-09-30",
+      "date_wrong": "2026-10-04",
       "correct_count": 0,
       "mnemonic": "guard-ería：想象卫兵(guard)在幼儿园站岗",
       "veces_mal_seguidas": 3,
@@ -2411,7 +2423,7 @@
     {
       "word": "la carrera",
       "module": "工作职业",
-      "date_wrong": "2026-09-30",
+      "date_wrong": "2026-10-04",
       "correct_count": 0,
       "mnemonic": "绑高频问句：¿Qué carrera estudiaste?（你大学读的什么专业）。carrera = 读的哪一行、干的哪一行。（替换掉失效的 carro→跑道 词源链）",
       "veces_mal_seguidas": 3,
@@ -2456,7 +2468,7 @@
     {
       "word": "quedar",
       "module": "高频动词",
-      "date_wrong": "2026-09-30",
+      "date_wrong": "2026-10-04",
       "correct_count": 0,
       "veces_mal_seguidas": 3,
       "plan": "第三次全错：改成「首字母+字数提示」主动回忆，先自测再考"
@@ -2783,7 +2795,7 @@
     {
       "word": "la guardería",
       "module": "童年回忆",
-      "date_wrong": "2026-09-30",
+      "date_wrong": "2026-10-04",
       "correct_count": 0,
       "veces_mal_seguidas": 3,
       "plan": "第三次全错：改成「首字母+字数提示」主动回忆，先自测再考"
@@ -2816,9 +2828,10 @@
     {
       "word": "recomendar",
       "module": "高频动词",
-      "date_wrong": "2026-09-29",
+      "date_wrong": "2026-10-04",
       "correct_count": 0,
-      "plan": "10-01 加练：recomender 拼错，明天再考"
+      "plan": "10-01 加练：recomender 拼错，明天再考",
+      "nota": "两次写成 recomender：它是 -ar 动词，recomend-AR"
     },
     {
       "word": "la noticia",
@@ -2847,7 +2860,7 @@
     {
       "word": "ofrecer",
       "module": "高频动词",
-      "date_wrong": "2026-09-30",
+      "date_wrong": "2026-10-04",
       "correct_count": 0,
       "veces_mal_seguidas": 3,
       "plan": "第三次全错：改成「首字母+字数提示」主动回忆，先自测再考"
@@ -2905,7 +2918,7 @@
     {
       "word": "triste",
       "module": "形容词",
-      "date_wrong": "2026-09-30",
+      "date_wrong": "2026-10-04",
       "correct_count": 0,
       "veces_mal_seguidas": 3,
       "plan": "第三次全错：改成「首字母+字数提示」主动回忆，先自测再考"
@@ -4415,11 +4428,10 @@
     }
   },
   "siguiente_sesion": {
-    "escrito": "2026-10-01 墨城 12:27，学生要开新会话",
-    "hoy": "10-04 页：https://claude.ai/artifact/7mgFDsw2KWxBR8uEmM61Ca（-er/-ir 过去时）",
-    "plan": "新页：-er/-ir 动词的 -ía（vendía、comía、vivía）vs -í / -ió（vendí / vendió），重点分清 yo（-í）和 él（-ió）；继续 llev-/lleg- 听辨；② 正式考 recomendar、la carrera + 首字母提示；修「元音结尾补 -r」（trae/mandé）",
-    "pendiente_chat": "9-30 晚的裸聊开了头没接（顾客问 ¿Por qué cambió de negocio?），新会话可以从这里接",
-    "voz": "每日页用 assets/daily-page-dalia.template.html（Dalia 默认、Kokoro 备用），发链接放代码框，提醒复制到 Edge 打开",
+    "escrito": "2026-10-04 批完",
+    "plan": "不加新语法，巩固 -er/-ir 过去时（vendía/vendí/vendió），加一组 jugaba vs jugaría 对比；阅读降一档（生词更少）；单词继续首字母提示，quedar/triste/recomendar 只差一两个字母，再练一轮主动回忆",
+    "preguntar": "做页面用的是手机还是电脑？手机上要长按元音打重音",
+    "voz": "每日页用 assets/daily-page-dalia.template.html",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
   "dia_2026_10_01b": {
@@ -4442,6 +4454,15 @@
     "pagina": "https://claude.ai/artifact/7mgFDsw2KWxBR8uEmM61Ca",
     "db_doc": "resultados/dia-1004",
     "nota": "学生「这两天都没有练」—— 10-01 那页（vendía/vendí/vendió）他没打开过，内容原样重发，只改日期和 db 文档名",
-    "estado": "已发布，等交卷"
+    "estado": "已交卷，已批",
+    "resultado": {
+      "puntos": "页面 3/20（听写 2/10、单词 0/6、阅读 1/4）—— 停练三天后的第一天",
+      "听写": "字母 9/10 对（只有 vendió→vedio），但 8 个带重音的词一个重音都没打（vendi salia salio comio llego sali vivia）。聊天里同一时间他打出了 vendía/vendí/comía/comí —— 页面上多半是换了设备（手机）没长按。按严判 2/10，按字母算 9/10：-í/-ió/-ía 三种形式其实听出来了",
+      "单词": "0/6，三个差一两个字母：quadar（quedar）、trise（triste）、recomender（第二次 a→e）；guarde；ofrecer、la carrera 写 nose",
+      "阅读": "1/4：错 1（卖的是鞋不是衣服）、3（镜子是顾客打破的）、4（顾客第二天回来买鞋）—— 预习过的 rompió/volvió 没认出来，停三天后阅读掉得最多",
+      "④": "vendía ✓、vendí ✓（第二空 vendió 漏了）、comía ✓、comí ✓ —— 4/5，-er 的 -ía 和 yo 的 -í 第一次用对",
+      "⑤": "5/6：vendía en el mercado ✓、comí el taco ✓（tacos 更自然）、trabajé ✓、quiero un café ✓、¿Quedamos el sábado para (jugar) mahjong? ✓；错 Él siempre jugaría → jugaba（-ría 是「会」，老毛病：imperfecto 和 condicional 混，摸底就有）",
+      "支架": "填半句级保持"
+    }
   }
 }
