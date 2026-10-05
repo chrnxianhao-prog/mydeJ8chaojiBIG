@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 3,
+  "streak": 0,
   "total_completed_days": 73,
-  "total_missed_days": 12,
+  "total_missed_days": 15,
   "difficulty_modifier": 28,
   "last_task_date": "2026-09-30",
   "last_check_date": "2026-09-16",
-  "consecutive_missed": 0,
-  "consecutive_completed": 3,
+  "consecutive_missed": 3,
+  "consecutive_completed": 0,
   "vocabulary_learned": [
     "China",
     "México",
@@ -4416,7 +4416,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-01 墨城 12:27，学生要开新会话",
-    "hoy": "10-01 正式页已发：https://claude.ai/artifact/SvcZHwT89kQhfbtr1x7XGd",
+    "hoy": "10-04 页：https://claude.ai/artifact/7mgFDsw2KWxBR8uEmM61Ca（-er/-ir 过去时）",
     "plan": "新页：-er/-ir 动词的 -ía（vendía、comía、vivía）vs -í / -ió（vendí / vendió），重点分清 yo（-í）和 él（-ió）；继续 llev-/lleg- 听辨；② 正式考 recomendar、la carrera + 首字母提示；修「元音结尾补 -r」（trae/mandé）",
     "pendiente_chat": "9-30 晚的裸聊开了头没接（顾客问 ¿Por qué cambió de negocio?），新会话可以从这里接",
     "voz": "每日页用 assets/daily-page-dalia.template.html（Dalia 默认、Kokoro 备用），发链接放代码框，提醒复制到 Edge 打开",
@@ -4435,6 +4435,13 @@
       "4_口语": "vendía / vendí… vendió / comía… comí",
       "5_小作文": "《Mi papá y yo》六行填半句，第 6 行 quedar"
     },
+    "estado": "没做（学生 10-01～10-03 三天没练），内容原样挪到 10-04"
+  },
+  "dia_2026_10_04": {
+    "fecha": "2026-10-04（墨城，周日）",
+    "pagina": "https://claude.ai/artifact/7mgFDsw2KWxBR8uEmM61Ca",
+    "db_doc": "resultados/dia-1004",
+    "nota": "学生「这两天都没有练」—— 10-01 那页（vendía/vendí/vendió）他没打开过，内容原样重发，只改日期和 db 文档名",
     "estado": "已发布，等交卷"
   }
 }
