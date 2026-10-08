@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 1,
+  "streak": 0,
   "total_completed_days": 74,
-  "total_missed_days": 15,
+  "total_missed_days": 17,
   "difficulty_modifier": 28,
   "last_task_date": "2026-10-04",
   "last_check_date": "2026-09-16",
-  "consecutive_missed": 0,
-  "consecutive_completed": 1,
+  "consecutive_missed": 2,
+  "consecutive_completed": 0,
   "vocabulary_learned": [
     "China",
     "México",
@@ -4432,7 +4432,8 @@
     "plan": "不加新语法，巩固 -er/-ir 过去时（vendía/vendí/vendió），加一组 jugaba vs jugaría 对比；阅读降一档（生词更少）；单词继续首字母提示，quedar/triste/recomendar 只差一两个字母，再练一轮主动回忆",
     "preguntar": "做页面用的是手机还是电脑？手机上要长按元音打重音",
     "voz": "每日页用 assets/daily-page-dalia.template.html",
-    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
+    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头",
+    "hoy": "10-07 页：https://claude.ai/artifact/DRKcaFPZw6pszYjzRG9ymQ"
   },
   "dia_2026_10_01b": {
     "fecha": "2026-10-01（墨城），当天正式那一页",
@@ -4464,5 +4465,20 @@
       "⑤": "5/6：vendía en el mercado ✓、comí el taco ✓（tacos 更自然）、trabajé ✓、quiero un café ✓、¿Quedamos el sábado para (jugar) mahjong? ✓；错 Él siempre jugaría → jugaba（-ría 是「会」，老毛病：imperfecto 和 condicional 混，摸底就有）",
       "支架": "填半句级保持"
     }
+  },
+  "dia_2026_10_07": {
+    "fecha": "2026-10-07（墨城，周三晚 22:30 出题；10-05、10-06 没练）",
+    "pagina": "https://claude.ai/artifact/DRKcaFPZw6pszYjzRG9ymQ",
+    "db_doc": "resultados/dia-1007",
+    "objetivo": "-ía（以前常做）vs -ría（会做 = 原形 + ía）：jugaba/jugaría、vendía/vendería；复习 vendía/vendí/vendió",
+    "secciones": {
+      "练习": "规则卡（去掉 -ía 看剩下是不是完整原形）+ 三组 + 上次差一两个字母的六个词主动回忆（quedar triste recomendar ofrecer la carrera la guardería）+ 五个短文生词",
+      "1_听写": "vendía vendería jugaba jugaría vendió salí comía comería llegó trae，回测 20/20",
+      "2_单词": "el jarabe la garganta el cuchillo la noticia divertirse la guía（10-04 练习区回忆过，跨日考）",
+      "3_阅读": "七句《De niño》，生词只有五个且都预习",
+      "4_口语": "vendía / vendería / jugaba… jugaría",
+      "5_小作文": "《De niño》六行填半句，第 5 行 -ría，第 6 行 recomendar"
+    },
+    "estado": "已发布，等交卷"
   }
 }

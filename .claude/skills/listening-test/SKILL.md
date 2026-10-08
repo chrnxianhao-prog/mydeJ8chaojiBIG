@@ -35,6 +35,8 @@ Kokoro 两种读法 20/20、davefx 19/20、claude 18/20。但学生报的那三�
 老词复习别再用「只听只翻」：9-26 起六个老词三次共 0/18，10-01 改成「中文 + 首字母 + 字数」主动回忆，
 练习区有「对一下 / 提示」，错两次才给答案（`assets/daily-page-dalia.template.html` 里的 viejas 卡）。
 
+🔴 **模板第一行必须是 `<meta charset="utf-8">`**：2026-10-07 容器重置后，Playwright 用 file:// 打开没声明编码的页面，中文和重音字母全成乱码，「全对」只判到 11/20。发布版有外壳不受影响，但本地测试会假报错。
+
 🟢 **Dalia（es-MX-DaliaNeural）走浏览器，不走容器。** 2026-09-30 学生说他 3D 动画项目的配音好听，
 那是 Edge「大声朗读」的 Dalia（msedge-tts 调 wss://speech.platform.bing.com/…/edge/v1）。
 学生在环境设置里放行了 speech.platform.bing.com，HTTPS 通了（200），但**合成走的是 WebSocket，
