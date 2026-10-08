@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 0,
-  "total_completed_days": 74,
+  "streak": 1,
+  "total_completed_days": 75,
   "total_missed_days": 17,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-10-04",
+  "last_task_date": "2026-10-07",
   "last_check_date": "2026-09-16",
-  "consecutive_missed": 2,
-  "consecutive_completed": 0,
+  "consecutive_missed": 0,
+  "consecutive_completed": 1,
   "vocabulary_learned": [
     "China",
     "México",
@@ -2281,6 +2281,24 @@
       "count": 1,
       "relearn": true,
       "date": "2026-10-04"
+    },
+    {
+      "error": "traer 过去式不规则：trao → trajo（él）/ traje（yo）",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-10-07"
+    },
+    {
+      "error": "名词漏冠词：jarabe、cuchillo、guía（词本身对）—— 单词题要带 el/la",
+      "count": 3,
+      "relearn": true,
+      "date": "2026-10-07"
+    },
+    {
+      "error": "garganta 第三次 rg 出错（garagan）",
+      "count": 3,
+      "relearn": true,
+      "date": "2026-10-07"
     }
   ],
   "week_stats": {
@@ -2524,7 +2542,7 @@
     {
       "word": "el jarabe",
       "module": "身体与健康",
-      "date_wrong": "2026-09-30",
+      "date_wrong": "2026-10-07",
       "correct_count": 0,
       "veces_mal_seguidas": 3,
       "plan": "第三次全错：改成「首字母+字数提示」主动回忆，先自测再考"
@@ -2629,13 +2647,13 @@
     {
       "word": "divertirse",
       "module": "童年回忆",
-      "date_wrong": "2026-09-26",
+      "date_wrong": "2026-10-07",
       "correct_count": 0
     },
     {
       "word": "la guía",
       "module": "旅行",
-      "date_wrong": "2026-09-26",
+      "date_wrong": "2026-10-07",
       "correct_count": 0
     },
     {
@@ -2647,7 +2665,7 @@
     {
       "word": "garganta",
       "module": "身体与健康",
-      "date_wrong": "2026-09-26",
+      "date_wrong": "2026-10-07",
       "correct_count": 0
     },
     {
@@ -2765,13 +2783,13 @@
     {
       "word": "cuchillo",
       "module": "餐厅",
-      "date_wrong": "2026-09-25",
+      "date_wrong": "2026-10-07",
       "correct_count": 0
     },
     {
       "word": "garganta",
       "module": "身体与健康",
-      "date_wrong": "2026-09-26",
+      "date_wrong": "2026-10-07",
       "correct_count": 0
     },
     {
@@ -2836,7 +2854,7 @@
     {
       "word": "la noticia",
       "module": "基础",
-      "date_wrong": "2026-09-22",
+      "date_wrong": "2026-10-07",
       "correct_count": 0
     },
     {
@@ -4428,12 +4446,10 @@
     }
   },
   "siguiente_sesion": {
-    "escrito": "2026-10-04 批完",
-    "plan": "不加新语法，巩固 -er/-ir 过去时（vendía/vendí/vendió），加一组 jugaba vs jugaría 对比；阅读降一档（生词更少）；单词继续首字母提示，quedar/triste/recomendar 只差一两个字母，再练一轮主动回忆",
-    "preguntar": "做页面用的是手机还是电脑？手机上要长按元音打重音",
-    "voz": "每日页用 assets/daily-page-dalia.template.html",
-    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头",
-    "hoy": "10-07 页：https://claude.ai/artifact/DRKcaFPZw6pszYjzRG9ymQ"
+    "escrito": "2026-10-07 批完",
+    "plan": "-ía/-ría 听写已过（8/10），阅读理解 -ría 还没过；下次：traer/hacer/tener 等不规则过去式（trajo/hizo/tuvo），继续 -ría 阅读；单词强调带冠词，garganta 用拆音 gar-gan-ta；quedar/triste/recomendar 等六个跨日考",
+    "voz": "每日页用 assets/daily-page-dalia.template.html（第一行 meta charset）",
+    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
   "dia_2026_10_01b": {
     "fecha": "2026-10-01（墨城），当天正式那一页",
@@ -4479,6 +4495,15 @@
       "4_口语": "vendía / vendería / jugaba… jugaría",
       "5_小作文": "《De niño》六行填半句，第 5 行 -ría，第 6 行 recomendar"
     },
-    "estado": "已发布，等交卷"
+    "estado": "已交卷，已批",
+    "resultado": {
+      "puntos": "页面 11/20（听写 8/10、单词 0/6、阅读 3/4）",
+      "听写": "8/10，历来最好：vendía/vendería、comía/comería 全分清，重音全打上了（键盘问题解决）。错：jugaria 漏重音、traé 多加重音",
+      "单词": "0/6，但 jarabe、cuchillo、guía 词对只漏冠词（半对）；garagan（garganta 第三次 rg 出错）、ne（la noticia）、el devor（divertirse）",
+      "阅读": "3/4，错第 3 题：visitaría 当成「现在每年都去」—— 正是今天的靶子，-ría=会（但没做）",
+      "④": "vendíe→vendía（手误）、vendería ✓、jugaba ✓、第二空 jugaría 漏",
+      "⑤": "vivía con mi madre en China ✓、jugaba (a los) videojuegos ✓、Un día mi amigo trao un relga para mi → me trajo un regalo（traer 过去式不规则 trajo；regalo 拼写）、trabajo en México ✓、Con más tiempo, aprendería español ✓（-ría 用对！只漏重音）、Le recomiendo este taco de mexicano → estos tacos mexicanos",
+      "支架": "填半句级保持"
+    }
   }
 }
