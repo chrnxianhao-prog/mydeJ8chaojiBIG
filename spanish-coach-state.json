@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 1,
+  "streak": 0,
   "total_completed_days": 75,
-  "total_missed_days": 17,
+  "total_missed_days": 18,
   "difficulty_modifier": 28,
   "last_task_date": "2026-10-07",
   "last_check_date": "2026-09-16",
-  "consecutive_missed": 0,
-  "consecutive_completed": 1,
+  "consecutive_missed": 1,
+  "consecutive_completed": 0,
   "vocabulary_learned": [
     "China",
     "México",
@@ -4449,7 +4449,8 @@
     "escrito": "2026-10-07 批完",
     "plan": "-ía/-ría 听写已过（8/10），阅读理解 -ría 还没过；下次：traer/hacer/tener 等不规则过去式（trajo/hizo/tuvo），继续 -ría 阅读；单词强调带冠词，garganta 用拆音 gar-gan-ta；quedar/triste/recomendar 等六个跨日考",
     "voz": "每日页用 assets/daily-page-dalia.template.html（第一行 meta charset）",
-    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
+    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头",
+    "hoy": "10-09 页：https://claude.ai/artifact/Ah3vKSA9KHKi1DyXuvvR74"
   },
   "dia_2026_10_01b": {
     "fecha": "2026-10-01（墨城），当天正式那一页",
@@ -4505,5 +4506,20 @@
       "⑤": "vivía con mi madre en China ✓、jugaba (a los) videojuegos ✓、Un día mi amigo trao un relga para mi → me trajo un regalo（traer 过去式不规则 trajo；regalo 拼写）、trabajo en México ✓、Con más tiempo, aprendería español ✓（-ría 用对！只漏重音）、Le recomiendo este taco de mexicano → estos tacos mexicanos",
       "支架": "填半句级保持"
     }
+  },
+  "dia_2026_10_09": {
+    "fecha": "2026-10-09（墨城，周五 22:30 出题；10-08 没练）",
+    "pagina": "https://claude.ai/artifact/Ah3vKSA9KHKi1DyXuvvR74",
+    "db_doc": "resultados/dia-1009",
+    "objetivo": "不规则过去式 traje/trajo、hice/hizo、tuve/tuvo（无重音）vs 规则 compré/vendió（有重音）",
+    "secciones": {
+      "练习": "规则卡 + 三组（每组末句是现在时/以前常做作对比）+ 六个词主动回忆（la garganta la noticia divertirse el regalo el jarabe el cuchillo；漏冠词会提示「差一点」）+ 短文六个生词",
+      "1_听写": "traje compré hice trae tuve vendió hago tenía jugaría llegó，回测 20/20",
+      "2_单词": "quedar triste recomendar ofrecer la carrera la guardería（10-07 练习区回忆过，跨日考）",
+      "3_阅读": "七句《Mi cumpleaños》，用 hizo/trajo/tuvo",
+      "4_口语": "traje / trajo / hice… tuvo",
+      "5_小作文": "《Mi cumpleaños》六行填半句：fue / hizo / trajo / tuve / -aba·-ía / -ría"
+    },
+    "estado": "已发布，等交卷"
   }
 }
