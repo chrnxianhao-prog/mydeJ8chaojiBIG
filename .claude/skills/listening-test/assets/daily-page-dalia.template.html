@@ -1,5 +1,5 @@
 <meta charset="utf-8">
-<title>每日练习 · 不规则过去式</title>
+<title>每日练习 · fui y estuve</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Petrona:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
   :root {
@@ -209,12 +209,12 @@
 
 <main>
   <header>
-    <p class="eyebrow">Día 76 · 9 oct 2026</p>
-    <h1>traje · hice · tuve</h1>
+    <p class="eyebrow">Día 77 · 11 oct 2026</p>
+    <h1>fui · estuve · traje</h1>
     <p class="lede">
-      上次听写 <b>8/10</b>，vendía / vendería 全分清了，重音也都打上了 👏<br>
-      小作文卡在一句：<b>mi amigo trao un relga</b>。traer 的过去式不规则，要说 <b>me trajo un regalo</b>。<br><br>
-      今天学三个最常用的不规则过去式：<b>traer、hacer、tener</b>。
+      <b>¡Hola, Haoge!</b> 上次 15/20，到现在最高 👏<br>
+      还剩一个小毛病：你写了 <b>traé、traó</b> —— 不规则过去式<b>不带重音</b>：traje、trajo。<br><br>
+      今天先把这一组复习一遍，再学两个最常用的：<b>estuve</b>（我那时在 / 我那时很……）和 <b>fui</b>（我去了）。
     </p>
   </header>
 
@@ -236,25 +236,24 @@
 
   <div class="panel" id="practica">
     <section>
-      <h2>三个不规则过去式</h2>
+      <h2>五个不规则过去式</h2>
       <div class="tarea" style="border-left-color:var(--ud)">
         <p style="margin:0;font-size:15px;line-height:1.9">
-          <b>traer</b>　→　我 <b>traje</b>　·　他 <b>trajo</b><br>
-          <b>hacer</b>　→　我 <b>hice</b>　·　他 <b>hizo</b>（c 变 z）<br>
-          <b>tener</b>　→　我 <b>tuve</b>　·　他 <b>tuvo</b>
+          <b>traer</b> → traje / trajo　·　<b>hacer</b> → hice / hizo　·　<b>tener</b> → tuve / tuvo<br>
+          <b>estar</b>　→　我 <b>estuve</b>　·　他 <b>estuvo</b>　<span style="color:var(--ink-soft)">（跟 tuve / tuvo 一个模子）</span><br>
+          <b>ir</b>　→　我 <b>fui</b>　·　他 <b>fue</b>　<span style="color:var(--ink-soft)">（最短的一个，背下来）</span>
         </p>
         <p style="margin:0;font-size:13.5px;color:var(--ink-soft)">
-          规律：词干整个换掉（traj-、hic-、tuv-），然后<b>我 -e，他 -o</b>，<b>都不带重音</b>。
-          规则动词才带重音：compr<b>é</b> / compr<b>ó</b>。
+          这五个<b>全都不带重音</b>。另外记一条：形容词前用 <b>muy</b>（muy ocupado），名词前用 <b>mucho</b>（mucho trabajo）。
         </p>
       </div>
-      <p class="sub">每组三句都点，听完再翻中文。每组最后一句是<b>现在时或以前常</b>，用来对比，别混。</p>
+      <p class="sub">每组三句都点，听完再翻中文。第一组是复习；后两组的最后一句是<b>现在时</b>，用来对比。</p>
       <div id="tres"></div>
     </section>
 
     <section>
       <h2>下次要考的六个词：先想，再对答案</h2>
-      <p class="sub">上次 jarabe、cuchillo 词写对了但<b>漏了冠词</b>，garganta 第三次写错。<b>名词连 el / la 一起写</b>，先自己写，再点「对一下」。下次正式考。</p>
+      <p class="sub">上次没写出来的 ofrecer、la carrera、la guardería，加上上次小作文里的三个词。<b>名词连 el / la 一起写</b>，先自己写，再点「对一下」。下次正式考。</p>
       <div id="viejas"></div>
     </section>
 
@@ -274,7 +273,7 @@
 
     <section>
       <h2>① 听写（10 题）</h2>
-      <p class="sub">点 ▶ 听，每个词都在 <b>Digo ___, otra vez.</b> 里，<b>只写中间那个词，重音要写上</b>。听不清就点「念两遍」。<b>有的词本来就没有重音符号</b>，别每个都加。<b>traje、hice、tuve 不带重音</b>；compré、vendió 带。</p>
+      <p class="sub">点 ▶ 听，每个词都在 <b>Digo ___, otra vez.</b> 里，<b>只写中间那个词，重音要写上</b>。听不清就点「念两遍」。<b>有的词本来就没有重音符号</b>，别每个都加。<b>traje、estuve、fui、hice、tuve 不带重音</b>；compré、vendió 带。</p>
       <div id="test"></div>
     </section>
 
@@ -394,14 +393,14 @@
     ["practica", "prueba"].forEach(function (p) {
       document.getElementById(p).hidden = p !== nombre;
     });
-    try { localStorage.setItem("dia1009.tab", nombre); } catch (e) {}
+    try { localStorage.setItem("dia1011.tab", nombre); } catch (e) {}
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
   tabs.forEach(function (b) {
     b.addEventListener("click", function () { abrir(b.dataset.panel); });
   });
   try {
-    const guardadoTab = localStorage.getItem("dia1009.tab");
+    const guardadoTab = localStorage.getItem("dia1011.tab");
     if (guardadoTab === "prueba") abrir("prueba");
   } catch (e) {}
 
@@ -707,8 +706,8 @@
 
     if (!db) return;
     try {
-      await db.doc("resultados/dia-1009").set({
-        fecha: "2026-10-09", tema: "traje/trajo · hice/hizo · tuve/tuvo",
+      await db.doc("resultados/dia-1011").set({
+        fecha: "2026-10-11", tema: "fui/fue · estuve/estuvo · repaso traje/hice/tuve",
         oido: bienO, oidoTotal: D.dictado.length,
         palabras: bienP, palabrasTotal: D.palabras.length,
         lectura: bienL, lecturaTotal: D.lectura.length,

@@ -4470,7 +4470,8 @@
     "escrito": "2026-10-10 批完",
     "plan": "巩固 traje/trajo、hice/hizo、tuve/tuvo（他套规则重音），加 estuve/estuvo（muy ocupado）和 fui/fue；② 考 la garganta la noticia divertirse el regalo el jarabe el cuchillo（10-09 练习区回忆过）；练习区回忆 ofrecer la carrera la guardería",
     "voz": "每日页用 assets/daily-page-dalia.template.html",
-    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
+    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头",
+    "hoy": "10-11 页：https://claude.ai/artifact/NmMEMZqY73rCjsc6se6i5q"
   },
   "dia_2026_10_01b": {
     "fecha": "2026-10-01（墨城），当天正式那一页",
@@ -4554,5 +4555,20 @@
   "comunicacion_2026_10_11": {
     "pedido": "以后用西班牙语和老师交流",
     "regla": "老师日常用简单西语（难词括号中文），语法讲解/批改用中文；聊天西语错误每次最多挑两三处放进批改"
+  },
+  "dia_2026_10_11": {
+    "fecha": "2026-10-11（墨城，周日 23:20 出题）",
+    "pagina": "https://claude.ai/artifact/NmMEMZqY73rCjsc6se6i5q",
+    "db_doc": "resultados/dia-1011",
+    "objetivo": "复习 traje/hizo/tuvo（不带重音）+ 新学 estuve/estuvo、fui/fue；muy + 形容词 / mucho + 名词",
+    "secciones": {
+      "练习": "规则卡（五个不规则 + muy/mucho）+ 三组 + 主动回忆 ofrecer la carrera la guardería el pastel la leche el cumpleaños + 五个短文生词",
+      "1_听写": "traje estuve compré fui hice vendió tuve estoy voy trae，回测 20/20",
+      "2_单词": "la garganta la noticia divertirse el regalo el jarabe el cuchillo（10-09 练习区回忆过，跨日考）",
+      "3_阅读": "七句《我哥去普埃布拉进货》，fue/estuvo/hizo/trajo/tuvo",
+      "4_口语": "estuve / fui… fue / trajo… tuve",
+      "5_小作文": "《Un viaje de trabajo》六行填半句"
+    },
+    "estado": "已发布，等交卷"
   }
 }
