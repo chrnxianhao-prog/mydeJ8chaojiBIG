@@ -4497,7 +4497,8 @@
     "escrito": "2026-10-12 批完",
     "plan": "不规则过去式听写已 9/10，转向产出：traer 三形式（trae/traje/trajo）专项 + tener/estar 区分（tengo trabajo / estoy ocupado）；② 考 ofrecer la carrera la guardería el pastel la leche el cumpleaños（10-11 练习区回忆过）；garganta 换记法（gar + gan + ta 三拍，打字时逐音节念）",
     "voz": "每日页用 assets/daily-page-dalia.template.html",
-    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
+    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头",
+    "hoy": "10-12 加练页：https://claude.ai/artifact/QoBtmZwMss6WuDHJaNpB4s"
   },
   "dia_2026_10_01b": {
     "fecha": "2026-10-01（墨城），当天正式那一页",
@@ -4605,5 +4606,20 @@
       "⑤": "fui a China ✓、fui en coche ✓（去中国应是 avión）、estuve una semana ✓、Allí hice viajé → hice + 名词（muchos pedidos）、traje un regalo para mi compañero（comprañero 拼写）、estuve muy feliz ✓、lejos 意思不通",
       "支架": "填半句级保持"
     }
+  },
+  "dia_2026_10_12b": {
+    "fecha": "2026-10-12（墨城周一 22:00，学生说「再来一轮」，同日第二页 = 加练）",
+    "pagina": "https://claude.ai/artifact/QoBtmZwMss6WuDHJaNpB4s",
+    "db_doc": "resultados/dia-1012",
+    "objetivo": "traer 三形式 trae/traje/trajo（无重音）；tener + 名词 vs estar + 地点/状态",
+    "secciones": {
+      "练习": "规则卡 + traer/tener/estar 三组 + 主动回忆 la garganta la noticia divertirse el cuchillo el compañero el avión + 五个短文生词",
+      "1_听写": "trae traje tengo trajo estoy tuve estuvo compró estuve tuvo，回测 20/20（compró 首条被听成 con pro，重挑）",
+      "2_单词": "ofrecer la carrera la guardería el pastel la leche el cumpleaños —— 同日加练，不推进 correct_count",
+      "3_阅读": "七句《供应商晚了一天》",
+      "4_口语": "trae / traje… trajo / tengo… estoy",
+      "5_小作文": "《Un día difícil》六行填半句"
+    },
+    "estado": "已发布，等交卷"
   }
 }
