@@ -2335,6 +2335,12 @@
       "count": 4,
       "relearn": true,
       "date": "2026-10-12"
+    },
+    {
+      "error": "traer 过去式产出时规则化（traé / trao），听写却对 —— 认得出写不出，需要原形→过去式的主动变位练习",
+      "count": 4,
+      "relearn": true,
+      "date": "2026-10-12"
     }
   ],
   "week_stats": {
@@ -2477,7 +2483,7 @@
     {
       "word": "la carrera",
       "module": "工作职业",
-      "date_wrong": "2026-10-10",
+      "date_wrong": "2026-10-12",
       "correct_count": 0,
       "mnemonic": "绑高频问句：¿Qué carrera estudiaste?（你大学读的什么专业）。carrera = 读的哪一行、干的哪一行。（替换掉失效的 carro→跑道 词源链）",
       "veces_mal_seguidas": 3,
@@ -2917,7 +2923,7 @@
     {
       "word": "ofrecer",
       "module": "高频动词",
-      "date_wrong": "2026-10-10",
+      "date_wrong": "2026-10-12",
       "correct_count": 0,
       "veces_mal_seguidas": 3,
       "plan": "第三次全错：改成「首字母+字数提示」主动回忆，先自测再考"
@@ -3071,6 +3077,18 @@
       "correct_count": 1,
       "date_ok": "2026-10-12",
       "note": "10-07 写 relga，10-12 跨日写对"
+    },
+    {
+      "word": "el pastel",
+      "module": "日常",
+      "date_wrong": "2026-10-12",
+      "correct_count": 0
+    },
+    {
+      "word": "el cumpleaños",
+      "module": "日常",
+      "date_wrong": "2026-10-12",
+      "correct_count": 0
     }
   ],
   "module_wrong_banks": {
@@ -4495,7 +4513,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-12 批完",
-    "plan": "不规则过去式听写已 9/10，转向产出：traer 三形式（trae/traje/trajo）专项 + tener/estar 区分（tengo trabajo / estoy ocupado）；② 考 ofrecer la carrera la guardería el pastel la leche el cumpleaños（10-11 练习区回忆过）；garganta 换记法（gar + gan + ta 三拍，打字时逐音节念）",
+    "plan": "traer/hacer/tener/estar/ir 的「原形 → 我/他过去式」主动变位（不给听，只给原形和人称）；② 正式考 la garganta la noticia divertirse el cuchillo el compañero el avión；练习区回忆 ofrecer la carrera el pastel el cumpleaños",
     "voz": "每日页用 assets/daily-page-dalia.template.html",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头",
     "hoy": "10-12 加练页：https://claude.ai/artifact/QoBtmZwMss6WuDHJaNpB4s"
@@ -4620,6 +4638,15 @@
       "4_口语": "trae / traje… trajo / tengo… estoy",
       "5_小作文": "《Un día difícil》六行填半句"
     },
-    "estado": "已发布，等交卷"
+    "estado": "已交卷（墨城 10-12 22:27），已批；同日加练，不计新的一天，② 不推进连对",
+    "resultado": {
+      "puntos": "页面 15/20（听写 9/10、单词 2/6、阅读 4/4）",
+      "听写": "9/10：trae traje trajo(错写 trajó) tengo estoy tuve estuvo compró estuve tuvo —— 听辨已稳",
+      "单词": "la leche ✓、la guardería ✓（漏重音）；ofrecer 只写了 o、la carrce、el postel、el compraño（cumpleaños）",
+      "阅读": "4/4",
+      "④": "¿Me trae…? ✓；traé→traje、trao→trajo（产出时还是按规则词尾变，听写时却写得对）；Hoy tengo mucho trabajo y estoy muy cansado ✓ —— tener/estar 一次就分清",
+      "⑤": "Ayer tuve mucho trabajo ✓、Estuve la casa a las seis → Estuve en casa hasta las seis（少 en）、me trajo el regalo ✓、no trajo la comida ✓、estuve muy enojado ✓、Hoy tengo dinero y estoy feliz ✓ —— 6 句 5 对",
+      "结论": "traer 过去式是「认得出写不出」：听写 traje/trajo 都对，从原形自己变就变成 traé/trao。下次要做「原形 → 过去式」的主动变位练习（不给听），traje/trajo 当整块背"
+    }
   }
 }
