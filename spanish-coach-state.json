@@ -4539,7 +4539,8 @@
     "escrito": "2026-10-13 批完",
     "plan": "不规则过去式产出已过（④ 4/4）。下一步回到 CLAUDE.md 优先级：三时态混合（pretérito vs imperfecto vs condicional 一篇里混用），或 le/me/te 间接宾语；⑤ 支架试撤一档（不给例句）。② 考 ofrecer la carrera el pastel el cumpleaños（10-13 练习区写过）+ divertirse",
     "voz": "每日页用 assets/daily-page-dalia.template.html",
-    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
+    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头",
+    "hoy": "10-14 页：https://claude.ai/artifact/6ypJpEcwbJzDRT7L96U25W"
   },
   "dia_2026_10_01b": {
     "fecha": "2026-10-01（墨城），当天正式那一页",
@@ -4695,5 +4696,20 @@
       "⑤": "fui a la Ciudad de México ✓、fue en un hotel ✓、traje un regalo ✓、hizo comida china para (sus) compañeros ✓、un hora → una hora、Estuve muy tranquilo（traquilo 拼写）/ muy cansado porque caminé mucho ✓",
       "支架": "填半句级保持；下次可试撤一档（只给开头不给例句）"
     }
+  },
+  "dia_2026_10_14": {
+    "fecha": "2026-10-14（墨城，周三 09:30 出题）",
+    "pagina": "https://claude.ai/artifact/6ypJpEcwbJzDRT7L96U25W",
+    "db_doc": "resultados/dia-1014",
+    "objetivo": "三时态混用（CLAUDE.md 第一优先级）：pretérito vendí / imperfecto vendía（新：iba）/ condicional vendería —— 看时间词判断",
+    "secciones": {
+      "练习": "时间词规则卡 + 一次/以前常/会三组 + 自写卡（vendí vendía vendería iba fui abriría 严判 + tranquilo el espejo）+ 六个生词",
+      "1_听写": "vendí vendería jugaba jugaría comía comió comería viajé viajaría fui，回测 20/20",
+      "2_单词": "ofrecer la carrera el pastel el cumpleaños la hora divertirse",
+      "3_阅读": "六句《我的第一家店》三时态混合，判断题考 abriría=还没开",
+      "4_口语": "iba / compró / abriría",
+      "5_小作文": "《Mi historia》六行，支架撤一档：只给开头和时态标签，不给例句"
+    },
+    "estado": "已发布，等交卷"
   }
 }
