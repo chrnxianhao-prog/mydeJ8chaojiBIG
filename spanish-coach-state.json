@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 1,
-  "total_completed_days": 77,
+  "streak": 2,
+  "total_completed_days": 78,
   "total_missed_days": 19,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-10-12",
+  "last_task_date": "2026-10-13",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
-  "consecutive_completed": 1,
+  "consecutive_completed": 2,
   "vocabulary_learned": [
     "China",
     "México",
@@ -2341,6 +2341,12 @@
       "count": 4,
       "relearn": true,
       "date": "2026-10-12"
+    },
+    {
+      "error": "hora 是阴性：un hora → una hora",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-10-13"
     }
   ],
   "week_stats": {
@@ -2691,7 +2697,7 @@
     {
       "word": "divertirse",
       "module": "童年回忆",
-      "date_wrong": "2026-10-12",
+      "date_wrong": "2026-10-13",
       "correct_count": 0
     },
     {
@@ -2710,7 +2716,8 @@
       "word": "garganta",
       "module": "身体与健康",
       "date_wrong": "2026-10-12",
-      "correct_count": 0
+      "correct_count": 1,
+      "date_ok": "2026-10-13"
     },
     {
       "word": "el equipaje",
@@ -2828,13 +2835,15 @@
       "word": "cuchillo",
       "module": "餐厅",
       "date_wrong": "2026-10-12",
-      "correct_count": 0
+      "correct_count": 1,
+      "date_ok": "2026-10-13"
     },
     {
       "word": "garganta",
       "module": "身体与健康",
       "date_wrong": "2026-10-12",
-      "correct_count": 0
+      "correct_count": 1,
+      "date_ok": "2026-10-13"
     },
     {
       "word": "bicicleta",
@@ -2900,7 +2909,8 @@
       "word": "la noticia",
       "module": "基础",
       "date_wrong": "2026-10-12",
-      "correct_count": 0
+      "correct_count": 1,
+      "date_ok": "2026-10-13"
     },
     {
       "word": "enseñar",
@@ -3089,6 +3099,20 @@
       "module": "日常",
       "date_wrong": "2026-10-12",
       "correct_count": 0
+    },
+    {
+      "word": "el compañero",
+      "module": "日常",
+      "date_wrong": "2026-10-12",
+      "correct_count": 1,
+      "date_ok": "2026-10-13"
+    },
+    {
+      "word": "el avión",
+      "module": "日常",
+      "date_wrong": "2026-10-12",
+      "correct_count": 1,
+      "date_ok": "2026-10-13"
     }
   ],
   "module_wrong_banks": {
@@ -4512,11 +4536,10 @@
     }
   },
   "siguiente_sesion": {
-    "escrito": "2026-10-12 批完",
-    "plan": "traer/hacer/tener/estar/ir 的「原形 → 我/他过去式」主动变位（不给听，只给原形和人称）；② 正式考 la garganta la noticia divertirse el cuchillo el compañero el avión；练习区回忆 ofrecer la carrera el pastel el cumpleaños",
+    "escrito": "2026-10-13 批完",
+    "plan": "不规则过去式产出已过（④ 4/4）。下一步回到 CLAUDE.md 优先级：三时态混合（pretérito vs imperfecto vs condicional 一篇里混用），或 le/me/te 间接宾语；⑤ 支架试撤一档（不给例句）。② 考 ofrecer la carrera el pastel el cumpleaños（10-13 练习区写过）+ divertirse",
     "voz": "每日页用 assets/daily-page-dalia.template.html",
-    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头",
-    "hoy": "10-13 页：https://claude.ai/artifact/EuxhVCmEo12WxNQVUjs9nH"
+    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
   "dia_2026_10_01b": {
     "fecha": "2026-10-01（墨城），当天正式那一页",
@@ -4662,6 +4685,15 @@
       "4_口语": "traje / trajo / estuve… fue",
       "5_小作文": "《La fiesta》六行填半句"
     },
-    "estado": "已发布，等交卷"
+    "estado": "已交卷（墨城 10-13 23:11），已批",
+    "resultado": {
+      "puntos": "页面 18/20（听写 9/10、单词 5/6、阅读 4/4）—— 历来最高",
+      "听写": "9/10，只错 vendio（漏重音）",
+      "单词": "la garganta ✓（四次错后第一次对）、la noticia ✓、el cuchillo ✓（冠词对）、el compañero ✓、el avión ✓；divertirse→diveriste",
+      "阅读": "4/4",
+      "④": "4/4：traje、trajo、estuve、fue 全对 —— 主动变位练法见效，traé/trao 没再出现",
+      "⑤": "fui a la Ciudad de México ✓、fue en un hotel ✓、traje un regalo ✓、hizo comida china para (sus) compañeros ✓、un hora → una hora、Estuve muy tranquilo（traquilo 拼写）/ muy cansado porque caminé mucho ✓",
+      "支架": "填半句级保持；下次可试撤一档（只给开头不给例句）"
+    }
   }
 }
