@@ -39,6 +39,8 @@ Kokoro 两种读法 20/20、davefx 19/20、claude 18/20。但学生报的那三�
 
 🔴 **模板第一行必须是 `<meta charset="utf-8">`**：2026-10-07 容器重置后，Playwright 用 file:// 打开没声明编码的页面，中文和重音字母全成乱码，「全对」只判到 11/20。发布版有外壳不受影响，但本地测试会假报错。
 
+🟡 **主动回忆卡（viejas）也能练变位**：2026-10-13 学生「听得出写不出」traje/trajo，练习区放「原形 · 人称 → 自己写」卡；数据里 `estricto: true` 的卡只差重音也判「差一点」（变位的重音就是考点），单词卡照旧宽松。
+
 🟢 **Dalia（es-MX-DaliaNeural）走浏览器，不走容器。** 2026-09-30 学生说他 3D 动画项目的配音好听，
 那是 Edge「大声朗读」的 Dalia（msedge-tts 调 wss://speech.platform.bing.com/…/edge/v1）。
 学生在环境设置里放行了 speech.platform.bing.com，HTTPS 通了（200），但**合成走的是 WebSocket，

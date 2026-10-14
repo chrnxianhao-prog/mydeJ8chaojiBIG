@@ -4516,7 +4516,7 @@
     "plan": "traer/hacer/tener/estar/ir 的「原形 → 我/他过去式」主动变位（不给听，只给原形和人称）；② 正式考 la garganta la noticia divertirse el cuchillo el compañero el avión；练习区回忆 ofrecer la carrera el pastel el cumpleaños",
     "voz": "每日页用 assets/daily-page-dalia.template.html",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头",
-    "hoy": "10-12 加练页：https://claude.ai/artifact/QoBtmZwMss6WuDHJaNpB4s"
+    "hoy": "10-13 页：https://claude.ai/artifact/EuxhVCmEo12WxNQVUjs9nH"
   },
   "dia_2026_10_01b": {
     "fecha": "2026-10-01（墨城），当天正式那一页",
@@ -4648,5 +4648,20 @@
       "⑤": "Ayer tuve mucho trabajo ✓、Estuve la casa a las seis → Estuve en casa hasta las seis（少 en）、me trajo el regalo ✓、no trajo la comida ✓、estuve muy enojado ✓、Hoy tengo dinero y estoy feliz ✓ —— 6 句 5 对",
       "结论": "traer 过去式是「认得出写不出」：听写 traje/trajo 都对，从原形自己变就变成 traé/trao。下次要做「原形 → 过去式」的主动变位练习（不给听），traje/trajo 当整块背"
     }
+  },
+  "dia_2026_10_13": {
+    "fecha": "2026-10-13（墨城，周二 22:30 出题）",
+    "pagina": "https://claude.ai/artifact/EuxhVCmEo12WxNQVUjs9nH",
+    "db_doc": "resultados/dia-1013",
+    "objetivo": "不规则过去式主动产出（原形 + 人称 → 自己写）：traje/trajo hice/hizo tuve/tuvo estuve fue；规则带重音 vs 不规则不带",
+    "secciones": {
+      "练习": "规则卡 + 我组/他组/重音对比三组 + 12 张自写卡（8 张变位严判重音 + ofrecer la carrera el pastel el cumpleaños）+ 3 个生词",
+      "1_听写": "traje hice fui compré estuve vendió tuve traigo hago estoy，回测 20/20",
+      "2_单词": "la garganta la noticia divertirse el cuchillo el compañero el avión（10-12 加练页回忆过，跨日考）",
+      "3_阅读": "六句《女儿生日》，fue/hizo/trajo/tuvo/estuvo",
+      "4_口语": "traje / trajo / estuve… fue",
+      "5_小作文": "《La fiesta》六行填半句"
+    },
+    "estado": "已发布，等交卷"
   }
 }
