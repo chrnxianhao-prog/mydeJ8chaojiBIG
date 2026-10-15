@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 2,
-  "total_completed_days": 78,
-  "total_missed_days": 19,
+  "streak": 1,
+  "total_completed_days": 79,
+  "total_missed_days": 20,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-10-13",
+  "last_task_date": "2026-10-15",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
-  "consecutive_completed": 2,
+  "consecutive_completed": 1,
   "vocabulary_learned": [
     "China",
     "México",
@@ -2347,6 +2347,24 @@
       "count": 1,
       "relearn": false,
       "date": "2026-10-13"
+    },
+    {
+      "error": "antes（以前常）后面滑到别的时态：Antes fui → iba；Antes yo comería → comía —— 摸底老问题在产出中复现",
+      "count": 2,
+      "relearn": true,
+      "date": "2026-10-15"
+    },
+    {
+      "error": "-ir 动词条件式照 -er 写：abrería → abriría（原形 abrir + ía）",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-10-15"
+    },
+    {
+      "error": "短的规则过去式/过去常漏重音（vendi comia comio viaje），长的 -ría 反而记得打",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-10-15"
     }
   ],
   "week_stats": {
@@ -2489,11 +2507,12 @@
     {
       "word": "la carrera",
       "module": "工作职业",
-      "date_wrong": "2026-10-12",
+      "date_wrong": "2026-10-15",
       "correct_count": 0,
       "mnemonic": "绑高频问句：¿Qué carrera estudiaste?（你大学读的什么专业）。carrera = 读的哪一行、干的哪一行。（替换掉失效的 carro→跑道 词源链）",
       "veces_mal_seguidas": 3,
-      "plan": "10-01 加练：lacarrer，明天再考"
+      "plan": "10-01 加练：lacarrer，明天再考",
+      "nota": "固定错拼 carrce ×2；跟他的生意关系不大，暂降优先级，隔几天再回炉"
     },
     {
       "word": "el viaje",
@@ -2697,7 +2716,7 @@
     {
       "word": "divertirse",
       "module": "童年回忆",
-      "date_wrong": "2026-10-13",
+      "date_wrong": "2026-10-15",
       "correct_count": 0
     },
     {
@@ -2933,7 +2952,7 @@
     {
       "word": "ofrecer",
       "module": "高频动词",
-      "date_wrong": "2026-10-12",
+      "date_wrong": "2026-10-15",
       "correct_count": 0,
       "veces_mal_seguidas": 3,
       "plan": "第三次全错：改成「首字母+字数提示」主动回忆，先自测再考"
@@ -3091,13 +3110,14 @@
     {
       "word": "el pastel",
       "module": "日常",
-      "date_wrong": "2026-10-12",
-      "correct_count": 0
+      "date_wrong": "2026-10-15",
+      "correct_count": 0,
+      "nota": "固定错拼 postel ×2：pas-tel，跟 pasta 同一个 pas"
     },
     {
       "word": "el cumpleaños",
       "module": "日常",
-      "date_wrong": "2026-10-12",
+      "date_wrong": "2026-10-15",
       "correct_count": 0
     },
     {
@@ -4536,11 +4556,10 @@
     }
   },
   "siguiente_sesion": {
-    "escrito": "2026-10-13 批完",
-    "plan": "不规则过去式产出已过（④ 4/4）。下一步回到 CLAUDE.md 优先级：三时态混合（pretérito vs imperfecto vs condicional 一篇里混用），或 le/me/te 间接宾语；⑤ 支架试撤一档（不给例句）。② 考 ofrecer la carrera el pastel el cumpleaños（10-13 练习区写过）+ divertirse",
+    "escrito": "2026-10-15 批完",
+    "plan": "专攻 antes → -aba/-ía（不留原形）vs con más… → 原形+ía；二选一辨析题 + 主动产出；② 考 el espejo tranquilo + 回炉 el pastel el cumpleaños ofrecer divertirse（pas-tel、cumple-años 拆开记）；la carrera 暂停几天",
     "voz": "每日页用 assets/daily-page-dalia.template.html",
-    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头",
-    "hoy": "10-14 页：https://claude.ai/artifact/6ypJpEcwbJzDRT7L96U25W"
+    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
   "dia_2026_10_01b": {
     "fecha": "2026-10-01（墨城），当天正式那一页",
@@ -4710,6 +4729,16 @@
       "4_口语": "iba / compró / abriría",
       "5_小作文": "《Mi historia》六行，支架撤一档：只给开头和时态标签，不给例句"
     },
-    "estado": "已发布，等交卷"
+    "estado": "已交卷（墨城 10-15 周四 11:41），已批",
+    "resultado": {
+      "puntos": "页面 10/20（听写 6/10、单词 1/6、阅读 3/4）",
+      "听写": "字母 10/10 —— 三种时间（vendí/vendería、jugaba/jugaría、comía/comió/comería、viajé/viajaría）全听得出；错的 4 个全是漏重音（vendi comia comio viaje），带 -ría 的反而都打了",
+      "单词": "la hora ✓；ofrece、la carrce（第二次一模一样）、el postel（第二次一模一样）、el cumpreaño、divetirse —— carrce/postel 成了固定错拼",
+      "阅读": "3/4：错第 3 题 abrí mi primera tienda（一次，已经开了）判成错",
+      "④": "Antes fui → iba（以前常却用了一次）、compró ✓、abrería → abriría（abrir 是 -ir，照 vender 的样子写成 e）",
+      "⑤": "没例句也六行全写出来了（支架撤一档成功）：Antes yo comería → comía（以前常却用了「会」）、Cada día iba a casa de mi abuela ✓（iba 用对）、Un día comí comida japonesa ✓、Ahora tengo trabajo ✓、Con más dinero, gustaría comprar → compraría un perro / me gustaría comprar、Me gustaría un café ✓",
+      "结论": "三时态听辨已过；产出时 antes 后面会滑到 fui（一次）或 comería（会）—— 正是摸底时的老问题。下次专攻「antes → -aba/-ía，不留原形」",
+      "支架": "不给例句级（第一次），六行都写出 → 保持这一级"
+    }
   }
 }
