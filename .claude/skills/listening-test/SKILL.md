@@ -149,6 +149,10 @@ mp3 放 scratchpad，**不要提交进仓库** —— 音频是可以从课文�
 
 ### 6. 包成网页并发布
 
+2026-10-15 起 `build_page.py` 加 `--texto 听力材料/xxx.txt`：把句子和 gap 嵌进页面（**不显示原文**），
+电脑上用 Edge 打开时多出一个「用 Dalia 念一遍」按钮，现场按句念、句间停 gap 毫秒；没有 Dalia 就不出现，只放 Kokoro 录音。
+学生定了 Dalia 为默认（见上方），所以**以后都带 --texto**。句首是 V/B 开头的词时 Kokoro 会糊（Vendía → pendía），句首加个 Yo 之类再念。
+
 ```bash
 python3 .claude/skills/listening-test/scripts/build_page.py \
     <scratchpad>/主题.mp3 "La entrevista de trabajo" --date "15 sep 2026" \

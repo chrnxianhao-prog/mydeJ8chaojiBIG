@@ -26,6 +26,7 @@ def main() -> int:
     parser.add_argument("title", help="页面标题，用西语场景名，如 La entrevista de trabajo")
     parser.add_argument("--date", default="", help="副标题里的日期，如 15 sep 2026")
     parser.add_argument("-o", "--output", required=True, help="输出的 html 路径")
+    parser.add_argument("--texto", default="", help="课文 txt：给了就把句子嵌进页面，Edge 里能用 Dalia 现场念（不显示原文）")
     args = parser.parse_args()
 
     audio = Path(args.audio)
@@ -50,6 +51,18 @@ def main() -> int:
         .replace("__EYEBROW__", eyebrow)
         .replace("__AUDIO__", encoded)
     )
+    frases, pausa = [], 1800
+    if args.texto:
+        import json, re
+        for line in Path(args.texto).read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line.startswith("#!"):
+                m = re.search(r"gap=(\d+)", line)
+                pausa = int(m.group(1)) if m else pausa
+            elif line and not line.startswith(("#", "//")):
+                frases.append(line)
+    import json
+    html = html.replace("__FRASES__", json.dumps(frases, ensure_ascii=False)).replace("__PAUSA__", str(pausa))
 
     out = Path(args.output)
     out.parent.mkdir(parents=True, exist_ok=True)

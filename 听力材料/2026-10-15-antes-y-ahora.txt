@@ -1,0 +1,33 @@
+#! listening voice=es-MX-DaliaNeural gap=1800
+# Comprensión auditiva — Antes y ahora
+
+// ── 给老师的批注（不会被念出来）──
+// 考点：三时态层次 —— imperfecto 铺背景（vivía/trabajaba/llegaba/ganaba/vendía），
+//       pretérito 推事件（llamó/dijo/fui/fue/abrí），condicional 收假设（aprendería），
+//       me gustaría 表愿望。全部是他学过的词，场景就是他自己的经历（台州 → 墨西哥 → 开店）。
+// 理解题（⚠️ 学生听完再发，用中文问）：
+//   1. 他以前在台州做什么工作？每天几点到、几点走？
+//      答：在服装厂上班；早上七点到，晚上八点走（llegaba a las siete y salía a las ocho de la noche）
+//   2. 是谁、用什么方式叫他来墨西哥的？
+//      答：朋友 Luis 打电话（me llamó por teléfono）
+//   3. 一开始他为什么不想去？
+//      答：不会说西语（no hablaba español）
+//   4. 到墨西哥第一年，他在哪儿卖衣服？
+//      答：在市场（yo vendía ropa en el mercado）
+//   5. 他已经在瓜达拉哈拉开店了吗？
+//      答：没有，只是想开（me gustaría abrir…）—— 听成「已经开了」就是没分清 condicional/愿望
+
+Hace diez años, yo vivía en Taizhou.
+Trabajaba en una fábrica de ropa.
+Cada día llegaba a las siete y salía a las ocho de la noche.
+Ganaba poco dinero, pero me gustaba el trabajo.
+Un día, mi amigo Luis me llamó por teléfono.
+Me dijo: «Ven a México. Aquí la ropa china se vende muy bien».
+Primero no quería ir, porque no hablaba español.
+Pero un año después, fui a México con mi esposa.
+El primer año fue muy difícil.
+Yo vendía ropa en el mercado y no tenía mucho dinero.
+Después abrí una tienda pequeña en el centro.
+Ahora tengo dos tiendas y muchos clientes.
+Con más tiempo, aprendería más español.
+Y me gustaría abrir otra tienda en Guadalajara.

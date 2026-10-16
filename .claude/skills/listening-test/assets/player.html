@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <title>__TITLE__</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Petrona:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
@@ -190,6 +191,20 @@
   }
 
   .after b { color: var(--ink); font-weight: 600; }
+
+  /* Edge 里有 Dalia 时才出现 */
+  .dalia {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+    padding: 14px 18px; display: flex; flex-direction: column; gap: 6px;
+  }
+  .dalia[hidden] { display: none; }
+  .dalia button {
+    align-self: flex-start; font-family: var(--body); font-size: 15px; font-weight: 600;
+    color: var(--accent); background: transparent; border: 1.5px solid var(--accent);
+    border-radius: 999px; padding: 8px 18px; cursor: pointer;
+  }
+  .dalia button[data-state="playing"] { background: var(--accent); color: var(--accent-ink); }
+  .dalia p { margin: 0; font-size: 13.5px; color: var(--ink-soft); }
 </style>
 
 <main>
@@ -207,6 +222,11 @@
       </div>
     </div>
     <button id="replay" type="button">↺ 从头再听一遍</button>
+  </div>
+
+  <div class="dalia" id="dalia" hidden>
+    <button id="dalia-play" type="button" data-state="idle">▶ 用 Dalia 念一遍</button>
+    <p>Dalia 是 Edge 的墨西哥女声，现场念同一段课文。上面的播放器是备用的 Kokoro 录音。</p>
   </div>
 
   <div class="how">
@@ -289,5 +309,43 @@
   bar.addEventListener("change", function () {
     if (audio.duration) audio.currentTime = (bar.value / 1000) * audio.duration;
     scrubbing = false;
+  });
+
+  // ── Dalia：Edge 浏览器自带的墨西哥女声，有就用它现场念 ──
+  const FRASES = __FRASES__;
+  const PAUSA = __PAUSA__;
+  const sintesis = (function () { try { return window.speechSynthesis || null; } catch (e) { return null; } })();
+  const caja = document.getElementById("dalia");
+  const btnD = document.getElementById("dalia-play");
+  let dalia = null, timer = null, hablando = false;
+  function buscar() {
+    try {
+      const vs = sintesis ? sintesis.getVoices() : [];
+      dalia = vs.find(function (v) { return /dalia/i.test(v.name); }) || null;
+    } catch (e) { dalia = null; }
+    caja.hidden = !(dalia && FRASES.length);
+  }
+  buscar();
+  try { if (sintesis) sintesis.onvoiceschanged = buscar; } catch (e) {}
+  function parar() {
+    hablando = false; clearTimeout(timer);
+    try { sintesis.cancel(); } catch (e) {}
+    btnD.dataset.state = "idle"; btnD.textContent = "▶ 用 Dalia 念一遍";
+  }
+  function decir(i) {
+    if (!hablando) return;
+    if (i >= FRASES.length) { parar(); return; }
+    const u = new SpeechSynthesisUtterance(FRASES[i]);
+    try { u.voice = dalia; } catch (e) {}
+    u.lang = (dalia && dalia.lang) || "es-MX"; u.rate = 0.95;
+    u.onend = function () { timer = setTimeout(function () { decir(i + 1); }, PAUSA); };
+    sintesis.speak(u);
+  }
+  btnD.addEventListener("click", function () {
+    if (hablando) { parar(); return; }
+    if (!audio.paused) toggle.click();
+    hablando = true; btnD.dataset.state = "playing"; btnD.textContent = "■ 停";
+    try { sintesis.cancel(); } catch (e) {}
+    decir(0);
   });
 </script>
