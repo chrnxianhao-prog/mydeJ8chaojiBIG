@@ -1,10 +1,10 @@
 {
   "level": "A2",
   "streak": 1,
-  "total_completed_days": 79,
+  "total_completed_days": 80,
   "total_missed_days": 21,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-10-15",
+  "last_task_date": "2026-10-17",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
   "consecutive_completed": 1,
@@ -2365,6 +2365,18 @@
       "count": 1,
       "relearn": true,
       "date": "2026-10-15"
+    },
+    {
+      "error": "自由写作时时态选择滑：De joven + iría（应 iba）、Entonces + comía（应 comí）—— 受控题全对，自由写错 2/6",
+      "count": 2,
+      "relearn": true,
+      "date": "2026-10-17"
+    },
+    {
+      "error": "地点名词前漏冠词：a tienda → a la tienda、en bodega → en una bodega",
+      "count": 2,
+      "relearn": false,
+      "date": "2026-10-17"
     }
   ],
   "week_stats": {
@@ -3100,14 +3112,6 @@
       "note": "当天3/3全对但按规则不计connect，需隔天复测"
     },
     {
-      "word": "el regalo",
-      "module": "购物",
-      "date_wrong": "2026-10-07",
-      "correct_count": 1,
-      "date_ok": "2026-10-12",
-      "note": "10-07 写 relga，10-12 跨日写对"
-    },
-    {
       "word": "el pastel",
       "module": "日常",
       "date_wrong": "2026-10-15",
@@ -3123,16 +3127,29 @@
     {
       "word": "el compañero",
       "module": "日常",
-      "date_wrong": "2026-10-12",
-      "correct_count": 1,
+      "date_wrong": "2026-10-17",
+      "correct_count": 0,
       "date_ok": "2026-10-13"
     },
     {
       "word": "el avión",
       "module": "日常",
-      "date_wrong": "2026-10-12",
-      "correct_count": 1,
+      "date_wrong": "2026-10-17",
+      "correct_count": 0,
       "date_ok": "2026-10-13"
+    },
+    {
+      "word": "tranquilo",
+      "module": "形容词",
+      "date_wrong": "2026-10-13",
+      "correct_count": 1,
+      "date_ok": "2026-10-17"
+    },
+    {
+      "word": "el espejo",
+      "module": "日常",
+      "date_wrong": "2026-10-17",
+      "correct_count": 0
     }
   ],
   "module_wrong_banks": {
@@ -4556,11 +4573,10 @@
     }
   },
   "siguiente_sesion": {
-    "escrito": "2026-10-15 批完",
-    "plan": "专攻 antes → -aba/-ía（不留原形）vs con más… → 原形+ía；二选一辨析题 + 主动产出；② 考 el espejo tranquilo + 回炉 el pastel el cumpleaños ofrecer divertirse（pas-tel、cumple-años 拆开记）；la carrera 暂停几天",
-    "voz": "每日页用 assets/daily-page-dalia.template.html",
-    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头",
-    "hoy": "10-17 页：https://claude.ai/artifact/QbPyD4eCyAKTdfvFuT4Bv1"
+    "escrito": "2026-10-18 批完 10-17 页",
+    "plan": "受控产出过了，转自由写作的自查：⑤ 每行写完对着句首时间词勾一遍（页面上加自查清单）；④ 换成「给中文、不给原形」；② 考 el pastel el cumpleaños ofrecer divertirse（10-17 练习区写过）+ el espejo el compañero el avión 回炉",
+    "voz": "每日页用 assets/daily-page-dalia.template.html；听力页 build_page.py 带 --texto",
+    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
   "dia_2026_10_01b": {
     "fecha": "2026-10-01（墨城），当天正式那一页",
@@ -4769,6 +4785,16 @@
       "4_口语": "comía / iría / trabajaba… trabajaría",
       "5_小作文": "《Antes, un día, ahora》六行，无例句级"
     },
-    "estado": "已发布，等交卷"
+    "estado": "已交卷（墨城 10-18 00:02，算 10-17），已批",
+    "resultado": {
+      "puntos": "页面 17/20（听写 10/10、单词 3/6、阅读 4/4）",
+      "听写": "10/10 第一次满分：comía/comería、iba/iría、trabajaba/trabajaría 全对且重音全对",
+      "单词": "tranquilo ✓、la hora ✓（第二次 → 出库）、el regalo ✓（第二次 → 出库）；el esquipo（espejo）、el cumpero（compañero）、el aveón（avión）",
+      "阅读": "4/4",
+      "④": "4/4：comía、iría、trabajaba、trabajaría —— 给了原形和时间词时完全分得清",
+      "⑤": "De joven, yo iría → iba（自由写时 antes 类又滑到 -ría）；Siempre iba a (la) tienda ✓；Un día trabajé en (una) bodega ✓；Entonces comía el taco → comí（一次却用了以前常）；Ahora tengo un móvil ✓（墨西哥说 celular）；Con más dinero, hablaría chino ✓（语法对）",
+      "结论": "受控产出已过（④ 4/4），自由写作时时态选择还会滑（6 句错 2）。下次加「写完回看句首时间词」的自查步骤",
+      "支架": "无例句级，保持"
+    }
   }
 }
