@@ -4747,7 +4747,12 @@
     "material": "听力材料/2026-10-15-antes-y-ahora.txt",
     "objetivo": "三时态层次听辨：imperfecto 背景 / pretérito 事件 / condicional + me gustaría 愿望；他自己的经历（台州工厂 → 墨西哥市场 → 开店）",
     "preguntas_pendientes": "5 道理解题在材料批注里，等他听完再发",
-    "estado": "已发布，等他听完",
-    "nota": "同日加练，不推进连对计数"
+    "estado": "已答，已批",
+    "nota": "同日加练，不推进连对计数",
+    "resultado": {
+      "puntos": "4.5/5",
+      "detalle": "1 时间对（7 点到、晚上 8 点走），工作（服装厂 fábrica de ropa）没答 → 半对；2 Luis ✓（打电话没提，算对）；3 不会说西语 ✓；4 mercado ✓；5 没有 ✓ —— me gustaría/aprendería 听成「想、会」没听成已经发生",
+      "结论": "三时态层次的听力理解已过：imperfecto 背景、pretérito 事件、condicional/愿望都分得开。问题只剩在产出（antes 后滑到 fui/comería）"
+    }
   }
 }
