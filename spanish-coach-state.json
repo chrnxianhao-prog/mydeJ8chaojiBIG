@@ -2,7 +2,7 @@
   "level": "A2",
   "streak": 1,
   "total_completed_days": 79,
-  "total_missed_days": 20,
+  "total_missed_days": 21,
   "difficulty_modifier": 28,
   "last_task_date": "2026-10-15",
   "last_check_date": "2026-09-16",
@@ -4559,7 +4559,8 @@
     "escrito": "2026-10-15 批完",
     "plan": "专攻 antes → -aba/-ía（不留原形）vs con más… → 原形+ía；二选一辨析题 + 主动产出；② 考 el espejo tranquilo + 回炉 el pastel el cumpleaños ofrecer divertirse（pas-tel、cumple-años 拆开记）；la carrera 暂停几天",
     "voz": "每日页用 assets/daily-page-dalia.template.html",
-    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
+    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头",
+    "hoy": "10-17 页：https://claude.ai/artifact/QbPyD4eCyAKTdfvFuT4Bv1"
   },
   "dia_2026_10_01b": {
     "fecha": "2026-10-01（墨城），当天正式那一页",
@@ -4754,5 +4755,20 @@
       "detalle": "1 时间对（7 点到、晚上 8 点走），工作（服装厂 fábrica de ropa）没答 → 半对；2 Luis ✓（打电话没提，算对）；3 不会说西语 ✓；4 mercado ✓；5 没有 ✓ —— me gustaría/aprendería 听成「想、会」没听成已经发生",
       "结论": "三时态层次的听力理解已过：imperfecto 背景、pretérito 事件、condicional/愿望都分得开。问题只剩在产出（antes 后滑到 fui/comería）"
     }
+  },
+  "dia_2026_10_17": {
+    "fecha": "2026-10-17（墨城周六 23:30 出题；10-16 没练）",
+    "pagina": "https://claude.ai/artifact/QbPyD4eCyAKTdfvFuT4Bv1",
+    "db_doc": "resultados/dia-1017",
+    "objetivo": "产出：antes → 原形去掉（comía/trabajaba/iba）vs con más… → 原形留着（comería/trabajaría/iría）",
+    "secciones": {
+      "练习": "规则卡 + 三组 + 12 张自写卡（8 张 antes/con más 变位严判 + el pastel el cumpleaños ofrecer divertirse 回炉）+ 六个生词",
+      "1_听写": "comía comería iba iría trabajaba trabajaría vendí fui abriría tenía，回测 20/20",
+      "2_单词": "el espejo tranquilo la hora el regalo el compañero el avión（都对过一次，再对出库）",
+      "3_阅读": "七句《邻居 doña Rosa》，判断题考 vendería=还没卖",
+      "4_口语": "comía / iría / trabajaba… trabajaría",
+      "5_小作文": "《Antes, un día, ahora》六行，无例句级"
+    },
+    "estado": "已发布，等交卷"
   }
 }
