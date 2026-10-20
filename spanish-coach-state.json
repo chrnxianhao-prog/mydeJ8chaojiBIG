@@ -1,10 +1,10 @@
 {
   "level": "A2",
   "streak": 1,
-  "total_completed_days": 80,
+  "total_completed_days": 81,
   "total_missed_days": 22,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-10-17",
+  "last_task_date": "2026-10-19",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
   "consecutive_completed": 1,
@@ -2377,6 +2377,24 @@
       "count": 2,
       "relearn": false,
       "date": "2026-10-17"
+    },
+    {
+      "error": "jugar 的「以前常」写成 jugaría（第三次：9-? Él siempre jugaría、10-17 iría、10-19 Antes jugaría）—— -ar 动词以前常只有 -aba，-aría 一定是「会」",
+      "count": 3,
+      "relearn": true,
+      "date": "2026-10-19"
+    },
+    {
+      "error": "me gustará（将来）↔ me gustaría（想要）",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-10-19"
+    },
+    {
+      "error": "llegar 的 yo 过去式 llegé → llegué（g 后加 u）；llegar a + 地点",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-10-19"
     }
   ],
   "week_stats": {
@@ -2729,7 +2747,8 @@
       "word": "divertirse",
       "module": "童年回忆",
       "date_wrong": "2026-10-15",
-      "correct_count": 0
+      "correct_count": 1,
+      "date_ok": "2026-10-19"
     },
     {
       "word": "la guía",
@@ -2937,13 +2956,6 @@
       "date_ok": "2026-10-10"
     },
     {
-      "word": "la noticia",
-      "module": "基础",
-      "date_wrong": "2026-10-12",
-      "correct_count": 1,
-      "date_ok": "2026-10-13"
-    },
-    {
       "word": "enseñar",
       "module": "高频动词",
       "date_wrong": "2026-08-29",
@@ -2965,9 +2977,10 @@
       "word": "ofrecer",
       "module": "高频动词",
       "date_wrong": "2026-10-15",
-      "correct_count": 0,
+      "correct_count": 1,
       "veces_mal_seguidas": 3,
-      "plan": "第三次全错：改成「首字母+字数提示」主动回忆，先自测再考"
+      "plan": "第三次全错：改成「首字母+字数提示」主动回忆，先自测再考",
+      "date_ok": "2026-10-19"
     },
     {
       "word": "colgar",
@@ -3115,13 +3128,14 @@
       "word": "el pastel",
       "module": "日常",
       "date_wrong": "2026-10-15",
-      "correct_count": 0,
-      "nota": "固定错拼 postel ×2：pas-tel，跟 pasta 同一个 pas"
+      "correct_count": 1,
+      "nota": "固定错拼 postel ×2：pas-tel，跟 pasta 同一个 pas",
+      "date_ok": "2026-10-19"
     },
     {
       "word": "el cumpleaños",
       "module": "日常",
-      "date_wrong": "2026-10-15",
+      "date_wrong": "2026-10-19",
       "correct_count": 0
     },
     {
@@ -3143,7 +3157,8 @@
       "module": "形容词",
       "date_wrong": "2026-10-13",
       "correct_count": 1,
-      "date_ok": "2026-10-17"
+      "date_ok": "2026-10-17",
+      "nota": "10-19 输入错位填了 tirse，不算真错，下次再考"
     },
     {
       "word": "el espejo",
@@ -4573,11 +4588,10 @@
     }
   },
   "siguiente_sesion": {
-    "escrito": "2026-10-18 批完 10-17 页",
-    "plan": "受控产出过了，转自由写作的自查：⑤ 每行写完对着句首时间词勾一遍（页面上加自查清单）；④ 换成「给中文、不给原形」；② 考 el pastel el cumpleaños ofrecer divertirse（10-17 练习区写过）+ el espejo el compañero el avión 回炉",
+    "escrito": "2026-10-19 批完",
+    "plan": "专攻 -ar 动词「以前常 = -aba」vs「会 = -aría」（jugaba/jugaría、trabajaba/trabajaría、llegaba/llegaría），做「看到 -aría 先问是不是 con más」的辨析；⑤ 继续无例句+自查；② 考 el espejo el compañero el avión（10-19 练习区写过）+ el cumpleaños tranquilo",
     "voz": "每日页用 assets/daily-page-dalia.template.html；听力页 build_page.py 带 --texto",
-    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头",
-    "hoy": "10-19 页：https://claude.ai/artifact/Y86JAXcBSFUUVynhGFEDuX"
+    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
   "dia_2026_10_01b": {
     "fecha": "2026-10-01（墨城），当天正式那一页",
@@ -4811,6 +4825,16 @@
       "4_口语": "只给中文不给原形：abría / llegó… compró / viajaría",
       "5_小作文": "《Un sábado en mi tienda》无例句，写完自查行首时间词"
     },
-    "estado": "已发布，等交卷"
+    "estado": "已交卷（墨城 10-19 18:33），已批",
+    "resultado": {
+      "puntos": "页面 15/20（听写 8/10、单词 4/6、阅读 3/4）",
+      "听写": "8/10：moster（mostré）、ibía（iría）",
+      "单词": "el pastel ✓ ofrecer ✓ divertirse ✓ la noticia ✓（四个老大难一起对）；el cumpleaño（漏 s）、tranquilo 处填了 tirse（像是上一格 divertirse 的残留，输入错位）",
+      "阅读": "3/4：错第 2 题（上周六来了太太和三个女儿 → 对）",
+      "④": "4/4，只给中文不给原形也全对：abría、llegó、compró、viajaría",
+      "⑤": "Antes los sábados jugaría → jugaba（第三次 jugar 的「以前常」写成 jugaría）、Siempre iba a la tienda a las ocho ✓、el sábado pasado llegé la tienda tarde → llegué a la tienda、Primero fui al mercado ✓、Después fui al banco ✓、me gustará → me gustaría（gustará 是将来时）",
+      "结论": "④ 受控/半受控已稳；⑤ 自由写 4/6。规律：-ar 动词（jugar）的「以前常」老写成 -aría —— 关键诊断：-ar 动词以前常只有 -aba，看见 -aría 一定是「会」",
+      "支架": "无例句 + 自查清单，保持"
+    }
   }
 }
