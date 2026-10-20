@@ -2,7 +2,7 @@
   "level": "A2",
   "streak": 1,
   "total_completed_days": 80,
-  "total_missed_days": 21,
+  "total_missed_days": 22,
   "difficulty_modifier": 28,
   "last_task_date": "2026-10-17",
   "last_check_date": "2026-09-16",
@@ -4576,7 +4576,8 @@
     "escrito": "2026-10-18 批完 10-17 页",
     "plan": "受控产出过了，转自由写作的自查：⑤ 每行写完对着句首时间词勾一遍（页面上加自查清单）；④ 换成「给中文、不给原形」；② 考 el pastel el cumpleaños ofrecer divertirse（10-17 练习区写过）+ el espejo el compañero el avión 回炉",
     "voz": "每日页用 assets/daily-page-dalia.template.html；听力页 build_page.py 带 --texto",
-    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
+    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头",
+    "hoy": "10-19 页：https://claude.ai/artifact/Y86JAXcBSFUUVynhGFEDuX"
   },
   "dia_2026_10_01b": {
     "fecha": "2026-10-01（墨城），当天正式那一页",
@@ -4796,5 +4797,20 @@
       "结论": "受控产出已过（④ 4/4），自由写作时时态选择还会滑（6 句错 2）。下次加「写完回看句首时间词」的自查步骤",
       "支架": "无例句级，保持"
     }
+  },
+  "dia_2026_10_19": {
+    "fecha": "2026-10-19（墨城周一 18:20 出题；10-18 没练）",
+    "pagina": "https://claude.ai/artifact/Y86JAXcBSFUUVynhGFEDuX",
+    "db_doc": "resultados/dia-1019",
+    "objetivo": "叙事三层：背景（以前常）/ 事件 un día·entonces·después（一次）/ 假设 con más（会）；自由写作自查时间词",
+    "secciones": {
+      "练习": "三层规则卡（新：entonces/primero/después/al final → 一次）+ 背景/事件/假设三组 + 只给中文的自写卡（iba fui iría tenía tuve comió comía comería 严判）+ el espejo el compañero el avión + 七个生词",
+      "1_听写": "llegó tenía abriría mostré iba vendería compró fui abría iría，回测 20/20",
+      "2_单词": "el pastel el cumpleaños ofrecer divertirse tranquilo la noticia",
+      "3_阅读": "七句《周六来了三个女儿》",
+      "4_口语": "只给中文不给原形：abría / llegó… compró / viajaría",
+      "5_小作文": "《Un sábado en mi tienda》无例句，写完自查行首时间词"
+    },
+    "estado": "已发布，等交卷"
   }
 }
