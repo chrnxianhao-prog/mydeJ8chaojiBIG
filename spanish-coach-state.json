@@ -4591,7 +4591,8 @@
     "escrito": "2026-10-19 批完",
     "plan": "专攻 -ar 动词「以前常 = -aba」vs「会 = -aría」（jugaba/jugaría、trabajaba/trabajaría、llegaba/llegaría），做「看到 -aría 先问是不是 con más」的辨析；⑤ 继续无例句+自查；② 考 el espejo el compañero el avión（10-19 练习区写过）+ el cumpleaños tranquilo",
     "voz": "每日页用 assets/daily-page-dalia.template.html；听力页 build_page.py 带 --texto",
-    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
+    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头",
+    "hoy": "10-20 页：https://claude.ai/artifact/DqwhdS6WRmKV2BNMNFvRHR"
   },
   "dia_2026_10_01b": {
     "fecha": "2026-10-01（墨城），当天正式那一页",
@@ -4836,5 +4837,20 @@
       "结论": "④ 受控/半受控已稳；⑤ 自由写 4/6。规律：-ar 动词（jugar）的「以前常」老写成 -aría —— 关键诊断：-ar 动词以前常只有 -aba，看见 -aría 一定是「会」",
       "支架": "无例句 + 自查清单，保持"
     }
+  },
+  "dia_2026_10_20": {
+    "fecha": "2026-10-20（墨城周二 10:00 出题）",
+    "pagina": "https://claude.ai/artifact/DqwhdS6WRmKV2BNMNFvRHR",
+    "db_doc": "resultados/dia-1020",
+    "objetivo": "-ar 动词：以前常只有 -aba（jugaba/llegaba/compraba），-aría 一定是「会」；对比 -er/-ir 的 -ía/-iría",
+    "secciones": {
+      "练习": "规则卡 + -aba / -aría / -er·-ir 三组 + 8 张成对自写卡（jugaba/jugaría llegaba/llegaría compraba/compraría vivía/viviría 严判）+ el cumpleaños divertirse + 六个生词",
+      "1_听写": "jugaba jugaría llegaba llegaría compraba compraría vivía viviría mostré iría，回测 20/20",
+      "2_单词": "el espejo el compañero el avión tranquilo el pastel ofrecer",
+      "3_阅读": "七句《弟弟 Wei 和足球》",
+      "4_口语": "只给中文：jugaba / llegaría / compraba… compraría",
+      "5_小作文": "《De niño y ahora》无例句 + 自查（看见 -aría 先问是不是 con más）"
+    },
+    "estado": "已发布，等交卷"
   }
 }

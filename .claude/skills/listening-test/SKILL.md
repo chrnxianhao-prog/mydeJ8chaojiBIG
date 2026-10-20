@@ -31,6 +31,8 @@ Kokoro 两种读法 20/20、davefx 19/20、claude 18/20。但学生报的那三�
 
 🔴 **whisper 把数词写成阿拉伯数字**（cincuenta → 50）：出题脚本 `fichas()` 先把 50/30 这类换回西语再比（2026-10-11 d11.py 的 NUMEROS 表）。
 
+🔴 **Kokoro 念句首的 De 常糊**（De niño → Este niño、De joven → Desjovem，10-07/10-14/10-20 三次）：句首改成 Cuando era niño / Cuando era joven。
+
 🔴 **b/v 在西语里同音，whisper 比对时把 v 当 b**（2026-10-01 起出题脚本 `toma()` 和回测都这样比，vendí 听成 bendí 算对）。以前的做法是：**词用 b/v 开头或夹 b/v 的，听写别选**：2026-10-01 vendo 被 whisper 听成 bendo（西语 b/v 同音，
 学生也只能靠拼写记忆），换成 abro/mandé 等。另外逐词挑的录音要**编成 MP3 并拼出「念两遍」之后**再用浏览器解码回测，
 单条合成时听对不代表发布版听对（10-01 又见：comí 单独念总被听成 con mi，换成 comió）（10-01 llego、terminé、abrí 都是这样掉出来的），回测不过就换速度/换词。
