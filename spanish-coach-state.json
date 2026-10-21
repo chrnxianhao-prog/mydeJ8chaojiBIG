@@ -4582,7 +4582,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-21 批完",
-    "plan": "doler/gustar 第二课：①听写专练单复数 -n（duele/duelen、gusta/gustan 成对）②gustó vs gustaron 跟名词走 ③a mi esposa LE …（第三人称必带 le）—— 顺带过渡到 CLAUDE.md 第 3 优先级间接宾语 le/me/te。② 考 la espalda el estómago el dedo el brazo（10-21 练习区写过）",
+    "plan": "doler/gustar 第二课：①听写专练单复数 -n（duele/duelen、gusta/gustan 成对）②gustó vs gustaron 跟名词走 ③a mi esposa LE …（第三人称必带 le）—— 顺带过渡到 CLAUDE.md 第 3 优先级间接宾语 le/me/te。② 考 la espalda el estómago el dedo el brazo（10-21 练习区写过）；新增「今日句块」5 句 + 跟读 + 3 来回裸聊（10-21 学生问口语怎么练）",
     "voz": "每日页用 assets/daily-page-dalia.template.html；听力页 build_page.py 带 --texto",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
@@ -4879,5 +4879,10 @@
       "结论": "doler/gustar 结构本身会了（没出现 yo duelo）；剩：①复数 -n 听不出 ②gustó/gustaron 没跟名词单复数走（la comida → gustó）③说别人漏 le ④gustaría 后接原形",
       "支架": "无例句 + 自查，保持"
     }
+  },
+  "oral_2026_10_21": {
+    "pregunta": "口语如何练习比较快速，很多说不出来，说来说去就几个词",
+    "diagnostico": "输入端已稳（听力 4.5/5、阅读连续 4/4），产出端靠「从原形现推」→ 慢且只会几个词。缺的是现成的整句块和开口次数",
+    "plan": "①每日页加「今日句块」：5 句店里用得上的整句，Dalia 念，跟读 3 遍；②语音输入：手机西语键盘按麦克风说，转写对=发音对，把转写结果发给老师；③每天店里对真顾客用一句当天句块；④裸聊缩成 3 个来回，用当天句块；⑤每周一次 30 秒独白（三层模板：antes / un día / ahora / con más）"
   }
 }
