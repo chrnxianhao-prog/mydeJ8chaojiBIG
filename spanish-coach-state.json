@@ -4587,7 +4587,8 @@
     "escrito": "2026-10-20 批完",
     "plan": "三时态受控+自由写作都过了第一关，可以转 CLAUDE.md 第 2 优先级 doler/gustar 结构（me duele / me gusta），或第 3 优先级 le/me/te；时态改为每天在 ⑤ 里顺带维持。② 考 el cumpleaños divertirse（10-20 练习区写过）+ tranquilo + el espejo el compañero el avión（各对 1 次）",
     "voz": "每日页用 assets/daily-page-dalia.template.html；听力页 build_page.py 带 --texto",
-    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
+    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头",
+    "hoy": "10-21 页：https://claude.ai/artifact/KwdY1kMUYxiS72bAzCc4bh"
   },
   "dia_2026_10_01b": {
     "fecha": "2026-10-01（墨城），当天正式那一页",
@@ -4857,5 +4858,20 @@
       "结论": "jugaría→jugaba 没再出现；自由写作时态首次全对。剩：antes + 规则过去式（compré）偶尔滑；小词 a/al 漏",
       "支架": "无例句 + 自查，保持"
     }
+  },
+  "dia_2026_10_21": {
+    "fecha": "2026-10-21（墨城周三 09:30 出题）",
+    "pagina": "https://claude.ai/artifact/KwdY1kMUYxiS72bAzCc4bh",
+    "db_doc": "resultados/dia-1021",
+    "objetivo": "CLAUDE.md 第 2 优先级：doler / gustar 结构（东西是主语，人用 me/te/le；单复数 duele/duelen、gusta/gustan；过去 dolió/gustó/gustaron）",
+    "secciones": {
+      "练习": "规则卡 + doler/gustar/过去三组 + 7 张填动词卡（严判）+ la espalda el estómago el dedo el brazo + 六个生词",
+      "1_听写": "duelen dolió gustan encantan gustaron gustaría dolían encanta jugaba llegó，回测 20/20",
+      "2_单词": "el cumpleaños divertirse tranquilo el espejo el compañero el avión",
+      "3_阅读": "七句《药店》（me dolía / no me gusta el sabor）",
+      "4_口语": "Me duele / le gustan / me dolió… me gustó",
+      "5_小作文": "《En el médico》无例句 + 自查单复数和 me/le"
+    },
+    "estado": "已发布，等交卷"
   }
 }
