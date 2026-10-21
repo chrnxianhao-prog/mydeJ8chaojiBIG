@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 2,
-  "total_completed_days": 82,
+  "streak": 3,
+  "total_completed_days": 83,
   "total_missed_days": 22,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-10-20",
+  "last_task_date": "2026-10-21",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
-  "consecutive_completed": 2,
+  "consecutive_completed": 3,
   "vocabulary_learned": [
     "China",
     "México",
@@ -2407,6 +2407,30 @@
       "count": 3,
       "relearn": false,
       "date": "2026-10-20"
+    },
+    {
+      "error": "听不出动词复数词尾 -n：duelen/gustan/encantan/dolían 全写成单数",
+      "count": 4,
+      "relearn": true,
+      "date": "2026-10-21"
+    },
+    {
+      "error": "gustó/gustaron 没跟后面名词的单复数走：me gustaron la comida → me gustó",
+      "count": 2,
+      "relearn": true,
+      "date": "2026-10-21"
+    },
+    {
+      "error": "说别人时漏 le：A mi esposa gustan → A mi esposa le gustan",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-10-21"
+    },
+    {
+      "error": "me gustaría + 名词当动词用：me gustaría descanso → me gustaría descansar",
+      "count": 1,
+      "relearn": false,
+      "date": "2026-10-21"
     }
   ],
   "week_stats": {
@@ -2754,13 +2778,6 @@
       "date_wrong": "2026-09-22",
       "correct_count": 1,
       "mnemonic": "没有词源钩子，绑人：A mi hija le gusta dibujar。让他绑一个身边真会画画的人"
-    },
-    {
-      "word": "divertirse",
-      "module": "童年回忆",
-      "date_wrong": "2026-10-15",
-      "correct_count": 1,
-      "date_ok": "2026-10-19"
     },
     {
       "word": "la guía",
@@ -3131,36 +3148,16 @@
       "word": "el cumpleaños",
       "module": "日常",
       "date_wrong": "2026-10-19",
-      "correct_count": 0
-    },
-    {
-      "word": "el compañero",
-      "module": "日常",
-      "date_wrong": "2026-10-17",
       "correct_count": 1,
-      "date_ok": "2026-10-20"
-    },
-    {
-      "word": "el avión",
-      "module": "日常",
-      "date_wrong": "2026-10-17",
-      "correct_count": 1,
-      "date_ok": "2026-10-20"
+      "date_ok": "2026-10-21"
     },
     {
       "word": "tranquilo",
       "module": "形容词",
       "date_wrong": "2026-10-20",
-      "correct_count": 0,
-      "date_ok": "2026-10-17",
-      "nota": "两次写成 traquilo：tran · qui · lo，tran 有 n"
-    },
-    {
-      "word": "el espejo",
-      "module": "日常",
-      "date_wrong": "2026-10-17",
       "correct_count": 1,
-      "date_ok": "2026-10-20"
+      "date_ok": "2026-10-21",
+      "nota": "两次写成 traquilo：tran · qui · lo，tran 有 n"
     }
   ],
   "module_wrong_banks": {
@@ -4584,11 +4581,10 @@
     }
   },
   "siguiente_sesion": {
-    "escrito": "2026-10-20 批完",
-    "plan": "三时态受控+自由写作都过了第一关，可以转 CLAUDE.md 第 2 优先级 doler/gustar 结构（me duele / me gusta），或第 3 优先级 le/me/te；时态改为每天在 ⑤ 里顺带维持。② 考 el cumpleaños divertirse（10-20 练习区写过）+ tranquilo + el espejo el compañero el avión（各对 1 次）",
+    "escrito": "2026-10-21 批完",
+    "plan": "doler/gustar 第二课：①听写专练单复数 -n（duele/duelen、gusta/gustan 成对）②gustó vs gustaron 跟名词走 ③a mi esposa LE …（第三人称必带 le）—— 顺带过渡到 CLAUDE.md 第 3 优先级间接宾语 le/me/te。② 考 la espalda el estómago el dedo el brazo（10-21 练习区写过）",
     "voz": "每日页用 assets/daily-page-dalia.template.html；听力页 build_page.py 带 --texto",
-    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头",
-    "hoy": "10-21 页：https://claude.ai/artifact/KwdY1kMUYxiS72bAzCc4bh"
+    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
   "dia_2026_10_01b": {
     "fecha": "2026-10-01（墨城），当天正式那一页",
@@ -4872,6 +4868,16 @@
       "4_口语": "Me duele / le gustan / me dolió… me gustó",
       "5_小作文": "《En el médico》无例句 + 自查单复数和 me/le"
     },
-    "estado": "已发布，等交卷"
+    "estado": "已交卷（墨城 10-21 09:38），已批",
+    "resultado": {
+      "puntos": "页面 16/20（听写 6/10、单词 6/6、阅读 4/4）",
+      "单词": "6/6 第一次满分；el espejo el compañero el avión divertirse 第二次对 → 出库；el cumpleaños、tranquilo 各 +1",
+      "听写": "错的 4 个全是复数词尾 -n 没听出：duelen→duele、gustan→gusta、encantan→encanta、dolían→dolía",
+      "阅读": "4/4",
+      "④": "Me duele la cabeza ✓；A mi esposa gustan → le gustan（漏 le）；me dolió ✓；me gustaron la comida → me gustó（la comida 单数）",
+      "⑤": "me duele la cabeza ✓、me duelen los ojos ✓（单复数对）、Ayer comía… no me gustaron → Ayer comí comida china, pero no me gustó、Antes jugaba a los videojuegos japoneses ✓、No me gusta aprender… ✓（gusta + 原形）、me gustaría descanso → me gustaría descansar",
+      "结论": "doler/gustar 结构本身会了（没出现 yo duelo）；剩：①复数 -n 听不出 ②gustó/gustaron 没跟名词单复数走（la comida → gustó）③说别人漏 le ④gustaría 后接原形",
+      "支架": "无例句 + 自查，保持"
+    }
   }
 }
