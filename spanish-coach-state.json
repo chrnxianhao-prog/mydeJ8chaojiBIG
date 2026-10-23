@@ -2449,6 +2449,12 @@
       "count": 2,
       "relearn": true,
       "date": "2026-10-22"
+    },
+    {
+      "error": "间接宾语：dame foto → ¿Me manda las fotos?；te dijo cuántos quieres → le digo cuántas quiero（对供应商用 le，我用 digo/quiero）",
+      "count": 2,
+      "relearn": true,
+      "date": "2026-10-22"
     }
   ],
   "week_stats": {
@@ -4600,7 +4606,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-22 批完",
-    "plan": "gustar 过关 → 转 CLAUDE.md 第 3 优先级：间接宾语 le/me/te（le mostré la foto、me trajo、te llamo），跟今天的 le gusta 自然衔接；句块继续（店里：Le muestro…、¿Le envuelvo…?）；② 考 la pierna la talla（10-22 练习区写过）+ el estómago el dedo el brazo la espalda",
+    "plan": "le/me/te 专项（10-22 夜聊复现 dame foto / te dijo）：¿Me manda…? / Le digo… / Le muestro… / Te llamo…；句块用打电话场景；② 考 la pierna la talla + el estómago el dedo el brazo la espalda",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
@@ -4934,7 +4940,8 @@
       "结论": "gustar 结构（单复数、le、gustó/gustaron）基本过关；con más → -ría 在自由写作里偶尔滑",
       "支架": "无例句 + 自查，保持",
       "裸聊_voz": "第一次用西语语音输入，转写清楚。问题：busco→转成 busca（词尾 -o 不清）、un vestido→una、¿Qué talla tienes? 对顾客用了 tú（句块是 ¿Qué talla usa?）、「rojo」被转成「el ojo」（词首 r 要打舌）",
-      "裸聊_voz_2": "砍价场景（学生要求 Habla más）：反应快、敢开口。问题：muy plato（barata：b/p 混、r）、Necesitas 500（→ Cuesta / Son quinientos）、¿Tú compras?（→ ¿Se la lleva?，对顾客用 usted），句块 Se lo/la dejo en… 没用上"
+      "裸聊_voz_2": "砍价场景（学生要求 Habla más）：反应快、敢开口。问题：muy plato（barata：b/p 混、r）、Necesitas 500（→ Cuesta / Son quinientos）、¿Tú compras?（→ ¿Se la lleva?，对顾客用 usted），句块 Se lo/la dejo en… 没用上",
+      "裸聊_voz_3": "供应商来电：dame foto（摸底原错复现，CLAUDE.md 第 3 优先级）→ ¿Me manda las fotos?；te dijo cuántos quieres → Le digo cuántas quiero（人称、时态、me/le 三处）；nuevo camisas → camisas nuevas。亮点：Ahora no sé、chequeé 自然"
     }
   }
 }
