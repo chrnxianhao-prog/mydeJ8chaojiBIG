@@ -31,6 +31,8 @@ Kokoro 两种读法 20/20、davefx 19/20、claude 18/20。但学生报的那三�
 
 🔴 **whisper 把数词写成阿拉伯数字**（cincuenta → 50）：出题脚本 `fichas()` 先把 50/30 这类换回西语再比（2026-10-11 d11.py 的 NUMEROS 表）。
 
+🔴 **两个词一组的听写（me manda、le digo）**：whisper 会连写（me trajo → metrajo），也常把 le 听成 les、把 mandé 的重音丢掉。出题脚本的 `toma()` 去空格再比；回测要按**整个短语**比，别按单词 in 列表比（10-23 回测脚本按单词比，假报 0/20）。带重音的两词组（le mandé）whisper 常认不出重音，换成不带重音的（le dije）。
+
 🔴 **whisper 会把 gustó 听成名词 gusto**（10-21 五个速度全错），这类「名词同形 + 重音」的词别放听写。
 
 🔴 **Kokoro 念句首的 De 常糊**（De niño → Este niño、De joven → Desjovem，10-07/10-14/10-20 三次）：句首改成 Cuando era niño / Cuando era joven。

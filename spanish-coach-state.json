@@ -4608,7 +4608,8 @@
     "escrito": "2026-10-22 批完",
     "plan": "le/me/te 专项（10-22 夜聊复现 dame foto / te dijo）：¿Me manda…? / Le digo… / Le muestro… / Te llamo…；句块用打电话场景；② 考 la pierna la talla + el estómago el dedo el brazo la espalda",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
-    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
+    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头",
+    "hoy": "10-23 页：https://claude.ai/artifact/Dht5v5X62MAtD2XEpYWXai"
   },
   "dia_2026_10_01b": {
     "fecha": "2026-10-01（墨城），当天正式那一页",
@@ -4944,5 +4945,27 @@
       "裸聊_voz_3": "供应商来电：dame foto（摸底原错复现，CLAUDE.md 第 3 优先级）→ ¿Me manda las fotos?；te dijo cuántos quieres → Le digo cuántas quiero（人称、时态、me/le 三处）；nuevo camisas → camisas nuevas。亮点：Ahora no sé、chequeé 自然",
       "预习_me_le_te": "夜里聊天里 5 道快题（填 me/te/le）5/5 全对 —— 认知层面已懂，问题在口语里不会主动用（dame foto）。明天重点放产出：中文 → 整句说出来"
     }
+  },
+  "dia_2026_10_23": {
+    "fecha": "2026-10-23（墨城周五 09:50 出题）",
+    "pagina": "https://claude.ai/artifact/Dht5v5X62MAtD2XEpYWXai",
+    "db_doc": "resultados/dia-1023",
+    "objetivo": "CLAUDE.md 第 3 优先级：间接宾语 me / le / te（放动词前；对供应商顾客用 le）；来自 10-22 夜聊 dame foto / te dijo",
+    "bloques": [
+      "¿Me manda las fotos, por favor?",
+      "Mañana le digo cuántas quiero.",
+      "Le muestro otro modelo.",
+      "Luego le llamo, ¿sí?",
+      "¿Me hace un descuento?"
+    ],
+    "secciones": {
+      "练习": "规则卡 + me/le/te 三组 + 句块 5 句 + 8 张两词卡（me manda le digo le muestro te llamo me trajo le mandé + el modelo el algodón）+ 五个生词",
+      "1_听写": "两词一组：me manda le digo te llamo le muestro me trajo le dije me gusta le gustan te mando me dijo，回测 20/20",
+      "2_单词": "la pierna la talla el estómago el dedo el brazo barato",
+      "3_阅读": "七句《WhatsApp 订货》le pedí / me contestó / le pregunté / me explicó / me mandó",
+      "4_口语": "¿Me manda…? / Le muestro… / le llamé… me dijo",
+      "5_小作文": "《Una llamada》无例句 + 自查 me/le/te"
+    },
+    "estado": "已发布，等交卷"
   }
 }
