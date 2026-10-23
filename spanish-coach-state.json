@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 3,
-  "total_completed_days": 83,
+  "streak": 4,
+  "total_completed_days": 84,
   "total_missed_days": 22,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-10-21",
+  "last_task_date": "2026-10-22",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
-  "consecutive_completed": 3,
+  "consecutive_completed": 4,
   "vocabulary_learned": [
     "China",
     "México",
@@ -2431,6 +2431,12 @@
       "count": 1,
       "relearn": false,
       "date": "2026-10-21"
+    },
+    {
+      "error": "con más… 后自由写作又滑到一次：yo abrí → abriría",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-10-22"
     }
   ],
   "week_stats": {
@@ -2848,7 +2854,8 @@
       "word": "el dedo",
       "module": "身体与健康",
       "date_wrong": "2026-09-17",
-      "correct_count": 0
+      "correct_count": 1,
+      "date_ok": "2026-10-22"
     },
     {
       "word": "querer",
@@ -3083,7 +3090,7 @@
       "word": "el brazo",
       "module": "身体与健康",
       "date_wrong": "2026-09-17",
-      "correct_count": 0
+      "correct_count": 1
     },
     {
       "word": "enfermo/a",
@@ -3145,19 +3152,18 @@
       "note": "当天3/3全对但按规则不计connect，需隔天复测"
     },
     {
-      "word": "el cumpleaños",
-      "module": "日常",
-      "date_wrong": "2026-10-19",
+      "word": "el estómago",
+      "module": "身体与健康",
+      "date_wrong": "2026-10-21",
       "correct_count": 1,
-      "date_ok": "2026-10-21"
+      "date_ok": "2026-10-22"
     },
     {
-      "word": "tranquilo",
-      "module": "形容词",
-      "date_wrong": "2026-10-20",
-      "correct_count": 1,
-      "date_ok": "2026-10-21",
-      "nota": "两次写成 traquilo：tran · qui · lo，tran 有 n"
+      "word": "la espalda",
+      "module": "身体与健康",
+      "date_wrong": "2026-10-22",
+      "correct_count": 0,
+      "nota": "写成 espelda：es-pal-da"
     }
   ],
   "module_wrong_banks": {
@@ -4581,11 +4587,10 @@
     }
   },
   "siguiente_sesion": {
-    "escrito": "2026-10-21 批完",
-    "plan": "doler/gustar 第二课：①听写专练单复数 -n（duele/duelen、gusta/gustan 成对）②gustó vs gustaron 跟名词走 ③a mi esposa LE …（第三人称必带 le）—— 顺带过渡到 CLAUDE.md 第 3 优先级间接宾语 le/me/te。② 考 la espalda el estómago el dedo el brazo（10-21 练习区写过）；新增「今日句块」5 句 + 跟读 + 3 来回裸聊（10-21 学生问口语怎么练）",
-    "voz": "每日页用 assets/daily-page-dalia.template.html；听力页 build_page.py 带 --texto",
-    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头",
-    "hoy": "10-22 页：https://claude.ai/artifact/L1fxXVWMWCSSYwDEYSmHs7"
+    "escrito": "2026-10-22 批完",
+    "plan": "gustar 过关 → 转 CLAUDE.md 第 3 优先级：间接宾语 le/me/te（le mostré la foto、me trajo、te llamo），跟今天的 le gusta 自然衔接；句块继续（店里：Le muestro…、¿Le envuelvo…?）；② 考 la pierna la talla（10-22 练习区写过）+ el estómago el dedo el brazo la espalda",
+    "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
+    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
   "dia_2026_10_01b": {
     "fecha": "2026-10-01（墨城），当天正式那一页",
@@ -4906,6 +4911,16 @@
       "4_口语": "Me duelen / le gustan / le gustó… le gustaron",
       "5_小作文": "《Una clienta》无例句 + 自查 gustó/gustaron 和 le"
     },
-    "estado": "已发布，等交卷"
+    "estado": "已交卷（墨城 10-22 23:02），已批",
+    "resultado": {
+      "puntos": "页面 15/20（听写 7/10、单词 5/6、阅读 3/4）",
+      "听写": "复数 -n 进步：gustan encantan gustaban 都听出了 n（上次全漏）；错 duelé（duelen）、doliá（dolía 重音放错）、dolian（漏重音）",
+      "单词": "el cumpleaños ✓ tranquilo ✓（第二次 → 出库）；el estómago el dedo el brazo ✓（+1）；la espelda（espalda）",
+      "阅读": "3/4：错第 4 题（最后买了黑裙子 → 对）",
+      "④": "4/4：me duelen、le gustan、le gusta… le gustan（单复数和 le 全对）",
+      "⑤": "un cliente ✓、le mostré un vestido ✓、le gustaron un abrigo y una camisa ✓（两样 → gustaron 对；漏 le、una）、no le gustó este vestido ✓（esto → este）、al final compró un abrigo ✓、con más clientes así, yo abrí → abriría（con más 又滑到一次）",
+      "结论": "gustar 结构（单复数、le、gustó/gustaron）基本过关；con más → -ría 在自由写作里偶尔滑",
+      "支架": "无例句 + 自查，保持"
+    }
   }
 }
