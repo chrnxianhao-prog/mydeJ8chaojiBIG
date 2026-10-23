@@ -4941,7 +4941,8 @@
       "支架": "无例句 + 自查，保持",
       "裸聊_voz": "第一次用西语语音输入，转写清楚。问题：busco→转成 busca（词尾 -o 不清）、un vestido→una、¿Qué talla tienes? 对顾客用了 tú（句块是 ¿Qué talla usa?）、「rojo」被转成「el ojo」（词首 r 要打舌）",
       "裸聊_voz_2": "砍价场景（学生要求 Habla más）：反应快、敢开口。问题：muy plato（barata：b/p 混、r）、Necesitas 500（→ Cuesta / Son quinientos）、¿Tú compras?（→ ¿Se la lleva?，对顾客用 usted），句块 Se lo/la dejo en… 没用上",
-      "裸聊_voz_3": "供应商来电：dame foto（摸底原错复现，CLAUDE.md 第 3 优先级）→ ¿Me manda las fotos?；te dijo cuántos quieres → Le digo cuántas quiero（人称、时态、me/le 三处）；nuevo camisas → camisas nuevas。亮点：Ahora no sé、chequeé 自然"
+      "裸聊_voz_3": "供应商来电：dame foto（摸底原错复现，CLAUDE.md 第 3 优先级）→ ¿Me manda las fotos?；te dijo cuántos quieres → Le digo cuántas quiero（人称、时态、me/le 三处）；nuevo camisas → camisas nuevas。亮点：Ahora no sé、chequeé 自然",
+      "预习_me_le_te": "夜里聊天里 5 道快题（填 me/te/le）5/5 全对 —— 认知层面已懂，问题在口语里不会主动用（dame foto）。明天重点放产出：中文 → 整句说出来"
     }
   }
 }
