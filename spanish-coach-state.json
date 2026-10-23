@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 4,
-  "total_completed_days": 84,
+  "streak": 5,
+  "total_completed_days": 85,
   "total_missed_days": 22,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-10-22",
+  "last_task_date": "2026-10-23",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
-  "consecutive_completed": 4,
+  "consecutive_completed": 5,
   "vocabulary_learned": [
     "China",
     "México",
@@ -2455,6 +2455,18 @@
       "count": 2,
       "relearn": true,
       "date": "2026-10-22"
+    },
+    {
+      "error": "不规则过去式又加重音：me dijó → me dijo",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-10-23"
+    },
+    {
+      "error": "la foto 是阴性（un foto → una foto）；ayudar a + 原形（le ayudo a lavar）；转述加 que（le dije que…）",
+      "count": 3,
+      "relearn": false,
+      "date": "2026-10-23"
     }
   ],
   "week_stats": {
@@ -2869,13 +2881,6 @@
       "mnemonic": "谐音+重音：cu-CHA-ra 重音在 CHA = 茶，勺子舀茶。（替换掉失效的 sopa/cuchara 押韵法。他三次都抓到别的餐具：cuchillo、tenedor —— 知道是餐具分不清哪个）"
     },
     {
-      "word": "el dedo",
-      "module": "身体与健康",
-      "date_wrong": "2026-09-17",
-      "correct_count": 1,
-      "date_ok": "2026-10-22"
-    },
-    {
       "word": "querer",
       "module": "高频动词",
       "date_wrong": "2026-08-13",
@@ -3107,8 +3112,8 @@
     {
       "word": "el brazo",
       "module": "身体与健康",
-      "date_wrong": "2026-09-17",
-      "correct_count": 1
+      "date_wrong": "2026-10-23",
+      "correct_count": 0
     },
     {
       "word": "enfermo/a",
@@ -3170,18 +3175,31 @@
       "note": "当天3/3全对但按规则不计connect，需隔天复测"
     },
     {
-      "word": "el estómago",
-      "module": "身体与健康",
-      "date_wrong": "2026-10-21",
-      "correct_count": 1,
-      "date_ok": "2026-10-22"
-    },
-    {
       "word": "la espalda",
       "module": "身体与健康",
       "date_wrong": "2026-10-22",
       "correct_count": 0,
       "nota": "写成 espelda：es-pal-da"
+    },
+    {
+      "word": "la pierna",
+      "module": "身体与健康",
+      "date_wrong": "2026-10-23",
+      "correct_count": 0
+    },
+    {
+      "word": "la talla",
+      "module": "购物",
+      "date_wrong": "2026-10-22",
+      "correct_count": 1,
+      "date_ok": "2026-10-23"
+    },
+    {
+      "word": "barato",
+      "module": "购物",
+      "date_wrong": "2026-10-22",
+      "correct_count": 1,
+      "date_ok": "2026-10-23"
     }
   ],
   "module_wrong_banks": {
@@ -4605,11 +4623,10 @@
     }
   },
   "siguiente_sesion": {
-    "escrito": "2026-10-22 批完",
-    "plan": "le/me/te 专项（10-22 夜聊复现 dame foto / te dijo）：¿Me manda…? / Le digo… / Le muestro… / Te llamo…；句块用打电话场景；② 考 la pierna la talla + el estómago el dedo el brazo la espalda",
+    "escrito": "2026-10-23 批完",
+    "plan": "摸底四大难点都过了一轮（三时态 / doler·gustar / le·me·te / 老词）。下一步建议：周测一次（混合四个难点，检验有没有回潮）→ 然后进新内容（命令式 usted 回顾 + 将来时 voy a / 简单将来），保持句块和语音输入。② 考 el modelo el algodón（10-23 练习区写过）+ la pierna el brazo la talla barato",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
-    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头",
-    "hoy": "10-23 页：https://claude.ai/artifact/Dht5v5X62MAtD2XEpYWXai"
+    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
   "dia_2026_10_01b": {
     "fecha": "2026-10-01（墨城），当天正式那一页",
@@ -4966,6 +4983,16 @@
       "4_口语": "¿Me manda…? / Le muestro… / le llamé… me dijo",
       "5_小作文": "《Una llamada》无例句 + 自查 me/le/te"
     },
-    "estado": "已发布，等交卷"
+    "estado": "已交卷（墨城 10-23 11:40），已批",
+    "resultado": {
+      "puntos": "页面 17/20（听写 9/10、单词 4/6、阅读 4/4）",
+      "听写": "9/10 两词一组全听对，只错 le moestró（le muestro：ue、无重音）",
+      "单词": "la talla ✓ el estómago ✓（第二次 → 出库）el dedo ✓（第二次 → 出库）barato ✓；la pie（pierna）、el braón（brazo）",
+      "阅读": "4/4",
+      "④": "me manda ✓ le muestro ✓ le llamé ✓ me dijó → me dijo（不规则过去式不带重音）—— me/le 全对，dame foto 没再出现",
+      "⑤": "le llamé a mi mamá ✓、Le dije (que) ahora tuve → tengo mucho trabajo（ahora 用现在时，转述加 que）、第 3 行（Ella me dijo…）空着、me mandó un foto → una foto（foto 阴性）、le ayudo (a) lavar la ropa ✓、le compraría un teléfono ✓（会 + le 都对）",
+      "结论": "me/le/te 受控与半自由产出都对；剩小毛病：不规则过去式又加重音（dijó）、foto 阴性、ayudar a + 原形、转述 que",
+      "支架": "无例句 + 自查，保持"
+    }
   }
 }
