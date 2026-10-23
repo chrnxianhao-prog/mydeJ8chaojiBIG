@@ -2437,6 +2437,12 @@
       "count": 1,
       "relearn": true,
       "date": "2026-10-22"
+    },
+    {
+      "error": "发音：词首 r 不打舌（rojo → 转写成 ojo）、词尾 -o 含糊（busco → busca）",
+      "count": 1,
+      "relearn": true,
+      "date": "2026-10-22"
     }
   ],
   "week_stats": {
@@ -4920,7 +4926,8 @@
       "④": "4/4：me duelen、le gustan、le gusta… le gustan（单复数和 le 全对）",
       "⑤": "un cliente ✓、le mostré un vestido ✓、le gustaron un abrigo y una camisa ✓（两样 → gustaron 对；漏 le、una）、no le gustó este vestido ✓（esto → este）、al final compró un abrigo ✓、con más clientes así, yo abrí → abriría（con más 又滑到一次）",
       "结论": "gustar 结构（单复数、le、gustó/gustaron）基本过关；con más → -ría 在自由写作里偶尔滑",
-      "支架": "无例句 + 自查，保持"
+      "支架": "无例句 + 自查，保持",
+      "裸聊_voz": "第一次用西语语音输入，转写清楚。问题：busco→转成 busca（词尾 -o 不清）、un vestido→una、¿Qué talla tienes? 对顾客用了 tú（句块是 ¿Qué talla usa?）、「rojo」被转成「el ojo」（词首 r 要打舌）"
     }
   }
 }
