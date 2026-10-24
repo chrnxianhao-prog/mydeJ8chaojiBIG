@@ -4626,7 +4626,8 @@
     "escrito": "2026-10-23 批完",
     "plan": "摸底四大难点都过了一轮（三时态 / doler·gustar / le·me·te / 老词）。下一步建议：周测一次（混合四个难点，检验有没有回潮）→ 然后进新内容（命令式 usted 回顾 + 将来时 voy a / 简单将来），保持句块和语音输入。② 考 el modelo el algodón（10-23 练习区写过）+ la pierna el brazo la talla barato",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
-    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
+    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头",
+    "hoy": "10-24 周测页：https://claude.ai/artifact/EDWxC1yPJgbwYwFmAUypQj"
   },
   "dia_2026_10_01b": {
     "fecha": "2026-10-01（墨城），当天正式那一页",
@@ -4994,5 +4995,27 @@
       "结论": "me/le/te 受控与半自由产出都对；剩小毛病：不规则过去式又加重音（dijó）、foto 阴性、ayudar a + 原形、转述 que",
       "支架": "无例句 + 自查，保持"
     }
+  },
+  "dia_2026_10_24": {
+    "fecha": "2026-10-24（墨城周六 09:30 出题）",
+    "tipo": "周测（四个难点混合）",
+    "pagina": "https://claude.ai/artifact/EDWxC1yPJgbwYwFmAUypQj",
+    "db_doc": "resultados/dia-1024",
+    "bloques": [
+      "¿Qué le parece este?",
+      "Se lo envuelvo.",
+      "¿Paga con tarjeta o en efectivo?",
+      "Le doy un descuento.",
+      "Gracias, vuelva pronto."
+    ],
+    "secciones": {
+      "练习": "四条规则一张卡 + 四个难点三组例句 + 收银台句块 5 句 + 10 张混合自写卡（vendía abriría fui duelen gustó 严判 + le muestro me manda + la foto la pierna el brazo）+ 六个生词",
+      "1_听写": "vendía vendería fui iba duelen gustan trajo abriría jugaba dolió，回测 20/20",
+      "2_单词": "el modelo el algodón la pierna el brazo la talla barato",
+      "3_阅读": "七句《我这一周》四难点混合",
+      "4_口语": "abría / le duele… le gusta / ¿Me manda…?",
+      "5_小作文": "《Mi semana》六行无例句，四个难点各至少一处"
+    },
+    "estado": "已发布，等交卷"
   }
 }
