@@ -4633,7 +4633,8 @@
     "escrito": "2026-10-25 周测批完",
     "plan": "进新内容：将来 —— ir a + 原形（voy a abrir）和简单将来（abriré）；同时练习区专点 jugué/jugaba/jugaría 三分；句块继续。② 考 el algodón la pierna el modelo el brazo + la foto（10-24 练习区写过）",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
-    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
+    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头",
+    "hoy": "10-26 页：https://claude.ai/artifact/EVWuj7BhuyR3RpFMPUQW33"
   },
   "dia_2026_10_01b": {
     "fecha": "2026-10-01（墨城），当天正式那一页",
@@ -5039,5 +5040,27 @@
   "examen_semanal_2026_10_25": {
     "resultado": "15/20 + ④4/4 + ⑤5/6",
     "veredicto": "四难点中三个已稳，三时态只剩 jugar 专点 + condicional 阅读理解"
+  },
+  "dia_2026_10_26": {
+    "fecha": "2026-10-26（墨城周一 01:45 出题）",
+    "pagina": "https://claude.ai/artifact/EVWuj7BhuyR3RpFMPUQW33",
+    "db_doc": "resultados/dia-1026",
+    "objetivo": "新内容：将来 —— voy a + 原形（口语）/ 简单将来 原形 + é/á；对比 -ía（会）；专补 jugué/jugaba/jugaría",
+    "bloques": [
+      "Mañana le voy a llamar.",
+      "La tela llegará el jueves.",
+      "¿Y va a llevar algo más?",
+      "Vamos a abrir a las diez.",
+      "Le voy a hacer un buen precio."
+    ],
+    "secciones": {
+      "练习": "两种将来规则卡 + voy a / 简单将来 / jugar 三组 + 句块 + 10 张自写卡（voy a abrir va a venir abriré llegará jugué jugaba jugaría + el algodón la pierna la foto）+ 六个生词",
+      "1_听写": "abriré/abriría llegará/llegaría venderé/vendería jugué jugaba jugaría iré，回测 20/20",
+      "2_单词": "la foto la pierna el brazo el modelo el algodón la talla",
+      "3_阅读": "六句《Wei 的开店计划》va a / voy a / trabajará / compraría",
+      "4_口语": "voy a abrir / llegará / jugué… jugaría",
+      "5_小作文": "《Mis planes》无例句：将来两种 + 一次 + 以前常 + 会"
+    },
+    "estado": "已发布，等交卷"
   }
 }
