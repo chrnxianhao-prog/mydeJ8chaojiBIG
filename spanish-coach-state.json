@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 1,
-  "total_completed_days": 86,
+  "streak": 2,
+  "total_completed_days": 87,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-10-25",
+  "last_task_date": "2026-10-26",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
-  "consecutive_completed": 1,
+  "consecutive_completed": 2,
   "vocabulary_learned": [
     "China",
     "México",
@@ -2473,6 +2473,18 @@
       "count": 4,
       "relearn": true,
       "date": "2026-10-25"
+    },
+    {
+      "error": "-ar 动词「以前常」又写成 -aría：Antes compraría → compraba；「一次」写成 -aba：El sábado pasado jugaba → jugué",
+      "count": 2,
+      "relearn": true,
+      "date": "2026-10-26"
+    },
+    {
+      "error": "去哪儿漏 a / 在哪儿漏 en：viajar (a) la ciudad、jugaré (en el) parque",
+      "count": 2,
+      "relearn": false,
+      "date": "2026-10-26"
     }
   ],
   "week_stats": {
@@ -3116,13 +3128,6 @@
       "correct_count": 1
     },
     {
-      "word": "el brazo",
-      "module": "身体与健康",
-      "date_wrong": "2026-10-23",
-      "correct_count": 1,
-      "date_ok": "2026-10-25"
-    },
-    {
       "word": "enfermo/a",
       "module": "身体与健康",
       "date_wrong": "2026-09-08",
@@ -3191,22 +3196,22 @@
     {
       "word": "la pierna",
       "module": "身体与健康",
-      "date_wrong": "2026-10-25",
+      "date_wrong": "2026-10-26",
       "correct_count": 0
-    },
-    {
-      "word": "el modelo",
-      "module": "购物",
-      "date_wrong": "2026-10-23",
-      "correct_count": 1,
-      "date_ok": "2026-10-25"
     },
     {
       "word": "el algodón",
       "module": "购物",
-      "date_wrong": "2026-10-23",
+      "date_wrong": "2026-10-26",
       "correct_count": 0,
       "nota": "10-25 空着"
+    },
+    {
+      "word": "la foto",
+      "module": "日常",
+      "date_wrong": "2026-10-23",
+      "correct_count": 1,
+      "date_ok": "2026-10-26"
     }
   ],
   "module_wrong_banks": {
@@ -4630,11 +4635,10 @@
     }
   },
   "siguiente_sesion": {
-    "escrito": "2026-10-25 周测批完",
-    "plan": "进新内容：将来 —— ir a + 原形（voy a abrir）和简单将来（abriré）；同时练习区专点 jugué/jugaba/jugaría 三分；句块继续。② 考 el algodón la pierna el modelo el brazo + la foto（10-24 练习区写过）",
+    "escrito": "2026-10-26 批完",
+    "plan": "将来时巩固（voy a / -é·-á，加不规则 haré tendré podré iré）；继续顺带练 -aba / 一次 / -aría 三分（每页 ⑤ 都有）；方向小词 a / en；② 考 la foto la pierna el algodón + 新词",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
-    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头",
-    "hoy": "10-26 页：https://claude.ai/artifact/EVWuj7BhuyR3RpFMPUQW33"
+    "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
   "dia_2026_10_01b": {
     "fecha": "2026-10-01（墨城），当天正式那一页",
@@ -5061,6 +5065,16 @@
       "4_口语": "voy a abrir / llegará / jugué… jugaría",
       "5_小作文": "《Mis planes》无例句：将来两种 + 一次 + 以前常 + 会"
     },
-    "estado": "已发布，等交卷"
+    "estado": "已交卷（墨城 10-26 17:50），已批",
+    "resultado": {
+      "puntos": "页面 17/20（听写 9/10、单词 4/6、阅读 4/4）",
+      "听写": "9/10：将来/会成对（abriré/abriría…）全对；jugué 写成 jugé（g 后漏 u）",
+      "单词": "la foto ✓ el modelo ✓（第二次 → 出库）el brazo ✓（只差重音，第二次 → 出库）la talla ✓；la pierena（pierna）、el algodón 只写了 el a",
+      "阅读": "4/4",
+      "④": "voy a abrir ✓、llegará ✓、El sábado pasado jugaba → jugué（一次）、jugaría ✓",
+      "⑤": "将来四处全对：voy a viajar (a) la ciudad、El próximo mes jugaré (en el) parque、Mi familia va a viajar a la Ciudad de México；El año pasado compré un coche ✓；Antes comparía → compraba（antes + -ar 又滑到 -aría）；me gustaría descansar mucho ✓",
+      "结论": "将来时第一天就会用（④⑤ 将来 5/5）；老问题：-ar 动词「以前常」偶尔写成 -aría（compraría/jugaría），「一次」写成 -aba（jugaba）—— 需要继续每天顺带练",
+      "支架": "无例句，保持"
+    }
   }
 }
