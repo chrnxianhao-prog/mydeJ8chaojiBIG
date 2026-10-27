@@ -5076,5 +5076,54 @@
       "结论": "将来时第一天就会用（④⑤ 将来 5/5）；老问题：-ar 动词「以前常」偶尔写成 -aría（compraría/jugaría），「一次」写成 -aba（jugaba）—— 需要继续每天顺带练",
       "支架": "无例句，保持"
     }
+  },
+  "dia_2026_10_26b": {
+    "tipo": "加练（同日，②不推进连对）",
+    "motivo": "学生说「很多词我都听不懂」—— 专练耳朵：店里常听到的词",
+    "artifact": "https://claude.ai/artifact/3CKB1FvSpJGoEGPFct38Q6",
+    "db_doc": "resultados/dia-1026b",
+    "previo": [
+      "el pedido",
+      "la entrega",
+      "la mercancía",
+      "la bodega",
+      "el local",
+      "la tarjeta",
+      "en efectivo",
+      "el recibo",
+      "la factura",
+      "envolver",
+      "el cambio",
+      "la oferta"
+    ],
+    "nuevo_formato": "盲听：整句先听不看字 → 看原文 → 翻中文；学生在聊天里报听不出的词",
+    "bloques": [
+      "¿Necesita factura?",
+      "Aquí tiene su recibo.",
+      "Aquí tiene su cambio.",
+      "Hoy hay oferta.",
+      "Su pedido llega mañana."
+    ],
+    "dictado": [
+      "el recibo",
+      "la factura",
+      "la tarjeta",
+      "en efectivo",
+      "el local",
+      "el cambio",
+      "envolver",
+      "la oferta",
+      "jugué",
+      "compraba"
+    ],
+    "palabras": [
+      "la pierna",
+      "el algodón",
+      "prestar",
+      "el plan",
+      "el próximo año",
+      "la foto"
+    ],
+    "estado": "已发，等学生作答"
   }
 }
