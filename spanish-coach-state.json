@@ -1,7 +1,7 @@
 {
   "level": "A2",
-  "streak": 2,
-  "total_completed_days": 87,
+  "streak": 3,
+  "total_completed_days": 88,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
   "last_task_date": "2026-10-27",
@@ -2485,6 +2485,24 @@
       "count": 2,
       "relearn": false,
       "date": "2026-10-26"
+    },
+    {
+      "fecha": "2026-10-27",
+      "error": "antes trabajaría（以前常用了 -aría）",
+      "correcto": "antes trabajaba",
+      "nota": "-ar 动词在 antes 后又变 -aría，第 N 次；规则：antes / cuando era → -aba"
+    },
+    {
+      "fecha": "2026-10-27",
+      "error": "mañana tuvería descargar",
+      "correcto": "mañana tendré que descargar",
+      "nota": "tuve + -ería 拼出不存在的词；tener que + 原形 = 必须，还没正式教"
+    },
+    {
+      "fecha": "2026-10-27",
+      "error": "nosotros desacanso a poco",
+      "correcto": "nosotros descansamos un poco",
+      "nota": "nosotros 不变 -amos；un poco 不是 a poco"
     }
   ],
   "week_stats": {
@@ -3190,28 +3208,45 @@
       "word": "la espalda",
       "module": "身体与健康",
       "date_wrong": "2026-10-22",
-      "correct_count": 0,
-      "nota": "写成 espelda：es-pal-da"
+      "correct_count": 1,
+      "nota": "写成 espelda：es-pal-da",
+      "date_ok": "2026-10-27"
     },
     {
       "word": "la pierna",
       "module": "身体与健康",
       "date_wrong": "2026-10-26",
-      "correct_count": 0
+      "correct_count": 1,
+      "date_ok": "2026-10-27"
     },
     {
       "word": "el algodón",
       "module": "购物",
       "date_wrong": "2026-10-26",
-      "correct_count": 0,
-      "nota": "10-25 空着"
+      "correct_count": 1,
+      "nota": "10-25 空着",
+      "date_ok": "2026-10-27"
     },
     {
-      "word": "la foto",
-      "module": "日常",
-      "date_wrong": "2026-10-23",
-      "correct_count": 1,
-      "date_ok": "2026-10-26"
+      "word": "la mercancía",
+      "module": "仓库",
+      "date_wrong": "2026-10-27",
+      "correct_count": 0,
+      "nota": "② 只写了 la；⑤ 拼成 mercacía —— mer-can-cí-a"
+    },
+    {
+      "word": "la tarima",
+      "module": "仓库",
+      "date_wrong": "2026-10-27",
+      "correct_count": 0,
+      "nota": "听写写成 la darima：t / d 听混"
+    },
+    {
+      "word": "el anaquel",
+      "module": "仓库",
+      "date_wrong": "2026-10-27",
+      "correct_count": 0,
+      "nota": "听写空着（新词，-quel 念 kel）"
     }
   ],
   "module_wrong_banks": {
@@ -4636,7 +4671,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-26 批完",
-    "plan": "【场景全部换仓库】将来时巩固（voy a / -é·-á，加不规则 haré tendré podré iré）；继续顺带练 -aba / 一次 / -aría 三分（每页 ⑤ 都有）；方向小词 a / en；② 考 la foto la pierna el algodón + 新词",
+    "plan": "【仓库场景】tener que + 原形（必须）+ tendré que；nosotros -amos 现在时；antes → -aba 再压一遍；faltan 复数产出；② 考 la mercancía la tarima el anaquel + pierna espalda algodón（第二次）",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
@@ -5180,6 +5215,14 @@
       "Mañana haré el inventario."
     ],
     "escrito": "Mi trabajo en la bodega，六行半句（以前常/那一次/将来/faltar 各一行）",
-    "estado": "已发，等学生作答"
+    "estado": "已批",
+    "resultado": {
+      "oido": "8/10（haré hice tendré tuve podré puedo falta faltan 全对，重音全对；la tarima→la darima，el anaquel 空）",
+      "palabras": "5/6（la foto 第二次跨天对 → 移出；pierna espalda algodón 连对 1；la mercancía 只写了 la）",
+      "lectura": "4/4",
+      "habla": "1/3（camión ✓；falta 应 faltan dos cajas；haré 写 nose）",
+      "escrito": "3/6（antes trabajaría→trabajaba；mañana tuvería descargar→tendré que descargar；nosotros desacanso a poco→descansamos un poco）"
+    },
+    "andamio": "⑤ 半句级：名词短语（en una bodega grande / la mercancía con etiqueta）能写；要自己变位的动词还是乱（-aría 混进以前常，tuve+ería 拼出 tuvería，nosotros 不变 -amos）。下次⑤每行给出动词原形 + 时间提示，让他只做变位"
   }
 }
