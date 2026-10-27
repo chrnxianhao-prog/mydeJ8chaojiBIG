@@ -4,7 +4,7 @@
   "total_completed_days": 87,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-10-26",
+  "last_task_date": "2026-10-27",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
   "consecutive_completed": 2,
@@ -4636,7 +4636,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-26 批完",
-    "plan": "将来时巩固（voy a / -é·-á，加不规则 haré tendré podré iré）；继续顺带练 -aba / 一次 / -aría 三分（每页 ⑤ 都有）；方向小词 a / en；② 考 la foto la pierna el algodón + 新词",
+    "plan": "【场景全部换仓库】将来时巩固（voy a / -é·-á，加不规则 haré tendré podré iré）；继续顺带练 -aba / 一次 / -aría 三分（每页 ⑤ 都有）；方向小词 a / en；② 考 la foto la pierna el algodón + 新词",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
@@ -5124,8 +5124,62 @@
       "el próximo año",
       "la foto"
     ],
-    "estado": "已发，等学生作答",
+    "estado": "学生学完 12 个词（两次 Listo），盲听/测试没做 —— 换仓库场景后跳过",
     "incidente": "学生回「一个词都不认识怎么搞」：12 个新词直接让他听着认 + 盲听，又是把扶手撤光（同 09-18 / 09-22）。改成先看着字学（西语+中文+记法常显），再盖住自测，学完再盲听。",
     "regla": "新词第一次出现必须字、中文、记法全摆出来；『听了想意思』只用于已学过的词。记法优先挂他自己说过/写过的句子（pedido、bodega、cambiar）"
+  },
+  "trabajo_2026_10_27": {
+    "antes": "开服装店",
+    "ahora": "仓库管理员",
+    "pedido": "后面的所有都帮我换成仓库常用的词汇吧",
+    "regla": "所有出题场景换成仓库；新词第一次出现字+中文+记法全摆出来"
+  },
+  "dia_2026_10_27": {
+    "artifact": "https://claude.ai/artifact/8jEhCo28kFHEEeBvcdbHbY",
+    "db_doc": "resultados/dia-1027",
+    "tema": "仓库场景第一天：不规则将来 haré / tendré / podré + faltar（同 gustar）",
+    "previo": [
+      "el almacén",
+      "el camión",
+      "cargar",
+      "descargar",
+      "la tarima",
+      "el montacargas",
+      "el anaquel",
+      "la etiqueta",
+      "el inventario",
+      "faltar"
+    ],
+    "formato": "① 看着字学（字+中文+记法常显）→ ② 语法 → ③ 盲听 8 句 → 句块 → 看中文写",
+    "dictado": [
+      "haré",
+      "hice",
+      "tendré",
+      "tuve",
+      "podré",
+      "puedo",
+      "falta",
+      "faltan",
+      "la tarima",
+      "el anaquel"
+    ],
+    "palabras": [
+      "la foto",
+      "la pierna",
+      "la espalda",
+      "el algodón",
+      "el pedido",
+      "la mercancía"
+    ],
+    "palabras_cuenta": "跨天，算连对",
+    "bloques": [
+      "¿Ya llegó el camión?",
+      "Oye, falta una caja.",
+      "Vamos a descargar.",
+      "Ponga las cajas aquí, por favor.",
+      "Mañana haré el inventario."
+    ],
+    "escrito": "Mi trabajo en la bodega，六行半句（以前常/那一次/将来/faltar 各一行）",
+    "estado": "已发，等学生作答"
   }
 }

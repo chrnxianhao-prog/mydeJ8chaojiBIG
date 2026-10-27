@@ -34,6 +34,11 @@ Kokoro 两种读法 20/20、davefx 19/20、claude 18/20。但学生报的那三�
 🔴 **两个词一组的听写（me manda、le digo）**：whisper 会连写（me trajo → metrajo），也常把 le 听成 les、把 mandé 的重音丢掉。出题脚本的 `toma()` 去空格再比；回测要按**整个短语**比，别按单词 in 列表比（10-23 回测脚本按单词比，假报 0/20）。带重音的两词组（le mandé）whisper 常认不出重音，换成不带重音的（le dije）。
 
 🔴 **whisper 会把 gustó 听成名词 gusto**（10-21 五个速度全错），这类「名词同形 + 重音」的词别放听写。
+🔴 **句末的 caja 被 Kokoro 念糊**（10-27：Falta una caja. → queja / guerra，七个速度全错）。
+后面再跟一个词就清楚了：Falta una caja grande. / Faltan dos cajas aquí. / Oye, falta una caja.
+校验时 objetivo 要写整句，只盯动词会把糊掉的名词放过去。
+**h 不发音**：haré 被 whisper 写成 aré / are，比较前把词首 h 去掉；生僻词 whisper 按发音拼
+（anaquel → Anackel），在 ALIAS 里映射回来，算对。
 
 🔴 **Kokoro 念句首的 De 常糊**（De niño → Este niño、De joven → Desjovem，10-07/10-14/10-20 三次）：句首改成 Cuando era niño / Cuando era joven。
 
