@@ -4,7 +4,7 @@
   "total_completed_days": 88,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-10-27",
+  "last_task_date": "2026-10-28",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
   "consecutive_completed": 2,
@@ -5225,5 +5225,50 @@
     },
     "andamio": "⑤ 半句级：名词短语（en una bodega grande / la mercancía con etiqueta）能写；要自己变位的动词还是乱（-aría 混进以前常，tuve+ería 拼出 tuvería，nosotros 不变 -amos）。下次⑤每行给出动词原形 + 时间提示，让他只做变位",
     "charla": "3 来回司机送货：会用 piezas；puertas 单复数、对司机用 descargas（应 puede descargar）；没听出 diecinueve 签了 20 箱 —— 没用上句块 Falta una caja"
+  },
+  "dia_2026_10_28": {
+    "artifact": "https://claude.ai/artifact/VsAcsXpkjPJjiepBTvtfwt",
+    "db_doc": "resultados/dia-1028",
+    "tema": "仓库第二天：tener que + 原形（现在/那一次/以前常/将）+ nosotros -amos + 点货数字 16-30",
+    "previo": [
+      "tener que",
+      "revisar",
+      "contar",
+      "la pieza",
+      "el chofer",
+      "dañado",
+      "el turno",
+      "diecinueve",
+      "veintiocho"
+    ],
+    "dictado": [
+      "tengo que",
+      "tuve que",
+      "tendré que",
+      "tenía que",
+      "cargo",
+      "cargamos",
+      "revisamos",
+      "diecinueve",
+      "dieciséis",
+      "veintiocho"
+    ],
+    "palabras": [
+      "la mercancía",
+      "la tarima",
+      "el anaquel",
+      "la pierna",
+      "la espalda",
+      "el algodón"
+    ],
+    "bloques": [
+      "Tengo que revisar las cajas.",
+      "Tenemos que contar otra vez.",
+      "Esta caja está dañada, mire.",
+      "Faltan dos piezas aquí.",
+      "El chofer tiene que esperar un momento."
+    ],
+    "andamio_escrito": "⑤ 每行给原形 + 时间，只做变位 + 补半句（比 10-27 多给了原形）",
+    "estado": "已发，等学生作答"
   }
 }
