@@ -4671,7 +4671,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-26 批完",
-    "plan": "【仓库场景】tener que + 原形（必须）+ tendré que；nosotros -amos 现在时；antes → -aba 再压一遍；faltan 复数产出；② 考 la mercancía la tarima el anaquel + pierna espalda algodón（第二次）",
+    "plan": "【仓库场景】tener que + 原形（必须）+ tendré que；nosotros -amos 现在时；antes → -aba 再压一遍；faltan 复数产出；② 考 la mercancía la tarima el anaquel + pierna espalda algodón（第二次）；加数字听力 16-30（点货用，diecinueve 没听出）",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
@@ -5223,6 +5223,7 @@
       "habla": "1/3（camión ✓；falta 应 faltan dos cajas；haré 写 nose）",
       "escrito": "3/6（antes trabajaría→trabajaba；mañana tuvería descargar→tendré que descargar；nosotros desacanso a poco→descansamos un poco）"
     },
-    "andamio": "⑤ 半句级：名词短语（en una bodega grande / la mercancía con etiqueta）能写；要自己变位的动词还是乱（-aría 混进以前常，tuve+ería 拼出 tuvería，nosotros 不变 -amos）。下次⑤每行给出动词原形 + 时间提示，让他只做变位"
+    "andamio": "⑤ 半句级：名词短语（en una bodega grande / la mercancía con etiqueta）能写；要自己变位的动词还是乱（-aría 混进以前常，tuve+ería 拼出 tuvería，nosotros 不变 -amos）。下次⑤每行给出动词原形 + 时间提示，让他只做变位",
+    "charla": "3 来回司机送货：会用 piezas；puertas 单复数、对司机用 descargas（应 puede descargar）；没听出 diecinueve 签了 20 箱 —— 没用上句块 Falta una caja"
   }
 }
