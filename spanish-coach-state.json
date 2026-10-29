@@ -5275,5 +5275,49 @@
     },
     "andamio": "给原形 + 时间后，tener que 变位全对；下次⑤撤掉原形，只给时间提示",
     "charla": "3 来回跟老板：Tengo que contar las cajas ✓；la caja es dañada → está（状态用 estar）；把 ¿Qué tienes que hacer? 听成 ¿por qué?，换简单说法 + 三个例句后答对"
+  },
+  "dia_2026_10_29": {
+    "artifact": "https://claude.ai/artifact/61jwHfVfRRFrk5qY7VXxWZ",
+    "db_doc": "resultados/dia-1029",
+    "tema": "仓库第三天：hay que（不说谁）+ estar 状态（dañada lleno vacía cerrada）+ qué / por qué + c/t 不送气听辨",
+    "previo": [
+      "hay que",
+      "lleno",
+      "vacío",
+      "cerrado",
+      "la hoja",
+      "firmar",
+      "por qué",
+      "la mercancía"
+    ],
+    "dictado": [
+      "la caja",
+      "el camión",
+      "cargar",
+      "contar",
+      "la etiqueta",
+      "hay que",
+      "lleno",
+      "vacía",
+      "firmar",
+      "cerrado"
+    ],
+    "palabras": [
+      "la mercancía",
+      "el anaquel",
+      "la tarima",
+      "seis",
+      "marcar",
+      "pedir"
+    ],
+    "bloques": [
+      "Hay que revisar todo.",
+      "El camión ya está lleno.",
+      "¿Qué tengo que hacer?",
+      "Firme aquí, por favor.",
+      "Esta caja está dañada, mire."
+    ],
+    "andamio_escrito": "⑤ 撤掉原形，只给中文意思，每空填一个词（为什么填两个词）",
+    "estado": "已发，等学生作答"
   }
 }

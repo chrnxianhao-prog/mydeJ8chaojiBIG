@@ -154,7 +154,7 @@ python3 -m profe --provider local lesson 听力材料/YYYY-MM-DD-主题.txt \
 
 第一次跑会下模型到 `.piper-cache/`（已在 .gitignore 里；Kokoro 约 330 MB，davefx 约 64 MB，用到哪个下哪个），
 之后同会话内复用。容器是一次性的，每个新会话都要重下一次，属正常。
-需要 `sherpa-onnx numpy lameenc`，容器里没有就先 `python3 -m pip install` 上。
+需要 `sherpa-onnx numpy lameenc`，容器里没有就先 `python3 -m pip install "sherpa-onnx<2" numpy lameenc` 上。🔴 **sherpa-onnx 2.0.1 坏了**：Kokoro 西语一句只出 0.7 秒的半截音，whisper 全听错（2026-10-29）。装 `<2`（1.13.8 正常）。
 
 mp3 放 scratchpad，**不要提交进仓库** —— 音频是可以从课文重新生成的产物。
 

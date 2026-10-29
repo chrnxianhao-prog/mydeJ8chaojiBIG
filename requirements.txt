@@ -1,6 +1,6 @@
 edge-tts>=7.0
 
 # --provider piper（离线合成）用得到；只用 edge 的话不装也能跑
-sherpa-onnx
+sherpa-onnx<2   # 2.0.1 的 Kokoro 西语只念出半截（0.7 秒一句），2026-10-29 退回 1.13.8 正常
 numpy
 lameenc
