@@ -2515,6 +2515,12 @@
       "error": "faltan una",
       "correcto": "falta una",
       "nota": "一个 → falta，两个以上 → faltan"
+    },
+    {
+      "fecha": "2026-10-29",
+      "error": "la caja es dañada",
+      "correcto": "la caja está dañada",
+      "nota": "状态用 estar"
     }
   ],
   "week_stats": {
@@ -4661,7 +4667,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-26 批完",
-    "plan": "【仓库场景】c/t 不送气听辨（caja/gaja、tarima/darima）；la mercancía / el anaquel 抄写；⑤撤原形只给时间；新内容候选：上次 tener que 之后接 hay que（得、需要，无人称）或 acabar de；数字 21-30 拼写 veinti-",
+    "plan": "【仓库场景】c/t 不送气听辨（caja/gaja、tarima/darima）；la mercancía / el anaquel 抄写；⑤撤原形只给时间；新内容候选：上次 tener que 之后接 hay que（得、需要，无人称）或 acabar de；数字 21-30 拼写 veinti-；听懂 ¿Qué tienes que hacer? 这类 qué 问句（10-29 听成 por qué）；状态 está dañada / está bien",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
@@ -5267,6 +5273,7 @@
       "habla": "2/3（3：卸货是 descargamos，写成 cargamos 装车）",
       "escrito": "4/6（tendré que hacer cocinar → tendré que cocinar / hacer la comida；faltan una → falta una）"
     },
-    "andamio": "给原形 + 时间后，tener que 变位全对；下次⑤撤掉原形，只给时间提示"
+    "andamio": "给原形 + 时间后，tener que 变位全对；下次⑤撤掉原形，只给时间提示",
+    "charla": "3 来回跟老板：Tengo que contar las cajas ✓；la caja es dañada → está（状态用 estar）；把 ¿Qué tienes que hacer? 听成 ¿por qué?，换简单说法 + 三个例句后答对"
   }
 }
