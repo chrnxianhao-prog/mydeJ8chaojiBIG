@@ -18,5 +18,16 @@ python3 -m pip install -q "sherpa-onnx<2" numpy lameenc playwright   # 2.0.1 的
 | `ejemplo_d1029_page.py` | `armar` 的调用范例 |
 | `prueba_pagina.py dMMDD` | 发布前真点一遍：盲听/认词/自写卡/选中可见/全对 20/全错 0 + 听写 MP3 浏览器解码回测 |
 | `retoma.py dMMDD g0_0="新句子"` | 只重做个别练习句（句末 cajas 被念糊时用） |
+| `refija.py dMMDD llamé` | 听写词 MP3 解码后回测不过时，重挑一条解码后也对的，再跑 `_page.py` |
 
 发完把当天的 `dMMDD.template.html` 覆盖回 `assets/daily-page-dalia.template.html`，下次在它上面改。
+
+## 踩过的坑（2026-11-02）
+
+- **Kokoro 每次合成略有不同**：同一句同一速度，这次 anaquel、下次 anaquil。`toma()` 默认每个速度试两轮。
+- **whisper 会拆词也会连词**：pedía → pedí a；me trajo → metrajo。`toma()` 认「连续几个词拼起来正好等于目标」，
+  比子串匹配严，不会把 pedía 当成 pedí。
+- **ll / y 同音**（拉美）：llamé 偶尔写成 yamé，比较时 ll 当 y。
+- **句末名词容易糊**：caja → queja、playo → playa。后面再跟一两个词（…cajas aquí / …playo, por favor）。
+- **数字连读**：pedí cien → pedici en。换个不以元音/c 开头粘连的数（treinta）。
+- **¿Qué…? 的重音 whisper 不写**（问句也写成 que）：练习句的关键词别放 qué，放后面的词。

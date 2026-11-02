@@ -5389,5 +5389,13 @@
     "diagnostico": "听得出 pedí/pedía/pido/pide（听写全对），但自己写时三时间全乱：那一次写原形 llamar、以前常写 pedí、将来写 pediría。estar 说状态两次写成 hay / tiene。认知到了，产出没到 —— ⑤ 退回一级：每行给原形 + 时间标签",
     "andamio": "⑤ 退回『给原形 + 时间』那级（10-28 那级 tener que 全对）",
     "charla": "3 来回给供应商打电话订缠绕膜（学生自己选的真需求）：polallo/bolallo → el playo；tengo que 100 rollos（tener que 缺动词）；esta semana llegaría → llega / llegará（-ría 当将来，跟⑤同类）。给了整句：Necesito pedir cien rollos de playo. Lo necesito esta semana."
+  },
+  "dia_2026_11_02b": {
+    "artifact": "https://claude.ai/artifact/LdENxiNeGmrHNnn45CWMig",
+    "db_doc": "resultados/dia-1102b",
+    "tipo": "加练（同日，②不推进连对）",
+    "tema": "产出专练：看时间词定词尾 llamé/llamaba/llamaré、pedí/pedía/pediré、llegará vs llegaría + está 状态 + el playo / rollo / envolver / encender / apagar",
+    "andamio_escrito": "⑤ 给原形 + 时间标签（退回一级）",
+    "estado": "已发，等学生作答"
   }
 }

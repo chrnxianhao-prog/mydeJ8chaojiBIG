@@ -35,9 +35,9 @@ def fichas(s):
 def plano(s):
     return "".join(c for c in unicodedata.normalize("NFD", s) if unicodedata.category(c) != "Mn")
 
-bv = lambda x: re.sub(r"\bh", "", x.replace("v", "b"))   # b/v 同音；h 不发音
+bv = lambda x: re.sub(r"\bh", "", x.replace("v", "b").replace("ll", "y"))   # b/v 同音；h 不发音；ll/y 同音（拉美）
 
-def toma(texto, objetivo, exacto=True, velocidades=(0.9, 0.95, 1.0, 0.85, 1.05)):
+def toma(texto, objetivo, exacto=True, velocidades=(0.9, 0.95, 1.0, 0.85, 1.05, 1.1, 0.9, 0.95, 1.0, 1.05, 1.1, 1.15)):   # 合成每次略有不同，同速度再试有用
     """合成到 whisper 听对为止；exacto=True 时连重音都要对。返回 (mp3 bytes, 速度, 听到的)。"""
     visto = []
     for v in velocidades:
@@ -46,8 +46,10 @@ def toma(texto, objetivo, exacto=True, velocidades=(0.9, 0.95, 1.0, 0.85, 1.05))
         oido = fichas(t)
         f = (lambda x: bv(x)) if exacto else (lambda x: bv(plano(x)))
         ok = all(f(w) in [f(x) for x in oido] for w in fichas(objetivo))
-        if not ok and " " in objetivo.strip():   # whisper 会把 me trajo 连成 metrajo：去掉空格再比
-            ok = f("".join(fichas(objetivo))) in f("".join(oido))
+        if not ok:   # whisper 会连写（me trajo → metrajo）或拆开（pedía → pedí a）：连续几个词拼起来正好等于目标才算
+            meta, toks = f("".join(fichas(objetivo))), [f(x) for x in oido]
+            ok = any("".join(toks[i:j]) == meta for i in range(len(toks)) for j in range(i + 1, len(toks) + 1)) \
+                or (" " in objetivo.strip() and meta in "".join(toks))
         visto.append(f"{v}:{t}")
         if ok:
             return a_mp3(a.samples, a.sample_rate, 56), v, t
