@@ -3247,6 +3247,13 @@
       "correct_count": 1,
       "nota": "听写空着（新词，-quel 念 kel）；10-29 只写 el a；10-30 写成 el alque",
       "date_ok": "2026-11-02"
+    },
+    {
+      "word": "el playo",
+      "module": "仓库",
+      "date_wrong": "2026-11-02",
+      "correct_count": 0,
+      "nota": "缠绕膜（墨西哥；也叫 emplaye / película estirable）。学生自己要订的东西，说成 polallo / bolallo。un rollo de playo"
     }
   ],
   "module_wrong_banks": {
