@@ -1,10 +1,10 @@
 {
   "level": "A2",
-  "streak": 4,
-  "total_completed_days": 89,
+  "streak": 0,
+  "total_completed_days": 90,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-10-29",
+  "last_task_date": "2026-10-30",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
   "consecutive_completed": 2,
@@ -2776,7 +2776,8 @@
       "word": "pedir",
       "module": "高频动词",
       "date_wrong": "2026-09-17",
-      "correct_count": 0
+      "correct_count": 0,
+      "nota": "；10-30 写成 pedider"
     },
     {
       "word": "y",
@@ -2830,7 +2831,8 @@
       "word": "seis",
       "module": "数字时间",
       "date_wrong": "2026-08-07",
-      "correct_count": 0
+      "correct_count": 1,
+      "date_ok": "2026-10-30"
     },
     {
       "word": "cerrar",
@@ -3149,7 +3151,8 @@
       "word": "marcar",
       "module": "高频动词",
       "date_wrong": "2026-09-04",
-      "correct_count": 0
+      "correct_count": 0,
+      "nota": "；10-30 写成 mandar"
     },
     {
       "word": "amueblado/a",
@@ -3227,22 +3230,14 @@
       "module": "仓库",
       "date_wrong": "2026-10-27",
       "correct_count": 0,
-      "nota": "② 只写了 la；⑤ 拼成 mercacía —— mer-can-cí-a；10-29 又只写 la —— 拼写记不住，下次练习区让他照着抄 3 遍"
-    },
-    {
-      "word": "la tarima",
-      "module": "仓库",
-      "date_wrong": "2026-10-27",
-      "correct_count": 1,
-      "nota": "听写写成 la darima：t / d 听混",
-      "date_ok": "2026-10-29"
+      "nota": "② 只写了 la；⑤ 拼成 mercacía —— mer-can-cí-a；10-29 又只写 la —— 拼写记不住，下次练习区让他照着抄 3 遍；10-30 写成 la mercanía（漏中间的 c）"
     },
     {
       "word": "el anaquel",
       "module": "仓库",
       "date_wrong": "2026-10-27",
       "correct_count": 0,
-      "nota": "听写空着（新词，-quel 念 kel）；10-29 只写 el a"
+      "nota": "听写空着（新词，-quel 念 kel）；10-29 只写 el a；10-30 写成 el alque"
     }
   ],
   "module_wrong_banks": {
@@ -5318,6 +5313,55 @@
       "Esta caja está dañada, mire."
     ],
     "andamio_escrito": "⑤ 撤掉原形，只给中文意思，每空填一个词（为什么填两个词）",
+    "estado": "10-30 做了①②③，④⑤没交",
+    "resultado": {
+      "oido": "6/10（c/t 五个 caja camión cargar contar etiqueta 全对！hay que→alque；vacía 空；firmar→felman；cerrado 空）",
+      "palabras": "2/6（la tarima 第二次跨天对 → 移出；seis 连对 1；mercancía→mercanía；anaquel→alque；marcar→mandar；pedir→pedider）",
+      "lectura": "4/4"
+    }
+  },
+  "dia_2026_11_02": {
+    "artifact": "https://claude.ai/artifact/MK6v8rS1xDEy4ZXbaveGor",
+    "db_doc": "resultados/dia-1102",
+    "tema": "隔 3 天回来，复习为主：pedir（e→i）pido/pide/pedimos + pedí/pedía/pediré；回炉 hay que / estar 状态 / firmar / marcar / mercancía / anaquel",
+    "previo": [
+      "pedir",
+      "marcar",
+      "firmar",
+      "vacío",
+      "cerrado",
+      "hay que",
+      "la mercancía",
+      "el anaquel"
+    ],
+    "dictado": [
+      "hay que",
+      "vacía",
+      "firmar",
+      "cerrado",
+      "pido",
+      "pide",
+      "pedí",
+      "pedía",
+      "pediré",
+      "la hoja"
+    ],
+    "palabras": [
+      "la mercancía",
+      "el anaquel",
+      "marcar",
+      "pedir",
+      "seis",
+      "encender"
+    ],
+    "bloques": [
+      "Voy a pedir más mercancía.",
+      "Hay que marcar estas cajas ahora.",
+      "La puerta está cerrada.",
+      "Firme aquí, por favor.",
+      "El anaquel ya está lleno."
+    ],
+    "andamio_escrito": "⑤ 不给原形，只给意思，每空一个词（同 10-29；10-29 的④⑤他没交，这一级还没验过）",
     "estado": "已发，等学生作答"
   }
 }

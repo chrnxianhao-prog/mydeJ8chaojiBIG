@@ -23,7 +23,7 @@ _U = "cero uno dos tres cuatro cinco seis siete ocho nueve diez once doce trece 
 NUMEROS = {str(i): w for i, w in enumerate(_U)}
 NUMEROS.update({"32": "treinta y dos", "100": "cien", "300": "trescientos"})
 # whisper 不认识的生僻词，按发音拼出来的写法 —— 发音是对的
-ALIAS = {"anackel": "anaquel"}
+ALIAS = {"anackel": "anaquel", "anaquil": "anaquel"}
 
 def fichas(s):
     s = re.sub(r"\d+", lambda m: " " + NUMEROS.get(m.group(), m.group()) + " ", s)
