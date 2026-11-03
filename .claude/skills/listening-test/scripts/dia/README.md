@@ -13,9 +13,9 @@ python3 -m pip install -q "sherpa-onnx<2" numpy lameenc playwright   # 2.0.1 的
 | 文件 | 干什么 |
 |------|--------|
 | `motor_dia.py` | `construir(C, "dMMDD")`：逐条合成、whisper 验过才收，写 `_audio.json` / `_data.json`，带短文泄题检查 |
-| `ejemplo_d1029.py` | 当天内容 `C` 的写法范例（TRES 每行第 4 项是 whisper 要听出来的关键词） |
+| `ejemplo_d1103.py` | 当天内容 `C` 的写法范例（TRES 每行第 4 项是 whisper 要听出来的关键词；RAPIDO = 口语快答（中文, 西语, 关键词）） |
 | `pagina.py` | `armar(...)`：拿 `assets/daily-page-dalia.template.html` 换当天文字、嵌音频和 Dalia 原文，出 `dMMDD.html` |
-| `ejemplo_d1029_page.py` | `armar` 的调用范例 |
+| `ejemplo_d1103_page.py` | `armar` 的调用范例 |
 | `prueba_pagina.py dMMDD` | 发布前真点一遍：盲听/认词/自写卡/选中可见/全对 20/全错 0 + 听写 MP3 浏览器解码回测 |
 | `retoma.py dMMDD g0_0="新句子"` | 只重做个别练习句（句末 cajas 被念糊时用） |
 | `refija.py dMMDD llamé` | 听写词 MP3 解码后回测不过时，重挑一条解码后也对的，再跑 `_page.py` |

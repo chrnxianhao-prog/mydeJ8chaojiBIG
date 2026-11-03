@@ -84,6 +84,9 @@ def construir(C, nombre):
     for k, (es, _, clave) in enumerate(C["BLOQUES"]):
         mp3, v, t = toma(es, clave, exacto=False, velocidades=(0.95, 0.9, 1.0, 0.85))
         audio[f"gb0_{k}"] = b64(mp3); informe.append(f"句块 {es:<38} {v}  「{t}」")
+    for k, (_, es, clave) in enumerate(C.get("RAPIDO", [])):
+        mp3, v, t = toma(es, clave, exacto=False, velocidades=(0.95, 0.9, 1.0, 0.85, 0.95, 0.9))
+        audio[f"r{k}"] = b64(mp3); informe.append(f"快答 {es:<38} {v}  「{t}」")
     for n, (es, _, ej, _) in enumerate(C["VIEJAS"]):
         mp3, v, t = toma(MARCO_PALABRA.format(es), es, exacto=False)
         audio[f"v{n}"] = b64(mp3); audio[f"v{n}_ej"] = di(ej, 0.95)
@@ -101,6 +104,7 @@ def construir(C, nombre):
                  for g, (v, f) in enumerate(C["TRES"])],
         "ciegas": [{"k": k, "es": es, "zh": zh} for k, (es, zh, _) in enumerate(C["CIEGAS"])],
         "bloques": [{"g": "b0", "verbo": "跟读 3 遍 · 今天对同事说一句", "filas": [{"k": k, "es": es, "zh": zh, "regla": "仓库里用"} for k, (es, zh, _) in enumerate(C["BLOQUES"])]}],
+        "rapido": [{"k": k, "zh": zh, "es": es} for k, (zh, es, _) in enumerate(C.get("RAPIDO", []))],
         "viejas": [{"i": i, "es": e, "zh": z, "pista": pista(e), "ej": j, "ejzh": jz, "estricto": e in C["ESTRICTO"]} for i, (e, z, j, jz) in enumerate(C["VIEJAS"])],
         "previo": [{"i": i, "es": e, "zh": z, "gancho": g} for i, (e, z, g) in enumerate(C["PREVIO"])],
         "dictado": [{"i": i, "resp": w, "tilde": True} for i, w in enumerate(C["DICTADO"])],

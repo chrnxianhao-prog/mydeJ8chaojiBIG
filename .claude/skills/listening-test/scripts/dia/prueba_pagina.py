@@ -19,6 +19,13 @@ with sync_playwright() as p:
     print("盲听", pg.locator("#ciegas .card").count(), "张 | 原文初始藏:", not c.locator("[data-caja=es]").is_visible())
     c.locator("button[data-que=es]").click(); print("  看原文:", c.locator("[data-caja=es]").inner_text())
     print("语法组:", pg.locator("#tres .card").count(), "| 句块:", pg.locator("#bloques .card .par").count())
+    r = pg.locator("#rapido .card").first
+    if pg.locator("#rapido .card").count():
+        print("快答", pg.locator("#rapido .card").count(), "张 | 答案初始藏:", not r.locator(".resp").is_visible())
+        r.locator("button.go").click(); pg.wait_for_timeout(1100); print("  1 秒后按钮:", r.locator("button.go").inner_text(), "| 仍藏:", not r.locator(".resp").is_visible())
+        pg.wait_for_timeout(4300); print("  5 秒后答案出:", r.locator(".resp").is_visible(), r.locator(".resp .es").inner_text(), "| 按钮:", r.locator("button.go").inner_text())
+        r.locator("button.go").click(); print("  再点藏回:", not r.locator(".resp").is_visible())
+        r2 = pg.locator("#rapido .card").nth(1); r2.locator("button.go").click(); r2.locator("button.go").click(); print("  倒数中再点直接出:", r2.locator(".resp").is_visible())
     for i, v in enumerate(D["viejas"]):
         card = pg.locator("#viejas .card").nth(i)
         card.locator("input").fill(v["es"]); card.locator('[data-a="chk"]').click()

@@ -24,8 +24,8 @@ def armar(nombre, *, titulo, eyebrow, h1, lede, regla, secciones, mmdd, fecha, t
         else:
             re1(r"<h2>" + re.escape(cab) + r'[^<]*</h2>(\s*)<p class="sub">.*?</p>',
                 lambda m: f'<h2>{h2}</h2>{m.group(1)}<p class="sub">{sub}</p>')
-    t = re.sub(r'localStorage\.(set|get)Item\("dia\d+\.tab"', lambda m: f'localStorage.{m.group(1)}Item("dia{mmdd}.tab"', t)
-    re1(r'db\.doc\("resultados/dia-\d+"\)', lambda m: f'db.doc("resultados/dia-{mmdd}")')
+    t = re.sub(r'localStorage\.(set|get)Item\("dia[0-9a-z]+\.tab"', lambda m: f'localStorage.{m.group(1)}Item("dia{mmdd}.tab"', t)
+    re1(r'db\.doc\("resultados/dia-[0-9a-z]+"\)', lambda m: f'db.doc("resultados/dia-{mmdd}")')
     re1(r'fecha: "[^"]*", tema: "[^"]*"', lambda m: f'fecha: "{fecha}", tema: "{tema}"')
     (SP / f"{nombre}.template.html").write_text(t)
 
@@ -35,6 +35,7 @@ def armar(nombre, *, titulo, eyebrow, h1, lede, regla, secciones, mmdd, fecha, t
     for g in D["tres"]:
         for f in g["filas"]: T[f"g{g['g']}_{f['k']}"] = f["es"]
     for c in D["ciegas"]: T[f"c{c['k']}"] = c["es"]
+    for r in D.get("rapido", []): T[f"r{r['k']}"] = r["es"]
     for f in D["bloques"][0]["filas"]: T[f"gb0_{f['k']}"] = f["es"]
     for v in D["viejas"]: T[f"v{v['i']}"] = M.format(v["es"]); T[f"v{v['i']}_ej"] = v["ej"]
     for p in D["previo"]: T[f"pv{p['i']}"] = M.format(p["es"])
