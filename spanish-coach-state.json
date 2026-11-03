@@ -2533,6 +2533,12 @@
       "error": "la bodega hay vacía / tiene vacía",
       "correcto": "la bodega está vacía",
       "nota": "状态 = está，第 3 次"
+    },
+    {
+      "fecha": "2026-11-02",
+      "error": "听写 llamaré→llamade、pediré→pedide、llegará→llegada、llamaba→llamada",
+      "correcto": "单 r 弹一下像 d；词中 b 很软",
+      "nota": "中国耳朵把西语单击 r 听成 d。听到动词结尾 -dé / -dá 时多半是将来 -ré / -rá"
     }
   ],
   "week_stats": {
@@ -4678,7 +4684,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-26 批完",
-    "plan": "【仓库场景】⑤退回给原形 + 时间标签；三时间产出专练（时间词 → 词尾：El lunes/Ayer → -é/-í；Antes/Siempre antes → -aba/-ía；Mañana → 原形+é）；está + 状态造句；mercancía 拆开抄；encender；对话用学生真实工作需求（订缠绕膜 playo 很有效）；-ría 当将来又出现，产出专练 -rá vs -ría",
+    "plan": "【仓库场景】听辨 r / d、b / d（-ré -rá vs -de -da；llamaba）；⑤ 撤原形只留时间标签；④ 句块：Necesito pedir… / Lo necesito… / Mañana llamaré；apagar envolver la hoja 回炉；el playo / el rollo",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
@@ -5396,6 +5402,15 @@
     "tipo": "加练（同日，②不推进连对）",
     "tema": "产出专练：看时间词定词尾 llamé/llamaba/llamaré、pedí/pedía/pediré、llegará vs llegaría + está 状态 + el playo / rollo / envolver / encender / apagar",
     "andamio_escrito": "⑤ 给原形 + 时间标签（退回一级）",
-    "estado": "已发，等学生作答"
+    "estado": "已批（墨城 21:30 做，较累）",
+    "resultado": {
+      "oido": "2/10（llamé→llamer；llamaba→llamada；llamaré→llamade；llegó→llego；llegará→llegada；pedía→pedir；pediré→pedide；el rollo→el polayo）",
+      "palabras": "3/6（同日不计；mercancía 终于写对；apagar→acrredo；envolver 空成 el polayo；la hoja→la ha）",
+      "lectura": "2/4（四题全选『对』，像是赶着交）",
+      "habla": "1/3（Necesito tengo que → pedir；Lo querer → necesito；Mañana llamada → llamaré）",
+      "escrito": "6/6（给了原形 + 时间标签：llamé pedí compraba llegará está pediría 全对，esta 漏重音算对）"
+    },
+    "diagnostico": "⑤ 给原形+时间后 6/6 —— 规则会用了。听写崩在耳朵：单 r（弹舌一下）听成 d（llamaré→llamade、pediré→pedide、llegará→llegada），词中 b 也听成 d（llamaba→llamada）",
+    "andamio": "⑤ 给原形+时间标签 6/6 → 下次撤原形，只留时间标签"
   }
 }
