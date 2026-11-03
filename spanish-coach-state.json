@@ -4684,7 +4684,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-26 批完",
-    "plan": "【仓库场景】听辨 r / d、b / d（-ré -rá vs -de -da；llamaba）；⑤ 撤原形只留时间标签；④ 句块：Necesito pedir… / Lo necesito… / Mañana llamaré；apagar envolver la hoja 回炉；el playo / el rollo",
+    "plan": "【仓库场景】听辨 r / d、b / d（-ré -rá vs -de -da；llamaba）；⑤ 撤原形只留时间标签；④ 句块：Necesito pedir… / Lo necesito… / Mañana llamaré；apagar envolver la hoja 回炉；el playo / el rollo；每日页新增『口语快答』节（中文→5 秒说出→翻答案+Dalia）；裸聊本周固定『打电话订缠绕膜』；检查他用没用 ¿Cómo se dice…?",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
@@ -5412,5 +5412,16 @@
     },
     "diagnostico": "⑤ 给原形+时间后 6/6 —— 规则会用了。听写崩在耳朵：单 r（弹舌一下）听成 d（llamaré→llamade、pediré→pedide、llegará→llegada），词中 b 也听成 d（llamaba→llamada）",
     "andamio": "⑤ 给原形+时间标签 6/6 → 下次撤原形，只留时间标签"
+  },
+  "oral_2026_11_02": {
+    "pregunta": "现在最难的还是口语环节。目前想要将口语说出口很容易忘记单词，怎么搞（承认加练时在打游戏没认真）",
+    "diagnostico": "认读强（阅读常 4/4）、有提示能写（⑤ 6/6），无提示提取慢 —— 词是『认』学的不是『说』学的",
+    "plan": [
+      "背整句不背词：句块必须念出声",
+      "救命句：¿Cómo se dice…? / ¿Cómo se llama esto? / Es una cosa para… / No me acuerdo de la palabra",
+      "干活时自言自语 5 分钟",
+      "同一场景练一周（本周：打电话订缠绕膜）",
+      "每日页加『口语快答』：出中文，5 秒内说西语，再翻答案听 Dalia"
+    ]
   }
 }
