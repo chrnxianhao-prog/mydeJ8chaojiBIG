@@ -21,7 +21,12 @@ def oir(samples, sr):
 # whisper 把数词写成阿拉伯数字：按整数映射回去
 _U = "cero uno dos tres cuatro cinco seis siete ocho nueve diez once doce trece catorce quince dieciséis diecisiete dieciocho diecinueve veinte veintiuno veintidós veintitrés veinticuatro veinticinco veintiséis veintisiete veintiocho veintinueve treinta".split()
 NUMEROS = {str(i): w for i, w in enumerate(_U)}
-NUMEROS.update({"32": "treinta y dos", "100": "cien", "300": "trescientos"})
+_D = {3: "treinta", 4: "cuarenta", 5: "cincuenta", 6: "sesenta", 7: "setenta", 8: "ochenta", 9: "noventa"}
+for _d, _w in _D.items():
+    NUMEROS[str(_d * 10)] = _w
+    for _u in range(1, 10):
+        NUMEROS[str(_d * 10 + _u)] = f"{_w} y {_U[_u]}"
+NUMEROS.update({"100": "cien", "300": "trescientos"})
 # whisper 不认识的生僻词，按发音拼出来的写法 —— 发音是对的
 ALIAS = {"anackel": "anaquel", "anaquil": "anaquel"}
 
