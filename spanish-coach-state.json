@@ -1,7 +1,7 @@
 {
   "level": "A2",
-  "streak": 1,
-  "total_completed_days": 91,
+  "streak": 2,
+  "total_completed_days": 92,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
   "last_task_date": "2026-11-03",
@@ -2539,6 +2539,18 @@
       "error": "听写 llamaré→llamade、pediré→pedide、llegará→llegada、llamaba→llamada",
       "correcto": "单 r 弹一下像 d；词中 b 很软",
       "nota": "中国耳朵把西语单击 r 听成 d。听到动词结尾 -dé / -dá 时多半是将来 -ré / -rá"
+    },
+    {
+      "fecha": "2026-11-03",
+      "error": "听写 cada→cabá、nada→nadar",
+      "correcto": "真 d",
+      "nota": "知道 r/b 像 d 之后开始反向猜：真 d 也改成 b / r。下次 r / b / d 三个放一起对比"
+    },
+    {
+      "fecha": "2026-11-03",
+      "error": "¿Puede mandaría…? / Ayer llamaré",
+      "correcto": "¿Puede mandar…? / Ayer llamé",
+      "nota": "puede 后面跟原形；-ría / -ré 往不该用的地方塞"
     }
   ],
   "week_stats": {
@@ -2791,14 +2803,6 @@
       "date_ok": "2026-10-12"
     },
     {
-      "word": "pedir",
-      "module": "高频动词",
-      "date_wrong": "2026-09-17",
-      "correct_count": 1,
-      "nota": "；10-30 写成 pedider",
-      "date_ok": "2026-11-02"
-    },
-    {
       "word": "y",
       "module": "基础",
       "date_wrong": "2026-09-05",
@@ -2939,8 +2943,9 @@
       "word": "encender",
       "module": "厨房家务",
       "date_wrong": "2026-09-05",
-      "correct_count": 0,
-      "nota": "；11-02 只写了 e"
+      "correct_count": 1,
+      "nota": "；11-02 只写了 e",
+      "date_ok": "2026-11-03"
     },
     {
       "word": "cuchara",
@@ -3161,14 +3166,6 @@
       "date_ok": "2026-10-10"
     },
     {
-      "word": "marcar",
-      "module": "高频动词",
-      "date_wrong": "2026-09-04",
-      "correct_count": 1,
-      "nota": "；10-30 写成 mandar",
-      "date_ok": "2026-11-02"
-    },
-    {
       "word": "amueblado/a",
       "module": "租房住房",
       "date_wrong": "2026-09-07",
@@ -3243,23 +3240,17 @@
       "word": "la mercancía",
       "module": "仓库",
       "date_wrong": "2026-10-27",
-      "correct_count": 0,
-      "nota": "② 只写了 la；⑤ 拼成 mercacía —— mer-can-cí-a；10-29 又只写 la —— 拼写记不住，下次练习区让他照着抄 3 遍；10-30 写成 la mercanía（漏中间的 c）；11-02 又写 mercacía —— 三次都漏 n 前那个 c 或 n，下次给『mercan + cía』拆开抄"
-    },
-    {
-      "word": "el anaquel",
-      "module": "仓库",
-      "date_wrong": "2026-10-27",
       "correct_count": 1,
-      "nota": "听写空着（新词，-quel 念 kel）；10-29 只写 el a；10-30 写成 el alque",
-      "date_ok": "2026-11-02"
+      "nota": "② 只写了 la；⑤ 拼成 mercacía —— mer-can-cí-a；10-29 又只写 la —— 拼写记不住，下次练习区让他照着抄 3 遍；10-30 写成 la mercanía（漏中间的 c）；11-02 又写 mercacía —— 三次都漏 n 前那个 c 或 n，下次给『mercan + cía』拆开抄",
+      "date_ok": "2026-11-03"
     },
     {
       "word": "el playo",
       "module": "仓库",
       "date_wrong": "2026-11-02",
-      "correct_count": 0,
-      "nota": "缠绕膜（墨西哥；也叫 emplaye / película estirable）。学生自己要订的东西，说成 polallo / bolallo。un rollo de playo"
+      "correct_count": 1,
+      "nota": "缠绕膜（墨西哥；也叫 emplaye / película estirable）。学生自己要订的东西，说成 polallo / bolallo。un rollo de playo",
+      "date_ok": "2026-11-03"
     }
   ],
   "module_wrong_banks": {
@@ -4684,7 +4675,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-26 批完",
-    "plan": "【仓库场景】听辨 r / d、b / d（-ré -rá vs -de -da；llamaba）；⑤ 撤原形只留时间标签；④ 句块：Necesito pedir… / Lo necesito… / Mañana llamaré；apagar envolver la hoja 回炉；el playo / el rollo；每日页新增『口语快答』节（中文→5 秒说出→翻答案+Dalia）；裸聊本周固定『打电话订缠绕膜』；检查他用没用 ¿Cómo se dice…?",
+    "plan": "【仓库·本周打电话订缠绕膜】r / b / d 三方对比听辨（llamaré cada llamaba nada）；puede + 原形；Ayer → -é 不是 -ré；⑤ 保持『意思+时间』一级；② la mercancía encender el playo（第二次）",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
@@ -5465,6 +5456,14 @@
       "Muy bien, muchas gracias."
     ],
     "andamio_escrito": "⑤ 撤掉原形，只给意思 + 时间标签，每空一个词",
-    "estado": "已发，等学生作答"
+    "estado": "已批（11-04 凌晨做）",
+    "resultado": {
+      "oido": "5/10（llamaré llegará mandaré compraba cargaba 对 —— -ré/-rá 4 个对 3；pediré→pedidé；llamaba→llamada；cada→cabá、nada→nadar 反过来矫枉过正）",
+      "palabras": "6/6（anaquel marcar pedir 第二次跨天对 → 移出；mercancía encender playo 连对 1）",
+      "lectura": "3/4（货周四到 选了对，原文 miércoles）",
+      "habla": "2/3（¿Puede mandaría → mandar：puede + 原形）",
+      "escrito": "4/6（Ayer llamaré → llamé；llegá → llegará；esta 漏重音算对）"
+    },
+    "andamio": "⑤ 只给意思+时间标签 4/6，可以保持这一级再练一次"
   }
 }
