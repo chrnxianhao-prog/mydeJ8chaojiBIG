@@ -4660,7 +4660,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-26 批完",
-    "plan": "【仓库·打电话订缠绕膜 第 3 天】pedidé / llamada / nadar 连错三天：改用二选一听辨（pediré vs pedide 不存在 → 选真词）；Mañana → -ré 产出；② subir temprano preguntar；中文提示避免『要』这类多义词",
+    "plan": "【仓库·打电话订缠绕膜 第 3 天】pedidé / llamada / nadar 连错三天：改用二选一听辨（pediré vs pedide 不存在 → 选真词）；Mañana → -ré 产出；② subir temprano preguntar；中文提示避免『要』这类多义词；句块加 ¿Puede bajar un poco más? / Un poco menos, por favor",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
@@ -5501,6 +5501,7 @@
       "habla": "3/3（¿Puede mandar el playo…? 用 mandar 也对）",
       "escrito": "4/6（Ahora ___ ochenta 写 necesito → cuesta：提示『要（钱）』有歧义，老师的锅；Mañana le llamaba → llamaré）"
     },
-    "andamio": "⑤ 意思+时间 4/6；错的一处是提示歧义，一处是将来写成 -aba"
+    "andamio": "⑤ 意思+时间 4/6；错的一处是提示歧义，一处是将来写成 -aba",
+    "charla": "电话订缠绕膜第 2 次（砍价）：🎉 自己说出 Si hay descuento, compraría cien rollos（条件式用对，三时态里的 -ría 首次在自由对话里自发用对）；假装不要 muy caro, hoy no necesito 逼降价；más menos → Un poco menos, por favor / ¿Puede bajar un poco más?"
   }
 }
