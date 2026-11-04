@@ -5503,5 +5503,24 @@
     },
     "andamio": "⑤ 意思+时间 4/6；错的一处是提示歧义，一处是将来写成 -aba",
     "charla": "电话订缠绕膜第 2 次（砍价）：🎉 自己说出 Si hay descuento, compraría cien rollos（条件式用对，三时态里的 -ría 首次在自由对话里自发用对）；假装不要 muy caro, hoy no necesito 逼降价；más menos → Un poco menos, por favor / ¿Puede bajar un poco más?"
+  },
+  "dia_2026_11_04b": {
+    "artifact": "https://claude.ai/artifact/RUmt7hw1b2qA86egYo7S5g",
+    "db_doc": "resultados/dia-1104b",
+    "tipo": "加练（同日，②不推进连对）",
+    "tema": "砍到成交：¿Puede bajar un poco más? / Es mi último precio / ¡Trato hecho! + Si + 现在, …-ría + Mañana -ré + nada/nadar、llamada/llamaba、pedidé 不存在",
+    "dictado": [
+      "pediré",
+      "llamaba",
+      "llamada",
+      "nada",
+      "nadar",
+      "compraría",
+      "pediría",
+      "llamaré",
+      "bajar",
+      "último"
+    ],
+    "estado": "已发，等学生作答"
   }
 }
