@@ -1,7 +1,7 @@
 {
   "level": "A2",
-  "streak": 2,
-  "total_completed_days": 92,
+  "streak": 3,
+  "total_completed_days": 93,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
   "last_task_date": "2026-11-04",
@@ -2551,6 +2551,12 @@
       "error": "¿Puede mandaría…? / Ayer llamaré",
       "correcto": "¿Puede mandar…? / Ayer llamé",
       "nota": "puede 后面跟原形；-ría / -ré 往不该用的地方塞"
+    },
+    {
+      "fecha": "2026-11-04",
+      "error": "Mañana le llamaba",
+      "correcto": "Mañana le llamaré",
+      "nota": "Mañana 配了以前常 -aba"
     }
   ],
   "week_stats": {
@@ -2790,8 +2796,9 @@
     {
       "word": "subir",
       "module": "高频动词",
-      "date_wrong": "2026-08-07",
-      "correct_count": 1
+      "date_wrong": "2026-11-04",
+      "correct_count": 0,
+      "nota": "；11-04 写成 suete"
     },
     {
       "word": "el jarabe",
@@ -2824,7 +2831,8 @@
       "word": "preguntar",
       "module": "高频动词",
       "date_wrong": "2026-09-17",
-      "correct_count": 0
+      "correct_count": 1,
+      "date_ok": "2026-11-04"
     },
     {
       "word": "trepar",
@@ -2847,8 +2855,9 @@
     {
       "word": "temprano",
       "module": "日常活动",
-      "date_wrong": "2026-08-07",
-      "correct_count": 1
+      "date_wrong": "2026-11-04",
+      "correct_count": 0,
+      "nota": "；11-04 写成 tiemprano（tiempo 混进来了）"
     },
     {
       "word": "cerrar",
@@ -2938,14 +2947,6 @@
       "module": "餐厅",
       "date_wrong": "2026-08-11",
       "correct_count": 1
-    },
-    {
-      "word": "encender",
-      "module": "厨房家务",
-      "date_wrong": "2026-09-05",
-      "correct_count": 1,
-      "nota": "；11-02 只写了 e",
-      "date_ok": "2026-11-03"
     },
     {
       "word": "cuchara",
@@ -3235,22 +3236,6 @@
       "date_wrong": "2026-09-15",
       "correct_count": 0,
       "note": "当天3/3全对但按规则不计connect，需隔天复测"
-    },
-    {
-      "word": "la mercancía",
-      "module": "仓库",
-      "date_wrong": "2026-10-27",
-      "correct_count": 1,
-      "nota": "② 只写了 la；⑤ 拼成 mercacía —— mer-can-cí-a；10-29 又只写 la —— 拼写记不住，下次练习区让他照着抄 3 遍；10-30 写成 la mercanía（漏中间的 c）；11-02 又写 mercacía —— 三次都漏 n 前那个 c 或 n，下次给『mercan + cía』拆开抄",
-      "date_ok": "2026-11-03"
-    },
-    {
-      "word": "el playo",
-      "module": "仓库",
-      "date_wrong": "2026-11-02",
-      "correct_count": 1,
-      "nota": "缠绕膜（墨西哥；也叫 emplaye / película estirable）。学生自己要订的东西，说成 polallo / bolallo。un rollo de playo",
-      "date_ok": "2026-11-03"
     }
   ],
   "module_wrong_banks": {
@@ -4675,7 +4660,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-26 批完",
-    "plan": "【仓库·本周打电话订缠绕膜】r / b / d 三方对比听辨（llamaré cada llamaba nada）；puede + 原形；Ayer → -é 不是 -ré；⑤ 保持『意思+时间』一级；② la mercancía encender el playo（第二次）",
+    "plan": "【仓库·打电话订缠绕膜 第 3 天】pedidé / llamada / nadar 连错三天：改用二选一听辨（pediré vs pedide 不存在 → 选真词）；Mañana → -ré 产出；② subir temprano preguntar；中文提示避免『要』这类多义词",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
@@ -5508,6 +5493,14 @@
       "¿Puede traerlo a mi bodega?"
     ],
     "andamio_escrito": "⑤ 意思 + 时间标签，每空一个词（同 11-03）",
-    "estado": "已发，等学生作答"
+    "estado": "已批",
+    "resultado": {
+      "oido": "7/10（cada caro barato descuento traer mandaré costaba 对；pediré→pedidé、llamaba→llamada、nada→nadar 第三次同样三个）",
+      "palabras": "4/6（mercancía encender playo 第二次跨天对 → 移出；preguntar 连对 1；subir→suete；temprano→tiemprano）",
+      "lectura": "4/4",
+      "habla": "3/3（¿Puede mandar el playo…? 用 mandar 也对）",
+      "escrito": "4/6（Ahora ___ ochenta 写 necesito → cuesta：提示『要（钱）』有歧义，老师的锅；Mañana le llamaba → llamaré）"
+    },
+    "andamio": "⑤ 意思+时间 4/6；错的一处是提示歧义，一处是将来写成 -aba"
   }
 }
