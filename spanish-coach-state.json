@@ -2557,6 +2557,12 @@
       "error": "Mañana le llamaba",
       "correcto": "Mañana le llamaré",
       "nota": "Mañana 配了以前常 -aba"
+    },
+    {
+      "fecha": "2026-11-04",
+      "error": "Mañana le llamaba（第 3 次）",
+      "correcto": "Mañana le llamaré",
+      "nota": "产出时 Mañana 总配 -aba；听写 llamaré 却能写对。下次⑤里 Mañana 那行单独加粗 + 先在快答里练三遍"
     }
   ],
   "week_stats": {
@@ -4660,7 +4666,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-26 批完",
-    "plan": "【仓库·打电话订缠绕膜 第 3 天】pedidé / llamada / nadar 连错三天：改用二选一听辨（pediré vs pedide 不存在 → 选真词）；Mañana → -ré 产出；② subir temprano preguntar；中文提示避免『要』这类多义词；句块加 ¿Puede bajar un poco más? / Un poco menos, por favor",
+    "plan": "【仓库·打电话订缠绕膜 第 3 天】Mañana → -ré 产出（快答 + ⑤ 加粗）；último 拼写（ul-ti-mo）；cuesta 拼写；¡Trato hecho!；对比练习有效，继续用真词对",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
@@ -5521,6 +5527,14 @@
       "bajar",
       "último"
     ],
-    "estado": "已发，等学生作答"
+    "estado": "已批",
+    "resultado": {
+      "oido": "9/10（pediré llamaba llamada nada nadar 全对 —— 连错三天的三个陷阱一次拆掉；último→untimo）",
+      "palabras": "6/6（同日不计）",
+      "lectura": "4/4",
+      "habla": "2/3（¡Trato hecho! 写 no sé）",
+      "escrito": "4/6（cuensta→cuesta；Mañana le llamaba → llamaré —— Mañana 配 -aba 第 3 次）"
+    },
+    "leccion": "把『像但不是』的真词对（nada/nadar、llamada/llamaba）放在一起对比后，耳朵当场分开了 —— 对比练习有效"
   }
 }
