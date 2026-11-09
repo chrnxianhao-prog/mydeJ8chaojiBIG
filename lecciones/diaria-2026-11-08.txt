@@ -1,0 +1,28 @@
+#! voice=es-MX-JorgeNeural slow-rate=-50% gap=1500
+# Lección diaria — En el almacén: ayer, antes y si pudiera
+// 语音版每日练习 · 2026-11-08 · A2 · 仓库场景
+// 重点：三时态对比 pretérito / imperfecto / condicional（接 2026-08-27 摸底专项课）
+// 节奏：西语正常速 → 停 0.5 秒 → 西语慢速 → 跟读时间 → 中文释义 → 停 1.5 秒
+// 注意：小节标题（# 开头的行）会被西语音色念出来，所以标题只写西语，中文说明写在 // 批注里
+
+# Ayer
+// pretérito，昨天做完的事
+Ayer recibimos veinte cajas nuevas. = 昨天我们收到了二十箱新货。
+Anoche el conductor llegó muy tarde. = 昨晚司机来得很晚。
+Ayer conté las cajas y faltaban dos. = 昨天我数了箱子，少了两箱。
+
+# Antes
+// imperfecto，过去的习惯
+Cuando trabajaba en la tienda, llegaba tarde todos los días. = 以前在服装店上班时，我每天都迟到。
+De pequeño, vivía en un pueblo pequeño. = 小时候，我住在一个小村子里。
+Antes, descargábamos el camión a mano. = 以前，我们都是人工卸货。
+
+# Si pudiera
+// condicional，假设
+Si tuviera más tiempo, organizaría todas las estanterías. = 如果有更多时间，我会把所有货架整理好。
+Si tuviera un montacargas nuevo, trabajaría mucho más rápido. = 如果有一辆新叉车，我干活会快得多。
+
+# Repaso
+// doler 和 le 的复习
+Me dolía la espalda después de cargar las cajas. = 搬完箱子后，我的背很疼。
+Le mostré la foto del daño al proveedor. = 我把损坏的照片拿给供应商看了。
