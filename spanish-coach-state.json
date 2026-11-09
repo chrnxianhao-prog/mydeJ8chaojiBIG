@@ -4,7 +4,7 @@
   "total_completed_days": 93,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-11-04",
+  "last_task_date": "2026-11-08",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
   "consecutive_completed": 2,
@@ -5536,5 +5536,36 @@
       "escrito": "4/6（cuensta→cuesta；Mañana le llamaba → llamaré —— Mañana 配 -aba 第 3 次）"
     },
     "leccion": "把『像但不是』的真词对（nada/nadar、llamada/llamaba）放在一起对比后，耳朵当场分开了 —— 对比练习有效"
+  },
+  "dia_2026_11_08": {
+    "artifact": "https://claude.ai/artifact/UUVj5QsJsoYqnJHfwMVifK",
+    "db_doc": "resultados/dia-1108",
+    "tema": "隔 4 天回来，复习为主：Mañana → -ré（专治写成 -aba）/ Antes → -aba / Si → -ría + 整通订货砍价电话 + 拼写回炉 último cuesta temprano subir",
+    "dictado": [
+      "llamaré",
+      "subiré",
+      "pediré",
+      "llamaba",
+      "preguntaba",
+      "costaba",
+      "compraría",
+      "descargaría",
+      "último",
+      "cuesta"
+    ],
+    "palabras": [
+      "subir",
+      "temprano",
+      "preguntar",
+      "luego",
+      "pasado mañana",
+      "descansar"
+    ],
+    "andamio_escrito": "⑤ 意思+时间，Mañana 那行加粗提示",
+    "estado": "已发，等学生作答"
+  },
+  "voz_2026_11_08": {
+    "pregunta": "我如何去使用语音练习",
+    "respuesta": "手机/电脑语音输入切到 Español (México) 当发音镜子；页面跟读+录音对比；口语快答出声；④ 和电话对话用语音输入交"
   }
 }
