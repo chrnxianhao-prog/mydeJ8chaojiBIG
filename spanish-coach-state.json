@@ -4663,7 +4663,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-26 批完",
-    "plan": "【仓库】下周换新场景（订缠绕膜这周已练 4 天）；『那一次 -é』产出（El lunes / Ayer）；¡Trato hecho! 第三次再考；c/g（costaba→gustaba）；último 重音；② subir temprano（第二次）pasado mañana descansar",
+    "plan": "【仓库】下周换新场景（订缠绕膜这周已练 4 天）；『那一次 -é』产出（El lunes / Ayer）；¡Trato hecho! 第三次再考；c/g（costaba→gustaba）；último 重音；② subir temprano（第二次）pasado mañana descansar；本周场景结束（订缠绕膜 4 次：订货→砍价→付款），已问学生下周想练哪个场景",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
@@ -5567,7 +5567,8 @@
       "habla": "2/3（¡Trato hecho! 第二次写 no sé）",
       "escrito": "3/6（✅ Mañana mandaré —— Mañana 第一次自己配了 -ré！El lunes llamaba → llamé；Si hay descuento 写 olvido → compraría；Es mi final precio → último / mi precio final）"
     },
-    "andamio": "⑤ 意思+时间，Mañana 行加粗后写对了 -ré"
+    "andamio": "⑤ 意思+时间，Mañana 行加粗后写对了 -ré",
+    "charla": "电话订缠绕膜第 4 次（供应商打来要账）：🎉 自发说出 Sí, pagaré hoy（将来 -ré 对话里用对）；再砍价 tienes descuento hoy → ¿Hay descuento si pago hoy? / ¿Tiene…?（usted）；qué hacer hermano → ¿Qué onda, hermano?"
   },
   "voz_2026_11_08": {
     "pregunta": "我如何去使用语音练习",
