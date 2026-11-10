@@ -32,7 +32,8 @@ ALIAS = {"anackel": "anaquel", "anaquil": "anaquel"}
 
 def fichas(s):
     s = re.sub(r"\d+", lambda m: " " + NUMEROS.get(m.group(), m.group()) + " ", s)
-    s = s.lower()
+    s = s.lower().replace('"', "")
+    s = re.sub(r"\bcon t\b", "conté", s)   # whisper 把 conté 写成字母 con T（读音一样，重音也在 té）
     for k, v in ALIAS.items():
         s = s.replace(k, v)
     return re.findall(r"[a-záéíóúñü]+", s)

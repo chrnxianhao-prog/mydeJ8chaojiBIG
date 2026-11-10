@@ -23,8 +23,10 @@ with sync_playwright() as p:
               const buf = await ctx.decodeAudioData(bin.buffer); out[k].push([buf.sampleRate, Array.from(buf.getChannelData(0))]); } }
           return out; }""", cands)
         elegido = next((k for k, pares in pcm.items() if all(bien(oir(s, sr), w) for sr, s in pares)), None)
-        assert elegido, f"{w} 没有一条解码后过"
+        if not elegido:
+            print(f"✗ {w} 没有一条解码后过 —— 换个词", flush=True); continue
         i = [q["resp"] for q in dic].index(w)
         A[f"t{i}"], A[f"t{i}_dos"] = cands[elegido]; print(w, "→", elegido, flush=True)
+        (SP/f"{N}_audio.json").write_text(json.dumps(A))
     b.close()
 (SP/f"{N}_audio.json").write_text(json.dumps(A))

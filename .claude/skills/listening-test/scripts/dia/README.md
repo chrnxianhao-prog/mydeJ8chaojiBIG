@@ -31,3 +31,5 @@ python3 -m pip install -q "sherpa-onnx<2" numpy lameenc playwright   # 2.0.1 的
 - **句末名词容易糊**：caja → queja、playo → playa。后面再跟一两个词（…cajas aquí / …playo, por favor）。
 - **数字连读**：pedí cien → pedici en。换个不以元音/c 开头粘连的数（treinta）。
 - **¿Qué…? 的重音 whisper 不写**（问句也写成 que）：练习句的关键词别放 qué，放后面的词。
+- **whisper 把 conté 写成字母 con T**：`fichas()` 把 `con t` 换回 conté。anoté 解码后总被拆成 a noté / anote，换词（revisé）。
+- 换了听写词以后**再查一遍短文有没有泄题**（11-10 换成 revisé，短文里正好有 revisé）。

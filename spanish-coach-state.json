@@ -4,7 +4,7 @@
   "total_completed_days": 94,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-11-09",
+  "last_task_date": "2026-11-10",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
   "consecutive_completed": 2,
@@ -5573,5 +5573,40 @@
   "voz_2026_11_08": {
     "pregunta": "我如何去使用语音练习",
     "respuesta": "手机/电脑语音输入切到 Español (México) 当发音镜子；页面跟读+录音对比；口语快答出声；④ 和电话对话用语音输入交"
-  }
+  },
+  "dia_2026_11_10": {
+    "artifact": "https://claude.ai/artifact/Gh2qovdxGwUmE6Abt6utuA",
+    "db_doc": "resultados/dia-1110",
+    "tema": "新一周场景『收货：跟司机说少货坏货』第 1 天：那一次 我 -é / 他 -ó（conté llegó firmó）+ Faltan dos cajas / llegó dañada / no está completa + No puedo firmar así / Voy a anotar",
+    "dictado": [
+      "llegó",
+      "conté",
+      "firmó",
+      "llamé",
+      "revisé",
+      "faltan",
+      "dañada",
+      "completa",
+      "rota",
+      "costaba"
+    ],
+    "palabras": [
+      "subir",
+      "temprano",
+      "pasado mañana",
+      "descansar",
+      "último",
+      "la hoja"
+    ],
+    "bloques": [
+      "Buenos días, ¿me da la hoja, por favor?",
+      "Faltan dos cajas, señor.",
+      "Y esta caja llegó dañada.",
+      "No puedo firmar así.",
+      "Voy a anotar en la hoja que faltan dos."
+    ],
+    "andamio_escrito": "⑤ 意思+时间，那一次两行加粗写明 他 -ó / 我 -é",
+    "estado": "已发，等学生作答"
+  },
+  "escena_semana_2026_11_10": "收货：跟司机说少货坏货（学生没选，老师默认；告诉他想换可以说）"
 }
