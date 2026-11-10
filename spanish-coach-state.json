@@ -1,10 +1,10 @@
 {
   "level": "A2",
-  "streak": 3,
-  "total_completed_days": 93,
+  "streak": 1,
+  "total_completed_days": 94,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-11-08",
+  "last_task_date": "2026-11-09",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
   "consecutive_completed": 2,
@@ -2563,6 +2563,12 @@
       "error": "Mañana le llamaba（第 3 次）",
       "correcto": "Mañana le llamaré",
       "nota": "产出时 Mañana 总配 -aba；听写 llamaré 却能写对。下次⑤里 Mañana 那行单独加粗 + 先在快答里练三遍"
+    },
+    {
+      "fecha": "2026-11-09",
+      "error": "El lunes llamaba",
+      "correcto": "El lunes llamé",
+      "nota": "El lunes / Ayer = 那一次 -é；这次 Mañana 对了，那一次又跑去 -aba"
     }
   ],
   "week_stats": {
@@ -2772,8 +2778,9 @@
     {
       "word": "descansar",
       "module": "高频动词",
-      "date_wrong": "2026-08-07",
-      "correct_count": 1
+      "date_wrong": "2026-11-09",
+      "correct_count": 0,
+      "nota": "；11-09 写成 descanso（变位了，要原形）"
     },
     {
       "word": "esconderse",
@@ -2803,8 +2810,9 @@
       "word": "subir",
       "module": "高频动词",
       "date_wrong": "2026-11-04",
-      "correct_count": 0,
-      "nota": "；11-04 写成 suete"
+      "correct_count": 1,
+      "nota": "；11-04 写成 suete",
+      "date_ok": "2026-11-09"
     },
     {
       "word": "el jarabe",
@@ -2834,13 +2842,6 @@
       "correct_count": 0
     },
     {
-      "word": "preguntar",
-      "module": "高频动词",
-      "date_wrong": "2026-09-17",
-      "correct_count": 1,
-      "date_ok": "2026-11-04"
-    },
-    {
       "word": "trepar",
       "module": "童年回忆",
       "date_wrong": "2026-09-25",
@@ -2849,8 +2850,9 @@
     {
       "word": "pasado mañana",
       "module": "时间",
-      "date_wrong": "2026-08-07",
-      "correct_count": 1
+      "date_wrong": "2026-11-09",
+      "correct_count": 0,
+      "nota": "；11-09 写成 pasada mañana（pasado 跟着 mañana 变阴性了，其实固定说 pasado）"
     },
     {
       "word": "dejar",
@@ -2862,20 +2864,15 @@
       "word": "temprano",
       "module": "日常活动",
       "date_wrong": "2026-11-04",
-      "correct_count": 0,
-      "nota": "；11-04 写成 tiemprano（tiempo 混进来了）"
+      "correct_count": 1,
+      "nota": "；11-04 写成 tiemprano（tiempo 混进来了）",
+      "date_ok": "2026-11-09"
     },
     {
       "word": "cerrar",
       "module": "厨房家务",
       "date_wrong": "2026-09-17",
       "correct_count": 0
-    },
-    {
-      "word": "luego",
-      "module": "日常活动",
-      "date_wrong": "2026-08-07",
-      "correct_count": 1
     },
     {
       "word": "el semáforo",
@@ -4666,7 +4663,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-26 批完",
-    "plan": "【仓库·打电话订缠绕膜 第 3 天】Mañana → -ré 产出（快答 + ⑤ 加粗）；último 拼写（ul-ti-mo）；cuesta 拼写；¡Trato hecho!；对比练习有效，继续用真词对",
+    "plan": "【仓库】下周换新场景（订缠绕膜这周已练 4 天）；『那一次 -é』产出（El lunes / Ayer）；¡Trato hecho! 第三次再考；c/g（costaba→gustaba）；último 重音；② subir temprano（第二次）pasado mañana descansar",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
@@ -5562,7 +5559,15 @@
       "descansar"
     ],
     "andamio_escrito": "⑤ 意思+时间，Mañana 那行加粗提示",
-    "estado": "已发，等学生作答"
+    "estado": "已批（11-09 晚做）",
+    "resultado": {
+      "oido": "8/10（llamaré subiré pediré llamaba preguntaba compraría descargaría cuesta 对；costaba→gustaba（c 又听成 g）；ultimo 漏重音）",
+      "palabras": "4/6（preguntar luego 第二次跨天对 → 移出；subir temprano 连对 1；pasado mañana→pasada；descansar→descanso）",
+      "lectura": "4/4",
+      "habla": "2/3（¡Trato hecho! 第二次写 no sé）",
+      "escrito": "3/6（✅ Mañana mandaré —— Mañana 第一次自己配了 -ré！El lunes llamaba → llamé；Si hay descuento 写 olvido → compraría；Es mi final precio → último / mi precio final）"
+    },
+    "andamio": "⑤ 意思+时间，Mañana 行加粗后写对了 -ré"
   },
   "voz_2026_11_08": {
     "pregunta": "我如何去使用语音练习",
