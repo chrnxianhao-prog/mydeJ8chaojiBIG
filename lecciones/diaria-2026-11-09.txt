@@ -1,0 +1,29 @@
+#! voice=es-MX-JorgeNeural slow-rate=-50% gap=1500
+# Lección diaria — Mañana, antes y ayer
+// 语音版每日练习 · 2026-11-09 · A2 · 仓库场景
+// 重点：时间词定三时态 — Mañana + 将来 -ré / Antes + 以前常 -aba·-ía / Ayer + 一次 -é·-ó（接 11-02 至 11-04 错题：Mañana 总配错 -aba）
+// 复习：falta 一个 / está + 状态（la caja está dañada）
+// 节奏：西语正常速 → 停 0.5 秒 → 西语慢速 → 跟读时间 → 中文释义 → 停 1.5 秒
+// 注意：小节标题（# 开头的行）会被西语音色念出来，所以标题只写西语，中文说明写在 // 批注里
+
+# Mañana
+// 将来时 -ré：明天要做的事
+Mañana le llamaré al proveedor por teléfono. = 明天我会给供应商打电话。
+Mañana descargaremos el camión a las ocho. = 明天早上八点我们卸货。
+Mañana revisaré las estanterías una por una. = 明天我会一个一个检查货架。
+
+# Antes
+// 以前常 -aba / -ía：过去的习惯
+Antes contábamos las cajas a mano. = 以前我们都是人工数箱子。
+Antes el camión llegaba siempre tarde. = 以前卡车总是来得很晚。
+Antes trabajaba en otra bodega, muy lejos de aquí. = 以前我在另一个仓库工作，离这里很远。
+
+# Ayer
+// 一次 -é / -ó：昨天做完的事
+Ayer llamé al conductor dos veces. = 昨天我给司机打了两次电话。
+El lunes pasado recibimos tres tarimas nuevas. = 上周一我们收到了三个新托盘。
+
+# Repaso
+// falta 单数 / está + 状态
+Ayer faltaba una caja en el pedido. = 昨天订单里少了一箱货。
+La caja está dañada. = 这个箱子是坏的。

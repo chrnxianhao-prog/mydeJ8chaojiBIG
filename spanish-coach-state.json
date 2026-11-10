@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 3,
-  "total_completed_days": 93,
+  "streak": 4,
+  "total_completed_days": 94,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-11-08",
+  "last_task_date": "2026-11-09",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
-  "consecutive_completed": 2,
+  "consecutive_completed": 3,
   "vocabulary_learned": [
     "China",
     "México",
@@ -929,6 +929,7 @@
     "la cirugía"
   ],
   "recent_topics": [
+    "三时态时间词专项：Mañana + 将来 -ré / Antes + -aba·-ía / Ayer + pretérito（语音课 2026-11-09，仓库场景）",
     "culpa/error对比专项(第二次巩固，选词稳定)",
     "miedo/asustado接续动词规则(tener miedo vs estar/parecer asustado)",
     "negar词干变化(niego/niegas/niega)首次教学，3/3全对",
@@ -999,7 +1000,8 @@
     "imperfecto/condicional背景句型(mientras/cuando)专项巩固-复发与纠正",
     "命令式 usted 形：从 yo 现在式去 -o 加 a/e 的统一规则（含不规则动词），语音课形式",
     "-go 帮动词现在式 yo 形（salgo/tengo/pongo/vengo/hago/digo/traigo/oigo）—— 八个词一个规则",
-    "现在式词干变化 e→ie（cerrar/pensar/entender/perder，测试 4/4）与 e→i（pedir/repetir 已过，servir/seguir 未过）"
+    "现在式词干变化 e→ie（cerrar/pensar/entender/perder，测试 4/4）与 e→i（pedir/repetir 已过，servir/seguir 未过）",
+    "时间词定三时态：Mañana + 将来 -ré / Antes + -aba·-ía / Ayer + pretérito（语音课）"
   ],
   "common_errors": [
     {
