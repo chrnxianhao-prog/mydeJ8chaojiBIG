@@ -1,0 +1,30 @@
+#! listening voice=es-MX-JorgeNeural gap=1800
+# Comprensión auditiva — Un día en el almacén
+
+// ── 给老师的批注（不会被念出来）──
+// 考点设计：三时态层次——imperfecto 铺背景（以前怎么样）、pretérito 推事件（昨天发生了什么）、
+// condicional 收假设（如果有更多时间 / 想换什么样的仓库）。听不出时态层次就答不对。
+// 复现错题库老词：mostrar（8-19）、debería（8-18）、gustaría（9-17）、recibir（9-29）。
+// 理解题（⚠️ 学生听完再发，用中文提问，只测听懂没听懂）：
+//   1. 卡车以前一般几点到？昨天几点到的？（选择）
+//      A. 以前早上八点，昨天十一点 ✅ / B. 以前十一点，昨天早上八点 / C. 每天都是早上八点
+//   2. 订单里少了什么？—— 一个大箱子螺丝（一大箱螺丝）
+//   3. 他为什么没马上给供应商打电话？—— 他没有供应商的电话号码
+//   4. 供应商说明天会怎么样？（选择）
+//      A. 明天派另一辆卡车把大箱子送来 ✅ / B. 明天不送了 / C. 让他自己去取
+//   5. 如果他有更多时间，他想做什么？（选择）
+//      A. 把所有货架整理好 ✅ / B. 换一个更大的仓库 / C. 早点下班
+
+Ayer fue un día muy largo en el almacén.
+Cuando yo trabajaba en la tienda, nunca tenía tanto trabajo.
+Antes, el camión llegaba siempre a las ocho de la mañana.
+Ayer el camión llegó a las once y el conductor estaba muy cansado.
+Yo le mostré la lista del pedido al conductor.
+Ayer recibimos veinte cajas nuevas, pero faltaba una caja grande de tornillos.
+El conductor me dijo que la caja grande estaba en otro camión.
+Yo debería llamar al proveedor, pero no tenía su número de teléfono.
+Mi compañera Ana me mostró su teléfono y yo llamé al proveedor.
+El proveedor me dijo que mañana llegaría otro camión con la caja grande.
+Si yo tuviera más tiempo, organizaría todas las estanterías.
+Me gustaría trabajar en un almacén más grande, con más espacio.
+Ayer, al final del día, yo estaba muy cansado, pero contento.
