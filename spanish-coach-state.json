@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 4,
-  "total_completed_days": 94,
+  "streak": 5,
+  "total_completed_days": 95,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-11-09",
+  "last_task_date": "2026-11-11",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
-  "consecutive_completed": 3,
+  "consecutive_completed": 4,
   "vocabulary_learned": [
     "China",
     "México",
@@ -608,7 +608,12 @@
     "además",
     "el problema (阳性例外)",
     "Si yo fuera tú... (固定短语)",
-    "No tengas miedo. (固定短语)"
+    "No tengas miedo. (固定短语)",
+    "el inventario",
+    "el montacargas",
+    "la estantería",
+    "dañado/a",
+    "pesado/a"
   ],
   "vocabulary_review_queue": [
     "esperar",
@@ -929,6 +934,7 @@
     "la cirugía"
   ],
   "recent_topics": [
+    "三时态时间词专项续：盘点场景 Mañana/Antes/Ayer + le 间接宾语/faltan/trajó/subiré（语音课 2026-11-11，仓库盘点+叉车）",
     "三时态时间词专项：Mañana + 将来 -ré / Antes + -aba·-ía / Ayer + pretérito（语音课 2026-11-09，仓库场景）",
     "culpa/error对比专项(第二次巩固，选词稳定)",
     "miedo/asustado接续动词规则(tener miedo vs estar/parecer asustado)",
