@@ -1,7 +1,7 @@
 {
   "level": "A2",
-  "streak": 2,
-  "total_completed_days": 95,
+  "streak": 3,
+  "total_completed_days": 96,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
   "last_task_date": "2026-11-11",
@@ -2575,6 +2575,12 @@
       "error": "No puedo frimo",
       "correcto": "No puedo firmar",
       "nota": "puedo 后面要原形；fir 拼成 fri"
+    },
+    {
+      "fecha": "2026-11-11",
+      "error": "Primero traigo las tres / Mañana traigá",
+      "correcto": "Primero traiga / Mañana traerá",
+      "nota": "命令式停在 yo 形式；将来没留原形。traer 三个形式：traigo 我带 · traiga 请您带 · traerá 他将带"
     }
   ],
   "week_stats": {
@@ -2695,9 +2701,10 @@
     {
       "word": "recibir",
       "module": "高频动词",
-      "date_wrong": "2026-09-29",
+      "date_wrong": "2026-11-11",
       "correct_count": 0,
-      "plan": "先进练习区（听+例句），当天不考，隔天再考"
+      "plan": "先进练习区（听+例句），当天不考，隔天再考",
+      "nota": "11-11 写成 rebir（漏 ci）"
     },
     {
       "word": "el sombrero",
@@ -2782,14 +2789,6 @@
       "correct_count": 0
     },
     {
-      "word": "descansar",
-      "module": "高频动词",
-      "date_wrong": "2026-11-09",
-      "correct_count": 1,
-      "nota": "；11-09 写成 descanso（变位了，要原形）",
-      "date_ok": "2026-11-10"
-    },
-    {
       "word": "esconderse",
       "module": "童年回忆",
       "date_wrong": "2026-09-08",
@@ -2847,14 +2846,6 @@
       "correct_count": 0
     },
     {
-      "word": "pasado mañana",
-      "module": "时间",
-      "date_wrong": "2026-11-09",
-      "correct_count": 1,
-      "nota": "；11-09 写成 pasada mañana（pasado 跟着 mañana 变阴性了，其实固定说 pasado）",
-      "date_ok": "2026-11-10"
-    },
-    {
       "word": "dejar",
       "module": "高频动词",
       "date_wrong": "2026-08-31",
@@ -2863,8 +2854,9 @@
     {
       "word": "cerrar",
       "module": "厨房家务",
-      "date_wrong": "2026-09-17",
-      "correct_count": 0
+      "date_wrong": "2026-11-11",
+      "correct_count": 0,
+      "nota": "11-11 写成 cerrer（-ar 写成 -er）"
     },
     {
       "word": "el semáforo",
@@ -2900,8 +2892,9 @@
     {
       "word": "responder",
       "module": "高频动词",
-      "date_wrong": "2026-09-17",
-      "correct_count": 0
+      "date_wrong": "2026-11-11",
+      "correct_count": 0,
+      "nota": "11-11 写成 reviser（跟 revisar 混）"
     },
     {
       "word": "garganta",
@@ -3111,9 +3104,10 @@
     {
       "word": "devolver la llamada",
       "module": "高频动词",
-      "date_wrong": "2026-09-29",
+      "date_wrong": "2026-11-11",
       "correct_count": 0,
-      "plan": "先进练习区（听+例句），当天不考，隔天再考"
+      "plan": "先进练习区（听+例句），当天不考，隔天再考",
+      "nota": "11-11 写成 llmada（漏 a）"
     },
     {
       "word": "sonar",
@@ -4655,7 +4649,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-26 批完",
-    "plan": "【仓库·收货少货坏货 第 2 天】t / d 互换（faltan→faldan、dañada→tañada）对比听辨；llamé 重音；puedo + 原形；④ 别漏交；② pasado mañana descansar（第二次）；句块加 Primero traiga las tres, luego firmo / La hoja dice…, pero solo hay…；命令式 traiga 引入",
+    "plan": "【仓库·收货 第 3 天】traer 三形式 traigo / traiga / traerá 对比；solo hay（不用 tienes）；código 重音在 ó；② recibir cerrar responder devolver la llamada；t/d 听辨过关（4/4）",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
@@ -5641,6 +5635,13 @@
       "Primero traiga las tres, luego firmo."
     ],
     "andamio_escrito": "⑤ 意思+形式，第 5 行给了 traer → traigo → ? 推导提示",
-    "estado": "已发，等学生作答"
+    "estado": "已批",
+    "resultado": {
+      "oido": "8/10（t/d 四个 faltan dañada todo tarima 全对！traiga ponga espere 对；código 重音放错 codígo；revisé 漏重音）",
+      "palabras": "2/6（pasado mañana descansar 第二次跨天对 → 移出；recibir→rebir；cerrar→cerrer；responder→reviser；devolver la llamada→llmada）",
+      "lectura": "3/4",
+      "habla": "3/3（traiga problema hay）",
+      "escrito": "3/6（llegó problema firmar 对；solo ___ 写 tienes → hay；traigo → traiga（停在 yo 形式少走一步）；traigá → traerá（将来留原形 traer + á））"
+    }
   }
 }
