@@ -4,7 +4,7 @@
   "total_completed_days": 95,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-11-10",
+  "last_task_date": "2026-11-11",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
   "consecutive_completed": 2,
@@ -5608,5 +5608,39 @@
     },
     "charla": "收货跟司机第 1 次：态度硬 No, no firmo hoy ✓、faltan 3 cajas ✓；pregrama→problema；etse godigo→este código（c/g）；todos este 50 pero solo 47 → La hoja dice cincuenta, pero solo hay cuarenta y siete；trajo las tres → Traiga las tres（usted 命令式）"
   },
-  "escena_semana_2026_11_10": "收货：跟司机说少货坏货（学生没选，老师默认；告诉他想换可以说）"
+  "escena_semana_2026_11_10": "收货：跟司机说少货坏货（学生没选，老师默认；告诉他想换可以说）",
+  "dia_2026_11_11": {
+    "artifact": "https://claude.ai/artifact/Bv9umx6dbRqkN7gR5uPE3V",
+    "db_doc": "resultados/dia-1111",
+    "tema": "收货场景第 2 天：usted 命令式 traiga / firme / ponga / espere / abra（-ar→-e；-er/-ir 从 yo 形式→-a）+ La hoja dice…, pero solo hay… + Primero traiga las tres, luego firmo + t/d 对比",
+    "dictado": [
+      "faltan",
+      "dañada",
+      "todo",
+      "la tarima",
+      "traiga",
+      "ponga",
+      "espere",
+      "el código",
+      "el problema",
+      "revisé"
+    ],
+    "palabras": [
+      "pasado mañana",
+      "descansar",
+      "recibir",
+      "cerrar",
+      "responder",
+      "devolver la llamada"
+    ],
+    "bloques": [
+      "Buenas tardes, ¿me da la hoja, por favor?",
+      "La hoja dice cincuenta, pero solo hay cuarenta y siete.",
+      "Tengo un problema: faltan tres cajas.",
+      "No puedo firmar así.",
+      "Primero traiga las tres, luego firmo."
+    ],
+    "andamio_escrito": "⑤ 意思+形式，第 5 行给了 traer → traigo → ? 推导提示",
+    "estado": "已发，等学生作答"
+  }
 }
