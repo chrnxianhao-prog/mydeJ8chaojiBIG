@@ -4649,7 +4649,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-26 批完",
-    "plan": "【仓库·收货 第 3 天】traer 三形式 traigo / traiga / traerá 对比；solo hay（不用 tienes）；código 重音在 ó；② recibir cerrar responder devolver la llamada；t/d 听辨过关（4/4）",
+    "plan": "【仓库·收货 第 3 天】traer 三形式 traigo / traiga / traerá 对比；solo hay（不用 tienes）；código 重音在 ó；② recibir cerrar responder devolver la llamada；t/d 听辨过关（4/4）；句块加 Déjeme revisar… / Primero reviso, luego firmo；abierta 拼写",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
@@ -5642,6 +5642,7 @@
       "lectura": "3/4",
       "habla": "3/3（traiga problema hay）",
       "escrito": "3/6（llegó problema firmar 对；solo ___ 写 tienes → hay；traigo → traiga（停在 yo 形式少走一步）；traigá → traerá（将来留原形 traer + á））"
-    }
+    },
+    "charla": "收货跟司机第 2 次（补货 + 一箱开了）：Un momento 先停下检查 ✓、¿Qué pasó? ✓（漏重音）；一开始没查就说 firmo ahora；ya abirda → ¿Ya está abierta?；yo chekin esta caja（英语混入）→ Voy a revisar / Déjeme revisar esta caja；教 Primero reviso, luego firmo"
   }
 }
