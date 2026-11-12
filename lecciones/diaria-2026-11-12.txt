@@ -1,0 +1,29 @@
+#! voice=es-MX-JorgeNeural slow-rate=-50% gap=1500
+# Lección diaria — Descargar el camión
+// 语音版每日练习 · 2026-11-12 · A2 · 仓库场景
+// 重点：时间词定三时态 — Mañana + 将来 -ré / Antes + 以前常 -aba·-ía / Ayer + 一次 -é·-ó（第三轮，换收货卸货场景）
+// 复习：le 间接宾语（le avisaré）、faltaron 复数、entregar/firmar、me gustaría + 原形（委婉请求）
+// 节奏：西语正常速 → 停 0.5 秒 → 西语慢速 → 跟读时间 → 中文释义 → 停 1.5 秒
+// 注意：小节标题（# 开头的行）会被西语音色念出来，所以标题只写西语，中文说明写在 // 批注里
+
+# Mañana
+// 将来时 -ré：明天要做的事
+Mañana descargaremos el camión nuevo a las nueve. = 明天早上九点我们卸新到的卡车。
+Mañana le avisaré al conductor la hora de llegada. = 明天我会告诉司机到货时间。
+Mañana revisaremos las cajas dañadas una por una. = 明天我们会一个一个检查坏掉的箱子。
+
+# Antes
+// 以前常 -aba / -ía：过去的习惯
+Antes descargábamos el camión entre tres personas. = 以前我们三个人一起卸车。
+Antes el proveedor siempre traía la mercancía en la mañana. = 以前供应商总是在早上送货。
+Antes yo firmaba la lista antes de guardar las cajas. = 以前我先签收单子，再把箱子入库。
+
+# Ayer
+// 一次 -é / -ó：昨天做完的事
+Ayer recibimos veinte tarimas y pesamos todas las cajas. = 昨天我们收了二十个托盘，称了所有箱子。
+Ayer el conductor me entregó la lista y yo la firmé. = 昨天司机把单子交给我，我签了。
+Ayer faltaron tres cajas y una estaba rota. = 昨天少了三个箱子，还有一个是破的。
+
+# Repaso
+// me gustaría + 原形：委婉请求
+Me gustaría pedirle ayuda al conductor mañana. = 我想明天请司机帮个忙。

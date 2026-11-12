@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 5,
-  "total_completed_days": 95,
+  "streak": 6,
+  "total_completed_days": 96,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-11-11",
+  "last_task_date": "2026-11-12",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
-  "consecutive_completed": 4,
+  "consecutive_completed": 5,
   "vocabulary_learned": [
     "China",
     "México",
@@ -613,7 +613,15 @@
     "el montacargas",
     "la estantería",
     "dañado/a",
-    "pesado/a"
+    "pesado/a",
+    "descargar",
+    "avisar",
+    "revisar",
+    "pesar",
+    "entregar",
+    "la mercancía",
+    "la tarima",
+    "roto/a"
   ],
   "vocabulary_review_queue": [
     "esperar",
@@ -934,12 +942,12 @@
     "la cirugía"
   ],
   "recent_topics": [
-    "三时态时间词专项续：盘点场景 Mañana/Antes/Ayer + le 间接宾语/faltan/trajó/subiré（语音课 2026-11-11，仓库盘点+叉车）",
     "三时态时间词专项：Mañana + 将来 -ré / Antes + -aba·-ía / Ayer + pretérito（语音课 2026-11-09，仓库场景）",
     "culpa/error对比专项(第二次巩固，选词稳定)",
     "miedo/asustado接续动词规则(tener miedo vs estar/parecer asustado)",
     "negar词干变化(niego/niegas/niega)首次教学，3/3全对",
-    "命令式 usted 形（新内容，学生要求重新开始不碰旧账）"
+    "命令式 usted 形（新内容，学生要求重新开始不碰旧账）",
+    "三时态时间词专项第三轮：收货卸货场景 Mañana/Antes/Ayer + le 间接宾语/faltaron/entregar/firmar + me gustaría 委婉请求（语音课 2026-11-12）"
   ],
   "grammar_points_covered": [
     "ser",
