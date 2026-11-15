@@ -1,13 +1,13 @@
 {
   "level": "A2",
-  "streak": 6,
-  "total_completed_days": 96,
+  "streak": 9,
+  "total_completed_days": 99,
   "total_missed_days": 23,
-  "difficulty_modifier": 28,
-  "last_task_date": "2026-11-12",
+  "difficulty_modifier": 30,
+  "last_task_date": "2026-11-15",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
-  "consecutive_completed": 5,
+  "consecutive_completed": 8,
   "vocabulary_learned": [
     "China",
     "México",
@@ -621,7 +621,20 @@
     "entregar",
     "la mercancía",
     "la tarima",
-    "roto/a"
+    "roto/a",
+    "mover",
+    "colocar",
+    "el pasillo",
+    "apilar",
+    "la etiqueta",
+    "ordenar",
+    "la factura",
+    "mojado/a",
+    "bajar",
+    "confirmar",
+    "la entrega",
+    "reponer",
+    "el mismo día"
   ],
   "vocabulary_review_queue": [
     "esperar",
@@ -947,7 +960,10 @@
     "miedo/asustado接续动词规则(tener miedo vs estar/parecer asustado)",
     "negar词干变化(niego/niegas/niega)首次教学，3/3全对",
     "命令式 usted 形（新内容，学生要求重新开始不碰旧账）",
-    "三时态时间词专项第三轮：收货卸货场景 Mañana/Antes/Ayer + le 间接宾语/faltaron/entregar/firmar + me gustaría 委婉请求（语音课 2026-11-12）"
+    "三时态时间词专项第三轮：收货卸货场景 Mañana/Antes/Ayer + le 间接宾语/faltaron/entregar/firmar + me gustaría 委婉请求（语音课 2026-11-12）",
+    "三时态时间词专项第四轮：叉车搬货、货架整理场景 Mañana/Antes/Ayer + le 间接宾语/faltaron/trajo/dio + podría 委婉请求（语音课 2026-11-13）",
+    "三时态时间词专项第四轮（2026-11-13 课，叉车/货架场景）因同步确认卡住未发，11-14 补发",
+    "三时态时间词专项第五轮：跟供应商确认补货、跟司机约卸货时间场景 Mañana/Antes/Ayer + le 间接宾语/faltaron/devolver + podría 委婉请求（语音课 2026-11-15）"
   ],
   "grammar_points_covered": [
     "ser",
@@ -1015,7 +1031,8 @@
     "命令式 usted 形：从 yo 现在式去 -o 加 a/e 的统一规则（含不规则动词），语音课形式",
     "-go 帮动词现在式 yo 形（salgo/tengo/pongo/vengo/hago/digo/traigo/oigo）—— 八个词一个规则",
     "现在式词干变化 e→ie（cerrar/pensar/entender/perder，测试 4/4）与 e→i（pedir/repetir 已过，servir/seguir 未过）",
-    "时间词定三时态：Mañana + 将来 -ré / Antes + -aba·-ía / Ayer + pretérito（语音课）"
+    "时间词定三时态：Mañana + 将来 -ré / Antes + -aba·-ía / Ayer + pretérito（语音课）",
+    "podría 委婉请求（条件式）"
   ],
   "common_errors": [
     {
