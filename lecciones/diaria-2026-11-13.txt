@@ -1,0 +1,30 @@
+#! voice=es-MX-JorgeNeural slow-rate=-50% gap=1500
+# Lección diaria — El montacargas y la estantería
+// 语音版每日练习 · 2026-11-13 · A2 · 仓库场景
+// 重点：时间词定三时态 — Mañana + 将来 -ré / Antes + 以前常 -aba·-ía / Ayer + 一次 -é·-ó（第四轮，换叉车搬货、货架整理场景）
+// 复习：le 间接宾语（le pediré）、faltaron 复数、trajo/dio 过去式、条件式委婉请求 podría
+// 新词：mover, colocar, el pasillo, apilar, la etiqueta, ordenar, la factura, mojado/a, bajar
+// 节奏：西语正常速 → 停 0.5 秒 → 西语慢速 → 跟读时间 → 中文释义 → 停 1.5 秒
+// 注意：小节标题（# 开头的行）会被西语音色念出来，所以标题只写西语，中文说明写在 // 批注里
+
+# Mañana
+// 将来时 -ré：明天要做的事
+Mañana moveremos las tarimas con el montacargas. = 明天我们用叉车搬托盘。
+Mañana le pediré al proveedor una lista nueva de precios. = 明天我会向供应商要一份新价目表。
+Mañana colocaré las cajas pesadas en la estantería baja. = 明天我会把重箱子放在低货架上。
+
+# Antes
+// 以前常 -aba / -ía：过去的习惯
+Antes colocábamos las cajas sin revisar las etiquetas. = 以前我们不看标签就直接放箱子。
+Antes el montacargas siempre estaba en el pasillo dos. = 以前叉车总停在二号通道。
+Antes yo apilaba las tarimas por la mañana. = 以前我早上就把托盘码好。
+
+# Ayer
+// 一次 -é / -ó：昨天做完的事
+Ayer moví veinte cajas y ordené el pasillo tres. = 昨天我搬了二十个箱子，整理了三号通道。
+Ayer el proveedor me trajo la mercancía y me dio la factura. = 昨天供应商把货送来，还给了我发票。
+Ayer faltaron cuatro cajas y dos estaban mojadas. = 昨天少了四个箱子，还有两个被水泡了。
+
+# Repaso
+// 条件式 podría：委婉请求
+¿Podría ayudarme a bajar esta caja, por favor? = 您能帮我把这个箱子搬下来吗？
