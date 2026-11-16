@@ -1,10 +1,10 @@
 {
   "level": "A2",
-  "streak": 3,
-  "total_completed_days": 96,
+  "streak": 1,
+  "total_completed_days": 97,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-11-12",
+  "last_task_date": "2026-11-15",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
   "consecutive_completed": 2,
@@ -2581,6 +2581,12 @@
       "error": "Primero traigo las tres / Mañana traigá",
       "correcto": "Primero traiga / Mañana traerá",
       "nota": "命令式停在 yo 形式；将来没留原形。traer 三个形式：traigo 我带 · traiga 请您带 · traerá 他将带"
+    },
+    {
+      "fecha": "2026-11-15",
+      "error": "traerá → traida / traige；abierta → abrito / abieda",
+      "correcto": "traerá；abierta",
+      "nota": "traerá 听写和作文都错：tra-e-rá 三个音节。abierta 拼写 a-bier-ta 第 3 次错"
     }
   ],
   "week_stats": {
@@ -2702,9 +2708,10 @@
       "word": "recibir",
       "module": "高频动词",
       "date_wrong": "2026-11-11",
-      "correct_count": 0,
+      "correct_count": 1,
       "plan": "先进练习区（听+例句），当天不考，隔天再考",
-      "nota": "11-11 写成 rebir（漏 ci）"
+      "nota": "11-11 写成 rebir（漏 ci）",
+      "date_ok": "2026-11-15"
     },
     {
       "word": "el sombrero",
@@ -2855,8 +2862,9 @@
       "word": "cerrar",
       "module": "厨房家务",
       "date_wrong": "2026-11-11",
-      "correct_count": 0,
-      "nota": "11-11 写成 cerrer（-ar 写成 -er）"
+      "correct_count": 1,
+      "nota": "11-11 写成 cerrer（-ar 写成 -er）",
+      "date_ok": "2026-11-15"
     },
     {
       "word": "el semáforo",
@@ -2894,7 +2902,7 @@
       "module": "高频动词",
       "date_wrong": "2026-11-11",
       "correct_count": 0,
-      "nota": "11-11 写成 reviser（跟 revisar 混）"
+      "nota": "11-11 写成 reviser（跟 revisar 混）；11-15 又写 reviser"
     },
     {
       "word": "garganta",
@@ -2918,17 +2926,20 @@
     {
       "word": "la empresa",
       "module": "工作职业",
-      "date_wrong": "2026-09-29",
+      "date_wrong": "2026-11-15",
       "correct_count": 0,
-      "plan": "先进练习区（听+例句），当天不考，隔天再考"
+      "plan": "先进练习区（听+例句），当天不考，隔天再考",
+      "nota": "11-15 写成 la esprea"
     },
     {
       "word": "el éxito",
       "module": "工作职业",
       "date_wrong": "2026-09-29",
-      "correct_count": 0,
+      "correct_count": 1,
       "mnemonic": "假朋友陷阱：英语 exit（出口）跟 éxito（成功）长得像但毫无关系。脑子里蹦出「出口」对不上「成功」，词就存不住。点明两码事即可",
-      "plan": "先进练习区（听+例句），当天不考，隔天再考"
+      "plan": "先进练习区（听+例句），当天不考，隔天再考",
+      "date_ok": "2026-11-15",
+      "nota": "11-15 写成 el exíto（重音放错，非严判算对）"
     },
     {
       "word": "camarero",
@@ -3105,9 +3116,10 @@
       "word": "devolver la llamada",
       "module": "高频动词",
       "date_wrong": "2026-11-11",
-      "correct_count": 0,
+      "correct_count": 1,
       "plan": "先进练习区（听+例句），当天不考，隔天再考",
-      "nota": "11-11 写成 llmada（漏 a）"
+      "nota": "11-11 写成 llmada（漏 a）",
+      "date_ok": "2026-11-15"
     },
     {
       "word": "sonar",
@@ -4649,7 +4661,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-26 批完",
-    "plan": "【仓库·收货 第 3 天】traer 三形式 traigo / traiga / traerá 对比；solo hay（不用 tienes）；código 重音在 ó；② recibir cerrar responder devolver la llamada；t/d 听辨过关（4/4）；句块加 Déjeme revisar… / Primero reviso, luego firmo；abierta 拼写",
+    "plan": "【仓库·收货 第 4 天 / 或换场景】traerá（tra-e-rá）专项；abierta 拼写抄写；重音漏写多（déjeme código revisé）—提醒长按打重音；② responder la empresa（0）recibir cerrar devolver la llamada éxito（第二次）",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
@@ -5677,6 +5689,13 @@
       "Todo está bien. Ahora sí firmo."
     ],
     "andamio_escrito": "⑤ 意思+形式，第 1 行新形式 -aron 有提示",
-    "estado": "已发，等学生作答"
+    "estado": "已批（11-15 晚做）",
+    "resultado": {
+      "oido": "4/10（traigo traiga mojada pasó 对；traerá→traida（单 r 又成 d）；abierta→abieda；el resto→entresto；déjeme / código / revisé 三个漏重音）",
+      "palabras": "4/6（recibir cerrar devolver la llamada 连对 1；éxito 写 exíto 算对；responder→reviser 第二次；la empresa→la esprea）",
+      "lectura": "3/4",
+      "habla": "2/3（dejame → déjeme（对司机用 usted；déjame 是对 tú 说，也没错但要带重音）；abrito → abierta）",
+      "escrito": "5/6（llegaron está hay traiga 对，dejame 算对附注；Mañana traig[e → traerá）"
+    }
   }
 }
