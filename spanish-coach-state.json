@@ -4,7 +4,7 @@
   "total_completed_days": 97,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-11-15",
+  "last_task_date": "2026-11-16",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
   "consecutive_completed": 2,
@@ -5697,5 +5697,40 @@
       "habla": "2/3（dejame → déjeme（对司机用 usted；déjame 是对 tú 说，也没错但要带重音）；abrito → abierta）",
       "escrito": "5/6（llegaron está hay traiga 对，dejame 算对附注；Mañana traig[e → traerá）"
     }
-  }
+  },
+  "dia_2026_11_16": {
+    "artifact": "https://claude.ai/artifact/14ZfiqTdHvLGz6KseCipNM",
+    "db_doc": "resultados/dia-1116",
+    "tema": "新一周场景『盘点 · 跟老板汇报』第 1 天：将来 traerá terminaré contaré revisaré + faltan / sobran / en total hay + 那一次 conté revisé encontré",
+    "dictado": [
+      "traerá",
+      "terminaré",
+      "contaré",
+      "revisaré",
+      "conté",
+      "encontré",
+      "sobran",
+      "abierta",
+      "el resto",
+      "déjeme"
+    ],
+    "palabras": [
+      "responder",
+      "la empresa",
+      "recibir",
+      "cerrar",
+      "devolver la llamada",
+      "el éxito"
+    ],
+    "bloques": [
+      "Jefe, ya terminé el inventario.",
+      "En total hay doscientas cajas.",
+      "Faltan cinco rollos de playo, jefe.",
+      "Y encontré tres cajas abiertas.",
+      "Mañana revisaré todo otra vez."
+    ],
+    "andamio_escrito": "⑤ 意思+时间（同上）",
+    "estado": "已发，等学生作答"
+  },
+  "escena_semana_2026_11_16": "盘点 · 跟老板汇报（老师默认，学生没选）"
 }
