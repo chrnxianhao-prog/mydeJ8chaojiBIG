@@ -1,7 +1,7 @@
 {
   "level": "A2",
-  "streak": 1,
-  "total_completed_days": 97,
+  "streak": 2,
+  "total_completed_days": 98,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
   "last_task_date": "2026-11-16",
@@ -2705,15 +2705,6 @@
       "correct_count": 1
     },
     {
-      "word": "recibir",
-      "module": "高频动词",
-      "date_wrong": "2026-11-11",
-      "correct_count": 1,
-      "plan": "先进练习区（听+例句），当天不考，隔天再考",
-      "nota": "11-11 写成 rebir（漏 ci）",
-      "date_ok": "2026-11-15"
-    },
-    {
       "word": "el sombrero",
       "module": "购物",
       "date_wrong": "2026-09-22",
@@ -2859,14 +2850,6 @@
       "correct_count": 1
     },
     {
-      "word": "cerrar",
-      "module": "厨房家务",
-      "date_wrong": "2026-11-11",
-      "correct_count": 1,
-      "nota": "11-11 写成 cerrer（-ar 写成 -er）",
-      "date_ok": "2026-11-15"
-    },
-    {
       "word": "el semáforo",
       "module": "城市交通",
       "date_wrong": "2026-09-17",
@@ -2901,8 +2884,9 @@
       "word": "responder",
       "module": "高频动词",
       "date_wrong": "2026-11-11",
-      "correct_count": 0,
-      "nota": "11-11 写成 reviser（跟 revisar 混）；11-15 又写 reviser"
+      "correct_count": 1,
+      "nota": "11-11 写成 reviser（跟 revisar 混）；11-15 又写 reviser",
+      "date_ok": "2026-11-16"
     },
     {
       "word": "garganta",
@@ -2927,19 +2911,10 @@
       "word": "la empresa",
       "module": "工作职业",
       "date_wrong": "2026-11-15",
-      "correct_count": 0,
-      "plan": "先进练习区（听+例句），当天不考，隔天再考",
-      "nota": "11-15 写成 la esprea"
-    },
-    {
-      "word": "el éxito",
-      "module": "工作职业",
-      "date_wrong": "2026-09-29",
       "correct_count": 1,
-      "mnemonic": "假朋友陷阱：英语 exit（出口）跟 éxito（成功）长得像但毫无关系。脑子里蹦出「出口」对不上「成功」，词就存不住。点明两码事即可",
       "plan": "先进练习区（听+例句），当天不考，隔天再考",
-      "date_ok": "2026-11-15",
-      "nota": "11-15 写成 el exíto（重音放错，非严判算对）"
+      "nota": "11-15 写成 la esprea",
+      "date_ok": "2026-11-16"
     },
     {
       "word": "camarero",
@@ -3113,15 +3088,6 @@
       "correct_count": 1
     },
     {
-      "word": "devolver la llamada",
-      "module": "高频动词",
-      "date_wrong": "2026-11-11",
-      "correct_count": 1,
-      "plan": "先进练习区（听+例句），当天不考，隔天再考",
-      "nota": "11-11 写成 llmada（漏 a）",
-      "date_ok": "2026-11-15"
-    },
-    {
       "word": "sonar",
       "module": "高频动词",
       "date_wrong": "2026-08-28",
@@ -3237,6 +3203,13 @@
       "date_wrong": "2026-09-15",
       "correct_count": 0,
       "note": "当天3/3全对但按规则不计connect，需隔天复测"
+    },
+    {
+      "word": "abierta",
+      "module": "仓库",
+      "date_wrong": "2026-11-16",
+      "correct_count": 0,
+      "nota": "拼写错 4 次：abirda / abrito / abieda / 空着。a-bier-ta"
     }
   ],
   "module_wrong_banks": {
@@ -4661,7 +4634,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-26 批完",
-    "plan": "【仓库·收货 第 4 天 / 或换场景】traerá（tra-e-rá）专项；abierta 拼写抄写；重音漏写多（déjeme código revisé）—提醒长按打重音；② responder la empresa（0）recibir cerrar devolver la llamada éxito（第二次）",
+    "plan": "【仓库·盘点汇报 第 2 天】abierta 拼写进错题本；el resto；déjeme 重音在第一个 é；Ayer + 点 → conté（不是 inventarí）；② responder la empresa（第二次）abierta；继续 -ré / -é 对比 + 汇报句块",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
@@ -5730,7 +5703,15 @@
       "Mañana revisaré todo otra vez."
     ],
     "andamio_escrito": "⑤ 意思+时间（同上）",
-    "estado": "已发，等学生作答"
+    "estado": "已批（11-16 深夜做）",
+    "resultado": {
+      "oido": "7/10（traerá terminaré contaré revisaré conté encontré sobran 全对带重音！abierta、el resto 空着；déjeme 写成 dejéme 重音放错）",
+      "palabras": "6/6（recibir cerrar devolver la llamada éxito 第二次跨天对 → 移出；responder la empresa 连对 1）",
+      "lectura": "3/4",
+      "habla": "3/3（faltan sobran terminaré）",
+      "escrito": "5/6（hay faltan sobran encontré terminaré 对；Ayer ___ todas las cajas 写 inventarí → conté）"
+    },
+    "hito": "将来 -ré/-rá 和那一次 -é 听写 6/6 全对、作文 Ayer/Mañana 对应正确 —— 三时态产出明显上来了"
   },
   "escena_semana_2026_11_16": "盘点 · 跟老板汇报（老师默认，学生没选）"
 }
