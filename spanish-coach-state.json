@@ -1,10 +1,10 @@
 {
   "level": "A2",
-  "streak": 2,
-  "total_completed_days": 98,
+  "streak": 1,
+  "total_completed_days": 99,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-11-19",
+  "last_task_date": "2026-11-22",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
   "consecutive_completed": 2,
@@ -2587,6 +2587,12 @@
       "error": "traerá → traida / traige；abierta → abrito / abieda",
       "correcto": "traerá；abierta",
       "nota": "traerá 听写和作文都错：tra-e-rá 三个音节。abierta 拼写 a-bier-ta 第 3 次错"
+    },
+    {
+      "fecha": "2026-11-22",
+      "error": "¿Qué encontró? — encontro / Mañana terminé / El resto estar",
+      "correcto": "Encontré / Mañana terminaré / El resto está",
+      "nota": "回答时要把老板的『您 -ó』换成『我 -é』；Mañana 还是要 -ré；estar 要变位"
     }
   ],
   "week_stats": {
@@ -2783,8 +2789,9 @@
     {
       "word": "me parece que",
       "module": "表达意见",
-      "date_wrong": "2026-09-17",
-      "correct_count": 0
+      "date_wrong": "2026-11-22",
+      "correct_count": 0,
+      "nota": "11-22 写成 me pondo que"
     },
     {
       "word": "esconderse",
@@ -2881,14 +2888,6 @@
       "correct_count": 0
     },
     {
-      "word": "responder",
-      "module": "高频动词",
-      "date_wrong": "2026-11-11",
-      "correct_count": 1,
-      "nota": "11-11 写成 reviser（跟 revisar 混）；11-15 又写 reviser",
-      "date_ok": "2026-11-16"
-    },
-    {
       "word": "garganta",
       "module": "身体与健康",
       "date_wrong": "2026-10-12",
@@ -2906,15 +2905,6 @@
       "module": "工作职业",
       "date_wrong": "2026-08-27",
       "correct_count": 1
-    },
-    {
-      "word": "la empresa",
-      "module": "工作职业",
-      "date_wrong": "2026-11-15",
-      "correct_count": 1,
-      "plan": "先进练习区（听+例句），当天不考，隔天再考",
-      "nota": "11-15 写成 la esprea",
-      "date_ok": "2026-11-16"
     },
     {
       "word": "camarero",
@@ -3166,7 +3156,7 @@
     {
       "word": "convencer",
       "module": "高频动词",
-      "date_wrong": "2026-09-17",
+      "date_wrong": "2026-11-22",
       "correct_count": 0,
       "note": "学生诚实反馈同session内测试可能是照抄，correct_count归零，需跨自然日测试才算数"
     },
@@ -3208,8 +3198,23 @@
       "word": "abierta",
       "module": "仓库",
       "date_wrong": "2026-11-16",
+      "correct_count": 1,
+      "nota": "拼写错 4 次：abirda / abrito / abieda / 空着。a-bier-ta",
+      "date_ok": "2026-11-22"
+    },
+    {
+      "word": "el inventario",
+      "module": "仓库",
+      "date_wrong": "2026-11-22",
       "correct_count": 0,
-      "nota": "拼写错 4 次：abirda / abrito / abieda / 空着。a-bier-ta"
+      "nota": "盘点。11-22 写 el nose"
+    },
+    {
+      "word": "el resto",
+      "module": "仓库",
+      "date_wrong": "2026-11-22",
+      "correct_count": 0,
+      "nota": "剩下的。听写连续两次空着"
     }
   ],
   "module_wrong_banks": {
@@ -4634,7 +4639,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-26 批完",
-    "plan": "【仓库·盘点汇报 第 2 天】abierta 拼写进错题本；el resto；déjeme 重音在第一个 é；Ayer + 点 → conté（不是 inventarí）；② responder la empresa（第二次）abierta；继续 -ré / -é 对比 + 汇报句块",
+    "plan": "【仓库·盘点汇报 第 3 天】问 -ó → 答 -é 人称转换专练；Mañana terminaré（又写成 terminé）；está 变位；el resto / déjeme 听写；② me parece que convencer el inventario el resto（0）abierta（第二次）",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
@@ -5746,6 +5751,14 @@
       "Mañana terminaré todo."
     ],
     "andamio_escrito": "⑤ 问答式：老板问，学生答一个词（时间对上）",
-    "estado": "已发，等学生作答"
+    "estado": "已批（11-22 下午做）",
+    "resultado": {
+      "oido": "5/10（porque trajo contó conté terminaré 对 —— contó/conté 分清了；todavía 漏重音；encontré→econtré；el error→er；el resto、déjeme 空）",
+      "palabras": "3/6（responder la empresa 第二次跨天对 → 移出；abierta 连对 1！；me parece que→me pondo que；convencer、el inventario 不会）",
+      "lectura": "3/4",
+      "habla": "1/3（Me ___ que → 写 creo（应 parece）；El ___ está → 写 faltan（应 resto）；todavía 对）",
+      "escrito": "3/6（porque parece todavía 对；¿Qué encontró? → 抄成 encontro（应换成我 encontré）；Mañana ___ → terminé（应 terminaré）；El resto ___ → estar（应变位 está））"
+    },
+    "diagnostico": "问答式⑤：学生照抄老板问句里的动词（encontró → encontro），没把『您』换成『我』。下次专练：问 -ó → 答 -é"
   }
 }
