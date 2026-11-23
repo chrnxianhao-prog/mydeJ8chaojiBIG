@@ -4,7 +4,7 @@
   "total_completed_days": 99,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-11-22",
+  "last_task_date": "2026-11-23",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
   "consecutive_completed": 2,
@@ -5761,5 +5761,40 @@
     },
     "diagnostico": "问答式⑤：学生照抄老板问句里的动词（encontró → encontro），没把『您』换成『我』。下次专练：问 -ó → 答 -é",
     "charla": "老板问盘点 3 来回：🎉 卡住时自发用了救命句 ¿cómo se llama?；cien del otro no tienen el código（tienen 复数对）；没答 ¿Ya terminó?（应 Sí, ya terminé / No, todavía no）；hablas con mi… → 对老板用 usted，或 Voy a preguntarle al proveedor"
+  },
+  "dia_2026_11_23": {
+    "artifact": "https://claude.ai/artifact/13jFQbTQWX28abo2mqCwJS",
+    "db_doc": "resultados/dia-1123",
+    "hito": "第 100 天",
+    "tema": "盘点汇报第 3 天：老板问 -ó（您）→ 你答 -é（我）conté revisé encontré terminé + Sí, ya terminé / No, todavía no + Voy a preguntarle al proveedor + puse/puso",
+    "dictado": [
+      "conté",
+      "contó",
+      "revisé",
+      "revisó",
+      "terminé",
+      "terminó",
+      "encontré",
+      "puse",
+      "el resto",
+      "déjeme"
+    ],
+    "palabras": [
+      "me parece que",
+      "convencer",
+      "el inventario",
+      "abierta",
+      "celebrar",
+      "la guía"
+    ],
+    "bloques": [
+      "Sí, ya terminé, jefe.",
+      "Conté todas las cajas.",
+      "Encontré un error en la hoja.",
+      "Las cien cajas no tienen código.",
+      "Voy a preguntarle al proveedor."
+    ],
+    "andamio_escrito": "⑤ 问答式：老板 -ó 问，学生 -é 答（人称转换专练）",
+    "estado": "已发，等学生作答"
   }
 }
