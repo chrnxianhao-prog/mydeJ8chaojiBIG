@@ -4654,7 +4654,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-26 批完",
-    "plan": "【仓库·盘点汇报 第 4 天 / 周末换场景】Mañana → -ré（混在 -é 题里最容易滑）；todavía no 搭配；déjeme 重音；② convencer el inventario celebrar la guía déjeme（0）me parece que el resto（第二次）",
+    "plan": "【仓库·盘点汇报 第 4 天 / 周末换场景】Mañana → -ré（混在 -é 题里最容易滑）；todavía no 搭配；déjeme 重音；② convencer el inventario celebrar la guía déjeme（0）me parece que el resto（第二次）；对话里『还没发生的事用 -ré』（ya revisé 说明天的事）；poner → puse",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
@@ -5817,6 +5817,7 @@
       "lectura": "4/4",
       "habla": "2/3（terminé preguntarle 对；Sí, ___ el error 没写 → encontré）",
       "escrito": "4/6（conté revisé encontré preguntarle 对 —— 问 -ó 答 -é 人称转换会了！No, ___ no 写 terminé → todavía；Mañana ___ 写 terminé → terminaré）"
-    }
+    },
+    "charla": "老板混时间问 3 来回：llega un camión grande / hay 200 cajas ✓；明天的事说成 ya revisé（应 la revisaré / la voy a revisar）—— 跟⑤同一个 Mañana→-ré 问题在对话里复现；¿Ya puso las etiquetas? 答 terminé（应 Sí, ya las puse）；la graga→la guía"
   }
 }
