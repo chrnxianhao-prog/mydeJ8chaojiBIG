@@ -1,7 +1,7 @@
 {
   "level": "A2",
-  "streak": 1,
-  "total_completed_days": 99,
+  "streak": 2,
+  "total_completed_days": 100,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
   "last_task_date": "2026-11-23",
@@ -2593,6 +2593,12 @@
       "error": "¿Qué encontró? — encontro / Mañana terminé / El resto estar",
       "correcto": "Encontré / Mañana terminaré / El resto está",
       "nota": "回答时要把老板的『您 -ó』换成『我 -é』；Mañana 还是要 -ré；estar 要变位"
+    },
+    {
+      "fecha": "2026-11-23",
+      "error": "Mañana terminé（又一次）",
+      "correcto": "Mañana terminaré",
+      "nota": "前面几行都在写 terminé / conté，到 Mañana 那行手顺着写成 -é。Mañana → -ré"
     }
   ],
   "week_stats": {
@@ -2768,7 +2774,7 @@
     {
       "word": "celebrar",
       "module": "高频动词",
-      "date_wrong": "2026-09-17",
+      "date_wrong": "2026-11-23",
       "correct_count": 0
     },
     {
@@ -2790,8 +2796,9 @@
       "word": "me parece que",
       "module": "表达意见",
       "date_wrong": "2026-11-22",
-      "correct_count": 0,
-      "nota": "11-22 写成 me pondo que"
+      "correct_count": 1,
+      "nota": "11-22 写成 me pondo que",
+      "date_ok": "2026-11-23"
     },
     {
       "word": "esconderse",
@@ -3156,9 +3163,10 @@
     {
       "word": "convencer",
       "module": "高频动词",
-      "date_wrong": "2026-11-22",
+      "date_wrong": "2026-11-23",
       "correct_count": 0,
-      "note": "学生诚实反馈同session内测试可能是照抄，correct_count归零，需跨自然日测试才算数"
+      "note": "学生诚实反馈同session内测试可能是照抄，correct_count归零，需跨自然日测试才算数",
+      "nota": "11-23 写成 contre"
     },
     {
       "word": "afirmar",
@@ -3195,17 +3203,9 @@
       "note": "当天3/3全对但按规则不计connect，需隔天复测"
     },
     {
-      "word": "abierta",
-      "module": "仓库",
-      "date_wrong": "2026-11-16",
-      "correct_count": 1,
-      "nota": "拼写错 4 次：abirda / abrito / abieda / 空着。a-bier-ta",
-      "date_ok": "2026-11-22"
-    },
-    {
       "word": "el inventario",
       "module": "仓库",
-      "date_wrong": "2026-11-22",
+      "date_wrong": "2026-11-23",
       "correct_count": 0,
       "nota": "盘点。11-22 写 el nose"
     },
@@ -3213,8 +3213,23 @@
       "word": "el resto",
       "module": "仓库",
       "date_wrong": "2026-11-22",
+      "correct_count": 1,
+      "nota": "剩下的。听写连续两次空着",
+      "date_ok": "2026-11-23"
+    },
+    {
+      "word": "la guía",
+      "module": "仓库",
+      "date_wrong": "2026-11-23",
       "correct_count": 0,
-      "nota": "剩下的。听写连续两次空着"
+      "nota": "运单（墨西哥仓库）。11-23 写成 la graga。g-u-í-a"
+    },
+    {
+      "word": "déjeme",
+      "module": "仓库",
+      "date_wrong": "2026-11-23",
+      "correct_count": 0,
+      "nota": "重音在第一个 é（DÉ-je-me）。多次写成 dejéme / dejeme / 空着"
     }
   ],
   "module_wrong_banks": {
@@ -4639,7 +4654,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-26 批完",
-    "plan": "【仓库·盘点汇报 第 3 天】问 -ó → 答 -é 人称转换专练；Mañana terminaré（又写成 terminé）；está 变位；el resto / déjeme 听写；② me parece que convencer el inventario el resto（0）abierta（第二次）；句块加 Sí, ya terminé / Voy a preguntarle al proveedor；救命句已在对话里自发使用",
+    "plan": "【仓库·盘点汇报 第 4 天 / 周末换场景】Mañana → -ré（混在 -é 题里最容易滑）；todavía no 搭配；déjeme 重音；② convencer el inventario celebrar la guía déjeme（0）me parece que el resto（第二次）",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
@@ -5765,7 +5780,7 @@
   "dia_2026_11_23": {
     "artifact": "https://claude.ai/artifact/13jFQbTQWX28abo2mqCwJS",
     "db_doc": "resultados/dia-1123",
-    "hito": "第 100 天",
+    "hito": "第 100 天：听写 é/ó 六个成对全对；⑤ 人称转换三题全对；el resto 第一次写对；abierta 移出错题本",
     "tema": "盘点汇报第 3 天：老板问 -ó（您）→ 你答 -é（我）conté revisé encontré terminé + Sí, ya terminé / No, todavía no + Voy a preguntarle al proveedor + puse/puso",
     "dictado": [
       "conté",
@@ -5795,6 +5810,13 @@
       "Voy a preguntarle al proveedor."
     ],
     "andamio_escrito": "⑤ 问答式：老板 -ó 问，学生 -é 答（人称转换专练）",
-    "estado": "已发，等学生作答"
+    "estado": "已批",
+    "resultado": {
+      "oido": "9/10（conté contó revisé revisó terminé terminó encontré puse el resto 全对 —— -é/-ó 六个成对全分清！déjeme 写 dejéme 重音放错）",
+      "palabras": "2/6（abierta 第二次跨天对 → 移出 🎉；me parece que 连对 1；convencer→contre；el inventario、celebrar 没写；la guía→la graga）",
+      "lectura": "4/4",
+      "habla": "2/3（terminé preguntarle 对；Sí, ___ el error 没写 → encontré）",
+      "escrito": "4/6（conté revisé encontré preguntarle 对 —— 问 -ó 答 -é 人称转换会了！No, ___ no 写 terminé → todavía；Mañana ___ 写 terminé → terminaré）"
+    }
   }
 }
