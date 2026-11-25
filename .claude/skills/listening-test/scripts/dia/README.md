@@ -34,3 +34,4 @@ python3 -m pip install -q "sherpa-onnx<2" numpy lameenc playwright   # 2.0.1 的
 - **whisper 把 conté 写成字母 con T**：`fichas()` 把 `con t` 换回 conté。anoté 解码后总被拆成 a noté / anote，换词（revisé）。
 - 换了听写词以后**再查一遍短文有没有泄题**（11-10 换成 revisé，短文里正好有 revisé）。
 - **句末的 -é 重音 whisper 常丢**（revisé. / terminé. → revise / termine）：句末再跟一个词（…revisé toda. / …terminé, jefe.）。
+- **单独念的 -é 词有几个解码后总丢重音**：revisé、firmé、llamé、anoté（refija 全失败）。听写要考 -é 时优先用 conté / terminé / encontré（这几个稳）。

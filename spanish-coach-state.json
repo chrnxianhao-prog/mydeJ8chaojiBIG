@@ -4,7 +4,7 @@
   "total_completed_days": 100,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
-  "last_task_date": "2026-11-23",
+  "last_task_date": "2026-11-24",
   "last_check_date": "2026-09-16",
   "consecutive_missed": 0,
   "consecutive_completed": 2,
@@ -5819,5 +5819,39 @@
       "escrito": "4/6（conté revisé encontré preguntarle 对 —— 问 -ó 答 -é 人称转换会了！No, ___ no 写 terminé → todavía；Mañana ___ 写 terminé → terminaré）"
     },
     "charla": "老板混时间问 3 来回：llega un camión grande / hay 200 cajas ✓；明天的事说成 ya revisé（应 la revisaré / la voy a revisar）—— 跟⑤同一个 Mañana→-ré 问题在对话里复现；¿Ya puso las etiquetas? 答 terminé（应 Sí, ya las puse）；la graga→la guía"
+  },
+  "dia_2026_11_24": {
+    "artifact": "https://claude.ai/artifact/BMfb2cHVjArK4dhWu5vd3S",
+    "db_doc": "resultados/dia-1124",
+    "tema": "已经做了 Ya + -é vs 还没发生 Mañana + -ré（专治对话里把明天的事说成 ya revisé）+ poner puse / pondré / pongo + todavía no",
+    "dictado": [
+      "terminé",
+      "revisaré",
+      "conté",
+      "contaré",
+      "puse",
+      "pondré",
+      "llegó",
+      "llegará",
+      "la guía",
+      "déjeme"
+    ],
+    "palabras": [
+      "convencer",
+      "el inventario",
+      "celebrar",
+      "me parece que",
+      "el resto",
+      "el montacargas"
+    ],
+    "bloques": [
+      "Hoy ya conté todas las cajas.",
+      "Ya puse las etiquetas.",
+      "Mañana llegará un camión grande.",
+      "Revisaré la guía y contaré las cajas.",
+      "Si falta algo, le llamaré al proveedor."
+    ],
+    "andamio_escrito": "⑤ 今天 3 行（-é/-ó）+ 明天 3 行（-ré/-rá，含 pondré 不规则）",
+    "estado": "已发，等学生作答"
   }
 }
