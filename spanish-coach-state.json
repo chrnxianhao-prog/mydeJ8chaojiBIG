@@ -1,7 +1,7 @@
 {
   "level": "A2",
-  "streak": 2,
-  "total_completed_days": 100,
+  "streak": 3,
+  "total_completed_days": 101,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
   "last_task_date": "2026-11-24",
@@ -2599,6 +2599,12 @@
       "error": "Mañana terminé（又一次）",
       "correcto": "Mañana terminaré",
       "nota": "前面几行都在写 terminé / conté，到 Mañana 那行手顺着写成 -é。Mañana → -ré"
+    },
+    {
+      "fecha": "2026-11-24",
+      "error": "Mañana llegaré el camión / poneré",
+      "correcto": "llegará（它 → -á）/ pondré（不规则）",
+      "nota": "将来意识有了，人称和不规则还要练"
     }
   ],
   "week_stats": {
@@ -2774,7 +2780,7 @@
     {
       "word": "celebrar",
       "module": "高频动词",
-      "date_wrong": "2026-11-23",
+      "date_wrong": "2026-11-24",
       "correct_count": 0
     },
     {
@@ -2791,14 +2797,6 @@
       "module": "童年回忆",
       "date_wrong": "2026-09-06",
       "correct_count": 0
-    },
-    {
-      "word": "me parece que",
-      "module": "表达意见",
-      "date_wrong": "2026-11-22",
-      "correct_count": 1,
-      "nota": "11-22 写成 me pondo que",
-      "date_ok": "2026-11-23"
     },
     {
       "word": "esconderse",
@@ -3166,7 +3164,7 @@
       "date_wrong": "2026-11-23",
       "correct_count": 0,
       "note": "学生诚实反馈同session内测试可能是照抄，correct_count归零，需跨自然日测试才算数",
-      "nota": "11-23 写成 contre"
+      "nota": "11-23 写成 contre；11-24 写成 contar"
     },
     {
       "word": "afirmar",
@@ -3207,15 +3205,7 @@
       "module": "仓库",
       "date_wrong": "2026-11-23",
       "correct_count": 0,
-      "nota": "盘点。11-22 写 el nose"
-    },
-    {
-      "word": "el resto",
-      "module": "仓库",
-      "date_wrong": "2026-11-22",
-      "correct_count": 1,
-      "nota": "剩下的。听写连续两次空着",
-      "date_ok": "2026-11-23"
+      "nota": "盘点。11-22 写 el nose；11-24 只写 el in"
     },
     {
       "word": "la guía",
@@ -3230,6 +3220,13 @@
       "date_wrong": "2026-11-23",
       "correct_count": 0,
       "nota": "重音在第一个 é（DÉ-je-me）。多次写成 dejéme / dejeme / 空着"
+    },
+    {
+      "word": "el montacargas",
+      "module": "仓库",
+      "date_wrong": "2026-11-24",
+      "correct_count": 0,
+      "nota": "叉车（10-27 学过），11-24 只写了 el。monta + cargas"
     }
   ],
   "module_wrong_banks": {
@@ -4654,7 +4651,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-26 批完",
-    "plan": "【仓库·盘点汇报 第 4 天 / 周末换场景】Mañana → -ré（混在 -é 题里最容易滑）；todavía no 搭配；déjeme 重音；② convencer el inventario celebrar la guía déjeme（0）me parece que el resto（第二次）；对话里『还没发生的事用 -ré』（ya revisé 说明天的事）；poner → puse",
+    "plan": "【仓库】将来 -ré / -rá 听辨专练（revisaré contaré llegará pondré）；他 -á vs 我 -é（llegará / llegaré）；教墨西哥 checar（checo checé checaré）；② convencer el inventario celebrar el montacargas（0）；la guía déjeme 稳了",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
@@ -5852,6 +5849,14 @@
       "Si falta algo, le llamaré al proveedor."
     ],
     "andamio_escrito": "⑤ 今天 3 行（-é/-ó）+ 明天 3 行（-ré/-rá，含 pondré 不规则）",
-    "estado": "已发，等学生作答"
+    "estado": "已批",
+    "resultado": {
+      "oido": "6/10（terminé conté puse llegó la guía déjeme 全对 —— la guía、déjeme 第一次对；将来四个全错：revisaré→revisa、contaré→contar、pondré→contré、llegará→llegada）",
+      "palabras": "2/6（me parece que、el resto 第二次跨天对 → 移出；convencer→contar；el inventario→el in；celebrar 空；el montacargas→el）",
+      "lectura": "4/4",
+      "habla": "1/3（Ya ___ la guía → 写 conté（应 revisé，词错形式对）；Mañana ___ → cheken（应 revisaré / 墨西哥 checaré）；todavía 对）",
+      "escrito": "2/6（puse llegó 对；Mañana 三行都写了将来词尾！llegaré（应 llegará，他→-á）、chekenré（≈ checaré）、poneré（应 pondré 不规则）；第 1 行空）"
+    },
+    "diagnostico": "产出：Mañana 三行全用了将来（人称/不规则错），Mañana→-ré 的意识建立了。听辨：将来 -ré/-rá 听写四个全错（r 当 d、尾巴丢），过去形式全对。revisar 产出时想不起来，用英语 check —— 墨西哥正好有 checar"
   }
 }
