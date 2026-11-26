@@ -35,3 +35,4 @@ python3 -m pip install -q "sherpa-onnx<2" numpy lameenc playwright   # 2.0.1 的
 - 换了听写词以后**再查一遍短文有没有泄题**（11-10 换成 revisé，短文里正好有 revisé）。
 - **句末的 -é 重音 whisper 常丢**（revisé. / terminé. → revise / termine）：句末再跟一个词（…revisé toda. / …terminé, jefe.）。
 - **单独念的 -é 词有几个解码后总丢重音**：revisé、firmé、llamé、anoté（refija 全失败）。听写要考 -é 时优先用 conté / terminé / encontré（这几个稳）。
+- **whisper 不认识 checar**（墨西哥口语）：chequé / checaré 永远写成 cheque / checare。练习句的关键词去掉重音写，听写别考 checar。haré 永远写成 are（11-26 十二次全错），听写别考 haré。
