@@ -1,7 +1,7 @@
 {
   "level": "A2",
-  "streak": 3,
-  "total_completed_days": 101,
+  "streak": 1,
+  "total_completed_days": 102,
   "total_missed_days": 23,
   "difficulty_modifier": 28,
   "last_task_date": "2026-11-26",
@@ -2605,6 +2605,12 @@
       "error": "Mañana llegaré el camión / poneré",
       "correcto": "llegará（它 → -á）/ pondré（不规则）",
       "nota": "将来意识有了，人称和不规则还要练"
+    },
+    {
+      "fecha": "2026-11-26",
+      "error": "Mañana puse / hice / tuve",
+      "correcto": "pondré / haré / tendré",
+      "nota": "不规则将来 vs 不规则过去混：成对练"
     }
   ],
   "week_stats": {
@@ -2780,8 +2786,9 @@
     {
       "word": "celebrar",
       "module": "高频动词",
-      "date_wrong": "2026-11-24",
-      "correct_count": 0
+      "date_wrong": "2026-11-26",
+      "correct_count": 0,
+      "nota": "11-26 又没写出 —— 连错 3-4 次，下次先放回①看着字学再考"
     },
     {
       "word": "quedar",
@@ -2890,7 +2897,8 @@
       "word": "la guía",
       "module": "旅行",
       "date_wrong": "2026-10-07",
-      "correct_count": 0
+      "correct_count": 0,
+      "nota": "11-26 写 guía 漏冠词"
     },
     {
       "word": "garganta",
@@ -3161,10 +3169,10 @@
     {
       "word": "convencer",
       "module": "高频动词",
-      "date_wrong": "2026-11-23",
+      "date_wrong": "2026-11-26",
       "correct_count": 0,
       "note": "学生诚实反馈同session内测试可能是照抄，correct_count归零，需跨自然日测试才算数",
-      "nota": "11-23 写成 contre；11-24 写成 contar"
+      "nota": "11-23 写成 contre；11-24 写成 contar；11-26 又没写出 —— 连错 3-4 次，下次先放回①看着字学再考"
     },
     {
       "word": "afirmar",
@@ -3203,30 +3211,31 @@
     {
       "word": "el inventario",
       "module": "仓库",
-      "date_wrong": "2026-11-23",
+      "date_wrong": "2026-11-26",
       "correct_count": 0,
-      "nota": "盘点。11-22 写 el nose；11-24 只写 el in"
+      "nota": "盘点。11-22 写 el nose；11-24 只写 el in；11-26 又没写出 —— 连错 3-4 次，下次先放回①看着字学再考"
     },
     {
       "word": "la guía",
       "module": "仓库",
       "date_wrong": "2026-11-23",
       "correct_count": 0,
-      "nota": "运单（墨西哥仓库）。11-23 写成 la graga。g-u-í-a"
+      "nota": "运单（墨西哥仓库）。11-23 写成 la graga。g-u-í-a；11-26 写 guía 漏冠词"
     },
     {
       "word": "déjeme",
       "module": "仓库",
       "date_wrong": "2026-11-23",
-      "correct_count": 0,
-      "nota": "重音在第一个 é（DÉ-je-me）。多次写成 dejéme / dejeme / 空着"
+      "correct_count": 1,
+      "nota": "重音在第一个 é（DÉ-je-me）。多次写成 dejéme / dejeme / 空着",
+      "date_ok": "2026-11-26"
     },
     {
       "word": "el montacargas",
       "module": "仓库",
-      "date_wrong": "2026-11-24",
+      "date_wrong": "2026-11-26",
       "correct_count": 0,
-      "nota": "叉车（10-27 学过），11-24 只写了 el。monta + cargas"
+      "nota": "叉车（10-27 学过），11-24 只写了 el。monta + cargas；11-26 又没写出 —— 连错 3-4 次，下次先放回①看着字学再考"
     }
   ],
   "module_wrong_banks": {
@@ -4651,7 +4660,7 @@
   },
   "siguiente_sesion": {
     "escrito": "2026-10-26 批完",
-    "plan": "【仓库】将来 -ré / -rá 听辨专练（revisaré contaré llegará pondré）；他 -á vs 我 -é（llegará / llegaré）；教墨西哥 checar（checo checé checaré）；② convencer el inventario celebrar el montacargas（0）；la guía déjeme 稳了",
+    "plan": "【仓库】不规则过去 vs 将来成对：puse/pondré · hice/haré · tuve/tendré · pude/podré；⑤ 每行都写明『将来』；④ 主语是卡车 → -rá；Ya → 过去；convencer el inventario celebrar el montacargas 放回①看着字学再考；la guía 带冠词",
     "voz": "每日页用 assets/daily-page-dalia.template.html（带今日句块）",
     "rama": "教学数据在 claude/spanish-teacher-assistant-sk7p2f；合并进 main 要等学生点头"
   },
@@ -5891,6 +5900,14 @@
       "Si falta algo, le llamaré al proveedor."
     ],
     "andamio_escrito": "⑤ 全是将来：我/它 区分 + 3 个不规则（给原形提示）",
-    "estado": "已发，等学生作答"
+    "estado": "已批",
+    "resultado": {
+      "oido": "6/10（llegaré llegará revisaré contaré tendré terminaré 对 —— 将来听辨从 0/4 到 6/10！pondré→conteré；pediré→pedidé；podré→pondré；abriré→abierté）",
+      "palabras": "1/6（déjeme 连对 1；la guía 漏冠词；convencer el inventario celebrar el montacargas 又没写出）",
+      "lectura": "4/4",
+      "habla": "0/3（Mañana ___ el camión → llegaré（应 llegará）；Mañana ___ las etiquetas 空（pondré）；Ya ___ las cajas → chacaré（应 chequé / revisé））",
+      "escrito": "2/6（llegaré llegará 对；puse→pondré；hice→haré；tuve→tendré；chaco→checaré / revisaré）"
+    },
+    "diagnostico": "提示写『不规则』时，学生拿出了会的不规则过去式（puse hice tuve）而不是将来 —— ⑤提示没写『将来』，脚手架问题。不规则将来要对着不规则过去式成对练"
   }
 }
